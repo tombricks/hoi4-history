@@ -372,7 +372,7 @@ focus_tree = {
 				division_template = {
 					name = "Integralist Militia"		
 					#division_names_group = SWE_BS_01
-					is_locked = no
+					is_locked = yes
 					#force_allow_recruiting = yes
 					template_counter = 89
 					# Note: Represents brownshirts
@@ -468,7 +468,7 @@ focus_tree = {
 				custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
 				add_to_variable = {
 					BRA_estado_novo_production_factory_max_efficiency_factor = 0.05
-					tooltip = industrial_capacity_factory_tt
+					tooltip = production_factory_max_efficiency_factor_tt
 				}
 				add_to_variable = {
 					BRA_estado_novo_consumer_goods_factor = -0.05
@@ -750,25 +750,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	#focus = {
-	#	id = BRA_placeholder_1
-	#	#icon = 
-	#	prerequisite = { focus = BRA_decree_no_37 focus = BRA_federal_employment_plan }
-	#	x = 1
-	#	y = 1
-	#	relative_position_id = BRA_decree_no_37
-	#	cost = 10
-	#	available = {
-	#	}
-	#	bypass = {
-	#		# Place holder just to keep the tree playable for now
-	#		original_tag = BRA
-	#	}
-	#	search_filters = { }
-	#	completion_reward = {
-	#	}
-	#}
 
 	focus = {
 		id = BRA_reward_army_loyalty
@@ -1189,7 +1170,7 @@ focus_tree = {
 			BRA_remove_economy_modifier = yes	
 			add_tech_bonus = {
 				name = BRA_electronics_bonus
-				bonus = 0.4
+				bonus = 0.5
 				uses = 2
 				category = electronics
 			}			
@@ -1227,7 +1208,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BRA_resource_extraction_bonus
-				bonus = 0.75
+				bonus = 0.50
 				uses = 2
 				category = excavation_tech
 			}
@@ -1312,7 +1293,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BRA_industry_bonus
-				bonus = 0.4
+				bonus = 0.5
 				uses = 2
 				category = industry
 			}			
@@ -1761,7 +1742,7 @@ focus_tree = {
 			ELSE = {
 				add_tech_bonus = {
 					name = BRA_nacional_de_motores_bonus
-					bonus = 0.75
+					bonus = 0.50
 					uses = 2
 					category = motorized_equipment
 				}
@@ -2054,6 +2035,9 @@ focus_tree = {
 					capital_scope = {
 						is_on_continent = south_america
 					}
+					NOT = {
+						has_war_with = ROOT
+					}
 				}
 				country_event = {
 					id = JUNO_brazil_events.14
@@ -2236,6 +2220,7 @@ focus_tree = {
 			}
 		}
 		available = {
+			is_subject = no
 			is_in_faction = no
 		}
 
@@ -2543,11 +2528,12 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = BRA_washington_accords
-		cost = 5
+		cost = 10
 		bypass = {
 			is_in_faction_with = USA
 		}
 		available = {
+			is_subject = no
 			USA = {
 				OR = {
 					has_war = yes
@@ -2564,11 +2550,8 @@ focus_tree = {
 					id = JUNO_brazil_events.20
 					hours = 1
 				}
-				IF = {
-					limit = {
-						is_in_faction = yes
-					}
-					add_to_faction = BRA
+				faction_leader = {
+					add_to_faction = ROOT
 				}
 			}
 			custom_effect_tooltip = BRA_potenji_river_conference_tt
@@ -2577,10 +2560,11 @@ focus_tree = {
 					has_war_with = USA
 					is_major = yes
 				}
-				BRA = {
-					declare_war_on = {
-						target = PREV
-						type = topple_government
+				ROOT = {
+					add_to_war = {
+					    targeted_alliance = USA
+					    enemy = PREV
+					    hostility_reason = asked_to_join
 					}
 				}
 			}
@@ -2675,7 +2659,6 @@ focus_tree = {
 						free_building_slots = {
 							building = air_base
 							size > 2 
-							include_locked = yes
 						}
 					}
 				}
@@ -2693,7 +2676,6 @@ focus_tree = {
 							free_building_slots = {
 								building = air_base
 								size > 1 
-								include_locked = yes
 							}
 						}
 					}
@@ -2712,7 +2694,6 @@ focus_tree = {
 							free_building_slots = {
 								building = air_base
 								size > 0 
-								include_locked = yes
 							}
 						}
 					}
@@ -3082,11 +3063,15 @@ focus_tree = {
 			}
 		}
 		available = {
+			is_subject = no
 			is_in_faction = no
 			GER = {
 				OR = {
 					has_government = fascism
 					has_government = neutrality
+				}
+				NOT = {
+					has_war_with = ROOT
 				}
 			}
 		}
@@ -3352,100 +3337,11 @@ focus_tree = {
 				}
 			}
 
-			IF = {
-				limit = {
-					has_dlc = "Man the Guns"
-					NOT = {
-						has_tech = cruiser_submarines
-					}
-				}
-				set_technology = { cruiser_submarines = 1 } 
+			custom_effect_tooltip = generic_skip_one_line_tt
 
-				create_equipment_variant = {
-					name = "Lobo do Mar Class"
-					type = ship_hull_cruiser_submarine
-					allow_without_tech = yes # Display tooltip as if we have the tech.
-					name_group = ITA_SS_HISTORICAL #TODO, choose a good namelist
-					parent_version = 0
-					allow_without_tech = yes # Display tooltip as if we have the tech.
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_1
-						fixed_ship_engine_slot = sub_ship_engine_2
-						front_1_custom_slot = ship_torpedo_sub_1
-						mid_1_custom_slot = empty
-						rear_1_custom_slot = ship_torpedo_sub_1
-					}
-				} 
-				#Line Production
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_cruiser_submarine
-						creator = "BRA"
-						version_name = "Lobo do Mar Class"
-					}
-					name = "Almirante Dönitz"
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_cruiser_submarine
-						creator = "BRA"
-						version_name = "Lobo do Mar Class"
-					}
-					name = "Almirante Hermann"
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}
-
-			}
-				
-
-			IF = {	
-				limit = {
-					has_dlc = "Man the Guns"
-					has_tech = cruiser_submarines
-				}
-				create_equipment_variant = {
-					name = "Lobo do Mar Class"
-					type = ship_hull_cruiser_submarine
-					allow_without_tech = yes # Display tooltip as if we have the tech.
-					name_group = ITA_SS_HISTORICAL #TODO, choose a good namelist
-					parent_version = 0
-					allow_without_tech = yes # Display tooltip as if we have the tech.
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_1
-						fixed_ship_engine_slot = sub_ship_engine_2
-						front_1_custom_slot = ship_torpedo_sub_1
-						mid_1_custom_slot = empty
-						rear_1_custom_slot = ship_torpedo_sub_1
-					}
-				}
-				#Line Production
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_cruiser_submarine
-						creator = "BRA"
-						version_name = "Lobo do Mar Class"
-					}
-					name = "Almirante Dönitz"
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_cruiser_submarine
-						creator = "BRA"
-						version_name = "Lobo do Mar Class"
-					}
-					name = "Almirante Hermann"
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.5
 			}
 		}
 
@@ -3943,11 +3839,15 @@ focus_tree = {
 			}
 		}
 		available = {
+			is_subject = no
 			is_in_faction = no
 			ITA = {
 				OR = {
 					has_government = fascism
 					has_government = neutrality
+				}
+				NOT = {
+					has_war_with = ROOT
 				}
 			}
 		}
@@ -4019,7 +3919,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = BRA_italian_truck_exchange
-				bonus = 0.75
+				bonus = 0.50
 				uses = 2
 				category = motorized_equipment 
 				category = cat_mechanized_equipment 
@@ -4496,6 +4396,7 @@ focus_tree = {
 		will_lead_to_war_with = VEN
 		will_lead_to_war_with = PRU
 		will_lead_to_war_with = PAN
+		will_lead_to_war_with = COL
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -4570,6 +4471,21 @@ focus_tree = {
 					expire = 0
 				}
 			}
+			IF = {
+				limit = {
+					COL = {
+						exists = yes
+						NOT = {
+							is_in_faction_with = ROOT
+						}
+					}
+				}
+				create_wargoal = {
+					target = COL
+					type = annex_everything
+					expire = 0
+				}
+			}
 			add_timed_idea = { 
 				idea = BRA_panama_push
 				days = 365
@@ -4596,6 +4512,7 @@ focus_tree = {
 			}
 		}
 		available = {
+			is_subject = no
 			is_in_faction = no
 		}
 
@@ -5083,7 +5000,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_implement_a_national_guard }
 		cost = 10
 		available = {
-			neutrality < 0.21
+			#neutrality < 0.21
 		}
 		cancel_if_invalid = no
 
@@ -5374,6 +5291,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = BRA_international_crisis 
+			set_rule = {
+				can_send_volunteers = yes
+			}
 			#set_rule = {
 			#	can_join_factions = yes 
 			#}
@@ -5842,15 +5762,25 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			#add_country_leader_trait = JUNO_aligned_with_stalin	
-			BRA_luis_carlos_prestes = {
-				promote_leader = yes
-				#add_trait = {
-				#	trait = JUNO_aligned_with_stalin
-				#}
+			#BRA_luis_carlos_prestes = {
+			#	promote_leader = yes
+			#}
+			effect_tooltip = {
+				retire_country_leader = yes
 			}
-			retire_country_leader = yes
-			add_country_leader_trait = JUNO_aligned_with_stalin
+			add_country_leader_role = {
+				character = BRA_luis_carlos_prestes
+				promote_leader = yes
+				country_leader = {
+					ideology=marxism
+					expire="1965.1.1.1"
+					id=-1
+					traits = {
+						JUNO_aligned_with_stalin
+					}
+				}
+			}
+			#retire_country_leader = yes
 			remove_dynamic_modifier = {
 				modifier = BRA_weak_government
 			}
@@ -6460,7 +6390,7 @@ focus_tree = {
 				}
 	
 				create_operative_leader = {
-					name = "Robert Ivanov" #Ivan is dead, long live Robert, yes, I asked him beforehand
+					name = BRA_robert_ivanov 
 					traits = { operative_tough }
 					female = no
 					bypass_recruitment = yes
@@ -6468,7 +6398,7 @@ focus_tree = {
 					GFX = GFX_portrait_europe_generic_operative_male_5
 				}
 				create_operative_leader = {
-					name = "Nadiya Morozova"
+					name = BRA_nadiya_morozova 
 					traits = { operative_escape_artist }
 					female = yes
 					bypass_recruitment = yes
@@ -6484,7 +6414,7 @@ focus_tree = {
 				}
 
 				create_operative_leader = {
-					name = "Robert Ivanov" #Ivan is dead, long live Robert, yes, I asked him beforehand
+					name = BRA_robert_ivanov 
 					traits = { operative_tough }
 					female = no
 					bypass_recruitment = yes
@@ -6493,7 +6423,7 @@ focus_tree = {
 				}
 
 				create_operative_leader = {
-					name = "Nadiya Morozova"
+					name = BRA_nadiya_morozova 
 					traits = { operative_escape_artist }
 					female = yes
 					bypass_recruitment = yes
@@ -6565,6 +6495,7 @@ focus_tree = {
 			is_in_faction_with = SOU
 		}
 		available = {
+			is_subject = no
 			is_in_faction = no
 			SOV_comintern_joinable = yes 
 			has_government = communism	
@@ -6661,6 +6592,7 @@ focus_tree = {
 			factor = 10
 		}
 		available = {
+			is_subject = no
 		}
 
 		bypass = {
@@ -6747,7 +6679,7 @@ focus_tree = {
 				# Add character with propaganda bonus
 				add_ideas = BRA_sway_the_neighbors_lar
 				create_operative_leader = {
-					name = "Julieta Soria"
+					name = BRA_julieta_soria
 					traits = { operative_double_agent operative_natural_orator }
 					female = yes
 					bypass_recruitment = yes
@@ -6781,7 +6713,7 @@ focus_tree = {
 				limit = {
 					is_on_continent = south_america
 				}
-				add_claim_by = ROOT
+				add_core_of = ROOT
 			}
 		}
 	}
@@ -7044,12 +6976,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = BRA_constitutional_monarchy
 		prerequisite = { focus = BRA_constitutional_monarchy }
-		#prerequisite = { focus = BRA_court_the_military }
-		#mutually_exclusive = { focus = BRA_undermine_democracy }
+		
 		cost = 10
+
 		ai_will_do = {
 			factor = 10
 		}
+
 		available = {
 		
 		}
@@ -7099,15 +7032,17 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
-					OR = {
-						state = 961
-						state = 962
-						state = 963
-						state = 964
-						state = 965
-						state = 966
-						state = 967
-						state = 968
+					NOT = {
+						OR = {
+							state = 961
+							state = 962
+							state = 963
+							state = 964
+							state = 965
+							state = 966
+							state = 967
+							state = 968
+						}
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -7138,7 +7073,7 @@ focus_tree = {
 		
 		}
 
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
 			add_research_slot = 1

@@ -121,7 +121,7 @@ ideas = {
 
 		idea_PAR_women_in_the_industry = {
 
-			picture = SOV_fascist_womens_movement
+			picture = ARG_women_in_industry
 			
 			allowed = {
 				always = yes
@@ -248,7 +248,7 @@ ideas = {
 
 		idea_PAR_cemented_control = {
 
-			picture = jap_zaibatsu_control
+			picture = generic_oppression
 			
 			allowed = {
 				always = yes
@@ -396,10 +396,7 @@ ideas = {
 			}
 
 			on_remove = {
-				add_timed_idea = {
-					idea = idea_PAR_florishing_economy
-					days = 230
-				}
+				add_ideas = idea_PAR_florishing_economy
 			}
 		}
 
@@ -416,9 +413,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_dockyard = 0.2
-				industrial_capacity_factory = 0.2
-				production_speed_buildings_factor = 0.2
+				industrial_capacity_dockyard = 0.15
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15
 				consumer_goods_factor = -0.1
 			}
 		}
@@ -474,7 +471,7 @@ ideas = {
 				industry = 0.15
 			}
 		
-			traits = { } 
+			traits = { central_bank } 
 
 			modifier = {
 				consumer_goods_factor = -0.1

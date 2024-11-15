@@ -409,6 +409,7 @@
  SWI_frozen_assets: "Avoirs gelés par [SWI.GetLeLaLNP] [SWI.GetName]"
  SWI_frozen_assets_desc: "Cela faisait des années que [Root.GetLeLaLNP] [Root.GetName] faisai[Root.GetTEntNP] confiance [SWI.GetAuAlaAlNP] [SWI.GetName] et à [SWI.GetSesLeursNP] banques. Pourtant, [SWI.GetIlElleNP] [SWI.GetAOntNP] montré [SWI.GetSonLeurNP] vrai visage en nous trahissant et en gelant nos avoirs. Si nous nous en remettrons assurément, cela va malgré tout prendre beaucoup de temps."
  SWI_intel_support_idea: "Soutien en renseignements"
+ SWI_humanitarian_effort: "Soutien humanitaire"
  SWI_communist_party_banned_idea: "Interdiction du communisme"
  SWI_alpine_redoubt_dynamic_modifier: "$SWI_alpine_redoubt$"
  SWI_democratic_unrest: "Agitation des démocrates"

@@ -1249,6 +1249,7 @@
  bftb_bulgarian_claims.6.t: "[GER.GetNameDefCap]がブルガリアによる占領を許可"
  bftb_bulgarian_claims.6.desc: "[GER.GetAdjective]と[BUL.GetAdjective]とのかねてからの合意により、[GER.GetNameDef]は、[BUL.GetNameDef]が主張し、現在我が軍に占領されている領土の統治権を移管するよう命令した。今後は、[BUL.GetAdjective]が統治することになる。"
  bftb_bulgarian_claims.6.a: "ブルガリアの新入りだ！"
+ bftb_bulgarian_claims.6.b: "奴らにそんな権利はない！"
  bftb_bulgarian_claims.7.t: "[FROM.GetNameDefCap]が[FROM.FROM.GetName]の統治を要求"
  bftb_bulgarian_claims.7.desc: "占領下にあるバルカンの領土における平和維持の役割と称して、[FROM.GetAdjective]は、[ROOT.GetFactionName]に引き継がれた地域の秩序維持と安定化及び我が軍が他の戦線を強化できるよう[ROOT.GetAdjective]の駐屯部隊を解放するために我々が[FROM.FROM.GetName]の統治権を付与するよう提案した。"
  bftb_bulgarian_claims.7.a: "了解した。我が軍を他の地域に展開させることが必要だ！"

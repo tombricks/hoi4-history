@@ -8,5 +8,10 @@ air_wings = {
 			creator = "ITA"
 			amount = 42
 		}
+		tac_bomber_equipment_0 = {
+			owner = "AUS"
+			creator = "ITA"
+			amount = 15
+		}
 	}
 }

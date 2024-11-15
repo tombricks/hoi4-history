@@ -166,6 +166,12 @@
  #Monarchist Path
  NOR_king_haakon_vii_ns: "国王ホーコン7世"
  NOR_king_haakon_vii_ns_desc: "13世紀以来初の[NOR.GetAdjective]君主であるホーコン7世は民主主義の模範だ。国民投票の後に彼は王位を戴冠し、[NOR.GetName]の統治を国民や自身の顧問たちに委ねた。"
+ NOR_new_high_king: "新たな王"
+ NOR_new_high_king_desc: "摂政ペーダー・アンケル・ヴェーデル＝ヤールスベルグが、国王ホーコンの称号を受けずに自身を統治者としてノルウェーの新国王に就任することを宣言した。しかし、この動きはノルウェーの近隣諸国から広く不評を買っている。"
+ NOR_norwegian_regency: "ノルウェーの摂政"
+ NOR_norwegian_regency_desc: "摂政ペーダー・アンケル・ヴェーデル＝ヤールスベルグは、国王ハーコン7世の意志と命令を遂行することのみを意図していると宣言した。そのため、近隣のスカンディナヴィア諸王国との和解を求めている。"
+ NOR_second_north_sea_empire: "第二北海帝国"
+ NOR_second_north_sea_empire_desc: "摂政ペーダー・アンケル・ヴェーデル＝ヤールスバーグは、ノルウェーをかつての栄光の地に戻すつもりであり、新たなノルウェー帝国が興るのは時間の問題だと宣言した。"
  #Dynamic Modifiers
  NOR_independent_norway_dmod: "独立国家ノルウェー"
  NOR_independent_norway_dmod_desc: "1905年にスウェーデンから独立して以降、我々は長い道のりを歩んできた。そして今、先祖たちが夢見た[NOR.GetNonIdeologyName]を作り上げるのは我々自身である。"

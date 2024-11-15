@@ -170,7 +170,7 @@
  OPERATIVE_MISSION_BOOST_IDEOLOGY_OPERATIVE_ENTRY: "$OPERATIVE|H$: $VALUE|H$"
  OPERATIVE_MISSION_CONTROL_TRADE_TITLE: "Handel kontrollieren"
  OPERATIVE_MISSION_CONTROL_TRADE_ACTION: "Handel wird kontrolliert"
- OPERATIVE_MISSION_CONTROL_TRADE_TT: "Verbessert $FLAG$ $COUNTRY_ADJ|H$e Handelsmeinung über uns um $VALUE|H$ täglich"
+ OPERATIVE_MISSION_CONTROL_TRADE_TT: "Verbessert die $FLAG$ §H$COUNTRY_ADJ|H$e§! Handelsmeinung über uns täglich um $VALUE|H$"
  OPERATIVE_MISSION_CONTROL_TRADE_ASSIGNMENT_DESC: "§GKlicken§!, um geeignete Länder zu markieren. Dann auf eine Land §Gklicken§!, um die Mission zu starten."
  OPERATIVE_MISSION_CONTROL_TRADE_DESC: "§LBeeinflussen Sie unsere Handelsmeinung im Zielland, wodurch wir einen größeren Anteil an ihren Ressourcenexporten erhalten.§!\n§HTägliche Handelsmeinung: $BASE|=1$§!\n  Basis: $BASE|+1$"
  OPERATIVE_MISSION_CONTROL_TRADE_VALID_TARGET: "$CODENAME$ der Operation £operative_mission_icons_small|6£ Handel in $COUNTRY|H$ kontrollieren zuweisen"

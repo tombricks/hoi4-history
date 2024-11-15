@@ -1,15 +1,3 @@
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-
 SOV_unit_production = {
 	allowed = {
 		original_tag = SOV
@@ -184,8 +172,8 @@ SOV_unit_production = {
 	}
 
 	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
+		type = equipment_production_min_factories_archetype
+		id = artillery_equipment
 		value = 4
 	}
 
@@ -258,6 +246,63 @@ SOV_anti_armor = {
 		type = role_ratio
 		id = motorized
 		value = 5
+	}
+}
+
+SOV_we_want_to_reach_t34_asap = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		NOT = {
+			OR = {
+				has_tech = basic_medium_tank
+				has_tech = basic_medium_tank_chassis
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_medium_tank_chassis
+		value = 100
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_medium_tank
+		value = 100
+	}
+}
+
+SOV_we_want_t34_asap = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = improved_medium_tank_chassis
+		value = 100
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = improved_medium_tank
+		value = 100
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = medium_tank_chassis_1
+		value = 100  # 100 essentially means we don't require a stockpile surplus
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = medium_tank_equipment_1
+		value = 100  # 100 essentially means we don't require a stockpile surplus
 	}
 }
 
@@ -400,7 +445,7 @@ germany_ally = {
 	enable = {
 		OR = {
 			has_completed_focus = SOV_anti_capitalist_policies
-			GER = { has_completed_focus = GER_soviet_ally }
+			GER = { has_completed_focus = GER_alliance_with_the_ussr }
 		}
 		country_exists = GER
 	}
@@ -2422,5 +2467,63 @@ SOV_convoys_are_needed_for_lendlease = {
 		type = equipment_production_min_factories
 		id = convoy
 		value = 4
+	}
+}
+
+SOV_historical_dont_attack_poland_too_early = {
+	allowed = { original_tag = SOV }
+	enable = {
+		is_historical_focus_on = yes
+		date < 1941.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = declare_war
+		id = POL
+		value = -300
+	}
+}
+
+SOV_cant_stop_wont_stop = {
+	allowed = { original_tag = SOV }
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = ai_wanted_divisions_factor
+		value = 0.15  #FEED THE MEATGRINDER
+	}
+}
+
+#### FORCE CONCENTRATION
+
+# Spread out before barbarossa
+SOV_aifc_linear_defence = {
+	allowed = { original_tag = SOV }
+	enable = {
+		# We have split Poland up 
+		OR = {
+			owns_state = 96
+			owns_state = 95
+			owns_state = 94
+			owns_state = 93
+			owns_state = 92
+		}
+	}
+	abort = {
+		OR ={
+			# Winter Offensive, Right
+			date > 1941.12.1
+			# Desperate Defence
+			surrender_progress > 0.45
+		}
+	}
+
+	ai_strategy = {
+		type = force_concentration_factor
+		value = -100  # Just don't
 	}
 }

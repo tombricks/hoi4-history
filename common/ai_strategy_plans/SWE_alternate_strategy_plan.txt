@@ -7,7 +7,6 @@ SWE_alt_democratic_plan = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_DEMOCRATIC_ALT
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -118,7 +117,6 @@ SWE_communism = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_COMMUNISM
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -225,7 +223,6 @@ SWE_fascist_independent = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_FASCIST_INDEPENDENT
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -332,7 +329,6 @@ SWE_fascist_puppet = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_FASCIST_PUPPET
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -430,7 +426,6 @@ SWE_fascist_puppet_backstabber = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_PUPPET_BACKSTABBER
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -529,7 +524,6 @@ SWE_unaligned = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_UNALIGNED
 			has_game_rule = {
 				rule = SWE_ai_behavior
@@ -634,7 +628,6 @@ SWE_nordic_defence_council = {
 	}
 	enable = {
 		OR = {
-			is_historical_focus_on = no 
 			has_country_flag = SWE_AI_RANDOM_DEMOCRATIC_NORDIC_DEFENCE_COUNCIL
 			has_game_rule = {
 				rule = SWE_ai_behavior

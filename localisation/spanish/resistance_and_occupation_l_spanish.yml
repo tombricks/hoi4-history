@@ -66,6 +66,7 @@
  colonial_police: "Policía colonial"
  colonial_police_improved: "$colonial_police$"
  colonial_police_final: "$colonial_police$"
+ secretaries_general: "Secretarios generales"
  COMPLIANCE_ADDITIONAL_DAILY_GAIN: "Cumplimiento diario adicional ganado: $GAIN$"
  COMPLIANCE_GAIN_IS_DISABLED: "§RDeshabilitado por falta de guarnición§!"
  COMPLIANCE_GAIN_IS_SCALED: "¡Escalado en $RATIO|R.0%$ por falta de guarnición!"

@@ -413,6 +413,59 @@ characters={
 		}
 	}
 
+	GRE_stylianos_gonatas = {
+		
+		name = GRE_stylianos_gonatas
+
+		portraits = {
+			army = {
+				large = GFX_portrait_GRE_stylianos_gonatas
+				small = GFX_portrait_GRE_stylianos_gonatas_small
+			}
+		}
+
+		corps_commander = {
+			traits = { trait_GRE_venezelist_loyalist infantry_officer hill_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			visible = {
+				has_government = democratic
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = GRE_stylianos_gonatas
+			ledger = army
+			name = GRE_stylianos_gonatas
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = GRE_republicans_friendly_or_loyal
+					check_variable = {
+						var = GRE_republican_loyalty
+						value = 1.000
+						compare = greater_than_or_equals
+					}
+				}
+			}
+			traits = {
+				army_entrenchment_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+	}
+
 	GRE_napoleon_zervas={
 		instance = {
 			allowed = {
@@ -494,14 +547,17 @@ characters={
 		}
 	}
 
-	GRE_dimitrios_oikonomou={
-		name=GRE_dimitrios_oikonomou
-		portraits={
-			army={
-				small="GFX_idea_gre_dimitrios_oikonomou"
+	GRE_dimitrios_oikonomou = {
+		name = GRE_dimitrios_oikonomou
+
+		portraits = {
+			army = {
+				large = GFX_portrait_GRE_dimitrios_oikonomou
+				small = GFX_idea_gre_dimitrios_oikonomou
 			}
 		}
-		advisor={	
+
+		advisor = {	
 			slot = high_command
 			idea_token = GRE_dimitrios_oikonomou
 			ledger = navy
@@ -527,6 +583,17 @@ characters={
 				factor = 1.000
 			}
 		}
+
+		navy_leader = {
+			traits = { trait_GRE_stauch_monarchist air_controller }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+
 	}
 
 	GRE_konstantinos_ventiris={
@@ -1080,13 +1147,25 @@ characters={
 			}			
 		}
 	}
-	GRE_epameinondas_kavvadias={
-		name=GRE_epameinondas_kavvadias
-		portraits={
-			army={
-				small="GFX_idea_gre_epameinondas_kavvadias"
+	GRE_epameinondas_kavvadias = {
+		name = GRE_epameinondas_kavvadias
+		portraits = {
+			army = {
+				large = GFX_portrait_GRE_epameinondas_kavvadias
+				small = GFX_idea_gre_epameinondas_kavvadias
 			}
 		}
+
+		navy_leader = {
+			traits = { fleet_protector destroyer_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+
 		advisor={
 			slot = high_command
 			idea_token = GRE_epameinondas_kavvadias

@@ -64,7 +64,6 @@ recruit_character = MON_pai_yun_ti
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 
 		#industry
@@ -75,6 +74,9 @@ recruit_character = MON_pai_yun_ti
 		construction2 = 1
 		concentrated_industry = 1
 		concentrated_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

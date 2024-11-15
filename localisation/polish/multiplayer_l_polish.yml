@@ -155,6 +155,7 @@
  OOS_87: "Statystyki rozgrywki"
  OOS_88: "Wojskowe organizacje przemysłowe"
  OOS_89: "Rynek międzynarodowy"
+ OOS_90: "Projekt specjalny"
  MULTIPLAYER_PLAYERS: "$NUM$"
  MULTIPLAYER_MESSAGES: "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS: "§GTrwa gra§!"

@@ -244,6 +244,7 @@
  SPR_gonzalo_queipo_de_llano: "Gonzalo Queipo de Llano"
  SPR_jose_millan_astray: "José Millán-Astray"
  SPR_miguel_buiza_fernandez_palacios: "Miguel Buiza"
+ SPR_manuel_azana: "Manuel Azaña"
  #PORTUGAL
  POR_antonio_de_oliveira_salazar: "António de Oliveira Salazar"
  POR_bento_goncalves: "Bento Gonçalves"
@@ -712,6 +713,17 @@
  POL_karol_korytowski: "Karol Korytowski"
  POL_boleslaw_bierut: "Bolesław Bierut"
  POL_edward_osobka_morawski: "E. Osóbka-Morawski"
+ #Divisional Commanders
+ POL_zygmunt_podhorski: "Zygmunt Podhorski"
+ POL_adam_zakrzewski: "Adam Zakrzewski"
+ POL_konstanty_drucki_lubecki: "Konstanty Drucki-Lubecki"
+ POL_leon_strzelecki: "Leon Strzelecki"
+ POL_sergiusz_zahorski: "Sergiusz Zahorski"
+ POL_jerzy_grobicki: "Jerzy Grobicki"
+ POL_julian_filipowicz: "Julian Filipowicz"
+ POL_zygmunt_piasecki: "Zygmunt Piasecki"
+ POL_konstanty_plisowski: "Konstanty Plisowski"
+ POL_jan_karcz: "Jan Karcz"
  #CZECHOSLOVAKIA
  CZE_edvard_benesh: "Edvard Beneš"
  CZE_jaroslav_krejchi: "Jaroslav Krejčí"

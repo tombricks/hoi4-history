@@ -544,6 +544,7 @@ country_event = {
 	}
 }
 
+#MM: Never used. Unlocalized
 # Answer from warlord wtt_political_warlord_support.2 - Asking for asking for civ industry
 country_event = {
 	id = wtt_political_warlord_support.14

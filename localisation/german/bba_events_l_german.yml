@@ -1380,7 +1380,7 @@
  BBA_italy_interaction_events_news.1.b: "Das beweist abermals die Schwäche des deutschen Systems."
  BBA_italy_interaction_events.26.t: "[ITA.GetNameDefCap] gibt nach"
  BBA_italy_interaction_events.26.desc: "Italien hat angekündigt, dass man sich nicht gegen uns stellen wird, nachdem wir nun gezeigt haben, dass wir nicht nachgeben werden, falls es hart auf hart kommt. Heute ist ein glorreicher Tag für unser Vaterland!"
- BBA_italy_interaction_events.26.a: "Sie wissen, dass sie es nicht mit uns aufnehmen können!"
+ BBA_italy_interaction_events.26.a: "Das sollte auch [AUS.GetName] dazu bringen, die Lage zu überdenken."
  BBA_italy_interaction_events.27.t: "Italien bittet uns um Hilfe, den Vormarsch Deutschlands einzudämmen"
  BBA_italy_interaction_events.27.desc: "[GetItalyAsksEngland]"
  BBA_italy_interaction_events.27.desc_hosting_ethiopia: "Italien hat uns darum gebeten, bei der Eindämmung der deutschen Expansion zu helfen, und möchte, dass wir die Unabhängigkeit Österreichs garantieren, um es zu schützen. Wir haben zwar früher Seite an Seite gekämpft, doch jetzt sind wir die Gastgeber der äthiopischen Exilregierung, die von den Italienern vertrieben wurde. Wenn [ITA.GetNameDef] unsere Hilfe im bevorstehenden Krieg will, muss zuerst Frieden geschlossen werden."

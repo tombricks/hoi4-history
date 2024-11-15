@@ -1,6 +1,6 @@
 ﻿l_french:
  south_american_news.1.t: "La guerre éclate\nen Amérique du Sud"
- south_american_news.1.d: "\nDepuis la dissolution de la Grande Colombie, les régions de Napo Pastaza et de Santiago Zamora, situées à la frontière entre le Pérou et l'Équateur, ont été le théâtre de conflits qui ont donné lieu à des escarmouches entre les forces armées des deux pays. En raison du récent accord frontalier avec la Colombie, les soldats péruviens se sont permis de faire valoir leurs revendications contre l'État équatorien, plus faible, et les échauffourées ont maintenant dégénéré en conflit ouvert. La stabilité de la région sera mise à l'épreuve, car d'autres pays pourraient tenter d'intervenir."
+ south_american_news.1.d: "Depuis la dissolution de la Grande Colombie, les régions de Napo Pastaza et de Santiago Zamora, situées à la frontière entre le Pérou et l'Équateur, ont été le théâtre de conflits qui ont donné lieu à des escarmouches entre les forces armées des deux pays. En raison du récent accord frontalier avec la Colombie, les soldats péruviens se sont permis de faire valoir leurs revendications contre l'État équatorien, plus faible, et les échauffourées ont maintenant dégénéré en conflit ouvert. La stabilité de la région sera mise à l'épreuve, car d'autres pays pourraient tenter d'intervenir."
  south_american_news.1.a: "L'Amérique du Sud s'en sortira-t-elle ?"
  south_american_news.1.b: "Enfin la renaissance de l'État péruvien !"
  south_american_news.1.c: "¡No Pasarán!"
@@ -1228,3 +1228,7 @@
  south_american_events.62.t: "La bataille du Río de la Plata"
  south_american_events.62.desc: "Vers 06h18, les navires de la Kriegsmarine et de la Royal Navy se sont affrontés juste à côté de Montevideo. Selon les rapports, les navires allemands, qui ont essuyé de lourds dégâts, se sont réfugiés dans le port de la capitale uruguayenne. Les diplomates britanniques demandent au gouvernement uruguayen de contraindre le navire à quitter le port, conformément à la convention de La Haye. Il sera certainement détruit par les forces de la Royal Navy une fois en mer."
  south_american_events.62.a: "Intéressant"
+ south_american_news.20.t: "Les Antilles unies"
+ south_american_news.20.d: "La Confédération antillaise est une idée de Ramón Emeterio Betances visant à unir les indigènes des Caraïbes en une entité régionale ayant pour but de préserver la souveraineté et l'intérêt des nations antillaises. Le soutien était à son apogée des années 1850 jusqu'à la guerre hispano-américaine avant de s'estomper par la suite. Cependant, après l'unification de la région par [FROM.GetLeader], l'idée renaît dans toutes les têtes. Depuis la déclaration de la Confédération antillaise, il n'a jamais été plus évident que les Antilles appartiennent aux Antillais !"
+ south_american_news.20.a: "Une idée saugrenue"
+ south_american_news.20.b: "Les Antilles aux Antillais !"

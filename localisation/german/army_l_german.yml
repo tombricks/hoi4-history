@@ -12,7 +12,7 @@
  ARMY_NAVIES_THEATRES: "Aktiv in $N$ strategischen Gebieten"
  ARMY_NAVIES_TOOLTIP_DELAYED_TEMPLATE: "$NAME|H$ ($TYPE|H$)"
  ARMY_NAVIES_TOOLTIP_DETAILED_DESC: "Wir haben nur 1 Schiff des Typs „§Y$TYPE$§!“."
- ARMY_NAVIES_TOOLTIP_DETAILED_MULTIPLE_DESC: "Wir haben nur $COUNT$ Schiffe des Typs „§Y$TYPE$§!“."
+ ARMY_NAVIES_TOOLTIP_DETAILED_MULTIPLE_DESC: "Wir haben insgesamt $COUNT$ Schiffe des Typs „§Y$TYPE$§!“."
  ARMY_DIVISION_TOOLTIP_DETAILED_DESC: "Wir haben in unserer Armee nur eine $TYPE|Y$-Division."
  ARMY_DIVISION_TOOLTIP_DETAILED_MULTIPLE_DESC: "Wir haben in unserer Armee $COUNT$ $TYPE|Y$-Divisionen."
  ARMY_RAILWAY_GUN_TOOLTIP_DETAILED_DESC: "Wir haben in unserer Armee nur ein §YEisenbahngeschütz§!."

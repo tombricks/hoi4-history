@@ -243,21 +243,21 @@ ideas = {
 			}
 		}
 
-		CRO_slavko_kvaternik = {
-			ledger = army
-
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = CRO
-			}
-			
-			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#CRO_slavko_kvaternik = {
+		#	ledger = army
+		#
+		#	picture = generic_army_europe_1
+		#	
+		#	allowed = {
+		#		original_tag = CRO
+		#	}
+		#	
+		#	traits = { army_regrouping_2 }
+		#	
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 
 		CRO_vladimir_kren = {
 			ledger = air

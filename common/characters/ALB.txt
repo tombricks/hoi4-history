@@ -1,6 +1,6 @@
 characters = {
 	ALB_king_zog = {
-		name = "King Zog"
+		name = ALB_king_zog
 		portraits = {
 			civilian = {
 				large = GFX_portrait_King_Zog
@@ -12,8 +12,22 @@ characters = {
 			id = -1
 		}
 	}
+	ALB_wilhelm_of_wied = {
+		name = ALB_wilhelm_of_wied
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ALB_wilhelm_of_wied
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { skanderbeg_ii }
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
 	ALB_enver_hoxha = {
-		name = "Enver Hoxha"
+		name = ALB_enver_hoxha
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Enver_Hoxha
@@ -27,7 +41,7 @@ characters = {
 		}
 	}
 	ALB_eqrem_belishi={
-		name="Eqrem Belishi"
+		name=ALB_eqrem_belishi
 		portraits={
 			civilian={
 				large=GFX_portrait_Eqrem_Belishi
@@ -41,7 +55,7 @@ characters = {
 	}
 	# TEFIK MBORJA
 	ALB_tefik_mborja = {
-		name = "Tefik Mborja"
+		name = ALB_tefik_mborja
 		portraits = {
 			civilian = {
 				large = GFX_portrait_ALB_tefik_mborja
@@ -55,7 +69,7 @@ characters = {
 		}
 	}
 	ALB_xhemal_aranitasi = {
-		name = "Xhemal Aranitasi"
+		name = ALB_xhemal_aranitasi
 		portraits = {
 			army = {
 				large=GFX_portrait_Xhemal_Aranitasi
@@ -260,7 +274,7 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Prenk Pervizi"
+		name=ALB_prenk_pervizi
 		portraits={
 			army={
 				small="GFX_idea_generic_army_arab_1"
@@ -362,7 +376,7 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eqrem Libohova"
+		name=ALB_eqrem_libohova
 		portraits={
 			army={
 				small="GFX_idea_generic_air_arab_1"
@@ -456,7 +470,7 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fiqri Dine"
+		name=ALB_fiqri_dine
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_arab_3"
@@ -475,7 +489,7 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Midhat Frashëri"
+		name=ALB_midhat_frasheri
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_arab_1"
@@ -494,7 +508,7 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jocelyn Percy"
+		name=ALB_jocelyn_percy
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_arab_2"

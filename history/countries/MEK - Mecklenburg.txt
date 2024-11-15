@@ -1,4 +1,4 @@
-﻿capital = 61
+capital = 61
 
 # Starting tech
 set_technology = {
@@ -79,9 +79,6 @@ if = {
 	}
 }
 
-
-
-
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.75
@@ -122,8 +119,7 @@ set_stability = 0.75
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
+		cavity_magnatron = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -142,6 +138,9 @@ set_stability = 0.75
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {
@@ -162,50 +161,13 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 3
+	fascism = 40
+	communism = 7
+	neutrality = 50
 }
 
 add_ideas = {
 }
 
-
-
-#create_country_leader = {
-#	name = "Dennis Fredauer"
-#	desc = ""
-#	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#	}
-#}
-#
-
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = socialism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
-
-
+recruit_character = MEK_christian_louis

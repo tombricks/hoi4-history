@@ -241,6 +241,7 @@ SAF_anti_colonialist_crusade = {
 			AND = {
 				SAF = {
 					controls_state = 771
+					controls_state = 981
 				}
 				ZAM = { exists = no }
 			}

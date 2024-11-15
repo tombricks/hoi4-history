@@ -90,6 +90,7 @@
  LOGISTICS_RESOURCES_NAVAL: "Potrzeba $NEED|Y$ jednostek zasobu ($RESOURCE|H$), by produkcja sprzętu morskiego osiągnęła maks. wydajność."
  LOGISTICS_RESOURCES_LAND: "Potrzeba $NEED|Y$ jednostek zasobu ($RESOURCE|H$), by produkcja sprzętu lądowego osiągnęła maks. wydajność."
  LOGISTICS_RESOURCES_AIR: "Potrzeba $NEED|Y$ jednostek zasobu ($RESOURCE|H$), by produkcja samolotów osiągnęła maks. wydajność."
+ LOGISTICS_RESOURCES_PROJECT: "Do osiągnięcia maksymalnej wydajności w projektach specjalnych potrzeba $NEED|Y$ szt. zasobu ($RESOURCE|H$)."
  LOGISTICS_RESOURCE_NEED_SUMMERY: "Do osiągnięcia maksymalnej wydajności potrzebny jest dostęp do $NEED|Y$ szt. zasobu ($RESOURCE|H$)."
  LOGISTICS_NEED_LEND_LEASE_LOW_VALUE: "Lend-Lease: $NEED|^1Y$ szt."
  LOGISTICS_NEED_LEND_LEASE_HIGH_VALUE: "Lend-Lease: $NEED|^0Y$ szt."

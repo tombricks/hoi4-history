@@ -200,7 +200,7 @@
  ###################################################################################################
  #### Content localization
  ###################################################################################################
- ### Just for testing - clean up once we start on real stuff #TODO_Manu: REMOVE!!!!
+ ### Just for testing
  my_custom_mio: "マイカスタムMIO"
  FRA_my_custom_mio: "Mon OIM rien qu'à moi（自分のカスタムMIO）"
  my_custom_mio_custom_1: "マイ左上特性"
@@ -281,6 +281,13 @@
  mio_header_anti_tank: "対戦車"
  mio_header_protection: "保護"
  mio_header_specialization: "専門化"
+ mio_header_light_assault_gun_department: "軽突撃砲部門"
+ mio_header_armored_cars: "装甲車"
+ mio_header_medium_assault_gun_department: "中突撃砲部門"
+ mio_header_heavy_assault_gun_department: "重突撃砲部門"
+ mio_header_helicopter_construction: "ヘリコプターの製造"
+ mio_header_single_rotor: "単一回転子"
+ mio_header_tandem_rotor: "直列回転子"
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##
  ##     ## ##     ## ##        ##  ##        ##  ##       ##
@@ -332,19 +339,36 @@
  USA_springfield_armory_organization: "$springfield_armory$"
  USA_ford_motor_company_organization: "$ford_motor_company$"
  USA_rock_island_arsenal_organization: "$rock_island_arsenal$"
+ USA_sikorsky_organization: "シコルスキー航空機社"
  ### TRAITS ###
  USA_mio_trait_lockeed_aircraft: "ロッキード航空機"
+ USA_mio_trait_medium_tank_organization: "中戦車編成"
  USA_mio_trait_mechanized_production: "機会化生産"
  USA_mio_trait_outsourced_engines: "外部委託エンジン"
- USA_mio_trait_light_aircraft_development: "軽航空機開発"
  USA_mio_trait_strict_design_specifications: "厳密な設計仕様"
  USA_mio_trait_expanded_production_facilities: "拡充した生産設備"
  USA_mio_trait_periscope_sights: "潜望鏡照準器"
- USA_mio_trait_mass_production_of_armor: "装甲車の大量生産"
- USA_mio_trait_medium_tank_organization: "中戦車編成"
  USA_mio_trait_superfortress: "スーパーフォートレス"
  USA_mio_trait_smooth_finish: "滑らかな仕上がり"
  USA_mio_trait_jet_fighter_design: "ジェット戦闘機設計"
+ USA_mio_trait_remote_controlled_turrets: "リモコン砲塔"
+ USA_mio_trait_specialist_nose_configurations: "スペシャリスト・ノーズ・コンフィギュレーション"
+ USA_mio_trait_arsenal_of_democracy: "民主主義の兵器廠"
+ USA_mio_trait_shipyard_expansion: "造船所の拡張"
+ USA_mio_trait_naval_station_norfolk: "ノーフォーク海軍基地"
+ USA_mio_trait_gould_centrifugal_pump: "グールド渦巻きポンプ"
+ USA_mio_trait_radar_experimentation: "レーダーの拡張"
+ USA_mio_trait_the_can_do_shipyard: "キャン・ドゥ造船所"
+ USA_mio_trait_drydock_expansion: "ドライドックの拡張"
+ USA_mio_trait_north_carolina_shipbuilding_company: "ノースカロライナ造船会社"
+ USA_mio_trait_carrier_specialists: "空母専門家"
+ ### INITIAL TRAITS ###
+ USA_mio_trait_light_long_range_aircraft: "軽距離機"
+ USA_mio_trait_medium_long_range_aircraft: "中長距離機"
+ USA_mio_trait_light_aircraft_development: "軽航空機開発"
+ USA_mio_trait_mass_production_of_armor: "装甲車の大量生産"
+ USA_mio_trait_medium_tank_manufacturer: "中戦車製造会社"
+ USA_mio_trait_dedicated_tank_factory: "専用タンク工場"
  ###################
  ###### JAPAN ######
  ###################
@@ -386,18 +410,16 @@
  ### TRAITS ###
  SOV_mio_trait_gas_tank_protection: "ガソリンタンク保護"
  SOV_mio_trait_lightened_reduction_gear: "軽量型減速機"
- SOV_has_already_completed_this_trait: "この特性は別の組織ですでに完了済み"
- SOV_trait_will_not_be_available_in_other_organizations: "§Rこの特性は別の組織では利用不可能になる§!。"
- SOV_merge_plant_no_174_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_112_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_ural_heavy_machine_building_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_370_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_mariupol_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_28_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_150_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_vef_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_nkmz_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_magnitogorsk_metallurgical_plant_flag: "$SOV_has_already_completed_this_trait$"
+ SOV_merge_plant_no_174_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_112_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_ural_heavy_machine_building_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_370_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_mariupol_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_28_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_150_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_vef_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_nkmz_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_magnitogorsk_metallurgical_plant_flag: "$generic_has_already_completed_this_trait$"
  ########################
  #### UNITED KINGDOM ####
  ########################
@@ -461,16 +483,26 @@
  GER_henschel_organization: "$henschel$"
  GER_man_organization: "$GER_MAN$"
  GER_daimler_benz_organization: "ダイムラー・ベンツ"
+ GER_alkett_organization: "$GER_alkett$"
  GER_germaniawerft_organization: "$germaniawerft$"
  GER_blohm_und_voss_organization: "$blohm_und_voss$"
+ GER_hdw_organization: "$GER_hdw$"
+ GER_deschimag_organization: "$GER_deschimag$"
+ GER_deutsche_werke_organization: "$GER_deutsche_werke$"
+ GER_kriegsmarinewerft_wilhelmshaven_organization: "$GER_kriegsmarinewerft_wilhelmshaven$"
  GER_messerschmitt_organization: "$messerschmitt$"
  GER_junkers_organization: "$junkers$"
  GER_focke_wulf_organization: "$focke_wulf$"
  GER_heinkel_organization: "$heinkel$"
  GER_dornier_organization: "$dornier$"
+ GER_arado_flugzeugwerke_organization: "$GER_arado_flugzeugwerke$"
+ GER_fieseler_organization: "$GER_fieseler$"
+ GER_focke_achgelis_organization: "フォッケ・アハゲリス"
  GER_rheinmetall_organization: "$rheinmetall$"
  GER_mauser_organization: "$mauser$"
  GER_opel_organization: "$opel$"
+ GER_carl_walther_organization: "$GER_carl_walther$"
+ GER_auto_union_organization: "$GER_auto_union$"
  ### TRAITS ###
  GER_mio_trait_hotrolled_armor: "熱間圧延装甲"
  GER_mio_trait_multilayer_armour: "多層装甲"
@@ -478,6 +510,77 @@
  GER_mio_trait_fuselage_based_weapons: "機体ベース兵器"
  GER_mio_trait_early_jet_engine_adopter: "初期型ジェットエンジン導入"
  GER_mio_trait_psychological_warfare: "心理戦"
+ GER_mio_trait_hoesch_facilities: "ヘッシュ社施設"
+ GER_hoesch_facilities_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_hamburger_flugzeugbau: "ハンブルグ航空機製造工場"
+ GER_hamburger_flugzeugbau_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_amerikabomber_learnings: "アメリカの爆撃機の学習"
+ GER_mio_trait_ford_facilities: "フォード社施設"
+ GER_mio_trait_efficiency_in_mass_production: "大量生産における効率"
+ GER_mio_trait_continental_ag_tires: "コンチネンタルAGタイヤ"
+ GER_mio_trait_involve_porsche_in_special_projects: "特別計画にポルシェを参加させる"
+ GER_mio_trait_involve_henschel_in_special_projects: "特別計画にヘンシェルを参加させる"
+ GER_mio_trait_multi_role_tanks: "多機能戦車"
+ GER_mio_trait_anti_tank_specialization: "対戦車特化"
+ GER_mio_trait_unorthodox_transmission_design: "型破りなトランスミッション設計"
+ GER_mio_trait_versatile_chassis: "汎用車体"
+ GER_mio_trait_tungsten_tipped_rounds: "タングステン・チップ弾"
+ GER_mio_trait_history_of_battleships: "戦艦の歴史"
+ GER_mio_trait_krupp_guns: "クルップ砲"
+ GER_mio_trait_h_class_battleships: "H級戦艦"
+ GER_mio_trait_heavy_raiders: "重襲撃艦"
+ GER_mio_trait_o_class_battlecruisers: "O級巡洋戦艦"
+ GER_mio_trait_u_boat_yards: "Uボート・ヤード"
+ GER_mio_trait_high_test_peroxide: "高濃度過酸化水素"
+ GER_mio_trait_ocean_u_boats: "海洋Uボート"
+ GER_mio_trait_kilian_submarine_bunker: "キリアン潜水艦燃料"
+ GER_mio_trait_saddle_tanks: "サドルタンク"
+ GER_mio_trait_excellent_diving_performance: "優れたダイビング性能"
+ GER_mio_trait_atlantic_raiders: "大西洋襲撃艦"
+ GER_mio_trait_krupp_contacts: "クルップのコネ"
+ GER_mio_trait_armored_design: "装甲設計"
+ GER_mio_trait_shipyard_conglomerate: "造船コングロマリット"
+ GER_mio_trait_auxilliary_shipyard: "補助造船所"
+ GER_mio_trait_foreign_influences: "外国の影響"
+ GER_mio_trait_raider_doctrine: "襲撃艦ドクトリン"
+ GER_mio_trait_fast_raiders: "高速襲撃艦"
+ GER_mio_trait_carrier_raiders: "空母襲撃艦"
+ GER_mio_trait_historical_shipyard: "史実の造船所"
+ GER_mio_trait_upgrade_panzerschiffs: "装甲艦のアップグレード"
+ GER_mio_trait_innovative_battleship_designs: "戦艦の革新的デザイン"
+ GER_mio_trait_high_velocity_armament: "高速兵器"
+ GER_mio_trait_schachtellaufwerk: "シャフテラウフヴェルク"
+ GER_mio_trait_mobility_design_philosophy: "機動性設計哲学"
+ GER_mio_trait_panzerjager: "対戦車車両"
+ GER_mio_trait_armored_superstructure_specialist: "装甲の上部構造の専門家"
+ GER_mio_trait_sturmhaubitze: "突撃榴弾砲"
+ GER_mio_trait_90_degree_dives: "垂直降下"
+ GER_mio_trait_long_nose_design: "ロングノーズ設計"
+ GER_mio_trait_work_horse_design_philosophy: "主力製品設計の哲学"
+ GER_mio_trait_bomber_destroyer: "爆撃駆逐艦"
+ GER_mio_trait_radial_engine: "星型エンジン"
+ GER_mio_trait_doppel_blitz: "ドッペル・ブリッツ"
+ GER_mio_trait_advanced_night_equipment: "上級夜間装備"
+ GER_mio_trait_stepless_cockpit: "ステップレス・コックピット"
+ GER_mio_trait_flying_boat_specialist: "飛行艇の専門家"
+ GER_mio_trait_schnellbomber_doctrine: "高速爆撃機ドクトリン"
+ GER_mio_trait_jet_bomber_innovator: "ジェット爆撃機の革新者"
+ GER_mio_trait_dual_recoil_mechanism: "デュアルリコイル機構"
+ GER_mio_trait_versatile_carriage: "汎用車両"
+ GER_mio_trait_experienced_manufacturer: "経験豊富な製造会社"
+ GER_mio_trait_export_models: "輸出モデル"
+ GER_mio_trait_karabiner: "カラビーナー"
+ GER_mio_trait_sturmgewehr: "シュトゥルムゲヴェーア"
+ GER_mio_trait_innovative_safety_features: "革新的な安全機能"
+ GER_mio_trait_policiary_equipment: "警察装備"
+ GER_mio_trait_improved_engines: "改良型エンジン"
+ GER_mio_trait_racing_pedigree: "レースの血統"
+ GER_mio_trait_military_exclusivity: "軍事独占権"
+ GER_mio_trait_schwerer_panzerspahwagen: "シュベラー・パンツァーシュペーハーゲン"
+ GER_mio_trait_placeholder_helicopter: "HELICOPTER MIO TREE COMING SOON"
+ generic_mio_initial_trait_helicopter_designer: "初期のヘリコプター設計社"
+ GER_mio_trait_aerodynamic_research_insitute: "統合された空力研究所部門"
+ GER_mio_trait_aerodynamic_research_insitute_taken_flag: "$generic_has_already_completed_this_trait$"
  ###################
  ###### ITALY ######
  ###################
@@ -592,8 +695,29 @@
  HUN_ganz_danubius_organization: "$HUN_ganz_danubius$"
  HUN_femaru_fegyver_es_gepgyar_organization: "$HUN_femaru_fegyver_es_gepgyar$"
  HUN_mw_aircraft_organization: "$mw_aircraft$"
+ HUN_obudai_hajogyar_organization: "$HUN_obudai_hajogyar$"
+ HUN_mavag_aircraft_organization: "$mavag_aircraft$"
+ HUN_mrt_aircraft_organization: "$HUN_mrt_aircraft$"
+ HUN_danuvia_inf_organization: "$HUN_danuvia_inf$"
+ HUN_mwg_raba_organization: "$HUN_mwg_raba$"
+ HUN_hti_turan_organization: "$HUN_hti_turan$"
+ HUN_mavag_assault_guns_organization: "$HUN_mavag_assault_guns$"
+ HUN_mio_trait_army_ammunition_and_wepaons_works: "弾薬・武器工場"
+ HUN_digep_artillery: "ディオーシュジュール大砲工場"
+ ## FOREIGN ###
+ ENG_crossley_motors_organization: "$HUN_crossley_motors$"
+ HUN_fiat_tankettes_organization: "$ITA_fiat_organization$"
+ HUN_henschel_organization: "$GER_henschel_organization$"
+ HUN_mio_trait_aircraft_production_plant: "$aircraft_production_plant$"
  ### HUNGARIAN TRAITS ###
  HUN_mio_trait_naval_warfare: "$HUN_naval_warfare$"
+ HUN_mio_trait_danuvia_two_part_lever_delayed_blowback_bolt: "2分割式レバー遅延ブローバックボルト"
+ HUN_mio_trait_danuvia_motorcycles: "オートバイ"
+ HUN_mio_trait_danuvia_improved_stock: "折りたたみ式の金属製銃床"
+ HUN_mio_trait_heavy_mauser_rounds: "9×25mm モーゼル弾"
+ ### FOREIGN TRAITS ###
+ GER_mio_trait_3_7_cm_pak: "3.7cm対戦車砲"
+ GER_mio_trait_7_5_cm_pak: "7.5cm対戦車砲"
  #################
  #### ROMANIA ####
  #################
@@ -940,6 +1064,9 @@
  NOR_mio_initial_trait_mechanical_workshop: "重機工場"
  NOR_mio_initial_trait_convoy_and_escort_fleet: "商船・護衛艦製造社"
  mio_policy_NOR_general_permanent_industrial_revolution: "永続産業革命"
+ NOR_mio_trait_forsvarets_forskningsinstitutt: "ノルウェー国防研究局"
+ NOR_mio_trait_trondhjems_mekaniske_vaerksted: "トロンヘムス・メカニスケ・ヴェルクステッド"
+ NOR_mio_trait_cruiser_specialization: "巡洋艦専門化"
  ################
  #### NORDIC ####
  ################
@@ -989,6 +1116,79 @@
  ARG_hispano_argentina_organization: "イスパノ＝アルゼンチン"
  ARG_mio_trait_dreams_of_a_domestic_tank_trait: "国産戦車の夢"
  ########################################################################
+ ##      ## ##     ## ##    ## ########  ######## ########  ##      ##    ###    ######## ######## ########
+ ##  ##  ## ##     ## ###   ## ##     ## ##       ##     ## ##  ##  ##   ## ##   ##       ##       ##
+ ##  ##  ## ##     ## ####  ## ##     ## ##       ##     ## ##  ##  ##  ##   ##  ##       ##       ##
+ ##  ##  ## ##     ## ## ## ## ##     ## ######   ########  ##  ##  ## ##     ## ######   ######   ######
+ ##  ##  ## ##     ## ##  #### ##     ## ##       ##   ##   ##  ##  ## ######### ##       ##       ##
+ ##  ##  ## ##     ## ##   ### ##     ## ##       ##    ##  ##  ##  ## ##     ## ##       ##       ##
+ ###  ###   #######  ##    ## ########  ######## ##     ##  ###  ###  ##     ## ##       ##       ########
+ ##########################
+ ######## AUSTRIA #########
+ ##########################
+ AUS_ansaldo_organization: "アンサルド"
+ AUS_stabilimento_tecnico_triestino_organization: "トリエステ技術工場"
+ AUS_ELIN_organization: "ELIN"
+ AUS_phonix_fleugzeugwerke_organization: "フェニックス航空"
+ AUS_hirtenberger_organization: "ヒルテンベルガー防御システム"
+ AUS_steyr_organization: "シュタイヤー・アームズ"
+ AUS_graf_and_stift_organization: "グラーフ＆シュティフト"
+ AUS_osterreichische_saurerwerke_organization: "オーストリア・ザウアーヴェルケ"
+ AUS_mio_robust_light_aircraft: "安定した軽航空機の設計社"
+ AUS_mio_trait_static_wings: "エルロン整備工場"
+ AUS_mio_trait_weight_optimization: "重量最適化"
+ AUS_mio_trait_structural_integrity: "改善された構造的完全性"
+ AUS_mio_trait_range_speed: "エンジン最適化"
+ AUS_mio_trait_production_speed: "合理化された生産"
+ AUS_mio_trait_radar_improvements: "レーダーとソナーの融合"
+ AUS_mio_initial_trait_technologically_advanced_submarines: "先進的な潜水艦設計社"
+ AUS_mio_standardize_piercing_ammunition: "徹甲弾"
+ AUS_mio_standardize_cheaper_ammunition: "安価な弾薬"
+ AUS_graf_und_stift_initial_mio_trait_speed_focused_organization: "高速自動車製造会社"
+ AUS_mio_trait_improved_suspensions: "改良型サスペンション"
+ AUS_mio_trait_fuel_effeicient_engines: "低燃費エンジン"
+ AUS_mio_trait_thorough_construction: "綿密な建設"
+ AUS_mio_trait_modular_construction: "モジュール式建造法"
+ AUS_saurerwerke_initial_mio_trait_attack_focused_organization: "攻撃特化型自動車の製造会社"
+ AUS_mio_trait_improved_armaments: "改良型兵器"
+ AUS_mio_trait_high_quality_mass_production: "高品質の大量生産"
+ AUS_mio_trait_innovative_riflemaking: "革新的な設計"
+ AUS_mio_trait_cutting_corners: "手抜き"
+ AUS_osterreichische_fleugzeugfabrik_organization: "オーストリア航空機製造工場AG"
+ #BELGIUM - Organizations
+ BEL_vickers_armstrong_bel_organization: "ヴィッカース・アームストロング、ベルギー"
+ BEL_fonderie_royale_canons: "王立大砲鋳造所"
+ BEL_renault_organization: "ルノー、ベルギー"
+ BEL_stampe_et_renard: "スタンプ・エ・レナール"
+ BEL_fonderie_royale_de_canons_liege_organization: "リエージュ王立大砲鋳造所"
+ BEL_fn_herstal_organization: "FNハースタル"
+ BEL_minerva_imperia_armored_car_organization: "ミネルバ・インペリア製装甲車"
+ BEL_minerva_imperia_motorized_organization: "ミネルバ・インペリア自動車"
+ BEL_laboratoire_aerotechnique_de_belgique_organization: "ベルギー航空技術研究所"
+ #BELGIUM - MIO Traits
+ BEL_mio_initial_trait_fn_herstal: "小型武器製造会社"
+ BEL_mio_trait_belgium_congo_link: "ベルギーとコンゴのつながり"
+ BEL_mio_trait_high_speed_transport: "高速輸送機"
+ BEL_mio_trait_anti_submarine_expertise: "対潜ノウハウ"
+ BEL_mio_trait_all_metal_expertise: "あらゆる金属の専門知識"
+ BEL_mio_trait_browning_collaboration: "ブローニングとの提携"
+ BEL_mio_trait_outsourced_production: "外部委託生産"
+ BEL_mio_trait_browning_automatic_rifles: "ブローニング自動小銃"
+ BEL_mio_trait_assault_rifles: "突撃砲"
+ BEL_mio_trait_47mm_at_guns: "47mm 対戦車砲"
+ BEL_mio_trait_excellent_machining_tools: "優れた加工工具"
+ BEL_mio_trait_knight_engines: "ナイトエンジン"
+ BEL_mio_trait_heavy_machine_guns: "重機関銃"
+ BEL_mio_trait_high_grade_armor: "高品質な装甲"
+ BEL_mio_trait_flourishing_automobile_industry: "繁栄する自動車業界"
+ BEL_mio_trait_fonderie_royale_canons: "王立大砲鋳造所"
+ BEL_mio_trait_stampe_et_vertrongen: "スタンプ・エ・ヴェルトロンゲン"
+ BEL_mio_trait_stampe_et_renard: "スタンプ・エ・レナール"
+ #CONGO - Organizations
+ COG_fonderie_royale_de_canons_leopoldville_organization: "レオポルドヴィル王立大砲鋳造所"
+ COG_fn_hershal_organization: "FNハースタル"
+ COG_explosifs_congo_organization: "アフリカ・コンゴ爆発物協会"
+ ########################################################################
  ######   ######## ##    ## ######## ########  ####  ######   ######
  ##    ##  ##       ###   ## ##       ##     ##  ##  ##    ## ##    ##
  ##        ##       ####  ## ##       ##     ##  ##  ##       ##
@@ -996,6 +1196,9 @@
  ##    ##  ##       ##  #### ##       ##   ##    ##  ##             ##
  ##    ##  ##       ##   ### ##       ##    ##   ##  ##    ## ##    ##
  ######   ######## ##    ## ######## ##     ## ####  ######   ######
+ ### GENERIC TOOLTIPS FOR SPECIAL TRAITS ##
+ generic_has_already_completed_this_trait: "この特性は別の組織ですでに完了済み"
+ generic_trait_will_not_be_available_in_other_organizations: "§Rこの特性は別の組織では利用不可能になる§!。"
  ###  ##  #  # # #     #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
  ##  # ## # # #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
  ##### # ## ##      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #
@@ -1106,6 +1309,24 @@
  generic_mio_trait_24h_rotation_shifts: "24時間交代勤務"
  generic_mio_trait_long_distance_escort: "長距離列車の護衛"
  generic_mio_trait_barrels_of_hell: "地獄の樽"
+ #####################################
+ ##### ASSAULT GUNS MANUFACTURER #####
+ #####################################
+ generic_assault_guns_organization: "突撃砲製造会社"
+ generic_mio_initial_trait_assault_guns_organization: "突撃砲製造会社"
+ generic_mio_trait_light_assault_gun_improvements: "自走砲"
+ generic_mio_trait_light_assault_gun_anti_tank_combo: "高性能徹甲弾"
+ generic_mio_trait_light_assault_gun_improved_cannon_stabilization: "改善された大砲の安定性"
+ generic_mio_trait_light_assault_gun_10_5_iefh_ammunition: "10.5cm軽野戦榴弾砲の弾薬"
+ generic_mio_trait_medium_assault_gun_improvements: "自走砲"
+ generic_mio_lighter_materials_assault_guns: "より軽量な材料"
+ generic_mio_armor_hardening_process_assault_guns: "大規模な装甲硬化処理"
+ generic_mio_medium_assault_gun_rocket_tubes: "搭載されたロケットチューブ"
+ generic_mio_medium_assault_gun_75_mm_43M_tank_gun: "75mm 43M 戦車砲"
+ generic_mio_medium_assault_gun_low_slung_superstructure_and_fighting_compartment: "低床な上部構造と戦闘室"
+ generic_mio_trait_heavy_assault_gun_improvements: "移動式発射基地"
+ generic_mio_trait_fully_cast_turret_assault_gun: "完全鋳造砲塔"
+ generic_mio_trait_assault_gun_improved_tracks: "強化済みトラック"
  ## #  # ### ###      #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
  ##  #  #  #  #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
  #####  #  ###      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #
@@ -1282,7 +1503,7 @@
  #### MEDIUM AIRCRAFT MANUFACTURER ####
  ######################################
  generic_medium_aircraft_organization: "中航空機の製造会社"
- generic_mio_initial_trait_multi_role_tactical_aircraft: "多目的戦術航空機"
+ generic_mio_initial_trait_multi_role_tactical_aircraft: "中航空機の設計社"
  generic_mio_trait_narrow_build: "縮小組立"
  generic_mio_trait_mixed_material_construction: "混合材料構造"
  generic_mio_trait_multi_role_transport: "多目的輸送"
@@ -1509,6 +1730,18 @@
  generic_mio_trait_officer_support_car: "将校支援車"
  generic_mio_trait_heavy_anti_tank_gun: "重対戦車銃"
  generic_mio_trait_reinforced_wheels: "強化ホイール"
+ #################################
+ #### HELICOPTER MANUFACTURER ####
+ #################################
+ generic_helicopter_organization: "ヘリコプター製造会社"
+ generic_mio_initial_trait_helicopter_manufacturer: "ヘリコプター開発"
+ generic_mio_trait_tandem_rotor_innovations: "直列回転子の改革"
+ generic_mio_trait_single_rotor_innovations: "単一回転子の改革"
+ generic_mio_trait_side_venting_exhaust: "側面排気"
+ generic_mio_trait_improved_engine: "改良型エンジン"
+ generic_mio_trait_extra_seating: "追加座席"
+ generic_mio_trait_co_axial_rotors: "共軸回転子"
+ generic_mio_trait_mass_production_certification: "大量生産認定"
  ########### DEBUG #############
  DEBUG_generic_tank_organization: "$generic_tank_organization$"
  DEBUG_generic_infantry_tank_organization: "$generic_infantry_tank_organization$"

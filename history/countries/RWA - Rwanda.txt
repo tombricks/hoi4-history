@@ -7,6 +7,13 @@ set_technology = {
 
 set_convoys = 0
 
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	recruit_character = RWA_mutara_rudahigwa
+}
+
 recruit_character = RWA_acd2
 recruit_character = RWA_communist_guy
 recruit_character = RWA_acr
@@ -59,7 +66,6 @@ recruit_character = RWA_mt
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -71,6 +77,9 @@ recruit_character = RWA_mt
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

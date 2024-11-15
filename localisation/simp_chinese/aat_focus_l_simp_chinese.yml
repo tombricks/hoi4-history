@@ -969,7 +969,7 @@
  NOR_invite_soviet_designers_desc: "我们的共产主义盟友拥有的技术知识比我们领先数十年，如果他们把专业知识提供给我们，我们就可以利用先进的武器和车辆超越我们的敌人，并避免不必要的牺牲。"
  #Allied
  NOR_vote_of_no_confidence: "不信任投票"
- NOR_vote_of_no_confidence_desc: "我们能相信尼高斯沃尔及其工党有能力阻止布尔什维克和纳粹吗？他这次被取消资格，给人的感觉更像是希腊人打开了特洛伊城的大门，而不是一位准备保卫祖国不受共产主义侵袭的总理。我们不能任其将这个新生的国家拱手让给[SOU.GetNameDef]。"
+ NOR_vote_of_no_confidence_desc: "我们能相信尼高斯沃尔及其工党有能力阻止布尔什维克和纳粹吗？他的这次裁军，给人的感觉更像是希腊人打开了特洛伊城的大门，而不是一位准备保卫祖国不受共产主义侵袭的总理。我们不能任其将这个新生的国家拱手让给[SOU.GetNameDef]。"
  NOR_liberal_conservative_alliance: "自由保守联盟"
  NOR_liberal_conservative_alliance_desc: "尽管保守党和自由党分别代表右翼和左翼，但我们两党有足够的共同利益，我们可以组建政府联盟，并引开任何来自顽劣的劳动党的攻击。我们将共同把[ROOT.GetName]塑造成一个对资本友好且准备好在国内外作战的国家。"
  NOR_sabotage_unions: "破坏联盟"
@@ -1075,6 +1075,7 @@
  NOR_empower_hirden_desc: "党属卫队是民族统一党的准军事组织，是党部署下[NOR.GetName]未来的中坚力量。重点培养这支部队，在将来夺权与作战时意义非凡。"
  NOR_quislings_coup: "吉斯林政变"
  NOR_quislings_coup_desc: "民族统一党那符合历史发展潮流的崛起条件已然成熟。在维德孔·吉斯林元首的正确领导下，这将是我们完全控制[NOR.GetAdjective]领土，并最终扩展到整个斯堪的纳维亚半岛的初始要义。"
+ NOR_required_prep_fascist_TT: "§Y对法西斯政变的总支持度§!高于$RIGHT|0Y$（当前支持度：$LEFT|0Y$）"
  NOR_quislings_regime: "吉斯林政权"
  NOR_quislings_regime_desc: "民族统一党元首之举止稳重有目共睹。尽管许多个人在政治及私人层面上看不起他，甚至他自己的内阁里也时常发生这种事，但不可否认的是，他的固执和自信已经取得了成果。此人绝对有能力维持一个正常运转的政权，但尚能多久？有待观察。"
  NOR_get_rid_of_quisling: "踹开吉斯林"

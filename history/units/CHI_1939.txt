@@ -1374,17 +1374,18 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "CHI"
+			creator = CHI
 		}
 		requested_factories = 6
 		progress = 0.1
 		efficiency = 100
+		industrial_manufacturer = mio:CHI_hanyan_arsenal_organization
 	}
 
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "CHI" 
+			creator = CHI
 		}
 		requested_factories = 1
 		progress = 0.15
@@ -1394,7 +1395,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "CHI" 
+			creator = CHI
 		}
 		requested_factories = 1
 		progress = 0.4

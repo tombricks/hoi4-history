@@ -409,6 +409,7 @@
  SWI_frozen_assets: "Von der Schweiz eingefrorene Vermögenswerte"
  SWI_frozen_assets_desc: "Wir haben uns jahrelang auf die Schweizer Banken verlassen, doch nun haben sie ihre wahren Absichten gezeigt und sind uns in den Rücken gefallen, indem sie unser Vermögen eingefroren haben! Wir werden uns finanziell davon erholen, aber es wird Zeit brauchen."
  SWI_intel_support_idea: "Geheimdienstunterstützung"
+ SWI_humanitarian_effort: "Humanitäre Bemühungen"
  SWI_communist_party_banned_idea: "Verbot des Kommunismus"
  SWI_alpine_redoubt_dynamic_modifier: "$SWI_alpine_redoubt$"
  SWI_democratic_unrest: "Demokratische Unruhen"

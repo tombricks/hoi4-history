@@ -103,7 +103,7 @@
  NOR_naval_expanion_desc: "要生存，就要守住海岸线，因此缺少不了船只。因此，我们必须让每个峡湾都成为船坞。"
  NOR_prepare_state_fascist: "谋求[FROM.GetName]支持"
  NOR_deploy_state_preparation_fascist: "[get_deploy_prep_decision_name_fascist]"
- NOR_invite_fascist_to_invade: "邀请[?platonic_local_dangerous_fascist.GetName]入侵[NOR.GetNonIdeologyName]"
+ NOR_invite_fascist_to_invade: "邀请[GER.GetNameDef]入侵[NOR.GetNonIdeologyName]"
  NOR_decision_take_over_state_title: "接管[FROM.GetName]"
  NOR_decision_industrial_takeover_title: "工业接管[FROM.GetName]"
  NOR_decision_military_takeover_title: "军事接管[FROM.GetName]"
@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "要求查禁法西斯主义"
  DEN_demand_weapon_deliveries: "请求输送武器"
  DEN_demand_troops: "请求丹麦部队"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "丹麦贸易协议"
  DEN_increase_trade_with_denmark: "提高对[DEN.GetName]贸易"

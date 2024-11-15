@@ -1,4 +1,44 @@
-characters={
+characters = {
+
+	RWA_mutara_rudahigwa = {
+
+		name = RWA_mutara_rudahigwa
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RWA_mutara_rudahigwa
+				small = GFX_portrait_RWA_mutara_rudahigwa_small
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { trait_ummwami }
+			expire = "1977.1.1.1"
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				has_country_leader = {
+					ruling_only = yes
+					character = RWA_mutara_rudahigwa
+				}	
+			}
+		}
+
+	}
+	
+
+
+
 	RWA_acd2={
 		advisor={
 			slot = army_chief

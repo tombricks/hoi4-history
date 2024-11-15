@@ -1,18 +1,3 @@
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-# contain
-# area_priority
-
-
 CZE_unit_production = {
 	allowed = { 
 		original_tag = CZE
@@ -139,8 +124,8 @@ CZE_unit_production = {
 		value = 20
 	}
 	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
+		type = equipment_production_min_factories_archetype
+		id = artillery_equipment
 		value = 1
 	}
 	#ai_strategy = {
@@ -410,6 +395,7 @@ CZE_tank_export = { #TONKS
 		}
 		has_war = no
 		controls_state = 69 #Sudetenland
+		controls_state = 972 #Southern Sudetenland
 	}
 	abort_when_not_enabled = yes
 

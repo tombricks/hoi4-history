@@ -56,16 +56,18 @@ GER_fighter = {
 				fixed_main_weapon_slot = light_mg_2x
 				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
 				engine_type_slot = engine_2_1x
-				special_type_slot_1 = empty
-				special_type_slot_2 = empty	
+				special_type_slot_1 = fuel_tanks_small
+				special_type_slot_2 = armor_plate_small	
 			}
 		}
 
 		allowed_modules = {
 			light_mg_2x
 			aircraft_cannon_1_2x
+			aircraft_cannon_1_1x
 			engine_2_1x
 			armor_plate_small
+			fuel_tanks_small
 		}
 	}
 
@@ -88,16 +90,20 @@ GER_fighter = {
 				engine_type_slot = engine_3_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = self_sealing_fuel_tanks_small	
+				special_type_slot_3 = fuel_tanks_small	
 			}
 		}
 
 		allowed_modules = {
+			heavy_mg_2x
 			light_mg_4x
+			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
 			engine_3_1x
 			armor_plate_small
 			drop_tanks
 			self_sealing_fuel_tanks_small
+			fuel_tanks_small
 		}
 	}
 
@@ -116,18 +122,23 @@ GER_fighter = {
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
 				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
 				engine_type_slot = engine_3_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = drop_tanks	
+				special_type_slot_3 = fuel_tanks_small	
 			}
 		}
 
 		allowed_modules = {
 			light_mg_4x
 			aircraft_cannon_1_2x
+			heavy_mg_2x
 			engine_3_1x
 			armor_plate_small
 			drop_tanks
+			self_sealing_fuel_tanks_small
+			fuel_tanks_small
 		}
 	}
 

@@ -244,6 +244,7 @@
  SPR_gonzalo_queipo_de_llano: "ゴンサロ・ケイポ・デ・リャーノ"
  SPR_jose_millan_astray: "ホセ・ミラン・アストライ"
  SPR_miguel_buiza_fernandez_palacios: "ミゲル・ブイサ・フェルナンデス＝パラショス"
+ SPR_manuel_azana: "マヌエル・アサーニャ"
  #PORTUGAL
  POR_antonio_de_oliveira_salazar: "アントニオ・デ・オリヴェイラ・サラザール"
  POR_bento_goncalves: "ベント・ゴンサルヴェス"
@@ -712,6 +713,17 @@
  POL_karol_korytowski: "カロル・コリトフスキ"
  POL_boleslaw_bierut: "ボレスワフ・ビェルト"
  POL_edward_osobka_morawski: "エドヴァルト・オスブカ＝モラフスキ"
+ #Divisional Commanders
+ POL_zygmunt_podhorski: "ジグムント・ポドホルスキ"
+ POL_adam_zakrzewski: "アダム・ザクルシェフスキー"
+ POL_konstanty_drucki_lubecki: "コンスタンティ・ドルツキ＝ルベツキ"
+ POL_leon_strzelecki: "レオン・ストシェレツキ"
+ POL_sergiusz_zahorski: "セルギウシュ・ザホルスキー"
+ POL_jerzy_grobicki: "イェジ・グロビツキ"
+ POL_julian_filipowicz: "ユリアン・フィリポヴィッツ"
+ POL_zygmunt_piasecki: "ジグムント・ピアセツキ"
+ POL_konstanty_plisowski: "コンスタンティ・プリソフスキ"
+ POL_jan_karcz: "ヤン・カルツ"
  #CZECHOSLOVAKIA
  CZE_edvard_benesh: "エドヴァルド・ベネシュ"
  CZE_jaroslav_krejchi: "ヤロスラフ・クレイチ"

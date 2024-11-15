@@ -1,7 +1,7 @@
 ﻿division_template = {
 	name = "Landsturmregiment"
 	is_locked = yes
-
+	template_counter = 3 # The Crossed Rifles
 	division_names_group = GER_Inf_01
 
 	regiments = {

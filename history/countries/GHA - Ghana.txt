@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 15
 
+recruit_character = GHA_kwame_nkrumah
 recruit_character = GHA_acd2
 recruit_character = GHA_communist_guy
 recruit_character = GHA_acr
@@ -59,7 +60,6 @@ recruit_character = GHA_mt
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -71,6 +71,9 @@ recruit_character = GHA_mt
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

@@ -126,6 +126,7 @@ if = {
 		complete_national_focus = POR_food_industries
 		complete_national_focus = POR_textile_industry
 		complete_national_focus = POR_colonial_assimilation_policy
+		complete_national_focus = POR_portuguese_artillery
 
 		SPA = {
 			add_opinion_modifier = {
@@ -180,7 +181,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -196,6 +196,9 @@ if = {
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

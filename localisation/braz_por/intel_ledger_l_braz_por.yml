@@ -253,3 +253,6 @@
  LEDGER_CIV_GRAPH_SHOW_BOMBERS: "§HExibir gráfico e bombardeiros produzidos e perdidos§!"
  LEDGER_CIV_GRAPH_SHOW_TRUCKS: "§HExibir o gráfico de caminhões em reserva§!"
  LEDGER_CIV_GRAPH_SHOW_TRAINS: "§HExibir o gráfico de trens em reserva§!"
+ INTEL_LEDGER_RAIDS_DETECT_ON_LAUNCH: "Incursões inimigas são detectadas quando iniciadas ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_HALFWAY_PREPARATION: "Incursões inimigas são detectadas na metade da preparação para serem iniciadas ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_EARLY_PREPARATION: "Incursões inimigas são detectadas durante a preparação inicial ($CATEGORIES|H$)"

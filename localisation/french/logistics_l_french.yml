@@ -90,6 +90,7 @@
  LOGISTICS_RESOURCES_NAVAL: "Requis pour la production maximale de matériel naval : $NEED|Y$ unités de $RESOURCE|H$."
  LOGISTICS_RESOURCES_LAND: "Requis pour la production maximale de matériel terrestre : $NEED|Y$ unités de $RESOURCE|H$."
  LOGISTICS_RESOURCES_AIR: "Requis pour la production maximale de matériel aérien : $NEED|Y$ unités de $RESOURCE|H$."
+ LOGISTICS_RESOURCES_PROJECT: "Requis pour la production maximale de projets spéciaux : $NEED|Y$ unités de $RESOURCE|H$."
  LOGISTICS_RESOURCE_NEED_SUMMERY: "Actuellement, pour maximiser la production $NEED|Y$ unités supplémentaires de $RESOURCE|lH$ sont nécessaires."
  LOGISTICS_NEED_LEND_LEASE_LOW_VALUE: "Prêts-bails : $NEED|^1Y$ unités"
  LOGISTICS_NEED_LEND_LEASE_HIGH_VALUE: "Prêts-bails : $NEED|^0Y$ unités"

@@ -5,3 +5,4 @@
  state_is_fully_controlled_by_ROOT_or_subject_tt: "Wird vollständig von §Y[ROOT.GetFlag][ROOT.GetName]§! oder einem beliebigen §Y[ROOT.GetAdjective]en Untertanen§! kontrolliert"
  is_at_peace_exiled_countries_excluded_tt: "Befindet sich im Frieden (Krieg mit Exilländern ausgeschlossen)"
  is_alpine_TT: "Ist ein Alpenstaat"
+ state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt: "Wird vollständig von §Y[ROOT.GetFlag][ROOT.GetName]§!, einem beliebigen §Y[ROOT.GetAdjective]en Untertanen§! oder einem §YBündnismitglied§! kontrolliert"

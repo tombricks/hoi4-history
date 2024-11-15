@@ -18,6 +18,7 @@
 		artillery = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Gebirgs-Division"						# Gebirgs-Divisions
 	division_names_group = GER_Mnt_01
@@ -37,6 +38,7 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 	}
 }
+
 division_template = { 						
 	name = "Fallschirmjäger-Division"				# Represents Fallschirm-jaeger Rgts 1 and 2
 	division_names_group = GER_PAR_01
@@ -49,6 +51,7 @@ division_template = {
 		paratrooper = { x = 1 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Infanterie-Division (mot.)" 			# Infanterie-Divisionen (mot)
 	division_names_group = GER_MOT_02
@@ -70,6 +73,7 @@ division_template = {
         artillery = { x = 0 y = 2 }			
 	}
 }
+
 division_template = {
 	name = "Leichte Division"				# Represents Leichte Divisions (10. Div, PzG Kempf)
 	division_names_group = GER_LTARM_01
@@ -86,6 +90,7 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Panzer-Division"				# Represents Panzer Divisions 1-5
 	division_names_group = GER_Arm_01
@@ -104,8 +109,9 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
-	name = "SS-Regiment"					# SS regiments (elite equipment & training)
+	name = "SS-Regiment"					# Motorized Panzergrenadier SS regiments (elite equipment & training)
 	division_names_group = GER_SS_01
 
 	regiments = {
@@ -118,6 +124,7 @@ division_template = {
 	}
 	priority = 2
 }
+
 division_template = {
 	name = "Kavallerie-Brigade"				# 1. Kavalerrie Brigaden
 	division_names_group = GER_Cav_01
@@ -131,6 +138,7 @@ division_template = {
 	    recon = { x = 0 y = 0 }
 	}
 }
+
 division_template = {
 	name = "Sicherungs-Division"				# Represents Border Guard Commands, Fortress Groups, etc.
 	division_names_group = GER_GAR_01
@@ -152,7 +160,7 @@ division_template = {
 units = {
 
 	####### Oberbefehlshaber der Luftwaffe (CO: H. Göring) #######
-	division= {	
+	division = {	
 		name = "7. Flieger-Division"
 		location = 6521  # Berlin
 		division_template = "Fallschirmjäger-Division"
@@ -161,132 +169,135 @@ units = {
 
 	####### Oberkommando des Heeres #######
 	##### Heeresgruppe C (CO: von Leeb) #####
-	division= {	# "76. Infanterie-Division"
+	division = {	# "76. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 76
+			is_name_ordered = yes
+			name_order = 76
 		}
 		location = 6389
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	### 1. Armee (CO: von Witzlieben) ###
-	division= {	# "75. Infanterie-Division"
+	division = {	# "75. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 75
+			is_name_ordered = yes
+			name_order = 75
 		}
 		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "209. Infanterie-Division"
+	division = {	# "209. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 209
+			is_name_ordered = yes
+			name_order = 209
 		}
 		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
-	division= {	# "214. Infanterie-Division"
+	division = {	# "214. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 214
+			is_name_ordered = yes
+			name_order = 214
 		}
 		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
-	division= {	# "223. Infanterie-Division"
+	division = {	# "223. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 223
+			is_name_ordered = yes
+			name_order = 223
 		}
 		location = 11470
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
-	division= {	# "231. Infanterie-Division"
+	division = {	# "231. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 231
+			is_name_ordered = yes
+			name_order = 231
 		}
 		location = 11435
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
-	division= {	# "246. Infanterie-Division"
+	division = {	# "246. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 246
+			is_name_ordered = yes
+			name_order = 246
 		}
 		location = 11435
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
+
 	# IX. Armeekorps (CO: Geyer) #
-	division= {	# "25. Infanterie-Division"
+	division = {	# "25. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 25
+			is_name_ordered = yes
+			name_order = 25
 		}
 		location = 9575
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "33. Infanterie-Division"
+	division = {	# "33. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 33
+			is_name_ordered = yes
+			name_order = 33
 		}
 		location = 9575
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XII. Armeekorps (CO: Schroth) #
-	division= {	# "15. Infanterie-Division"
+	division = {	# "15. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 15
+			is_name_ordered = yes
+			name_order = 15
 		}
 		location = 11531
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "34. Infanterie-Division"
+	division = {	# "34. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 34
+			is_name_ordered = yes
+			name_order = 34
 		}
 		location = 11531
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "52. Infanterie-Division"
+	division = {	# "52. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 52
+			is_name_ordered = yes
+			name_order = 52
 		}
 		location = 11531
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "79. Infanterie-Division"
+	division = {	# "79. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 79
+			is_name_ordered = yes
+			name_order = 79
 		}
 		location = 563
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division = {	
 		name = "Grenzkommando St. Wendel"
 		location = 563
 		division_template = "Sicherungs-Division"
@@ -295,38 +306,39 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# Grenzschutz-Abschnitts-Kommando Saarpfalz (CO: Kuntze) #
-	division= {	# "6. Infanterie-Division"
+	division = {	# "6. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 6
+			is_name_ordered = yes
+			name_order = 6
 		}
 		location = 3558
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "9. Infanterie-Division"
+	division = {	# "9. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 9
+			is_name_ordered = yes
+			name_order = 9
 		}
 		location = 3558
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "36. Infanterie-Division"
+	division = {	# "36. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 36
+			is_name_ordered = yes
+			name_order = 36
 		}
 		location = 3558
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "71. Infanterie-Division"
+	division = {	# "71. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 71
+			is_name_ordered = yes
+			name_order = 71
 		}
 		location = 3558
 		division_template = "Infanterie-Division"
@@ -334,86 +346,89 @@ units = {
 	}
 
 	### 5. Armee (CO: Liebmann) ###
-	division= {	# "58. Infanterie-Division"
+	division = {	# "58. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 58
+			is_name_ordered = yes
+			name_order = 58
 		}
 		location = 6469
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "87. Infanterie-Division"
+	division = {	# "87. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 87
+			is_name_ordered = yes
+			name_order = 87
 		}
 		location = 6469
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# V. Armeekorps (CO: Ruoff) #
-	division= {	# "22. Infanterie-Division"
+	division = {	# "22. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 22
+			is_name_ordered = yes
+			name_order = 22
 		}
 		location = 11264
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "225. Infanterie-Division"
+	division = {	# "225. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 225
+			is_name_ordered = yes
+			name_order = 225
 		}
 		location = 9281
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 	}
+
 	# VI. Armeekorps (CO: von Förster) (no major units) #
 	# XXVII. Armeekorps (CO: von Prager) #
-	division= {	# "16. Infanterie-Division"
+	division = {	# "16. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 16
+			is_name_ordered = yes
+			name_order = 16
 		}
 		location = 11346
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "69. Infanterie-Division"
+	division = {	# "69. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 69
+			is_name_ordered = yes
+			name_order = 69
 		}
 		location = 6622
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "211. Infanterie-Division"
+	division = {	# "211. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 211
+			is_name_ordered = yes
+			name_order = 211
 		}
 		location = 9522
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "216. Infanterie-Division"
+	division = {	# "216. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 216
+			is_name_ordered = yes
+			name_order = 216
 		}
 		location = 3547
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
+
 	# XXX. Armeekorps (CO: Hartmann) #
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 9"
 		location = 241
 		division_template = "Sicherungs-Division"
@@ -422,8 +437,9 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# Grenzschutz-Abschnitts-Kommando Eiffel (CO: ) #
-	division= {	
+	division = {	
 		name = "Grenzkommando Aachen"
 		location = 3444
 		division_template = "Sicherungs-Division"
@@ -432,7 +448,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Grenzkommando Trier"
 		location = 3512
 		division_template = "Sicherungs-Division"
@@ -443,37 +459,38 @@ units = {
 	}
 
 	### 7. Armee (CO: Dollmann) ###
-	division= {	# "78. Infanterie-Division"
+	division = {	# "78. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 78
+			is_name_ordered = yes
+			name_order = 78
 		}
 		location = 3530
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "212. Infanterie-Division"
+	division = {	# "212. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 212
+			is_name_ordered = yes
+			name_order = 212
 		}
 		location = 6542
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "215. Infanterie-Division"
+	division = {	# "215. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 215
+			is_name_ordered = yes
+			name_order = 215
 		}
 		location = 3530
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
+
 	# Grenzschutz-Abschnitts-Kommando Oberhein (CO: Wager) #
-	division= {	
+	division = {	
 		name = "SS-Standarte 'Der Führer'"
 		location = 11640
 		division_template = "SS-Regiment"
@@ -481,23 +498,23 @@ units = {
 	}
 	division= {	# "5. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 5
+			is_name_ordered = yes
+			name_order = 5
 		}
 		location = 6712
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "35. Infanterie-Division"
+	division = {	# "35. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 35
+			is_name_ordered = yes
+			name_order = 35
 		}
 		location = 6712
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division = {	
 		name = "14. Landwehr-Division"
 		location = 11640
 		division_template = "Sicherungs-Division"
@@ -508,10 +525,10 @@ units = {
 	}
 
 	### Heeresgruppe C Reserves ###
-	division= {	# "251. Infanterie-Division"
+	division = {	# "251. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 251
+			is_name_ordered = yes
+			name_order = 251
 		}
 		location = 9517
 		division_template = "Infanterie-Division"
@@ -520,10 +537,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "253. Infanterie-Division"
+	division = {	# "253. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 253
+			is_name_ordered = yes
+			name_order = 253
 		}
 		location = 9517
 		division_template = "Infanterie-Division"
@@ -532,10 +549,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "254. Infanterie-Division"
+	division = {	# "254. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 254
+			is_name_ordered = yes
+			name_order = 254
 		}
 		location = 9517
 		division_template = "Infanterie-Division"
@@ -544,10 +561,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "255. Infanterie-Division"
+	division = {	# "255. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 255
+			is_name_ordered = yes
+			name_order = 255
 		}
 		location = 9517
 		division_template = "Infanterie-Division"
@@ -556,10 +573,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "256. Infanterie-Division"
+	division = {	# "256. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 256
+			is_name_ordered = yes
+			name_order = 256
 		}
 		location = 692
 		division_template = "Infanterie-Division"
@@ -568,10 +585,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "260. Infanterie-Division"
+	division = {	# "260. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 260
+			is_name_ordered = yes
+			name_order = 260
 		}
 		location = 692
 		division_template = "Infanterie-Division"
@@ -580,10 +597,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "262. Infanterie-Division"
+	division = {	# "262. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 262
+			is_name_ordered = yes
+			name_order = 262
 		}
 		location = 692
 		division_template = "Infanterie-Division"
@@ -592,10 +609,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "263. Infanterie-Division"
+	division = {	# "263. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 263
+			is_name_ordered = yes
+			name_order = 263
 		}
 		location = 11544
 		division_template = "Infanterie-Division"
@@ -604,10 +621,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "267. Infanterie-Division"
+	division = {	# "267. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 267
+			is_name_ordered = yes
+			name_order = 267
 		}
 		location = 11544
 		division_template = "Infanterie-Division"
@@ -616,10 +633,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "268. Infanterie-Division"
+	division = {	# "268. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 268
+			is_name_ordered = yes
+			name_order = 268
 		}
 		location = 692
 		division_template = "Infanterie-Division"
@@ -628,10 +645,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "269. Infanterie-Division"
+	division = {	# "269. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 269
+			is_name_ordered = yes
+			name_order = 269
 		}
 		location = 692
 		division_template = "Infanterie-Division"
@@ -640,65 +657,65 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-
 
 	##### Heeresgruppe Nord (CO: von Bock) #####
-	division= {	# "73. Infanterie-Division"
+	division = {	# "73. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 73
+			is_name_ordered = yes
+			name_order = 73
 		}
 		location = 6282
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "206. Infanterie-Division"
+	division = {	# "206. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 206
+			is_name_ordered = yes
+			name_order = 206
 		}
 		location = 9277
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "208. Infanterie-Division"
+	division = {	# "208. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 208
+			is_name_ordered = yes
+			name_order = 208
 		}
 		location = 9277
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "10. Panzer-Division"
+	division = {	# "10. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 10
+			is_name_ordered = yes
+			name_order = 10
 		}
 		location = 9277
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
+
 	### 3. Armee (CO: von Küchler) ###
-	division= {	# "217. Infanterie-Division"
+	division = {	# "217. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 217
+			is_name_ordered = yes
+			name_order = 217
 		}
 		location = 6332
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	
+	division = {	
 		name = "1. Kavallerie-Brigade"
 		location = 11386
 		division_template = "Kavallerie-Brigade"
 		start_experience_factor = 0.2
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 15"
 		location = 11386
 		division_template = "Sicherungs-Division"
@@ -707,7 +724,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Grenzkommando Danzig"
 		location = 3380
 		division_template = "Sicherungs-Division"
@@ -716,52 +733,55 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# I. Armeekorps (CO: Petzel) #
-	division= {	# "11. Infanterie-Division"
+	division = {	# "11. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 11
+			is_name_ordered = yes
+			name_order = 11
 		}
 		location = 9346
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "61. Infanterie-Division"
+	division = {	# "61. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 61
+			is_name_ordered = yes
+			name_order = 61
 		}
 		location = 6375
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division = {	
 		name = "Panzer-Division Kempf"
 		location = 6375
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.2
 	}
+
 	# XXI. Armeekorps (CO: von Falkenhorst) #
-	division= {	# "21. Infanterie-Division"
+	division = {	# "21. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 21
+			is_name_ordered = yes
+			name_order = 21
 		}
 		location = 3351
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "228. Infanterie-Division"
+	division = {	# "228. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 228
+			is_name_ordered = yes
+			name_order = 228
 		}
 		location = 3351
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
+
 	# Gruppe Brand (CO: Brand) #
-	division= {	
+	division = {	
 		name = "Festung Königsberg"
 		location = 6332
 		division_template = "Sicherungs-Division"
@@ -770,7 +790,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Festung Lötzen"
 		location = 9327
 		division_template = "Sicherungs-Division"
@@ -779,20 +799,21 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# Gruppe Wodrig (CO: Wodrig) #
-	division= {	# "1. Infanterie-Division"
+	division = {	# "1. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+			is_name_ordered = yes
+			name_order = 1
 		}
 		location = 9372
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "12. Infanterie-Division"
+	division = {	# "12. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 12
+			is_name_ordered = yes
+			name_order = 12
 		}
 		location = 9372
 		division_template = "Infanterie-Division"
@@ -800,36 +821,36 @@ units = {
 	}
 
 	### 4. Armee (CO: von Kluge) ###
-	division= {	# "23. Infanterie-Division"
+	division = {	# "23. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 23
+			is_name_ordered = yes
+			name_order = 23
 		}
 		location = 11316
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "207. Infanterie-Division"
+	division = {	# "207. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 207
+			is_name_ordered = yes
+			name_order = 207
 		}
 		location = 9277
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "218. Infanterie-Division"
+	division = {	# "218. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 218
+			is_name_ordered = yes
+			name_order = 218
 		}
 		location = 9277
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 1"
 		location = 11343
 		division_template = "Sicherungs-Division"
@@ -838,7 +859,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 2"
 		location = 9387
 		division_template = "Sicherungs-Division"
@@ -847,7 +868,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 12"
 		location = 6236
 		division_template = "Sicherungs-Division"
@@ -856,70 +877,72 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# II. Armeekorps (CO: Strauss) #
-	division= {	# "3. Infanterie-Division"
+	division = {	# "3. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 3
+			is_name_ordered = yes
+			name_order = 3
 		}
 		location = 11260
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "32. Infanterie-Division"
+	division = {	# "32. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 32
+			is_name_ordered = yes
+			name_order = 32
 		}
 		location = 11260
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# III. Armeekorps (CO: Hasse) #
-	division= {	# "50. Infanterie-Division"
+	division = {	# "50. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 50
+			is_name_ordered = yes
+			name_order = 50
 		}
 		location = 9252
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XIX. Armeekorps (Mot) (CO: Guderian) #
-	division= {	# "3. Panzer-Division"
+	division = {	# "3. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 3
+			is_name_ordered = yes
+			name_order = 3
 		}
 		location = 11288
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "2. Infanterie-Division (mot.)"
+	division = {	# "2. Infanterie-Division (mot.)"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+			is_name_ordered = yes
+			name_order = 2
 		}
 		location = 11288
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
-	division= {	# "20. Infanterie-Division (mot.)"
+	division = {	# "20. Infanterie-Division (mot.)"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 20
+			is_name_ordered = yes
+			name_order = 20
 		}
 		location = 11288
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
-
 	
 	##### Heeresgruppe Süd (CO: von Bock) #####
-	division= {	# "252. Infanterie-Division"
+	division = {	# "252. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 252
+			is_name_ordered = yes
+			name_order = 252
 		}
 		location = 6576
 		division_template = "Infanterie-Division"
@@ -928,10 +951,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "257. Infanterie-Division"
+	division = {	# "257. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 257
+			is_name_ordered = yes
+			name_order = 257
 		}
 		location = 6576
 		division_template = "Infanterie-Division"
@@ -940,10 +963,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	# "258. Infanterie-Division"
+	division = {	# "258. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 258
+			is_name_ordered = yes
+			name_order = 258
 		}
 		location = 6576
 		division_template = "Infanterie-Division"
@@ -954,19 +977,19 @@ units = {
 	}
 	
 	# VII. Armeekorps (CO: Schobert) #
-	division= {	# "27. Infanterie-Division"
+	division = {	# "27. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 27
+			is_name_ordered = yes
+			name_order = 27
 		}
 		location = 9570
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "68. Infanterie-Division"
+	division = {	# "68. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 68
+			is_name_ordered = yes
+			name_order = 68
 		}
 		location = 9570
 		division_template = "Infanterie-Division"
@@ -974,29 +997,29 @@ units = {
 	}
 	
 	# XXII. Armeekorps (CO: von Kleist) #
-	division= {	# "62. Infanterie-Division"
+	division = {	# "62. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 62
+			is_name_ordered = yes
+			name_order = 62
 		}
 		location = 11539
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "213. Infanterie-Division"
+	division = {	# "213. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 213
+			is_name_ordered = yes
+			name_order = 213
 		}
 		location = 11539
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	# "221. Infanterie-Division"
+	division = {	# "221. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 221
+			is_name_ordered = yes
+			name_order = 221
 		}
 		location = 11539
 		division_template = "Infanterie-Division"
@@ -1005,16 +1028,16 @@ units = {
 	}
 	
 	### 8. Armee (CO: Blaskowitz) ###
-	division= {	# "30. Infanterie-Division"
+	division = {	# "30. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 30
+			is_name_ordered = yes
+			name_order = 30
 		}
 		location = 9470
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 13"
 		location = 11478
 		division_template = "Sicherungs-Division"
@@ -1023,7 +1046,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 14"
 		location = 444
 		division_template = "Sicherungs-Division"
@@ -1032,36 +1055,38 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# X. Armeekorps (CO: Ulex) #
-	division= {	# "24. Infanterie-Division"
+	division = {	# "24. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 24
+			is_name_ordered = yes
+			name_order = 24
 		}
 		location = 3510
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XIII. Armeekorps (CO: Osterkamp) #
-	division= {	
+	division = {	
 		name = "SS Leibstandarte 'Adolf Hitler'"
 		location = 3283
 		division_template = "SS-Regiment"
 		start_experience_factor = 0.4
 	}
-	division= {	# "10. Infanterie-Division"
+	division = {	# "10. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 10
+			is_name_ordered = yes
+			name_order = 10
 		}
 		location = 3283
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "17. Infanterie-Division"
+	division = {	# "17. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 17
+			is_name_ordered = yes
+			name_order = 17
 		}
 		location = 3283
 		division_template = "Infanterie-Division"
@@ -1069,123 +1094,128 @@ units = {
 	}
 
 	### 10. Armee (CO: von Reicheneau) ###
-	division= {	# "1. Leichte Division"
+	division = {	# "1. Leichte Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 6
+			is_name_ordered = yes
+			name_order = 6
 		}
 		location = 6462
 		division_template = "Leichte Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "3. Leichte Division"
+	division = {	# "3. Leichte Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 8
+			is_name_ordered = yes
+			name_order = 8
 		}
 		location = 6462
 		division_template = "Leichte Division"
 		start_experience_factor = 0.3
 	}
+
 	# IV. Armeekorps (CO: von Schwedler) #
-	division= {	# "4. Infanterie-Division"
+	division = {	# "4. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 4
+			is_name_ordered = yes
+			name_order = 4
 		}
 		location = 9457
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "46. Infanterie-Division"
+	division = {	# "46. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 46
+			is_name_ordered = yes
+			name_order = 46
 		}
 		location = 9457
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XI. Armeekorps (CO: Leeb) #
-	division= {	# "13. Infanterie-Division (mot.)"
+	division = {	# "13. Infanterie-Division (mot.)"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 13
+			is_name_ordered = yes
+			name_order = 13
 		}
 		location = 479
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
-	division= {	# "29. Infanterie-Division (mot.)"
+	division = {	# "29. Infanterie-Division (mot.)"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 29
+			is_name_ordered = yes
+			name_order = 29
 		}
 		location = 479
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
+
 	# XIV. Armeekorps (Mot) (CO: Leeb) #
-	division= {	# "4. Panzer-Division"
+	division = {	# "4. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 4
+			is_name_ordered = yes
+			name_order = 4
 		}
 		location = 6576
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "18. Infanterie-Division"
+	division = {	# "18. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 18
+			is_name_ordered = yes
+			name_order = 18
 		}
 		location = 6576
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "19. Infanterie-Division"
+	division = {	# "19. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 19
+			is_name_ordered = yes
+			name_order = 19
 		}
 		location = 6576
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XV. Armeekorps (Mot) (CO: Hoth) #
-	division= {	# "2. Leichte Division"
+	division = {	# "2. Leichte Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 7
+			is_name_ordered = yes
+			name_order = 7
 		}
 		location = 3583
 		division_template = "Leichte Division"
 		start_experience_factor = 0.3
 	}
+
 	# XVI. Armeekorps (Mot) (CO: Hoepner) #
-	division= {	# "1. Panzer-Division"
+	division = {	# "1. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+			is_name_ordered = yes
+			name_order = 1
 		}
 		location = 11467
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "14. Infanterie-Division"
+	division = {	# "14. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 14
+			is_name_ordered = yes
+			name_order = 14
 		}
 		location = 11467
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "31. Infanterie-Division"
+	division = {	# "31. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 31
+			is_name_ordered = yes
+			name_order = 31
 		}
 		location = 11467
 		division_template = "Infanterie-Division"
@@ -1193,7 +1223,7 @@ units = {
 	}
 
 	### 14. Armee (CO: List) ###
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 30"
 		location = 3581
 		division_template = "Sicherungs-Division"
@@ -1202,51 +1232,52 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# VIII. Armeekorps (CO: Busch) #
-	division= {	
+	division = {	
 		name = "SS-Standarte 'Germania'"
 		location = 6590
 		division_template = "SS-Regiment"
 		start_experience_factor = 0.4
 	}
-	division= {	# "5. Panzer-Division"
+	division = {	# "5. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 5
+			is_name_ordered = yes
+			name_order = 5
 		}
 		location = 3484
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "8. Infanterie-Division"
+	division = {	# "8. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 8
+			is_name_ordered = yes
+			name_order = 8
 		}
 		location = 6590
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "28. Infanterie-Division"
+	division = {	# "28. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 28
+			is_name_ordered = yes
+			name_order = 28
 		}
 		location = 6590
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "239. Infanterie-Division"
+	division = {	# "239. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 239
+			is_name_ordered = yes
+			name_order = 239
 		}
 		location = 3484
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
 	}
-	division= {	
+	division = {	
 		name = "Grenzschutz-Abschnitts-Kommando 3"
 		location = 3484
 		division_template = "Sicherungs-Division"
@@ -1255,57 +1286,59 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+
 	# XVII. Armeekorps (CO: Keinitz) #
-	division= {	# "7. Infanterie-Division"
+	division = {	# "7. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 7
+			is_name_ordered = yes
+			name_order = 7
 		}
 		location = 6590
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "44. Infanterie-Division"
+	division = {	# "44. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 44
+			is_name_ordered = yes
+			name_order = 44
 		}
 		location = 6590
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "45. Infanterie-Division"
+	division = {	# "45. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 45
+			is_name_ordered = yes
+			name_order = 45
 		}
 		location = 6590
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
 	# XVIII. Armeekorps (CO: Beyer) #
-	division= {	# "2. Panzer-Division"
+	division = {	# "2. Panzer-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+			is_name_ordered = yes
+			name_order = 2
 		}
 		location = 581
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "4. Leichte Division"
+	division = {	# "4. Leichte Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 9
+			is_name_ordered = yes
+			name_order = 9
 		}
 		location = 581
 		division_template = "Leichte Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "3. Gebirgs-Division"
+	division = {	# "3. Gebirgs-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 3
+			is_name_ordered = yes
+			name_order = 3
 		}
 		location = 3550
 		division_template = "Gebirgs-Division"
@@ -1313,37 +1346,37 @@ units = {
 	}
 
 	### Heeresgruppe Süd Reserves ###
-	division= {	# "56. Infanterie-Division"
+	division = {	# "56. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 56
+			is_name_ordered = yes
+			name_order = 56
 		}
 		location = 514
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "57. Infanterie-Division"
+	division = {	# "57. Infanterie-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 57
+			is_name_ordered = yes
+			name_order = 57
 		}
 		location = 514
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "1. Gebirgs-Division"
+	division = {	# "1. Gebirgs-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+			is_name_ordered = yes
+			name_order = 1
 		}
 		location = 514
 		division_template = "Gebirgs-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	# "2. Gebirgs-Division"
+	division = {	# "2. Gebirgs-Division"
 		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+			is_name_ordered = yes
+			name_order = 2
 		}
 		location = 514
 		division_template = "Gebirgs-Division"
@@ -1351,6 +1384,8 @@ units = {
 	}
 	
 }
+
+
 ### air oob in separate file
 
 
@@ -1363,7 +1398,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_2
-			creator = "GER"
+			creator = GER
 		}
 		requested_factories = 15
 		progress = 0.1
@@ -1374,17 +1409,18 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 3
 		progress = 0.3
 		efficiency = 100
+		industrial_manufacturer = mio:GER_carl_walther_organization
 	}
 
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -1395,7 +1431,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_2
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 5
 		progress = 0.4
@@ -1406,7 +1442,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 5
 		progress = 0.4

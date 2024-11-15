@@ -317,7 +317,7 @@
  african_union_category: "非洲统一组织"
  african_union_category_desc: "我们需要建立一个能将整个非洲大陆的人才和资源汇集在一起​​的机构，并向着政治统一前进。非洲人民只有齐心合作，才有希望避免被再次奴役的命运。"
  promote_org_of_african_unity: "在[FROM.GetName]宣扬非洲统一组织"
- invite_to_org: "邀请[FROM.OWNER.GetName]加入组织"
+ invite_to_org: "邀请[FROM.OWNER.GetNameDef]加入组织"
  invite_to_org_tt: "与你意识形态不同的国家将不太可能接受成为成员国的邀请。"
  invite_to_ACB: "邀请[FROM.GetName]加入非洲中央银行"
  invite_to_ACB_tt: "与你们意识形态不同的国家将不太可能接受与你们的经济一体化。"

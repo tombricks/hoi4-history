@@ -166,6 +166,12 @@
  #Monarchist Path
  NOR_king_haakon_vii_ns: "Король Хокон VII"
  NOR_king_haakon_vii_ns_desc: "Первый [NOR.GetAdjective]ий монарх с XIII века, король Хокон VII является ярым поборником демократии. Он согласился принять корону только после референдума, а [NOR.GetName] и вовсе управляется его советниками и аристократией."
+ NOR_new_high_king: "Новый король"
+ NOR_new_high_king_desc: "Регент Педер Анкер Ведель-Ярлсберг объявил себя новым верховным королем Норвегии — таким образом он взял на себя власть, формально не свергая действующего короля Хокона. Тем не менее этот шаг вызвал неодобрение в соседних странах."
+ NOR_norwegian_regency: "Норвежский регент"
+ NOR_norwegian_regency_desc: "Регент Педер Анкер Ведель-Ярлсберг объявил о своем намерении лишь исполнять волю и распоряжения короля Хокона VII. Таким образом он рассчитывает установить добрые отношения с соседскими державами."
+ NOR_second_north_sea_empire: "Вторая Империя Северного моря"
+ NOR_second_north_sea_empire_desc: "Регент Педер Анкер Ведель-Ярлсберг объявил о своем намерении вернуть Норвегии ее былую славу. Уже очень скоро на небосклон взойдет звезда Норвежской империи."
  #Dynamic Modifiers
  NOR_independent_norway_dmod: "Независимая Норвегия"
  NOR_independent_norway_dmod_desc: "Мы обрели независимость от Швеции в 1905 году и с тех пор проделали немалый путь. Теперь пришло время создать государство [NOR.GetNonIdeologyName], о каком наши предки могли только мечтать."
@@ -387,7 +393,7 @@
  #DESIGNERS
  DEN_aalborg_portland: "Aalborg Portland"
  DEN_danske_stalvalsevaerket_ns: "Det Danske Stålvalseværket"
- DEN_designer_can_be_improved_tt: "Этого конструктора можно улучшить, завершив фокус §Y«$DEN_aalborg_portland_cement_plant$»§!"
+ DEN_designer_can_be_improved_tt: "Этого конструктора можно улучшить, выполнив фокус §Y«$DEN_aalborg_portland_cement_plant$»§!"
  DEN_improved_designer_tt: "Этот конструктор улучшен"
  #NATIONAL SPIRITS
  DEN_industrial_capability_dynamic_modifier: "Датские промышленные возможности"

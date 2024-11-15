@@ -91,38 +91,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			} 
-
 			100 = {
 				add_resource = {
-				    type = steel
-				    amount = 4
+					type = steel
+					amount = 10
 				}
-                random_list = {
-                    30 = {
-                        add_resource = {
-                            type = steel
-                            amount = 6
-                        }
-                    }
-                    30 = {
-                        add_resource = {
-                            type = aluminium
-                            amount = 6
-                        }
-                    }
-                    30 = {
-                    	add_resource = {
-                    	    type = tungsten
-                    	    amount = 6
-                    	}
-                    }
-                    10 = {
-                    	add_resource = {
-                    	    type = chromium
-                    	    amount = 6
-                    	}
-                    }
-                }
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
 			}
 		}
 	}
@@ -608,7 +585,6 @@ focus_tree = {
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -2700,6 +2676,11 @@ focus_tree = {
 		relative_position_id = ICE_international_brigades
 		cost = 10
 		available = {
+			ENG = {
+				NOT = {
+					has_government = communism
+				}
+			}
 		}
 
 		search_filters = {}

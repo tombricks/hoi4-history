@@ -81,9 +81,12 @@
  CAREER_PROFILE_FIELD_OFFICERS_PROMOTED_LABEL: "Zu Generälen beförderte Stabsoffiziere"
  CAREER_PROFILE_SHIPS_SUNK_BY_MARITIME_LABEL: "Von Marinepatrouillenbombern versenkte Schiffe"
  CAREER_PROFILE_MUSSOLINI_MISSIONS_LABEL: "Abgeschlossene Mussolini-Missionen"
- CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Taxierte militärisch-industrielle Organisationen"
+ CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Militärisch-industrielle Organisationsvergrößerungen"
  CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL: "Eingesetzte Spezialeinheiten"
  CAREER_PROFILE_EQUIPMENT_SOLD_LABEL: "Auf dem Markt verkaufte Ausrüstungseinheiten"
+ CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL: "Abgeschlossene Sonderprojekte"
+ CAREER_PROFILE_LAUNCHED_RAIDS_LABEL: "Durchgeführte Überfälle"
+ CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL: "Aufgestufte Wissenschaftler"
  #Medals
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL: "Treuer Verteidiger"
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL_DESCRIPTION: "Verteidigen Sie sich erfolgreich gegen eine bestimmte Anzahl von Angriffen."
@@ -226,12 +229,10 @@
  #Playthrough overview
  CAREER_PROFILE_END_GAME_TAB_LABEL: "Statistiken"
  CAREER_PROFILE_AWARDS_NOT_AVAILABLE_IN_MULTIPLAYER: "Auszeichnungen sind in Mehrspielerspielen nicht verfügbar"
- #DLC promotion
- BY_BLOOD_ALONE: "By Blood Alone"
- DLC_DESCRIPTION_dlc036: "Errichten Sie ein neues Großreich, wehren Sie sich gegen fremde Aggressoren oder erkunden Sie die Grenzen der Neutralität. „By Blood Alone“ fügt Italien, Äthiopien und der Schweiz neue alternative Geschichtsstränge und Spielvarianten hinzu und enthält viele weitere Änderungen an Spielsystemen."
- ARMS_AGAINST_TYRANNY: "Arms Against Tyranny"
- DLC_DESCRIPTION_dlc038: "Schreiben Sie mit den nordischen Ländern Geschichte, indem Sie mit den Großmächten Europas um die Zukunft der Welt kämpfen. Die neuen nationalen Fokusbäume für Finnland, Schweden, Dänemark und Norwegen stehen dabei im Mittelpunkt. Spezialisieren Sie Ihre Rüstungsindustrie, um die Effizienz zu erhöhen, und verkaufen Sie die produzierten Waffen anschließend auf dem neuen internationalen Markt."
  #Profile Picture Tab
  CAREER_PROFILE_TOOLTIP_BRONZE: "Freigeschaltet durch: $NAME|H$ (Bronze)"
  CAREER_PROFILE_TOOLTIP_SILVER: "Freigeschaltet durch: $NAME|H$ (Silber)"
  CAREER_PROFILE_TOOLTIP_GOLD: "Freigeschaltet durch: $NAME|H$ (Gold)"
+ REQUIRES_DLC_TEXT: "Benötigt den DLC „$DLC|Y$“"
+ DLC_OWNED_TEXT: "§GSie besitzen diesen Inhalt!§!"
+ DLC_NOT_OWNED_TEXT: "§HHier klicken, um diesen Inhalt im Shop anzusehen.§!"

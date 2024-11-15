@@ -81,9 +81,12 @@
  CAREER_PROFILE_FIELD_OFFICERS_PROMOTED_LABEL: "Oficerowie polowi awansowani na generałów"
  CAREER_PROFILE_SHIPS_SUNK_BY_MARITIME_LABEL: "Okręty zatopione przez patrolowe bombowce morskie"
  CAREER_PROFILE_MUSSOLINI_MISSIONS_LABEL: "Ukończone misje Mussoliniego"
- CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Rozbudowa wojskowej organizacji przemysłowej"
+ CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Rozbudowa Wojskowej Organizacji Przemysłowej"
  CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL: "Wysłane siły specjalne"
  CAREER_PROFILE_EQUIPMENT_SOLD_LABEL: "Liczba sztuk wyposażenia sprzedanego na rynku"
+ CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL: "Ukończono projekty specjalne"
+ CAREER_PROFILE_LAUNCHED_RAIDS_LABEL: "Przeprowadzone uderzenia"
+ CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL: "Awanse naukowców"
  #Medals
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL: "Niezłomny obrońca"
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL_DESCRIPTION: "Za udaną obronę przed określoną liczbą ataków wroga"
@@ -226,12 +229,10 @@
  #Playthrough overview
  CAREER_PROFILE_END_GAME_TAB_LABEL: "Statystyki"
  CAREER_PROFILE_AWARDS_NOT_AVAILABLE_IN_MULTIPLAYER: "Nagrody nie są dostępne w grach wieloosobowych."
- #DLC promotion
- BY_BLOOD_ALONE: "Tylko krwią"
- DLC_DESCRIPTION_dlc036: "Zbuduj nowe imperium, broń się przed agresją wroga lub sprawdź granice neutralności. \"By Blood Alone\" wprowadza nowe opcje historii alternatywnej i wzbogaca rozgrywkę Włoch, Etiopii i Szwajcarii, a także inne istotne zmiany."
- ARMS_AGAINST_TYRANNY: "Walka z tyranią"
- DLC_DESCRIPTION_dlc038: "Napisz nowe, porywające opowieści, w których kraje nordyckie jawią się jako europejskie mocarstwa walczące o swoją przyszłość w świecie. Główne role odgrywają nowe drzewka celów narodowych dla Finlandii, Szwecji, Danii i Norwegii. Wyspecjalizuj swój przemysł zbrojeniowy, by zwiększyć jego wydajność, a następnie sprzedawaj broń na nowym rynku międzynarodowym."
  #Profile Picture Tab
  CAREER_PROFILE_TOOLTIP_BRONZE: "Odblokowano dzięki brązowi ($NAME|H$)"
  CAREER_PROFILE_TOOLTIP_SILVER: "Odblokowano dzięki srebru ($NAME|H$)"
  CAREER_PROFILE_TOOLTIP_GOLD: "Odblokowano dzięki złotu ($NAME|H$)"
+ REQUIRES_DLC_TEXT: "Wymaga DLC $DLC|Y$"
+ DLC_OWNED_TEXT: "§GTen kontynent należy do ciebie!§!"
+ DLC_NOT_OWNED_TEXT: "§HKliknij, aby odwiedzić stronę sklepu z tą zawartością.§!"

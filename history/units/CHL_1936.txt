@@ -84,10 +84,11 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "CHL"
+			creator = CHL
 		}
 		requested_factories = 1
 		progress = 0.18
 		efficiency = 100
+		industrial_manufacturer = mio:CHL_famae_organization
 	}
 }

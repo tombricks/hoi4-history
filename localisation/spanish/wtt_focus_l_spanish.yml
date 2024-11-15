@@ -1,6 +1,12 @@
 ﻿l_spanish:
  CHI_secure_internal_politics: "Asegurar la política interna"
  CHI_secure_internal_politics_desc: "Si nuestro gobierno pretende sobrevivir al caos de la política china, no podemos permitir que las riñas internas nos distraigan. Debemos erradicar cualquier oposición interna."
+ CHI_strenghten_warlord_authority: "Reforzar la autoridad del caudillo"
+ CHI_strenghten_warlord_authority_desc: "Para asegurar nuestra zona de control y evitar que el Kuomintang, los comunistas y los japoneses nos debiliten, hemos de reforzar la autoridad de [ROOT.GetLeader]."
+ CHI_uplift_the_cavalry_regiments: "Alentar a los regimientos de la caballería"
+ CHI_uplift_the_cavalry_regiments_desc: "Nuestra región cuenta con una larga y orgullosa tradición ecuestre. Deberíamos ensalzarla y asegurarnos de que nuestra caballería goza de la más alta consideración y se sitúa en la vanguardia de nuestras fuerzas armadas."
+ CHI_uplift_the_mountain_brigades: "Alentar a las brigadas de montaña"
+ CHI_uplift_the_mountain_brigades_desc: "Las tierras del interior de China son duras y difíciles de atravesar. Por ello, debemos entrenar brigadas especiales con el propósito de combatir en terrenos accidentados y montañosos, para poder proteger adecuadamente nuestras tierras."
  CHI_cooperation_with_the_nationalists: "Cooperación con los nacionalistas"
  CHI_cooperation_with_the_nationalists_desc: "Los nacionalistas suponen la mejor opción para unificar el país y derrotar a los japoneses. Deberíamos asegurarnos de que no nos vean como una amenaza."
  CHI_cooperation_with_the_nationalists_effect_tooltip: "[WTT_communist_china.GetNameDef] y los caudillos que se aliaron con los comunistas pueden iniciar un §Hconflicto fronterizo§! con nosotros en respuesta a esta acción."

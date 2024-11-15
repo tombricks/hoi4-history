@@ -131,6 +131,14 @@
 				uses = 1
 				category = artillery
 			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 1
+					category = special_forces_doctrine
+				}
+			}
 		}
 	}
 
@@ -365,8 +373,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_fund_owen_gun_research
-				bonus = 3.0
-				uses = 1
+				bonus = 1.0
+				uses = 3
 				technology = tech_logistics_company
 				technology = tech_logistics_company2
 				technology = tech_logistics_company3
@@ -442,6 +450,10 @@
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 
 		completion_reward = {
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.5
+			}
 			add_tech_bonus = {
 				name = AST_sentinel_tank_project
 				bonus = 1.0
@@ -482,9 +494,17 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_airborne_defence
-				bonus = 3.0
+				bonus = 1.0
 				uses = 1
 				category = para_tech
+			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 1
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}
@@ -517,12 +537,33 @@
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 
 		completion_reward = {
-			army_experience = 50
-			add_doctrine_cost_reduction = {
-				name = AST_introduce_unconventional_warfare
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+			army_experience = 35
+			navy_experience = 35
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				custom_effect_tooltip = CHL_skip_one_line_tt
+				add_potential_special_forces_tree = yes
+				custom_effect_tooltip = CHL_skip_one_line_tt
+				add_doctrine_cost_reduction = {
+					name = AST_introduce_unconventional_warfare
+					cost_reduction = 0.5
+					uses = 1
+					category = special_forces_doctrine
+				}
+			}
+			else = {
+				add_doctrine_cost_reduction = {
+					name = AST_introduce_unconventional_warfare
+					cost_reduction = 0.5
+					uses = 1
+					category = land_doctrine
+				}
+				add_doctrine_cost_reduction = {
+					name = AST_introduce_unconventional_warfare
+					cost_reduction = 0.5
+					uses = 1
+					category = naval_doctrine
+				}
 			}
 		}
 	}
@@ -557,10 +598,18 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_z_special_unit
-				bonus = 3.0
+				bonus = 1.0
 				uses = 1
 				category = marine_tech
 				category = para_tech
+			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 1
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}
@@ -602,6 +651,14 @@
 				technology = tech_recon2
 				technology = tech_recon3
 				technology = tech_recon4
+			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 1
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}
@@ -682,6 +739,10 @@
 
 		complete_tooltip = {
 			air_experience = 25
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
 			random_state = {				
 				limit = {
 					has_state_flag = AST_expand_the_raaf_AB
@@ -702,12 +763,17 @@
 
 		completion_reward = {
 			air_experience = 25
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
 						building = air_base
 						size > 1
 					}
+					NOT = { state = 674 }
 				}
 				add_building_construction = {
 					type = air_base
@@ -768,7 +834,7 @@
 			else = {
 				add_tech_bonus = {
 					name = AST_cac_boomerang
-					bonus = 0.75
+					bonus = 1.0
 					uses = 1
 					category = light_fighter
 				}
@@ -842,6 +908,7 @@
 						building = air_base
 						size > 1
 					}
+					NOT = { state = 674 }
 				}
 				add_building_construction = {
 					type = air_base
@@ -895,8 +962,8 @@
 				}
 				add_tech_bonus = {
 					name = AST_cac_woomera
-					bonus = 3.0
-					uses = 1
+					bonus = 1.0
+					uses = 3
 					category = cat_strategic_bomber
 					category = tactical_bomber
 					category = naval_air
@@ -911,8 +978,8 @@
 			else = {
 				add_tech_bonus = {
 					name = AST_cac_woomera
-					bonus = 2
-					uses = 2
+					bonus = 1
+					uses = 3
 					category = tactical_bomber
 					category = naval_air
 				}
@@ -1015,6 +1082,9 @@
 							building = radar_station
 							size > 0
 						}
+						NOT = {
+							state = 674
+						}
 					}
 					add_building_construction = {
 						type = radar_station
@@ -1032,6 +1102,9 @@
 						free_building_slots = {
 							building = radar_station
 							size > 0
+						}
+						NOT = {
+							state = 674
 						}
 					}
 					add_building_construction = {
@@ -1052,6 +1125,9 @@
 							building = radar_station
 							size > 0
 						}
+						NOT = {
+							state = 674
+						}
 					}
 					add_building_construction = {
 						type = radar_station
@@ -1061,14 +1137,17 @@
 					set_state_flag = AST_volunteer_air_observers_corps_radar3
 				}
 				else = {
-					set_technology = {
-						radio_detection = 1
+					complete_special_project = {
+						project = sp:sp_air_radar
 					}
 					effect_tooltip = {
 						random_owned_controlled_state = {
 							prioritize = { 521 872 }
 							limit = {
 								is_in_home_area = yes
+								NOT = {
+									state = 674
+								}
 							}
 							add_building_construction = {
 								type = radar_station
@@ -1082,6 +1161,9 @@
 							limit = {
 								NOT = { has_state_flag = AST_volunteer_air_observers_corps_radar1 }
 								is_in_home_area = yes
+								NOT = {
+									state = 674
+								}
 							}
 							add_building_construction = {
 								type = radar_station
@@ -1097,6 +1179,9 @@
 							free_building_slots = {
 								building = radar_station
 								size > 0
+							}
+							NOT = {
+								state = 674
 							}
 						}
 						add_building_construction = {
@@ -1115,6 +1200,9 @@
 							free_building_slots = {
 								building = radar_station
 								size > 0
+							}
+							NOT = {
+								state = 674
 							}
 						}
 						add_building_construction = {
@@ -1389,14 +1477,14 @@
 				}
 				add_building_construction = {
 					type = air_base
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
 			add_doctrine_cost_reduction = {
 				name = AST_dominate_the_skies
 				cost_reduction = 0.5
-				uses = 1
+				uses = 2
 				category = air_doctrine
 			}
 		}
@@ -1869,6 +1957,9 @@
 
 		completion_reward = {
 			add_ideas = AST_standard_gauge_railway
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = AST_new_south_wales_rc_ic
 		}
 	}
 
@@ -1950,7 +2041,6 @@
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 					NOT = {state = 674}
 				}
@@ -1967,7 +2057,6 @@
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 					NOT = {state = 674}
 				}
@@ -2361,11 +2450,35 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_tech = atomic_research
+					}
+				}
+				add_tech_bonus = {
+					name = AST_uranium_mining
+					bonus = 0.5
+					uses = 1
+					category = nuclear
+				}
+				add_breakthrough_progress = {
+					specialization = specialization_nuclear
+					value = 0.15
+				}
+			}
+			else = {
+				add_breakthrough_progress = {
+					specialization = specialization_nuclear
+					value = 0.75
+				}
+			}
+			custom_effect_tooltip = CHL_skip_one_line_tt
 			add_tech_bonus = {
 				name = AST_uranium_mining
 				bonus = 1.0
 				uses = 2
-				category = nuclear
+				category = excavation_tech
 			}
 		}
 	}
@@ -3884,6 +3997,7 @@
 				OR = {
 					NOT = { is_puppet_of = HOL }
 					exists = no
+					has_capitulated = yes
 				}
 			}
 		}
@@ -4194,7 +4308,12 @@
 		}
 		
 		bypass = {
-
+			INS = {
+				OR = {
+					has_government = fascism
+					is_subject = no
+				}
+			}
 		}
 
 		cancel_if_invalid = no
@@ -4208,7 +4327,12 @@
 			}
 			hidden_effect = {
 				INS = { country_event = { id = tfv_australia.95 } }
-				HOL = { country_event = { id = tfv_australia.95 } }
+				every_country = {
+					limit = {
+						has_subject = INS
+					}
+					country_event = { id = tfv_australia.95 } 
+				}
 			}
 		}
 	}
@@ -4234,14 +4358,7 @@
 				is_subject = no
 				AND = {
 					compare_autonomy_progress_ratio > 0.75
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 				}
 			}
 			fascism > 0.3
@@ -4252,6 +4369,12 @@
 		}
 		
 		bypass = {
+			INS = {
+				OR = {
+					has_government = fascism
+					is_subject = no
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -4334,16 +4457,12 @@
 		}
 
 		available = {
-			if = {
-				limit = { not = { has_government = fascism } }
-				has_autonomy_state = autonomy_dominion
-			}
-			if = {
-				limit = { has_government = fascism } 
-				has_autonomy_state = autonomy_satellite
-			}
+			has_autonomy_state = autonomy_dominion
 			MAL = {
 				is_puppet_of = ENG
+			}
+			336 = {
+				is_fully_controlled_by = MAL
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
@@ -4379,21 +4498,14 @@
 			modifier = {
 				JAP = { has_capitulated = yes }
 				factor = 0
-				}
+			}
 		}
 
 		available = {
 			OR = {
 				is_subject = no
 				AND = {
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 					compare_autonomy_progress_ratio > 0.8
 				}
 			}
@@ -4464,14 +4576,7 @@
 			OR = {
 				is_subject = no
 				AND = {
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 					compare_autonomy_progress_ratio > 0.8
 				}
 			}
@@ -4549,6 +4654,7 @@
 		}
 
 		available = {
+			is_subject = no
 			NOT = { is_in_faction_with = JAP }
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}

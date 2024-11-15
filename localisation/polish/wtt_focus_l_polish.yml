@@ -1,6 +1,12 @@
 ﻿l_polish:
  CHI_secure_internal_politics: "Zabezpieczenie polityki wewnętrznej"
  CHI_secure_internal_politics_desc: "Jeżeli nasz rząd ma przetrwać w pogmatwanej chińskiej polityce, nie możemy toczyć wewnętrznych sporów. Trzeba zlikwidować całą wewnętrzną opozycję."
+ CHI_strenghten_warlord_authority: "Wzmocnienie władzy watażków"
+ CHI_strenghten_warlord_authority_desc: "[ROOT.GetLeader] musi dysponować większą władzą, jeśli chcemy zabezpieczyć naszą strefę kontroli i uniemożliwić Kuomintangowi, komunistom i Japończykom podkopywanie naszej pozycji."
+ CHI_uplift_the_cavalry_regiments: "Wzmocnienie pułków kawalerii"
+ CHI_uplift_the_cavalry_regiments_desc: "Nasz region od dawna szczyci się tradycjami jeździeckimi. Powinniśmy je pielęgnować, aby nasza kawaleria cieszyła się największym uznaniem i stanowiła trzon naszych sił zbrojnych."
+ CHI_uplift_the_mountain_brigades: "Wzmocnienie brygad górskich"
+ CHI_uplift_the_mountain_brigades_desc: "Ziemie chińskiego interioru są dzikie i nieprzebyte. Musimy szkolić specjalne brygady przeznaczone do walki na wzgórzach i w górach, aby zapewnić właściwą obronę naszego terytorium."
  CHI_cooperation_with_the_nationalists: "Współpraca z nacjonalistami"
  CHI_cooperation_with_the_nationalists_desc: "Nacjonaliści mają największe szanse zjednoczenia kraju i pokonania Japończyków. Dopilnujmy, żeby nie widzieli w nas zagrożenia."
  CHI_cooperation_with_the_nationalists_effect_tooltip: "[WTT_communist_china.GetNameDef] i watażkowie, którzy sprzymierzyli się z komunistami, mogą zareagować na to wznieceniem §Hkonfliktów granicznych§!."

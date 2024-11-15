@@ -67,4 +67,7 @@
  CONSTRUCTION_INFO_SUBJECT: "この建設物は$WHO|H$によって建設されている。彼らの工場が足りない場合、我々の工場で支援できる。"
  autonomy_communist_satellite: "衛星国"
  autonomy_occupation_zone: "占領地域"
- autonomy_aat_defense_council_member: "北欧防衛評議会のメンバー"
+ autonomy_aat_defense_council_member: "北欧防衛評議会の加盟国"
+ autonomy_austro_hungarian_subject: "オーストリア＝ハンガリーの属国"
+ autonomy_volkskommissariat: "国家人民委員部"
+ autonomy_eu_member: "欧州連合加盟国"

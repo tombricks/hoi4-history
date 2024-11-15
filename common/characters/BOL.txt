@@ -1,11 +1,10 @@
 characters = {
 
-	BOL_josé_luis_tejada_sorzano = {
+	BOL_jose_luis_tejada_sorzano = {
 		instance = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = "José Luis Tejada Sorzano"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_BOL_jose_luis_tejada_sorzano
@@ -24,7 +23,7 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = "José Luis Tejada Sorzano"
+
 			portraits = {
 				civilian = {
 					large = GFX_portrait_Jose_Luis_Tejada_Sorzano
@@ -50,12 +49,11 @@ characters = {
 		}
 	}
 
-	BOL_Óscar_Únzaga_de_la_vega = {
+	BOL_oscar_unzaga_de_la_vega = {
 		instance = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = "Óscar Únzaga de la Vega"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_BOL_oscar_unzaga_de_la_vega
@@ -74,7 +72,7 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = "Óscar Únzaga de la Vega"
+
 			portraits = {
 				civilian = {
 					large = GFX_portrait_Oscar_Unzaga_de_la_Vega
@@ -90,7 +88,6 @@ characters = {
 
 	BOL_Gustavo_Adolfo_Navarro = {
 		
-		name = "Gustavo Adolfo Navarro"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_BOL_gustavo_adolfo_navarro
@@ -107,7 +104,6 @@ characters = {
 
 	# Will not be recruited if you have the dlc
 	BOL_jorge_blanco = {
-		name = "Jorge Blanco"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Jorge_Blanco
@@ -122,8 +118,8 @@ characters = {
 	}
 
 	# Will not be recruited if you have the dlc
-	BOL_severino_ruíztagle = {
-		name = "Severino Ruíz-Tagle"
+	BOL_severino_ruiztagle = {
+
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Severino_Ruiz-Tagle
@@ -153,8 +149,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Eusebio Ayala"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_navy_south_america_1"
@@ -183,8 +178,7 @@ characters = {
 					factor = 1.000
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Tomás Monje Gutierréz"
+
 			portraits = {
 				civilian = {
 					small = "GFX_idea_generic_political_advisor_south_america_2"
@@ -212,8 +206,7 @@ characters = {
 						factor = 1.000
 					}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Tomás Monje Gutierréz"
+
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_army_south_america_2"
@@ -242,8 +235,7 @@ characters = {
 			}
 
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Gil Ibarra Juarez"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_navy_south_america_3"
@@ -284,7 +276,6 @@ characters = {
 				legacy_id = -1
 			}
 
-			name = "Gualberto Villarroel López"
 			portraits = {
 				army = {
 					large = GFX_portrait_BOL_gualberto_villarroel
@@ -315,8 +306,7 @@ characters = {
 				}
 
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Gualberto Villarroel Lopez"
+
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_army_south_america_3"
@@ -346,7 +336,6 @@ characters = {
 					factor = 1.000
 				}
 			}
-			name = "José Santos Quinteros"
 			portraits = {
 				civilian = {
 					small = "GFX_idea_generic_political_advisor_south_america_1"
@@ -373,8 +362,7 @@ characters = {
 					factor = 1.000
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "José Santos Quinteros"
+
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_air_south_america_3"
@@ -404,7 +392,7 @@ characters = {
 					factor = 1.000
 				}
 			}
-			name = "Fabian Chavez Vaca"
+
 			portraits = {
 				civilian = {
 					small = "GFX_idea_generic_political_advisor_south_america_3"
@@ -432,8 +420,6 @@ characters = {
 					factor = 1.000
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Fabian Vaca Chavez"
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_air_south_america_1"
@@ -447,7 +433,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = "David Toro"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_BOL_david_toro
@@ -483,8 +468,6 @@ characters = {
 					factor = 1.000
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "David Toro Ruilova"
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_air_south_america_1"
@@ -508,8 +491,7 @@ characters = {
 				military_theorist
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Enrique Baldivieso Aparicio"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_army_south_america_1"
@@ -533,8 +515,6 @@ characters = {
 				factor = 1.000
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Roberto Hinojosa"
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_army_south_america_4"
@@ -559,8 +539,7 @@ characters = {
 				factor = 1.000
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Carlos Altamirano"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_army_south_america_5"
@@ -589,7 +568,7 @@ characters = {
 					factor = 1.000
 				}
 			}
-			name = "Julián V. Montellano Carrasco"
+
 			portraits = {
 				civilian = {
 					small = "GFX_idea_generic_political_advisor_south_america_2"
@@ -617,8 +596,7 @@ characters = {
 					factor = 1.000
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Julian Montellano Carrasco"
+
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_navy_south_america_1"
@@ -643,8 +621,6 @@ characters = {
 				air_warfare_theorist
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Hector Bilbao Roja"
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_air_south_america_1"
@@ -684,7 +660,7 @@ characters = {
 				factor = 1.000
 			}
 		}
-		name = "Bernardino Bilbao Rioja"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_air_south_america_1"
@@ -706,8 +682,7 @@ characters = {
 				naval_theorist
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "Alberto Ostria Gutierrez"
+
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_navy_south_america_1"
@@ -732,8 +707,6 @@ characters = {
 					JUNO_nationalizing_foreign_minister 
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Enrique Finot"
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_political_advisor_south_america_3"
@@ -758,8 +731,6 @@ characters = {
 					fortification_engineer 
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "Enrique Finot"
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_political_advisor_south_america_3"
@@ -807,7 +778,6 @@ characters = {
 				}
 			}
 
-			name = "Germán Busch"
 			portraits = {
 				army = {
 					large = GFX_portrait_BOL_german_busch
@@ -831,8 +801,6 @@ characters = {
 					popular_figurehead 
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name = "German Busch Beccera"
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_political_advisor_south_america_2"
@@ -875,7 +843,6 @@ characters = {
 			}
 		}
 
-		name = "Carlos Quintanilla"
 		portraits = {
 			army = {
 				large = GFX_portrait_BOL_carlos_quintanilla
@@ -914,7 +881,6 @@ characters = {
 			legacy_id = -1
 		}
 
-		name = "Carlos Blanco Galindo"
 		portraits = {
 			army = {
 				large = GFX_portrait_BOL_carlos_blanco_galindo
@@ -957,8 +923,6 @@ characters = {
 				}
 			}
 		}
-
-		name = "Enrique Peñaranda"
 		portraits = {
 			army = {
 				large = GFX_portrait_BOL_enrique_penaranda
@@ -980,8 +944,7 @@ characters = {
 				armaments_organizer 
 			}
 		}
-		# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = "José Maria Gutierrez"
+
 		portraits = {
 			civilian = {
 				small = "GFX_idea_generic_political_advisor_south_america_1"

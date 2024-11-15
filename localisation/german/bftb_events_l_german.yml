@@ -1249,6 +1249,7 @@
  bftb_bulgarian_claims.6.t: "[GER.GetNameDefCap] gewährt bulgarische Besatzung"
  bftb_bulgarian_claims.6.desc: "Wie mit den [GER.GetAdjective]en und [BUL.GetAdjective]en Regierungen vereinbart hat [GER.GetNameDef] die Übertragung der Kontrolle über die von [BUL.GetNameDef] beanspruchten und momentan von uns besetzten Gebiete angeordnet. Diese Gebiete werden in Zukunft von der [BUL.GetAdjective]en Regierung verwaltet."
  bftb_bulgarian_claims.6.a: "Diese bulgarischen Emporkömmlinge!"
+ bftb_bulgarian_claims.6.b: "Sie haben kein Recht dazu!"
  bftb_bulgarian_claims.7.t: "[FROM.GetNameDefCap] fordert Kontrolle über [FROM.FROM.GetName]"
  bftb_bulgarian_claims.7.desc: "Die [FROM.GetAdjective]e Regierung hat ihre Rolle als Friedenshüter der besetzten Territorien auf dem Balkan angenommen und vorgeschlagen, dass wir ihnen die administrative Kontrolle über [FROM.FROM.GetName] übertragen, damit sie in den unter  [ROOT.GetFactionName]-Besatzung stehenden Territorien für Ordnung und Stabilität sorgen und die [ROOT.GetAdjective]en Garnisonen ablösen, auf dass unsere Truppen an anderer Stelle eingesetzt werden können."
  bftb_bulgarian_claims.7.a: "Einverstanden, wir brauchen unsere Truppen anderswo!"

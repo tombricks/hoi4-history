@@ -1,6 +1,7 @@
 ﻿l_russian:
  STATE_UPGRADE_BUILDING: "Модернизация сооружения $BUILDING|H$."
  STATE_UPGRADE_BUILDING_DESC: "Срок строительства: $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (уровень: $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$ (Уровень региона: $LEVEL|H$)"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$LEVEL|H$ $BUILDING|H$"
  STATE_BUILDING_INCONSTRUCTION: "Строится: $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$STATE|H$ является национальной территорией государства $COUNTRY|H$.§!"
  STATE_CORE_DESC: "Национальная территория — неотъемлемая часть вашей страны. Если она переходит под контроль другого государства, вы получаете законное право объявить ему войну и вернуть себе территорию. В случае успеха вам не придется применять оккупационную политику — территория просто снова станет частью вашей родины."
  STATE_CLAIM: "§TГосударство $COUNTRY|H$ претендует на регион $STATE|H$.§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$ — оспариваемый владелец региона $STATE|H$.§!"
  STATE_POPULATION: "§HПризывники§!: $AVAIL|*Y$/$MAXAVAIL|*Y$\n§HГражданское население§!: $LOCKED|*Y$/$MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "Базовое значение: $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§HЕжемесячный прирост§!: $VALUE|%2$ ( призывников: $AVAIL|*+$, гражданского населения: $LOCKED|*+$)"

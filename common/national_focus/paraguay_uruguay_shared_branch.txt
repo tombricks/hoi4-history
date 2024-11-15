@@ -129,50 +129,100 @@
 					original_tag = PAR
 				}
 
-				create_wargoal = {
-					type = annex_everything
-					target = BRA
-					generator = { 504 } # optional 
+				if = {
+					limit = { BRA = { has_civil_war = yes } }
+					every_country = {
+						limit = { original_tag = BRA }
+
+						ROOT = {
+							create_wargoal = {
+								type = annex_everything
+								target = PREV
+								generator = { 504 } # optional 
+							}
+						}
+					}
+				}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = BRA
+						generator = { 504 } # optional 
+					}
 				}
 
-				create_wargoal = {
-					type = annex_everything
-					target = ARG
-					generator = { 957 } # optional 
-				}
+				if = {
+					limit = { ARG = { has_civil_war = yes } }
+					every_country = {
+						limit = { original_tag = ARG }
 
+						ROOT = {
+							create_wargoal = {
+								type = annex_everything
+								target = PREV
+								generator = { 957 } # optional 
+							}
+						}
+					}
+				}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = ARG
+						generator = { 957 } # optional 
+					}
+				}
 				custom_effect_tooltip = CHL_skip_one_line_tt
 				custom_effect_tooltip = GUAY_rekindle_old_gripes_ARG_PAR_tt
 				custom_effect_tooltip = CHL_skip_one_line_tt
 				custom_effect_tooltip = GUAY_rekindle_old_gripes_BRA_PAR_tt
 			}
 			else = {
-				every_country = {
-					limit = {
-						original_tag = BRA
-					}
-					ROOT = {
-						create_wargoal = {
-							type = annex_everything
-							target = PREV
-							generator = { 502 } # optional 
+
+				if = {
+					limit = { BRA = { has_civil_war = yes } }
+					every_country = {
+						limit = { original_tag = BRA }
+
+						ROOT = {
+							create_wargoal = {
+								type = annex_everything
+								target = PREV
+								generator = { 502 } # optional 
+							}
 						}
 					}
 				}
-
-				every_country = {
-					limit = {
-						original_tag = ARG
-					}
-					ROOT = {
-						create_wargoal = {
-							type = annex_everything
-							target = PREV
-							generator = { 510 } # optional 
-						}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = BRA
+						generator = { 502 } # optional 
 					}
 				}
 
+				if = {
+					limit = { ARG = { has_civil_war = yes } }
+					every_country = {
+						limit = { original_tag = ARG }
+
+						ROOT = {
+							create_wargoal = {
+								type = annex_everything
+								target = PREV
+								generator = { 510 } # optional 
+							}
+						}
+					}
+				}
+				else = {
+					create_wargoal = {
+						type = annex_everything
+						target = ARG
+						generator = { 510 } # optional 
+					}
+				}
+			######
 				custom_effect_tooltip = CHL_skip_one_line_tt
 				custom_effect_tooltip = GUAY_rekindle_old_gripes_ARG_URG_tt
 				custom_effect_tooltip = CHL_skip_one_line_tt
@@ -1342,9 +1392,13 @@
 					instant_build = yes
 				}
 			}
-			capital_scope = {
+			random_core_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 2
 			}
+
 		}
 	}
 
@@ -1707,7 +1761,7 @@
 					original_tag = URG 
 				}
 				add_tech_bonus = {
-					ahead_reduction = 0.65
+					ahead_reduction = 1
 					bonus = 1
 					uses = 1
 					category = industry # optional 
@@ -2154,7 +2208,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = BRA_resource_extraction_bonus
-				bonus = 0.4
+				bonus = 0.5
 				uses = 2
 				category = excavation_tech # optional 
 				# technology  = technology_id # optional
@@ -2221,7 +2275,7 @@
 
 	shared_focus =  {
 		id = GUAY_national_academy_of_sciences_2
-		icon = GFX_focus_research
+		icon = GFX_focus_research2
 		x = 0
 		y = 1
 
@@ -2243,7 +2297,7 @@
 
 	shared_focus =  {
 		id = GUAY_national_academy_of_sciences_3
-		icon = GFX_focus_research
+		icon = GFX_focus_ARG_universidad_de_buenos_aires
 		x = 0
 		y = 1
 

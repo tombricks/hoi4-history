@@ -59,6 +59,16 @@ if = { #####  Vanilla Characters
 
 }
 
+IF = {
+	limit = { #He needs to be available for Gotterdamerung too now. SWI event is bba locked, AUS is gtd locked
+		OR = {
+			has_dlc = "By Blood Alone"
+			has_dlc = "Gotterdammerung"
+		}
+	}
+	recruit_character = SWI_georg_von_trapp
+}
+
 if = { #########   By Blood Alone Stuff
 	limit = {
 		has_dlc = "By Blood Alone"
@@ -97,7 +107,6 @@ if = { #########   By Blood Alone Stuff
 	recruit_character = SWI_max_waibel
 	recruit_character = SWI_jakob_labhart
 	recruit_character = SWI_jakob_huber
-	recruit_character = SWI_georg_von_trapp
 	recruit_character = SWI_empty_councilor_seat
 	recruit_character = SWI_adolf_furrer
 	recruit_character = SWI_clara_thalmann
@@ -342,7 +351,6 @@ if = { #########   By Blood Alone Stuff
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -355,6 +363,9 @@ if = { #########   By Blood Alone Stuff
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		fuel_refining = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

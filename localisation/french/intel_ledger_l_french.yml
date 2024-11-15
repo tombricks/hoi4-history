@@ -253,3 +253,6 @@
  LEDGER_CIV_GRAPH_SHOW_BOMBERS: "§HAfficher le graphique pour les bombardiers produits et perdus.§!"
  LEDGER_CIV_GRAPH_SHOW_TRUCKS: "§HAfficher le graphique pour les camions en réserve.§!"
  LEDGER_CIV_GRAPH_SHOW_TRAINS: "§HAfficher le graphique pour les trains en réserve.§!"
+ INTEL_LEDGER_RAIDS_DETECT_ON_LAUNCH: "Les raids en approche sont détectés au lancement ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_HALFWAY_PREPARATION: "Les raids en approche sont détectés dès qu'ils sont à moitié prêts à être lancés ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_EARLY_PREPARATION: "Les raids en approche sont détectés durant la phase de préparation ($CATEGORIES|H$)"

@@ -1,4 +1,4 @@
-###########################
+﻿########################
 ##### Country Events #####
 ###########################
 
@@ -1428,7 +1428,7 @@ country_event = {
 				}
 			}
 			custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
-			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.1 tooltip = artillery_attack_factor_tt }
+			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.1 tooltip = army_artillery_attack_factor_tt }
 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.05 tooltip = army_artillery_defence_factor_tt }
 		}
 		ELSE = {
@@ -4180,7 +4180,7 @@ country_event = {
 				set_rule = { can_send_volunteers = yes }
 				add_timed_idea = {
 					idea = CHL_aid_araucania
-					days = 730
+					days = 180
 				}
 				add_ai_strategy = {
 					type = send_volunteers_desire
@@ -4350,7 +4350,7 @@ country_event = {
 					set_rule = { can_send_volunteers = yes }
 					add_timed_idea = {
 						idea = CHL_aid_araucania
-						days = 730
+						days = 180
 					}
 					add_ai_strategy = {
 						type = send_volunteers_desire
@@ -4559,10 +4559,11 @@ country_event = {
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway
 		            }
-		            CHL_bartolome_blanche = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
+		            # He can stay
+		            #CHL_bartolome_blanche = { # Character
+		            #    set_nationality = PREV.PREV
+		            #    # Transfers to breakaway
+		            #}
 		            CHL_escudero_oscar_otárola = { # Character
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway 
@@ -4579,22 +4580,34 @@ country_event = {
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway
 		            }
-		            CHL_ricardo_aguayo = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
-		            CHL_francisco_encina = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
-		            CHL_tancredo_pinochet = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
 		            CHL_miguel_serrano = { # Character
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway
 		            }
+	        	}
+
+	        	IF = {
+	        		limit = {
+	        			PREV = {
+	        				NOT = {
+	        					has_completed_focus = CHL_utilize_national_populism
+	        				}
+	        			}
+	        		}
+	        		PREV = {
+	        			CHL_francisco_encina = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        			CHL_ricardo_aguayo = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        			CHL_tancredo_pinochet = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        		}
 	        	}
 
 	        	PREV.PREV = {
@@ -5213,11 +5226,17 @@ country_event = {
 		    	}
 			} 
 
-			add_manpower = 5000
+			add_manpower = 10000
 
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment
 				amount = 1500
+				producer = CHL
+			}
+
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = 25
 				producer = CHL
 			}	
 		}
@@ -5245,9 +5264,14 @@ country_event = {
 
 		hidden_effect = {
 			948 = {
-				add_extra_state_shared_building_slots = 6
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
 					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}	

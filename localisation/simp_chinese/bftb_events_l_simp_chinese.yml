@@ -1249,6 +1249,7 @@
  bftb_bulgarian_claims.6.t: "[GER.GetNameDefCap]指示向保加利亚移交领土"
  bftb_bulgarian_claims.6.desc: "根据[GER.GetAdjective]和[BUL.GetAdjective]两国政府的协定，[GER.GetNameDef]已下令将近期我方占据但却为[BUL.GetNameDef]所宣称的领土进行移交，上述地区此后将归属[BUL.GetAdjective]政府所管辖。"
  bftb_bulgarian_claims.6.a: "看看这些保加利亚暴发户！"
+ bftb_bulgarian_claims.6.b: "他们没有这个权利！"
  bftb_bulgarian_claims.7.t: "[FROM.GetNameDefCap]索取[FROM.FROM.GetName]控制权"
  bftb_bulgarian_claims.7.desc: "自诩为巴尔干控制区和平卫士的[FROM.GetAdjective]人日前向我方发出提议，称我们可以授权其管辖[FROM.FROM.GetName]以确保[ROOT.GetFactionName]在此地稳定和秩序，如此也可以解放[ROOT.GetAdjective]当地的驻军，以便我国部队可以投身于其他战线。"
  bftb_bulgarian_claims.7.a: "同意，我军尚且还需转战他处！"

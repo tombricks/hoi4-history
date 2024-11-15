@@ -41,20 +41,22 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_0
-			creator = "POL" 
+			creator = POL
 		}
 		requested_factories = 1
 		progress = 0.15
 		efficiency = 100
+		industrial_manufacturer = mio:POL_pws_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = CAS_equipment_1
-			creator = "POL" 
+			creator = POL 
 		}
 		requested_factories = 1
 		progress = 0.2
 		efficiency = 100
+		industrial_manufacturer = mio:POL_pws_organization
 	}
 
 }

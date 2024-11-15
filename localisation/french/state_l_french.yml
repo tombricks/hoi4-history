@@ -1,6 +1,7 @@
 ﻿l_french:
  STATE_UPGRADE_BUILDING: "Améliorer $BUILDING|H$."
  STATE_UPGRADE_BUILDING_DESC: "Nombre de jours pour construire : $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (niveau : $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$ ($LEVEL|H$ par État)"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$LEVEL|H$ $BUILDING|H$"
  STATE_BUILDING_INCONSTRUCTION: "En construction : $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$STATE|H$ est un État national de $COUNTRY|H$.§!"
  STATE_CORE_DESC: "Un État national est considéré comme faisant partie intégrante d'un pays. S'il appartient à un autre, cela offre un motif de déclaration de guerre afin de le reprendre, et en cas de victoire il n'y aura pas besoin d'y instaurer une politique d'occupation : aussitôt repris, il sera entièrement intégré."
  STATE_CLAIM: "§T$COUNTRY|H$ revendique $STATE|H$.§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$ est possesseur contesté de $STATE|H$.§!"
  STATE_POPULATION: "§HPopulation recrutable§! : $AVAIL|*Y$ sur $MAXAVAIL|*Y$\n§HPopulation civile§! : $LOCKED|*Y$ sur $MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "Base : $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§HCroissance mensuelle§! : $VALUE|%2$ ($AVAIL|*+$ recrutables, $LOCKED|*+$ civils)"

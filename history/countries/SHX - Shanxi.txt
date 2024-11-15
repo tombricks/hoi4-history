@@ -37,6 +37,7 @@ if = {
 	add_ideas = {
 		PRC_government_corruption
 		CHI_ineffective_bureaucracy_warlord
+		CHI_warlord_state_idea
 	}
 }
 
@@ -107,7 +108,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -124,6 +124,9 @@ if = {
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 		concentrated_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

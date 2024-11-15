@@ -100,6 +100,15 @@
  o_birke: "Unternehmen Birke"
  o_tanne_ost: "Unternehmen Tanne Ost"
  o_tanne_west: "Unternehmen Tanne West"
+ o_fruhlingserwachen: "Unternehmen Frühlingserwachen" #hungary
+ o_konrad: "Unternehmen Konrad" #hungary
+ o_margarethe: "Unternehmen Margarethe" #hungary
+ o_sudwind: "Unternehmen Südwind" #hungary
+ o_eiche: "Unternehmen Eiche" #italy
+ o_achse: "Fall Achse" #italy
+ o_alarich: "Unternehmen Alarich" #italy
+ o_scwartz: "Unternehmen Schwartz" #italy
+ o_konstantin: "Unternehmen Konstantin" #italy
  o_wildente: "Wildente"
  o_biene: "Biene"
  o_gneisenau: "Gneisenau"
@@ -152,6 +161,8 @@
  o_gisella: "Unternehmen Gisella" #Iberia
  o_ilona: "Unternehmen Ilona" #Iberia
  o_isabella: "Unternehmen Isabella" #Iberia
+ o_felix: "Unternehmen Felix" #Iberia
+ o_munchen: "Unternehmen München" #Bessarabia
  o_maus: "Maus"
  o_derfflinger: "Derfflinger"
  o_moorbrand: "Moorbrand"
@@ -190,8 +201,6 @@
  o_martin: "Martin"
  o_morgenwind: "Morgenwind"
  o_sonnenaufgang: "Sonnenaufgang"
- o_konrad: "Konrad"
- o_fruhlingserwachen: "Unternehmen Frühlingserwachen" #hungary
  o_wacht_am_rhein: "Unternehmen Wacht am Rhein"
  o_schneeman: "Schneemann"
  o_sonnenwende: "Sonnenwende"

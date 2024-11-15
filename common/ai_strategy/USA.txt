@@ -1,5 +1,3 @@
-
-
 USA_ask_ENG_FRA_for_access_before_war = {
 	allowed = {
 		tag = USA
@@ -325,7 +323,7 @@ USA_focus_on_africa = {
 
 USA_ENG_sync_invasions_on_europe = {
 	allowed = {
-		always = no
+		#always = no
 		OR = {
 			tag = USA
 			tag = ENG
@@ -351,6 +349,145 @@ USA_ENG_sync_invasions_on_europe = {
 		execute_order = no
 	}
 }
+
+USA_take_out_italy_boost = {
+	allowed = {
+		original_tag = USA
+		is_historical_focus_on = yes
+	}
+	enable = {
+		date > 1942.6.1
+		ITA = {
+			surrender_progress < 0.2
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = ITA
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = italy
+		value = 600
+	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = italy
+		value = 3
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 400
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = normandy_landing_zone
+		value = -100
+	}
+}
+
+#This is a boost to the ENG_USA_d_dat strategy to make the USA consider invading in europe and not only in the pacific for a while
+USA_d_day_boost = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = GER 
+		date > 1943.9.1
+		ITA = {
+			surrender_progress > 0.2
+		}
+	}
+	abort = {
+		OR = {
+			date > 1944.9.1 # if we haven't succeeded by now, kill Japan instead
+			AND = {
+				16 = { is_controlled_by_ROOT_or_ally = yes } # Paris has been liberated
+				is_historical_focus_on = yes 
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = invade
+		id = GER
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = normandy_landing_zone
+		value = 400
+	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = normandy_landing_zone
+		value = 5
+	}
+}
+
+USA_torch_boost = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		country_exists = VIC 
+		has_war_with = GER 
+		date > 1942.5.1
+		#has_war_with = 461.owner 
+	}
+	abort = {
+		OR = {
+			date > 1943.9.1 # if we haven't succeeded by now, maybe try somewhere else
+			461 = { is_controlled_by_ROOT_or_ally = yes }
+			459 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = torch_landing_zone
+		value = 800
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = vichy_mainland
+		value = -200
+	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		area = torch_landing_zone
+		value = 2
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = torch_landing_zone
+		value = 1
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = VIC
+		value = 200 
+	}
+	ai_strategy = {
+		type = invade
+		id = VIC
+		value = 200
+	}
+}
+
+
 
 USA_save_the_aussies = {
 	allowed = { original_tag = USA }
@@ -990,18 +1127,18 @@ USA_lose_fateful_lightning_from_terribly_swift_sword = {
 					has_war = no
 				}
 				is_historical_focus_on = yes
-				date > "1942.9.1"
+				date > 1942.9.1
 			}
 			AND = {
 				OR = {
 					is_historical_focus_on = no
 					VIC = { has_war = yes }
 				}
-				date > "1942.6.1"
+				date > 1942.6.1
 			}
 			AND = {
 				VIC = { is_ai = yes }
-				date > "1942.6.1"
+				date > 1942.6.1
 			}
 		}
 	}
@@ -1119,18 +1256,19 @@ USA_stay_away_from_my_pacific = {
 }
 
 USA_lets_do_a_navy = {
-	allowed = { original_tag = USE }
+	allowed = { original_tag = USA }
 	enable = {
 		has_government = democratic
 		has_war = no
 		date > 1937.10.1
+		dockyard < 75 # If we have this many we can probably stop
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = building_target
+		type = build_building
 		id = dockyard
-		value = 75
+		value = 2
 	}
 }
 
@@ -1216,7 +1354,7 @@ USA_go_time = {
 	ai_strategy = {
 		type = invade
 		id = "JAP"
-		value = 200
+		value = 50
 	}
 
 	ai_strategy = {
@@ -1474,3 +1612,129 @@ USA_sugar_daddy_for_SOV = {
 		value = 500
 	}
 }
+
+USA_dont_guarantee_SA_unless_everyhting_is_shit = {
+	allowed = { 
+		original_tag = USA 
+		has_dlc = "Trial of Allegiance"
+	}
+	enable = {
+		threat < 0.9
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = protect
+		id = CAN
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = MEX
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = GUA
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = HON
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = ELS
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = NIC
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = CUB
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = HAI
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = DOM
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = COS
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = PAN
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = COL
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = VEN
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = ECU
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = PRU
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = BOL
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = CHL
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = ARG
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = PAR
+		value = -200
+	}
+
+	ai_strategy = {
+		type = protect
+		id = URG
+		value = -200
+	}
+	ai_strategy = {
+		type = protect
+		id = BRA
+		value = -200
+	}
+}
+

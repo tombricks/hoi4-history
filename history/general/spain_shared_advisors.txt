@@ -1258,7 +1258,7 @@ every_possible_country = {
 		name=SPR_luis_gonzalez_de_ubieta
 		portraits={
 			army={
-				small="GFX_SPR_luis_gonzalez_ubieta"
+				small="GFX_idea_SPR_luis_gonzalez_ubieta"
 			}
 		}
 		advisor={

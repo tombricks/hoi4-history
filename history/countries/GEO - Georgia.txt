@@ -20,7 +20,7 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-if = {
+IF = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
@@ -32,7 +32,7 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
@@ -43,7 +43,7 @@ if = {
 		basic_light_tank = 1 
 	}
 }
-if = {
+IF = {
 	limit = {
 		
 		has_dlc = "No Step Back"
@@ -54,7 +54,7 @@ if = {
 		basic_light_tank_chassis = 1 
 	}
 }
-if = {
+IF = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
@@ -69,7 +69,7 @@ if = {
 		transport = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
@@ -92,26 +92,11 @@ set_popularities = {
 	neutrality = 10
 }
 
-create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = GFX_portrait_Noe_Zhordania
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
+recruit_character = GEO_noe_zhordania
+recruit_character = GEO_kandid_charkviani
+recruit_character = GEO_george_bagration
+recruit_character = GEO_giorgi_kvinitadze
+recruit_character = GEO_shalva_maglakelidze
+recruit_character = GEO_grigol_robakidze
+recruit_character = GEO_ioseb_jughashvili
 
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = GFX_portrait_Kandid_Charkviani
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything else, the commies simply forced everyone else into exile

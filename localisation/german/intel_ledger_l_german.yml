@@ -253,3 +253,6 @@
  LEDGER_CIV_GRAPH_SHOW_BOMBERS: "§HDiagramm für produzierte und verlorene Bomber zeigen§!"
  LEDGER_CIV_GRAPH_SHOW_TRUCKS: "§HDiagramm für LKWs auf Lager zeigen§!"
  LEDGER_CIV_GRAPH_SHOW_TRAINS: "§HDiagramm für Züge auf Lager zeigen§!"
+ INTEL_LEDGER_RAIDS_DETECT_ON_LAUNCH: "Eingehende Überfälle werden erkannt, wenn sie beginnen ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_HALFWAY_PREPARATION: "Eingehende Überfälle werden bereits erkannt, wenn die Planung zur Hälfte abgeschlossen ist ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_EARLY_PREPARATION: "Eingehende Überfälle werden bereits während der frühen Planungsphase erkannt ($CATEGORIES|H$)"

@@ -507,7 +507,6 @@
 			if = {
 				limit = {
 					has_dlc = "La Resistance"
-					is_ai = no
 				}
 				if = {
 					limit = {
@@ -583,8 +582,7 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MAN_songgotu_zhanshan
+			
 			random_core_state = {
 				prioritize = { 328 }
 				limit = {
@@ -597,6 +595,10 @@
 					instant_build = yes
 				}
 			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_songgotu_zhanshan
 		}
 	}
 
@@ -694,7 +696,6 @@
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 				}
 
@@ -710,7 +711,6 @@
 					free_building_slots = {
 						building = infrastructure
 						size > 0
-						include_locked = yes
 					}
 				}
 
@@ -1005,6 +1005,13 @@
 
 		completion_reward = {
 
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -1013,8 +1020,8 @@
 				show_mio_tooltip = MAN_mamc_light_organization
 				show_mio_tooltip = MAN_mamc_medium_organization
 				show_mio_tooltip = MAN_mamc_heavy_organization
-				
 
+				custom_effect_tooltip = generic_skip_one_line_tt
 
 				mio:MAN_mamc_light_organization = {
 					add_mio_funds = 500
@@ -2072,33 +2079,18 @@
 			set_cosmetic_tag = MAN_restored
 			hidden_effect = {
 				news_event = { id = wtt_news.44 days = 2 }
-				kill_country_leader = yes 
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					create_country_leader = {
-						name = "Xuantong"
-						picture = "GFX_portrait_man_henry_pu_yi_emperor"
-						expire = "1960.1.1"
-						ideology = rexism
-						traits = {
+
+				MAN_aisin_gioro_puyi = {
+					set_portraits = {
+						civilian = {
+							large = "GFX_portrait_man_henry_pu_yi_emperor" 
 						}
 					}
-				}
-				else_if = {
-					limit = {
-						has_government = neutrality
-					}
-					create_country_leader = {
-						name = "Xuantong"
-						picture = "GFX_portrait_man_henry_pu_yi_emperor"
-						expire = "1960.1.1"
-						ideology = despotism
-						traits = {
-						}
+					set_character_name = {
+						name = MAN_aisin_gioro_puyi_xuantong_name
 					}
 				}
+
 			}
 		}
 	}

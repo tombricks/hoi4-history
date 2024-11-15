@@ -76,6 +76,7 @@
  o_lion:0 "Lion"
  o_tiger:0 "Tiger"
  o_shield:0 "Shield"
+
  ###German
  o_barbarossa:0 "Unternehmen Barbarossa"
  o_fall_blau:0 "Fall Blau"
@@ -101,6 +102,17 @@
  o_birke:0 "Unternehmen Birke"
  o_tanne_ost:0 "Unternehmen Tanne Ost"
  o_tanne_west:0 "Unternehmen Tanne West"
+
+ o_fruhlingserwachen: "Unternehmen Frühlingserwachen" #hungary
+ o_konrad: "Unternehmen Konrad" #hungary
+ o_margarethe: "Unternehmen Margarethe" #hungary
+ o_sudwind: "Unternehmen Südwind" #hungary
+
+ o_eiche: "Unternehmen Eiche" #italy
+ o_achse: "Fall Achse" #italy
+ o_alarich: "Unternehmen Alarich" #italy
+ o_scwartz: "Unternehmen Schwartz" #italy
+ o_konstantin: "Unternehmen Konstantin" #italy
 
  o_wildente:0 "Wildente"
  o_biene:0 "Biene"
@@ -159,6 +171,9 @@
  o_gisella:0 "Unternehmen Gisella" # Iberia
  o_ilona:0 "Unternehmen Ilona" #Iberia
  o_isabella:0 "Unternehmen Isabella" #Iberia
+ o_felix: "Unternehmen Felix" #Iberia
+
+ o_munchen: "Unternehmen München" # Bessarabia
 
  o_maus:0 "Maus"
  o_derfflinger:0 "Derfflinger"
@@ -198,8 +213,6 @@
  o_martin:0 "Martin"
  o_morgenwind:0 "Morgenwind"
  o_sonnenaufgang:0 "Sonnenaufgang"
- o_konrad:0 "Konrad"
- o_fruhlingserwachen:0 "Unternehmen Frühlingserwachen" #hungary
  o_wacht_am_rhein:0 "Unternehmen Wacht am Rhein"
  o_schneeman:0 "Schneeman"
  o_sonnenwende:0 "Sonnenwende"

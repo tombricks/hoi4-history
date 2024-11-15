@@ -103,7 +103,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = jap_intervene_in_china
+			picture = tur_balkan_central_bank_wealthy_greece
 			
 			modifier = {
 				production_speed_infrastructure_factor = 0.15
@@ -204,7 +204,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = prc_permit_opium_trade
+			picture = generic_exploit_mines
 			research_bonus = {
 				industry = 0.4
 			}
@@ -264,7 +264,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_volunteer_expedition_bonus
+			picture = generic_supply_depot
 			modifier = {
 				supply_consumption_factor = -0.1
 				no_supply_grace = 48
@@ -289,7 +289,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_volunteer_expedition_bonus
+			picture = gre_schachtplan
 			modifier = {
 				army_attack_against_major_factor = 0.1
 				army_defence_against_major_factor = 0.1
@@ -303,7 +303,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_volunteer_expedition_bonus
+			picture = generic_victors_of_ww1
 			modifier = {
 				drift_defence_factor = 0.15
 				democratic_drift = 0.05
@@ -318,7 +318,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_volunteer_expedition_bonus
+			picture = hol_aloof_neutrality
 			modifier = {
 				political_power_factor = -0.1
 				stability_factor = 0.05
@@ -339,7 +339,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_volunteer_expedition_bonus
+			picture = FRA_national_mobilization_focus
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
 				drift_defence_factor = 0.25

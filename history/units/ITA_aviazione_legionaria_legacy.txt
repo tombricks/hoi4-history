@@ -42,7 +42,7 @@
 			callsign = "Francesco Baracca II"
 		}
 
-		# Falchi delle Baleari (Naval Bomber Wing) #TODO_Manu: No point probably
+		# Falchi delle Baleari (Naval Bomber Wing) #MM: No point probably
 		#Historically used S.M.79
 		#nav_bomber_equipment_1 = {		
 		#	owner = "ITA" 

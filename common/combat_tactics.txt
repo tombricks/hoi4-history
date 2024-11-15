@@ -71,6 +71,7 @@ tactic_assault = {
 	trigger = {
 		is_attacker = yes
 		phase = no
+		has_artillery_ratio > 0.1
 	}
 	
 	active = yes
@@ -916,3 +917,8 @@ tactic_masterful_blitz = { #Improved version of Blitz for Soviets
 	attacker = 0.2
 	defender = -0.2
 }
+
+
+
+
+

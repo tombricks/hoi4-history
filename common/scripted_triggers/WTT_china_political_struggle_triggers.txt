@@ -164,10 +164,20 @@ WTT_is_active_political_struggle_state = {
 #Country sope
 WTT_is_chinese_warlord = {
 	OR = {
-		TAG = GXC
-		TAG = YUN
-		TAG = XSM
-		TAG = SIK
-		TAG = SHX
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = SHX
+	}
+}
+
+WTT_is_chinese_country = {
+	OR = {
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = MAN
+		original_tag = MEN
+		WTT_is_chinese_warlord = yes 
 	}
 }

@@ -1,6 +1,7 @@
 ﻿l_spanish:
  STATE_UPGRADE_BUILDING: "Mejorar $BUILDING|H$."
  STATE_UPGRADE_BUILDING_DESC: "Días de construcción: $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (nivel: $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$ (máx. por estado: $LEVEL|H$)"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$BUILDING|H$ $LEVEL|H$"
  STATE_BUILDING_INCONSTRUCTION: "En construcción: $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$COUNTRY|H$ tiene a $STATE|H$ como estado esencial.§!"
  STATE_CORE_DESC: "Un estado esencial se considera parte integral de tu nación. Si otra nación se apodera de él, tendrás una razón justificada para declarar la guerra y recuperarlo. Si tienes éxito, la política de ocupación no será necesaria, simplemente se incorporará a tu territorio nacional tras recuperarlo."
  STATE_CLAIM: "§T$COUNTRY|H$ tiene una reivindicación de $STATE|H$.§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$ es propietario impugnado de $STATE|H$.§!"
  STATE_POPULATION: "§HPoblación reclutable§!: $AVAIL|*Y$/$MAXAVAIL|*Y$\n§HPoblación civil§!: $LOCKED|*Y$/$MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "Base: $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§HCrecimiento mensual§!: $VALUE|%2$ ($AVAIL|*+$ reclutable, $LOCKED|*+$ civil)"

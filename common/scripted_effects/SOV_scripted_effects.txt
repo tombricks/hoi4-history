@@ -8061,7 +8061,7 @@ SOV_start_civil_war = {
 		IF = {
 			limit = {
 				GER = { 
-					has_completed_focus = GER_ussr_war_goal # has completed War with the USSR
+					has_completed_focus = GER_war_with_the_ussr # has completed War with the USSR
 					NOT = { has_war_with = SOV } # Not has started the war already
 					has_wargoal_against = SOV # Still has the wargoal
 				}
@@ -8285,7 +8285,7 @@ SOV_start_civil_war = {
 	# Anti Comintern Pact 
 	IF = {
 		limit = {
-			GER = { has_completed_focus = GER_anti_comitern_pact }
+			GER = { has_completed_focus = GER_anti_comintern_pact }
 		}
 		# Add effects to SOS
 		IF = {
@@ -8695,6 +8695,103 @@ SOV_exiles_civil_war_start = {
 	# Initiate Wreckers
 	SOV_launch_wreckers = yes
 
+	# Vasily Flug and Boris Shtefion
+	IF = {
+		limit = {
+			NOT = {
+				OR = {
+					has_global_flag = SOV_flug_and_shteifon_went_to_germany_flag
+					has_global_flag = SOV_flug_and_shteifon_went_to_russia_flag
+					has_global_flag = SOV_flug_and_shteifon_decided_to_fight_for_yugoslavia_flag
+				}
+			}
+		}
+
+		set_country_flag = SOV_flug_and_shteifon_are_ready_to_serve_flag
+		set_global_flag = SOV_flug_and_shteifon_went_to_russia_flag
+
+		YUG = {
+			SOV_vasily_flug = {
+				set_nationality = SOV
+			}
+			SOV_boris_shteifon = {
+				set_nationality = SOV
+			}
+		}
+
+	}
+
+	# Fyodor Konovalov
+	IF = {
+		limit = {
+			ETH = {
+				OR = {
+					exists = no
+					has_capitulated = yes
+					has_country_flag = ETH_selassie_left_flag
+				}
+			}
+		}
+
+		set_country_flag = ETH_feodor_konovalov_went_to_rejoin_the_russian_whites_flag
+
+		ETH = {
+			ETH_feodor_konovalov = {
+				set_nationality = SOV
+			}
+		}
+
+	}
+
+	# Vladimir Sidorin
+	IF = {
+		limit = {
+			DON = {
+				exists = no
+			}
+		}
+
+		set_country_flag = DON_vladimir_sidorin_went_to_rejoin_the_russian_whites_flag
+
+		DON = {
+			DON_vladimir_sidorin = {
+				demote_leader = yes
+				remove_country_leader_role = {
+				    ideology = fascism_ideology
+				}
+				remove_country_leader_role = {
+				    ideology = despotism
+				}
+				set_nationality = SOV
+			}
+		}
+
+	}
+
+	# Ivanis Vasily Nikolaevich
+	IF = {
+		limit = {
+			KUB = {
+				exists = no
+			}
+		}
+
+		set_country_flag = KUB_ivanis_vasily_nikolaevich_went_to_rejoin_the_russian_whites_flag
+
+		KUB = {
+			KUB_ivanis_vasily_nikolaevich = {
+				demote_leader = yes
+				remove_country_leader_role = {
+				    ideology = fascism_ideology
+				}
+				remove_country_leader_role = {
+				    ideology = despotism
+				}
+				set_nationality = SOV
+			}
+		}
+
+	}
 	
 }
 
@@ -9467,7 +9564,7 @@ SOV_set_up_dynamic_modifiers_civil_war = { #Used for Stalinist side in the CW
 	set_variable = { SOS.SOV_the_red_army_heat_attrition_factor = SOV.SOV_the_red_army_heat_attrition_factor }
 	set_variable = { SOS.SOV_the_red_army_acclimatization_cold_climate_gain_factor = SOV.SOV_the_red_army_acclimatization_cold_climate_gain_factor }
 	set_variable = { SOS.SOV_the_red_army_acclimatization_hot_climate_gain_factor = SOV.SOV_the_red_army_acclimatization_hot_climate_gain_factor }
-	set_variable = { SOS.SOV_the_red_army_terrain_penalty_reduction = SOV.SOV_the_red_army_terrain_penalty_reduction }
+	set_variable = { SOS.SOV_the_red_army_terrain_trait_xp_gain_factor = SOV.SOV_the_red_army_terrain_trait_xp_gain_factor }
 	set_variable = { SOS.SOV_the_red_army_unit_infantry_design_cost_factor = SOV.SOV_the_red_army_unit_infantry_design_cost_factor }
 	set_variable = { SOS.SOV_the_red_army_unit_artillery_brigade_design_cost_factor = SOV.SOV_the_red_army_unit_artillery_brigade_design_cost_factor }
 	set_variable = { SOS.SOV_the_red_army_army_org_regain = SOV.SOV_the_red_army_army_org_regain }

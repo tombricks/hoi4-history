@@ -100,6 +100,15 @@
  o_birke: "桦树行动"
  o_tanne_ost: "东方冷杉行动"
  o_tanne_west: "西方冷杉行动"
+ o_fruhlingserwachen: "春醒行动" #hungary
+ o_konrad: "康拉德行动" #hungary
+ o_margarethe: "玛格丽特行动" #hungary
+ o_sudwind: "南风行动" #hungary
+ o_eiche: "橡树行动" #italy
+ o_achse: "轴心行动" #italy
+ o_alarich: "阿拉里克行动" #italy
+ o_scwartz: "施瓦茨行动" #italy
+ o_konstantin: "康斯坦丁行动" #italy
  o_wildente: "野鸭"
  o_biene: "蜜蜂"
  o_gneisenau: "格奈森瑙"
@@ -152,6 +161,8 @@
  o_gisella: "吉塞拉行动" #Iberia
  o_ilona: "伊洛娜行动" #Iberia
  o_isabella: "伊莎贝拉行动" #Iberia
+ o_felix: "费利克斯行动" #Iberia
+ o_munchen: "慕尼黑行动" #Bessarabia
  o_maus: "老鼠"
  o_derfflinger: "德尔弗林格"
  o_moorbrand: "沼泽火焰"
@@ -190,8 +201,6 @@
  o_martin: "马丁"
  o_morgenwind: "晨风"
  o_sonnenaufgang: "日出"
- o_konrad: "康拉德"
- o_fruhlingserwachen: "春醒行动" #hungary
  o_wacht_am_rhein: "守望莱茵行动"
  o_schneeman: "雪人"
  o_sonnenwende: "夏至"

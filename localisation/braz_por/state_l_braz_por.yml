@@ -1,6 +1,7 @@
 ﻿l_braz_por:
  STATE_UPGRADE_BUILDING: "Melhorar $BUILDING|H$."
  STATE_UPGRADE_BUILDING_DESC: "Dias para construir: $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (nível: $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$ (Máximo por estado: $LEVEL|H$)"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$LEVEL|H$ $BUILDING|H$"
  STATE_BUILDING_INCONSTRUCTION: "Em construção: $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$COUNTRY|H$ tem $STATE|H$ como um estado central.§!"
  STATE_CORE_DESC: "Um estado central é considerado uma parte integral da sua nação. Se ele for propriedade de outra nação, você tem um motivo justificável para declarar guerra e retomá-lo. Caso seja bem sucedido, não será necessário uma política de ocupação, ele simplesmente se tornará parte de sua terra natal quando retomado."
  STATE_CLAIM: "§T$COUNTRY|H$ tem uma reivindicação de $STATE|H$.§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$ tem a posse de $STATE|H$ contestada.§!"
  STATE_POPULATION: "§HPopulação recrutável§!: $AVAIL|*Y$/$MAXAVAIL|*Y$\n§HPopulação civil§!: $LOCKED|*Y$/$MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "Base: $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§HCrescimento mensal§!: $VALUE|%2$ ( $AVAIL|*+$ recrutável, $LOCKED|*+$ civil )"

@@ -482,12 +482,19 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
+
 		add_tech_bonus = {
 			name = CHI_chinese_panzers
 			bonus = 1.0
 			uses = 1
 			category = armor
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_land
+			value = 0.25
+		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
 
 		IF = {
 			limit = {
@@ -1756,11 +1763,11 @@ shared_focus = {
 	}
 
 	available = {
+		is_subject = no
 	}
 
 	bypass = {
 		NOT = { has_idea = CHI_nine_power_treaty }
-
 	}
 
 	cancel_if_invalid = yes
@@ -1791,7 +1798,7 @@ shared_focus = {
 	}
 
 	available = {
-
+		is_subject = no
 	}
 
 	bypass = {
@@ -1927,6 +1934,7 @@ shared_focus = {
 
 	available = {
 		NOT = { is_in_faction_with = TIB }
+		is_subject = no
 	}
 
 	bypass = {
@@ -1966,6 +1974,7 @@ shared_focus = {
 	}
 
 	available = {
+		is_subject = no
 	}
 
 	bypass = {
@@ -2061,6 +2070,7 @@ shared_focus = {
 		not = {
 			is_in_faction_with = MON
 		}
+		is_subject = no
 	}
 
 	bypass = {
@@ -2152,6 +2162,7 @@ shared_focus = {
 	}
 
 	available = {
+		is_subject = no
 		any_owned_state = {
 			OR = {
 				is_core_of = VIN
@@ -2206,7 +2217,7 @@ shared_focus = {
 	}
 
 	available = {
-
+		is_subject = no
 	}
 
 	bypass = {
@@ -2412,7 +2423,7 @@ shared_focus = {
 	}
 
 	available = {
-
+		is_subject = no
 	}
 
 	bypass = {
@@ -2475,7 +2486,11 @@ shared_focus = {
 
 	available = {
 		NOT = { has_war_with = JAP }
-		NOT = { is_subject_of = JAP }
+		is_subject = no
+		#NOT = { is_subject_of = JAP }
+		JAP = {
+			is_subject = no
+		}
 	}
 
 	bypass = {
@@ -2506,6 +2521,7 @@ shared_focus = {
 	}
 
 	available = {
+		is_subject = no
 		OR = {
 			527 = {
 				CONTROLLER = {
@@ -3254,7 +3270,10 @@ shared_focus = {
 
 	completion_reward = {
 		USA = {
-			country_event = wtt_china_shared.12
+			country_event = {
+				id = wtt_china_shared.12
+				hours = 1
+			}	
 		}
 	}
 }
@@ -3614,6 +3633,10 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
 		add_tech_bonus = {
 			name = CHI_naval_aviation
 			bonus = 1.0

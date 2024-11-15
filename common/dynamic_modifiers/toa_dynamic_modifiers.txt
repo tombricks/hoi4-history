@@ -29,9 +29,6 @@
 
 ###### COUNTRY MODIFIERS
 
-# TODO JA, note to self, ALWAYS update and add effects to all army, air and navy spirits so that you don't miss one!
-# Army Modifiers
-
 #The Chilean Army
 CHL_army_modifier = { #NATIONAL SPIRIT
 	enable = { always = yes }
@@ -150,7 +147,7 @@ ARG_army_modifier = { #NATIONAL SPIRIT
 south_american_army_modifier = { #NATIONAL SPIRIT
 	enable = { always = yes }
 
-	icon = GFX_idea_ETH_army
+	icon = GFX_idea_MEX_politicised_army_2
 
 	experience_gain_army_factor = JUNO_army_modifier_experience_gain_army_factor
 	experience_loss_factor = JUNO_army_modifier_experience_loss_factor
@@ -259,7 +256,7 @@ ARG_airforce_modifier = { #NATIONAL SPIRIT
 south_american_airforce_modifier = { #NATIONAL SPIRIT
 	enable = { always = yes }
 
-	icon = GFX_idea_ETH_airforce
+	icon = GFX_idea_generic_air_bonus
 
 	air_doctrine_cost_factor =  JUNO_airforce_modifier_air_doctrine_cost_factor
 	air_ace_generation_chance_factor = JUNO_airforce_modifier_air_ace_generation_chance_factor
@@ -574,6 +571,9 @@ BRA_neglected_state_dynamic_modifier = { #STATE MODIFIER
 	# Later
 	local_factories = BRA_state_development_local_factories
 	state_resources_factor = BRA_state_development_state_resources_factor
+	remove_trigger = {
+		NOT = { OWNER = { original_tag = BRA } }
+	}
 }
 
 BRA_growing_state_dynamic_modifier = {
@@ -617,9 +617,9 @@ CHL_deeper_mines_modifier = {
 	enable = { always = yes }
 	icon = GFX_modifiers_SOV_civilian_labor_in_defense
 
-	local_resources_factor = 0.15
-	production_speed_infrastructure_factor = 0.15
-	production_speed_buildings_factor = -0.1
+	state_resources_factor = 0.15
+	state_production_speed_infrastructure_factor = 0.15
+	state_production_speed_buildings_factor = -0.1
 }
 
 
@@ -640,6 +640,9 @@ BRA_cangaceiro_state = {
 	state_production_speed_infrastructure_factor = -0.1
 	state_production_speed_buildings_factor = -0.1
 	local_manpower = -0.2
+	remove_trigger = {
+		NOT = { OWNER = { original_tag = BRA } }
+	}
 }
 
 ARG_federal_intervention_modifier = {

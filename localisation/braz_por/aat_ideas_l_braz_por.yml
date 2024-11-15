@@ -166,6 +166,12 @@
  #Monarchist Path
  NOR_king_haakon_vii_ns: "Rei Haakon VII"
  NOR_king_haakon_vii_ns_desc: "Como o primeiro monarca [NOR.GetAdjective] desde o século XIII, o Rei Haakon VII é um grande defensor da democracia. Somente após a realização de um referendo ele aceitou a coroa, mas deixou a tarefa de governar [NOR.GetNameDef] para seus conselheiros e outros membros do alto escalão da nobreza."
+ NOR_new_high_king: "Um novo alto rei"
+ NOR_new_high_king_desc: "O regente Peder Anker Wedel-Jarlsberg se declarou o novo alto rei da Noruega, estabelecendo-se como governante sem tomar diretamente o título do Rei Haakon. No entanto, essa medida é amplamente impopular entre as nações vizinhas."
+ NOR_norwegian_regency: "A regência norueguesa"
+ NOR_norwegian_regency_desc: "O regente Peder Anker Wedel-Jarlsberg declarou que pretende apenas exercer a vontade e o comando de seu soberano, o Rei Haakon VII. Desse modo, ele busca uma reaproximação com as monarquias escandinavas da região."
+ NOR_second_north_sea_empire: "O segundo Império do Mar do Norte"
+ NOR_second_north_sea_empire_desc: "O regente Peder Anker Wedel-Jarlsberg declarou que pretende apenas restaurar a antiga glória da Noruega e que é apenas uma questão de tempo até que um novo Império Norueguês surja."
  #Dynamic Modifiers
  NOR_independent_norway_dmod: "Uma Noruega independente"
  NOR_independent_norway_dmod_desc: "Somos independentes da Suécia desde 1905 e percorremos um longo caminho desde então. Agora, só depende de nós criar a [NOR.GetNonIdeologyName] que nossos antepassados sonhavam."

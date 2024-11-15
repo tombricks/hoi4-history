@@ -6,7 +6,6 @@ characters = {
 			allowed = { 
 				has_dlc = "Trial of Allegiance"
 			}
-			name = "Gabriel Terra"
 			portraits = {
 				civilian = {
 					large = "GFX_portrait_uruguay_portrait_gabriel_terra"
@@ -25,7 +24,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name="Gabriel Terra"
 			portraits={
 				civilian={
 					large="GFX_portrait_uruguay_portrait_gabriel_terra"
@@ -41,7 +39,6 @@ characters = {
 
 	# TODO JA, add dlc-requirments for this new version, and make it so that you have to old if you do not have it
 	URG_venancio_flores={
-		name="Venancio Flores"
 		portraits={
 			civilian={
 				large=GFX_portrait_Venancio_Flores
@@ -55,7 +52,7 @@ characters = {
 	}
 
 	URG_eugenio_gomez = {
-		name = "Eugenio Gómez"
+
 		portraits = {
 			civilian = {
 				large = GFX_portrait_URG_eugenio_gomez # TODO JA, correct portraits plz
@@ -70,8 +67,7 @@ characters = {
 		
 	}
 
-	URG_bernardo_gonzález={
-		name="Bernardo González"
+	URG_bernardo_gonzalez={
 		portraits={
 			civilian={
 				large=GFX_portrait_Bernardo_Gonzalez
@@ -86,7 +82,6 @@ characters = {
 	}
 
 	URG_arnulf_fuhrmann = {
-		name = "Arnulf Fuhrmann"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_URG_arnulf_fuhrmann # TODO JA, correct portraits plz
@@ -113,7 +108,6 @@ characters = {
 	}
 
 	URG_juan_manuel_aguirre={
-		name="Juan Manuel Aguirre"
 		portraits={
 			civilian={
 				large=GFX_portrait_Juan_Manuel_Aguirre
@@ -127,7 +121,6 @@ characters = {
 	}
 
 	URG_luis_alberto_herrera = {
-		name = "Luis Alberto de Herrera"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_URG_luis_alberto_herrera # TODO JA, correct portraits plz
@@ -146,7 +139,6 @@ characters = {
 			allowed = { 
 				has_dlc = "Trial of Allegiance"
 			}
-			name = "Alfredo Baldomir Ferrari"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_URG_alfredo_baldomir_ferrari # TODO JA, correct portraits plz
@@ -180,7 +172,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name="Alfredo Baldomir Ferrari"
 			portraits={
 				civilian={
 					large=GFX_portrait_Alfredo_Baldomir_Ferrari
@@ -209,8 +200,7 @@ characters = {
 					air_warfare_theorist
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ernesto Sanchez Elizondo"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"
@@ -234,8 +224,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Rafael Marques Ayala"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_3"
@@ -259,8 +248,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="A. Martín de la Flores"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -269,8 +257,6 @@ characters = {
 	}
 	URG_carlos_neves_ochoa={
 		advisor={
-			
-			
 			slot = navy_chief
 			idea_token = URG_carlos_neves_ochoa
 			allowed = {
@@ -284,8 +270,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Carlos Neves Ochoa"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_2"
@@ -310,8 +295,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hector Lopez Camara"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_2"
@@ -336,8 +320,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Valentín Gomez"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -361,8 +343,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Enrico Amancias Rodriguez"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_3"
@@ -386,8 +367,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Cantido Quintio Reyes"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_1"
@@ -412,8 +391,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Cosme Alvaréz Berisso"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_1"
@@ -437,8 +415,7 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jorge Eloi Mendoza"
+
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_5"
@@ -460,8 +437,6 @@ characters = {
 					military_theorist
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Vittorio Amato Masso"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_3"
@@ -486,8 +461,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Carlos Jackson Urribé"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_3"
@@ -495,9 +468,7 @@ characters = {
 		}
 	}
 	URG_teo_bucardi_ramos={
-		advisor={
-			
-			
+		advisor={		
 			slot = high_command
 			idea_token = URG_teo_bucardi_ramos
 			ledger = army
@@ -512,8 +483,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Teo Bucardí Ramos"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_4"
@@ -538,8 +507,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eleazar Díaz Caminate"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_1"
@@ -563,8 +530,6 @@ characters = {
 					factor = 1.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel Heinz Azpurua"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_3"
@@ -586,8 +551,6 @@ characters = {
 					war_industrialist 
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name="Alfredo Baldomir"
 			portraits={
 				civilian = {
 					small = "GFX_portrait_URG_alfredo_baldomir_ferrari_small"
@@ -611,8 +574,7 @@ characters = {
 					war_industrialist 
 				}
 			}
-			# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-			name="Alfredo Baldomir"
+
 			portraits={
 				civilian = {
 					small = "GFX_idea_generic_political_advisor_south_america_2"
@@ -634,8 +596,6 @@ characters = {
 					popular_figurehead 
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Horacio Arredondo"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_1"
@@ -656,8 +616,6 @@ characters = {
 					factor  = 0.000
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Paulo Ortega Fruscí"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_3"
@@ -675,8 +633,6 @@ characters = {
 					smooth_talking_charmer 
 				}
 		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Emilio Frugoni"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"

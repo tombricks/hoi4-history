@@ -1278,7 +1278,6 @@ ARG_south_american_unity_decisions = {
 		}
 
 		available = {
-
 			OR = {
 				has_completed_focus = ARG_south_american_unity
 				has_completed_focus = ARG_integrate_the_motherland
@@ -1291,24 +1290,21 @@ ARG_south_american_unity_decisions = {
 				has_completed_focus = ARG_integrate_the_motherland
 			} 
 		}
+
 		state_target = yes
+
 		target_trigger = {
 			FROM = {
 				impassable = no	
 				AND = {
-					is_on_continent = south_america
-					NOT = { 
-						is_core_of = ROOT 
-						OR = {
-							is_core_of = PAN
-							is_core_of = NIC
-							is_core_of = HON
-							is_core_of = COS
-							is_core_of = ELS
-						}
+					OR = {
+						is_on_continent = south_america
+						state = 948
 					}
-
 					is_owned_and_controlled_by = ROOT
+				}
+				NOT = {
+					is_core_of = ROOT
 				}
 			}
 		}
@@ -1324,7 +1320,6 @@ ARG_south_american_unity_decisions = {
 		}
 
 		remove_effect = {
-
 			FROM = {
 				add_core_of = ROOT
 			}

@@ -406,10 +406,10 @@ ideas = {
 			picture = generic_artillery_regiments
 			
 			modifier = {
-				army_artillery_attack_factor = 0.1
+				army_artillery_attack_factor = 0.05
 				army_artillery_defence_factor = 0.05
 
-				army_armor_attack_factor = 0.1
+				army_armor_attack_factor = 0.05
 				army_armor_defence_factor = 0.05
 			}
 		}
@@ -489,7 +489,6 @@ ideas = {
 				consumer_goods_factor = -0.05
 				production_speed_infrastructure_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = -0.25
 			}
 		}
 
@@ -507,8 +506,8 @@ ideas = {
 			modifier = {
 				drift_defence_factor = -0.5
 				stability_factor = -0.1
-				industrial_capacity_factory = 0.2
-				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.1
 			}
 		}
 
@@ -709,10 +708,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_laws_cost_factor = -0.5
-				economy_cost_factor = -0.5
+				trade_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
 				opinion_gain_monthly_same_ideology_factor = 0.4
-				production_speed_industrial_complex_factor = 0.2
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 
@@ -974,8 +973,8 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = {
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 
 			targeted_modifier = {
@@ -1017,8 +1016,8 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = {
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.1
 				conscription_factor = 0.05
 				fascism_drift = 0.05
 			}
@@ -1037,8 +1036,8 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = {
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.07
 				conscription_factor = 0.05
 				drift_defence_factor = 0.2
 			}
@@ -1143,7 +1142,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.1
 				justify_war_goal_time = -0.25
-				army_attack_factor = 0.1
+				breakthrough_factor = 0.06
 				equipment_capture_factor = 0.05
 			}
 		}
@@ -1220,9 +1219,9 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.1
-				army_defence_factor = 0.1
+				army_defence_factor = 0.05
 			}
 		}
 
@@ -1242,8 +1241,8 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
-				army_defence_factor = 0.1
-				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_attack_factor = 0.025
 				justify_war_goal_time = -0.25
 			}
 		}
@@ -1339,7 +1338,7 @@ ideas = {
 				war_support_factor = 0.1
 				justify_war_goal_time = -0.2
 				fascism_drift = 0.08
-				army_attack_factor = 0.05
+				army_attack_factor = 0.025
 			}
 		}
 
@@ -1360,8 +1359,8 @@ ideas = {
 				war_support_factor = 0.15
 				justify_war_goal_time = -0.2
 				fascism_drift = 0.1
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
+				army_attack_factor = 0.04
+				army_defence_factor = 0.06
 				org_loss_at_low_org_factor = -0.2
 			}
 		}
@@ -1427,9 +1426,9 @@ ideas = {
 			picture = hol_the_foundations_of_defense
 			
 			modifier = {
-				stability_weekly = 0.002
+				stability_factor = 0.05
 				consumer_goods_factor = -0.1
-				conscription_factor = 0.15
+				conscription_factor = 0.10
 			}
 		}
 
@@ -1496,9 +1495,7 @@ ideas = {
 			picture = CHL_patagonian_giants
 			
 			modifier = {
-				army_attack_factor = 0.1
-				army_defence_factor = 0.15
-				breakthrough_factor = 0.1
+				breakthrough_factor = 0.10
 			}
 		}
 
@@ -1578,10 +1575,10 @@ ideas = {
 			}
 
  			modifier = {
-				political_power_factor = 0.2
-				army_attack_factor = 0.15
-				army_defence_factor = 0.15
-				army_org_factor = 0.1
+				political_power_factor = 0.1
+				army_attack_factor = 0.06
+				army_defence_factor = 0.1
+				army_org_factor = 0.05
 				army_org_regain = 0.1
 				stability_factor = 0.15
 				war_support_factor = 0.1
@@ -1622,7 +1619,7 @@ ideas = {
  			modifier = {
  				army_defence_factor = 0.15
  				army_org_factor = 0.1
- 				terrain_penalty_reduction = 0.25
+ 				terrain_trait_xp_gain_factor = 0.35
 			}
 		}
 
@@ -1865,7 +1862,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_speed_factor = 0.1
+				research_speed_factor = 0.03
 			}
 		}
 
@@ -1900,10 +1897,10 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = {
-				special_forces_cap = 0.3
-				modifier_army_sub_unit_mountaineers_defence_factor = 0.15
+				special_forces_cap = 0.20
+				modifier_army_sub_unit_mountaineers_defence_factor = 0.05
 				modifier_army_sub_unit_mountaineers_speed_factor = 0.05
-				modifier_army_sub_unit_mountaineers_attack_factor = 0.1
+				modifier_army_sub_unit_mountaineers_attack_factor = 0.05
 			}
 		}
 
@@ -1923,7 +1920,7 @@ ideas = {
 			
 			modifier = {
 				puppet_cost_factor = -0.25
-				conscription_factor = 0.2
+				conscription_factor = 0.10
 				justify_war_goal_time = -0.15
 			}
 		}
@@ -1957,10 +1954,8 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_dockyard = 0.15
-				production_speed_dockyard_factor = 0.1
-				spotting_chance = 0.2
-				positioning = 0.1
+				production_speed_dockyard_factor = 0.20
+				spotting_chance = 0.15
 				screening_efficiency = 0.1
 				repair_speed_factor = 0.15
 			}
@@ -2071,7 +2066,7 @@ ideas = {
 			equipment_bonus = { 
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.2
+					build_cost_ic = -0.06
 				}
 			}
 		}
@@ -2096,7 +2091,7 @@ ideas = {
 			equipment_bonus = { 
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.15
+					build_cost_ic = -0.1
 				}
 			}
 		}
@@ -2121,7 +2116,7 @@ ideas = {
 			equipment_bonus = { 
 				anti_tank_equipment = {
 					instant = yes
-					build_cost_ic = -0.25
+					build_cost_ic = -0.15
 				}
 			}
 		}
@@ -2166,6 +2161,7 @@ ideas = {
 					original_tag = BRA
 					original_tag = ARG
 					original_tag = CHL
+					original_tag = COG
 				}
 			}
 					
@@ -2219,6 +2215,16 @@ ideas = {
 				send_volunteer_divisions_required = -3
 				lend_lease_tension = -0.50
 				send_volunteers_tension = -1
+			}
+			on_remove = {
+				remove_relation_rule_override = {
+				    target = CHL
+				   	can_send_volunteers = yes
+				}
+				remove_relation_modifier = {
+				    target = CHL
+				    modifier = CHL_from_support_chile_static_modifier
+				}
 			}
 		}
 
@@ -2307,7 +2313,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.10
 			}
 		
 			traits = { merchant_marine_manufacturer } 
@@ -2335,13 +2341,13 @@ ideas = {
 			}
 
 			research_bonus = {
-				electronics = 0.1
+				electronics = 0.05
 			}
 		
 			traits = { electronics_developer } 
 
 			modifier = {
-				research_speed_factor = 0.1
+				research_speed_factor = 0.05
 			}
 		}
 
@@ -2596,7 +2602,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				artillery_equipment = 0.15
+				artillery = 0.15
 			}
 		
 			traits = { artillery_manufacturer } 
@@ -2612,9 +2618,11 @@ ideas = {
 		designer = yes
 		CHL_epartamento_de_tanques_del_ejercito = {
 
+			picture = generic_tank_manufacturer_1
 			
 			allowed = {
 				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
 			}
 			
 			research_bonus = {
@@ -2714,7 +2722,7 @@ ideas = {
 
 		CHL_enaer = {
 
-			picture = CHL_enaer
+			picture = generic_air_manufacturer_2
 
 			allowed = {
 				original_tag = CHL

@@ -100,6 +100,15 @@
  o_birke: "Opération Birke"
  o_tanne_ost: "Opération Tanne Ost"
  o_tanne_west: "Opération Tanne West"
+ o_fruhlingserwachen: "Opération Frühlingserwachen" #hungary
+ o_konrad: "Opération Konrad" #hungary
+ o_margarethe: "Opération Margarethe" #hungary
+ o_sudwind: "Opération Südwind" #hungary
+ o_eiche: "Opération Eiche" #italy
+ o_achse: "Fall Achse" #italy
+ o_alarich: "Opération Alarich" #italy
+ o_scwartz: "Opération Schwartz" #italy
+ o_konstantin: "Opération Konstantin" #italy
  o_wildente: "Wildente"
  o_biene: "Biene"
  o_gneisenau: "Gneisenau"
@@ -152,6 +161,8 @@
  o_gisella: "Opération Gisella" #Iberia
  o_ilona: "Opération Ilona" #Iberia
  o_isabella: "Opération Isabella" #Iberia
+ o_felix: "Opération Felix" #Iberia
+ o_munchen: "Opération München" #Bessarabia
  o_maus: "Maus"
  o_derfflinger: "Derfflinger"
  o_moorbrand: "Moorbrand"
@@ -190,8 +201,6 @@
  o_martin: "Martin"
  o_morgenwind: "Morgenwind"
  o_sonnenaufgang: "Sonnenaufgang"
- o_konrad: "Konrad"
- o_fruhlingserwachen: "Opération Frühlingserwachen" #hungary
  o_wacht_am_rhein: "Opération Wacht am Rhein"
  o_schneeman: "Schneeman"
  o_sonnenwende: "Sonnenwende"

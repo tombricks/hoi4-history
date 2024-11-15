@@ -304,6 +304,7 @@ set_popularities = {
 			has_dlc = "Trial of Allegiance"
 		}
 		set_country_flag = CHL_1939_flag
+		set_global_flag = nacista_coup_attempt_happened
 		# Unique Focuses
 		complete_national_focus = CHL_endorse_the_constitution
 		complete_national_focus = CHL_policies_of_arturo_alessandri
@@ -397,7 +398,6 @@ set_popularities = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -413,6 +413,9 @@ set_popularities = {
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

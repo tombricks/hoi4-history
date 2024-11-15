@@ -20,3 +20,4 @@
  RULE_OVERRIDE_BREAKDOWN_TITLE_NEG: "(au moins une condition doit être vérifiée) :"
  RULE_OVERRIDE_BREAKDOWN_ENTRY: "  $STATUS$ $DESC$"
  RULE_DEFAULT_CONSTANT_OVERRIDE_BREAKDOWN_DESC: "de $ROOT|Y$ à $FROM|Y$"
+ CAN_USE_UNDERWAY_REPLENISHMENT: "Peut utiliser le ravitaillement en mer"

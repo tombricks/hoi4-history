@@ -324,6 +324,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_category_SWI_military_readiness_decisions.dds"
 	}
 
+	spriteType = {
+		name = "GFX_decision_category_PLACEHOLDER"
+		texturefile = "gfx/interface/decisions/decision_category_PLACEHOLDER.dds"
+	}
+
 	
 	
 	### category pictures
@@ -604,6 +609,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_cat_picture_SWI_absolute_neutrality"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_SWI_absolute_neutrality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_picture_PLACEHOLDER"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_PLACEHOLDER.dds"
 	}
 
 
@@ -1271,6 +1281,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_generic_human_torpedo"
 		texturefile = "gfx/interface/decisions/decision_generic_human_torpedo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_PLACEHOLDER"
+		texturefile = "gfx/interface/decisions/decision_generic_PLACEHOLDER.dds"
 	}
 
 
@@ -2477,5 +2492,175 @@ spriteTypes = {
 		name = "GFX_decision_cat_picture_PER_unified_peru_bolivia"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_PER_unified_peru_bolivia.dds"
 	}
+
+
+
+		####          ####  ####          ####
+		 ##            ##    ##            ##
+		 ##            ##    ##            ##
+		 ##            ##    ##            ##
+		 ##    ####    ##    ##    ####    ##
+          ##    ##    ##      ##    ##    ##
+	       ##   ##   ##   # #  ##   ##   ##
+            ####  ####    ###   ####  ####
+	
+
+
+		        ### GERMANY ###
+		## Decision Category Icons ##
+	spriteType = {
+		name = "GFX_decision_category_generic_naval"
+		texturefile = "gfx/interface/decisions/decision_category_generic_naval.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_GER_seize_gold_reserves"
+		texturefile = "gfx/interface/decisions/decision_category_GER_seize_gold_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_GER_war_planning"
+		texturefile = "gfx/interface/decisions/decision_category_GER_war_planning.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_category_GER_volkskommissariats"
+		texturefile = "gfx/interface/decisions/decision_decision_category_GER_volkskommissariats.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_GER_weltpolitik"
+		texturefile = "gfx/interface/decisions/decision_category_GER_weltpolitik.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_generic_communist_revolution"
+		texturefile = "gfx/interface/decisions/decision_category_generic_communist_revolution.dds"
+	}
+
+		## Decision Category Pictures ##
+	spriteType = {
+		name = "GFX_decision_cat_picture_operational_planning"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_operational_planning.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_seize_gold_reserves"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_seize_gold_reserves.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_antischluss_measures"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_antischluss_measures.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_becoming_grossosterreich"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_becoming_grossosterreich.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_danubian_federation"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_danubian_federation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_greater_german_reich"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_greater_german_reich.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_greater_proletarian_germany"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_greater_proletarian_germany.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_grenzshutz"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_grenzshutz.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_spreading_the_red_flame"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_spreading_the_red_flame.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_unite_germany"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_unite_germany.dds"
+	}
+
+
+
+
+		## Decision Icons ##
+	spriteType = {
+		name = "GFX_decision_generic_confiscation"
+		texturefile = "gfx/interface/decisions/decision_generic_confiscation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_GER_flag"
+		texturefile = "gfx/interface/decisions/decision_generic_GER_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_USA_flag"
+		texturefile = "gfx/interface/decisions/decision_generic_USA_flag.dds"
+	}
+
+		## RK Iconography ##
+	spriteType = {
+		name = "GFX_rk_bg_solid"
+		texturefile = "gfx/interface/decisions/rk/rk_bg_solid.dds"
+	}
+	spriteType = {
+		name = "GFX_rk_bg_50"
+		texturefile = "gfx/interface/decisions/rk/rk_bg_50.dds"
+	}
+	spriteType = {
+		name = "GFX_rk_bg_60"
+		texturefile = "gfx/interface/decisions/rk/rk_bg_60.dds"
+	}
+	spriteType = {
+		name = "GFX_rk_bg_70"
+		texturefile = "gfx/interface/decisions/rk/rk_bg_70.dds"
+	}
+
+
+
+				### AUSTRIA ###
+
+		## Decision Category Icons ##
+	spriteType = {
+		name = "GFX_decision_category_AUS_becoming_grossosterreich_category"
+		texturefile = "gfx/interface/decisions/decision_category_AUS_becoming_grossosterreich_category.dds"
+	}
+
+
+
+				### HUNGARY ###
+
+		## Decision Category Icons ##
+	spriteType = {
+		name = "GFX_decision_cat_generic_austria_hungary_icon"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_austria_hungaryy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_hun_arrow_cross_party"
+		texturefile = "gfx/interface/decisions/decision_cat_hun_arrow_cross_party.dds"
+	}
+
+
+		## Decision Category Pictures ##
+	spriteType = {
+		name = "GFX_decision_cat_generic_sweden_hungary"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_sweden_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_generic_unified_antilles"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_generic_unified_antilles.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_greater_hungary"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_greater_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_generic_unified_latin_africa"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_generic_unified_latin_africa.dds"
+	}
+
+
+				### BELGIUM ###
+
+		## Decision Icons ##
+	spriteType = {
+		name = "GFX_decision_generic_belgian_colonial_helmet"
+		texturefile = "gfx/interface/decisions/decision_generic_belgian_colonial_helmet.dds"
+	}
+
 
 }

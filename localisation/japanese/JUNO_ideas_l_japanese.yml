@@ -413,7 +413,7 @@
  ARG_political_corruption_modifier_desc: "長年にわたり、[ARG.GetNameDef]は政府内の下劣な汚職に悩まされてきた。コンコルダンシアの結成を許可することで、この問題が軽減されるかもしれないと考えられていたが、一方で不正投票と有権者による脅迫は続いていた。"
  ARG_modify_corruption_ns_intro: "§Y$ARG_political_corruption_modifier$§!に以下の修正:"
  ARG_international_loan_modifier: "国際融資"
- ARG_international_loan_modifier_desc: "危機的状況に陥ったとき、世界の他の国々に経済援助を求めるのは珍しいことではない。[ARG.GetNameDef]の経済の現状を考えれば、この紛争に関与している大国からの援助を受け入れることはまったく理にかなっている。"
+ ARG_international_loan_modifier_desc: "危機的状況に陥ったとき、世界の他の国々に経済援助を求めるのは珍しいことではない。[ROOT.GetNameDef]の経済の現状を考えれば、この紛争に関与している大国からの援助を受け入れることはまったく理にかなっている。"
  ARG_modify_international_loan_intro: "§Y$ARG_international_loan_modifier$§!に以下の修正:"
  ARG_corruption_crackdown_modifier: "$ARG_crack_down_on_corruption$"
  ARG_corruption_crackdown_modifier_desc: "我が国の政府を悩ませていた汚職はまったく受け入れがたいものだった。ロベルト・マリア・オルティスの政策のおかげで、我々はようやく、政治家たちが行っていたあからさまな不正行為に終止符を打つことができるようになった。"

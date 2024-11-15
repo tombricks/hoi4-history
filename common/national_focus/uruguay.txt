@@ -75,7 +75,7 @@ focus_tree = {
 		prerequisite = { focus = URG_statism }
 		relative_position_id = URG_statism
 		mutually_exclusive = { }
-		icon = GFX_focus_usa_guarantee_the_american_dream
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		cost = 10
@@ -87,7 +87,7 @@ focus_tree = {
 				limit = {
 					is_controlled_by = ROOT
 				}
-				prioritize = { 300 } #optional: to pick those states first if they fulfill the limit
+				prioritize = { 946 945 }
 				add_extra_state_shared_building_slots = 1
 				increase_state_category = yes
 			}
@@ -209,7 +209,7 @@ focus_tree = {
 					set_technology = { gwtank = 1 }
 				}
 
-				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = ITA }
+				add_equipment_to_stockpile = { type = gw_tank_equipment amount = 100 producer = ITA }
 
 
 			}
@@ -223,7 +223,7 @@ focus_tree = {
 					set_technology = { gwtank_chassis = 1 }
 				}
 
-				add_equipment_to_stockpile = { type = light_tank_chassis_1 amount = 100 producer = ITA variant_name = "Fiat 3000B" }
+				add_equipment_to_stockpile = { type = light_tank_chassis_0 amount = 100 producer = ITA variant_name = "Fiat 3000B" }
 			}
 
 		}
@@ -329,6 +329,9 @@ focus_tree = {
 	focus = {
 		id = URG_rincon_del_bonete_hydroelectric_power_station
 		available = {
+			946 = {
+				is_fully_controlled_by = ROOT
+			}
 		}
 		prerequisite = { focus = URG_break_relations_with_the_ussr }
 		mutually_exclusive = { }
@@ -343,9 +346,26 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.05
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 			add_ideas = {
 				idea_GUAY_electrification_of_the_country
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			946 = {	
+				add_building_construction = {
+					type = dam
+					level = 1
+					instant_build = yes
+					province = {
+						id = 1613
+					}
+				}
+				custom_effect_tooltip = {
+					localization_key = building_state_modifier|dam
+					INDENT = "    "
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 			add_fascist_influence = yes
 
 		}
@@ -379,7 +399,7 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				prioritize = { 300 } #optional: to pick those states first if they fulfill the limit
+				prioritize = { 946 945 } #optional: to pick those states first if they fulfill the limit
 				
 			}
 
@@ -477,17 +497,27 @@ focus_tree = {
 
 	focus = {
 		id = URG_the_fuhrmann_plan
-		available = {
-		} 
+
 		prerequisite = { focus = URG_establish_the_german_uruguayan_cultural_center  }
-		available = { fascism > 0.5 }
+
+		available = { 
+			is_subject = no
+			fascism > 0.5 
+		}
+
 		mutually_exclusive = { }
+
 		icon = GFX_focus_hol_war_on_pacifism
+
 		x = 0
 		y = 1
+
 		cost = 10
+
 		relative_position_id = URG_establish_the_german_uruguayan_cultural_center
+
 		search_filters = { FOCUS_FILTER_POLITICAL  }
+
 		completion_reward = {
 			set_politics = {
 				ruling_party = fascism
@@ -656,8 +686,8 @@ focus_tree = {
 		prerequisite = { focus = URG_the_fuhrmann_plan  }
 		mutually_exclusive = { }
 		icon = GFX_focus_SWE_rations
-		x = -4
-		y = 2
+		x = 0
+		y = 1
 		cost = 5
 		relative_position_id = URG_the_fuhrmann_plan
 		search_filters = {  }
@@ -810,28 +840,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = URG_rincon_del_bonete_dam
-		available = {
-		}
-		prerequisite = { focus = URG_rapid_industrialization }
-		mutually_exclusive = { }
-		icon = GFX_focus_generic_military_academy
-		x = 4
-		y = 1
-		cost = 5
-		relative_position_id = URG_rapid_industrialization
-		search_filters = {  }
-		completion_reward = {
-			add_ideas = {
-				PAR_febrerista_land_reform
-			}
-		}
-	}
-
-	focus = {
 		id = URG_la_teja_refinery 
 		available = {
-			controls_state = 300
+			#controls_state = 300
 		}
 		prerequisite = { focus = URG_rapid_industrialization }
 		mutually_exclusive = { }
@@ -842,11 +853,16 @@ focus_tree = {
 		relative_position_id = URG_rapid_industrialization
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 		completion_reward = {
-			300 = {
+			random_core_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				prioritize = { 946 945 }
 				add_resource = {
 					type = oil
 					amount = 8
 				}
+
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
@@ -870,15 +886,23 @@ focus_tree = {
 		relative_position_id = URG_rapid_industrialization
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 		completion_reward = {
-			air_experience = 40
+			air_experience = 25 # was 40
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
 			add_equipment_to_stockpile = { 
 				type = transport_plane_equipment_1
 				amount = 40 
 				producer = URG
 			}
 
-			300 = {
+			custom_effect_tooltip = generic_skip_one_line_tt
 
+			random_core_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -893,7 +917,6 @@ focus_tree = {
 	focus = {
 		id = URG_conaprole
 		available = {
-			controls_state = 300
 		}
 		prerequisite = { focus = URG_rapid_industrialization }
 		mutually_exclusive = { }
@@ -910,7 +933,11 @@ focus_tree = {
 			 	category = construction_tech # optional 
 			 	# technology  = technology_id # optional
 			 } 
-			300 = {
+			random_core_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				prioritize = { 946 945 }
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -936,12 +963,19 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 		completion_reward = {
 			300 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
+			}
+			random_core_state = {
+				limit = {
+					is_controlled_by = ROOT
+					NOT = { state = 300 }
+				}
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -1241,16 +1275,23 @@ focus_tree = {
 		available = {
 		}
 
-		icon = GFX_focus_SWE_approach_the_allies
+		icon = GFX_focus_chi_british_cooperation
 		x = -6
 		y = 1
-		available = {  }
+		available = { 
+			is_subject = no
+		}
+
 		cost = 5
+
 		relative_position_id = URG_break_diplomatic_relations_with_the_axis
+
 		prerequisite = { focus = URG_break_diplomatic_relations_with_the_axis  focus = URG_anticentralism }
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+
 		completion_reward = {
+
 			add_popularity = {
 				ideology = democratic
 				popularity = 0.15
@@ -1396,7 +1437,7 @@ focus_tree = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 				}
-				prioritize = { 300 } #optional: to pick those states first if they fulfill the limit
+				prioritize = { 946 945 }
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1461,14 +1502,21 @@ focus_tree = {
 		available = {
 		}
 
-		icon = GFX_focus_FIN_pragmatic_socialism
+		icon = GFX_focus_generic_self_management
+		
 		x = 1
 		y = 1
+
 		available = {  }
+
 		cost = 5
+
 		prerequisite = { focus = URG_blanco_victory }
+
 		relative_position_id = URG_blanco_victory
+
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+
 		completion_reward = {
 			add_ideas = {
 				idea_URG_traditionalism
@@ -1615,7 +1663,7 @@ focus_tree = {
 		available = {
 		}
 
-		icon = GFX_focus_SOV_pacific_empire
+		icon = GFX_focus_generic_support_the_left_right
 		x = 0
 		y = 1
 		available = {  }

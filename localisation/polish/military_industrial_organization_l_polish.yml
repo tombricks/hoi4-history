@@ -200,7 +200,7 @@
  ###################################################################################################
  #### Content localization
  ###################################################################################################
- ### Just for testing - clean up once we start on real stuff #TODO_Manu: REMOVE!!!!
+ ### Just for testing
  my_custom_mio: "Moja własna WOP"
  FRA_my_custom_mio: "Mon OIM rien qu'à moi"
  my_custom_mio_custom_1: "Moja górna lewa specjalizacja"
@@ -281,6 +281,13 @@
  mio_header_anti_tank: "Artyleria ppanc."
  mio_header_protection: "Ochrona"
  mio_header_specialization: "Specjalizacja"
+ mio_header_light_assault_gun_department: "Departament lekkich dział szturmowych"
+ mio_header_armored_cars: "Samochody pancerne"
+ mio_header_medium_assault_gun_department: "Departament średnich dział szturmowych"
+ mio_header_heavy_assault_gun_department: "Departament ciężkich dział szturmowych"
+ mio_header_helicopter_construction: "Budowa śmigłowca"
+ mio_header_single_rotor: "Jeden wirnik"
+ mio_header_tandem_rotor: "Dwa wirniki"
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##
  ##     ## ##     ## ##        ##  ##        ##  ##       ##
@@ -332,19 +339,36 @@
  USA_springfield_armory_organization: "$springfield_armory$"
  USA_ford_motor_company_organization: "$ford_motor_company$"
  USA_rock_island_arsenal_organization: "$rock_island_arsenal$"
+ USA_sikorsky_organization: "Sikorsky Aviation Corporation"
  ### TRAITS ###
  USA_mio_trait_lockeed_aircraft: "Samoloty Lockheed"
+ USA_mio_trait_medium_tank_organization: "Zorganizowanie czołgów średnich"
  USA_mio_trait_mechanized_production: "Zmechanizowana produkcja"
  USA_mio_trait_outsourced_engines: "Silniki z dostaw zewnętrznych"
- USA_mio_trait_light_aircraft_development: "Budowa lekkich samolotów"
  USA_mio_trait_strict_design_specifications: "Ścisła specyfikacja projektowa"
  USA_mio_trait_expanded_production_facilities: "Rozbudowane zakłady produkcyjne"
  USA_mio_trait_periscope_sights: "Celowniki peryskopowe"
- USA_mio_trait_mass_production_of_armor: "Masowa produkcja broni pancernej"
- USA_mio_trait_medium_tank_organization: "Zorganizowanie czołgów średnich"
  USA_mio_trait_superfortress: "Superforteca"
  USA_mio_trait_smooth_finish: "Gładkie wykończenie"
  USA_mio_trait_jet_fighter_design: "Projekt myśliwca odrzutowego"
+ USA_mio_trait_remote_controlled_turrets: "Zdalnie sterowane wieżyczki"
+ USA_mio_trait_specialist_nose_configurations: "Specjalistyczne konfiguracje dziobów"
+ USA_mio_trait_arsenal_of_democracy: "Arsenał demokracji"
+ USA_mio_trait_shipyard_expansion: "Rozbudowa stoczni"
+ USA_mio_trait_naval_station_norfolk: "Placówka marynarki wojennej w Norfolk"
+ USA_mio_trait_gould_centrifugal_pump: "Pompa odśrodkowa Gould"
+ USA_mio_trait_radar_experimentation: "Eksperymenty z radarem"
+ USA_mio_trait_the_can_do_shipyard: "Stocznia brooklyńska"
+ USA_mio_trait_drydock_expansion: "Rozbudowa suchego doku"
+ USA_mio_trait_north_carolina_shipbuilding_company: "North Carolina Shipbuilding Company"
+ USA_mio_trait_carrier_specialists: "Lotniskowce - Specjaliści"
+ ### INITIAL TRAITS ###
+ USA_mio_trait_light_long_range_aircraft: "Lekkie samoloty dalekiego zasięgu"
+ USA_mio_trait_medium_long_range_aircraft: "Średnie samoloty dalekiego zasięgu"
+ USA_mio_trait_light_aircraft_development: "Budowa lekkich samolotów"
+ USA_mio_trait_mass_production_of_armor: "Masowa produkcja broni pancernej"
+ USA_mio_trait_medium_tank_manufacturer: "Producent czołgów średnich"
+ USA_mio_trait_dedicated_tank_factory: "Dedykowana fabryka czołgów"
  ###################
  ###### JAPAN ######
  ###################
@@ -386,18 +410,16 @@
  ### TRAITS ###
  SOV_mio_trait_gas_tank_protection: "Ochrona zbiornika paliwa"
  SOV_mio_trait_lightened_reduction_gear: "Lżejsze przełożenia redukcyjne"
- SOV_has_already_completed_this_trait: "Posiada już tę specjalizację dzięki innej organizacji."
- SOV_trait_will_not_be_available_in_other_organizations: "§RTa specjalizacja nie będzie już dostępna w innych organizacjach§!."
- SOV_merge_plant_no_174_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_112_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_ural_heavy_machine_building_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_370_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_mariupol_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_28_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_plant_no_150_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_vef_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_nkmz_plant_flag: "$SOV_has_already_completed_this_trait$"
- SOV_merge_magnitogorsk_metallurgical_plant_flag: "$SOV_has_already_completed_this_trait$"
+ SOV_merge_plant_no_174_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_112_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_ural_heavy_machine_building_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_370_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_mariupol_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_28_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_150_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_vef_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_nkmz_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_magnitogorsk_metallurgical_plant_flag: "$generic_has_already_completed_this_trait$"
  ########################
  #### UNITED KINGDOM ####
  ########################
@@ -460,24 +482,105 @@
  GER_porsche_organization: "$porsche$"
  GER_henschel_organization: "$henschel$"
  GER_man_organization: "$GER_MAN$"
- GER_daimler_benz_organization: "Daimler Benz"
+ GER_daimler_benz_organization: "Daimler-Benz"
+ GER_alkett_organization: "$GER_alkett$"
  GER_germaniawerft_organization: "$germaniawerft$"
  GER_blohm_und_voss_organization: "$blohm_und_voss$"
+ GER_hdw_organization: "$GER_hdw$"
+ GER_deschimag_organization: "$GER_deschimag$"
+ GER_deutsche_werke_organization: "$GER_deutsche_werke$"
+ GER_kriegsmarinewerft_wilhelmshaven_organization: "$GER_kriegsmarinewerft_wilhelmshaven$"
  GER_messerschmitt_organization: "$messerschmitt$"
  GER_junkers_organization: "$junkers$"
  GER_focke_wulf_organization: "$focke_wulf$"
  GER_heinkel_organization: "$heinkel$"
  GER_dornier_organization: "$dornier$"
+ GER_arado_flugzeugwerke_organization: "$GER_arado_flugzeugwerke$"
+ GER_fieseler_organization: "$GER_fieseler$"
+ GER_focke_achgelis_organization: "Focke-Achgelis"
  GER_rheinmetall_organization: "$rheinmetall$"
  GER_mauser_organization: "$mauser$"
  GER_opel_organization: "$opel$"
+ GER_carl_walther_organization: "$GER_carl_walther$"
+ GER_auto_union_organization: "$GER_auto_union$"
  ### TRAITS ###
  GER_mio_trait_hotrolled_armor: "Walcowany pancerz"
  GER_mio_trait_multilayer_armour: "Pancerz warstwowy"
- GER_mio_trait_maintenance_first_design: "Nacisk na łatwość obsługi technicznej"
+ GER_mio_trait_maintenance_first_design: "Łatwe serwisowanie"
  GER_mio_trait_fuselage_based_weapons: "Broń połączona z kadłubem"
  GER_mio_trait_early_jet_engine_adopter: "Wczesne naśladownictwo silników odrzutowych"
  GER_mio_trait_psychological_warfare: "Wojna psychologiczna"
+ GER_mio_trait_hoesch_facilities: "Obiekty Hoesch"
+ GER_hoesch_facilities_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_hamburger_flugzeugbau: "Hamburger Flugzeugbau"
+ GER_hamburger_flugzeugbau_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_amerikabomber_learnings: "Wnioski z projektu Amerikabomber"
+ GER_mio_trait_ford_facilities: "Obiekty Ford"
+ GER_mio_trait_efficiency_in_mass_production: "Wydajność w produkcji masowej"
+ GER_mio_trait_continental_ag_tires: "Opony Continental AG"
+ GER_mio_trait_involve_porsche_in_special_projects: "Zaangażowanie Porsche w projekty specjalne"
+ GER_mio_trait_involve_henschel_in_special_projects: "Zaangażowanie Henschel w projekty specjalne"
+ GER_mio_trait_multi_role_tanks: "Czołgi wielozadaniowe"
+ GER_mio_trait_anti_tank_specialization: "Specjalizacja przeciwpancerna"
+ GER_mio_trait_unorthodox_transmission_design: "Niekonwencjonalna konstrukcja przekładni"
+ GER_mio_trait_versatile_chassis: "Wszechstronne podwozie"
+ GER_mio_trait_tungsten_tipped_rounds: "Naboje z wolframowym czubkiem"
+ GER_mio_trait_history_of_battleships: "Historia pancerników"
+ GER_mio_trait_krupp_guns: "Działa Kruppa"
+ GER_mio_trait_h_class_battleships: "Pancerniki klasy H"
+ GER_mio_trait_heavy_raiders: "Ciężkie okręty uderzeniowe"
+ GER_mio_trait_o_class_battlecruisers: "Krążowniki liniowe klasy O"
+ GER_mio_trait_u_boat_yards: "Stocznie u-bootów"
+ GER_mio_trait_high_test_peroxide: "Stężony nadtlenek wodoru"
+ GER_mio_trait_ocean_u_boats: "U-booty oceaniczne"
+ GER_mio_trait_kilian_submarine_bunker: "Bunkier Kilian dla okrętów podwodnych"
+ GER_mio_trait_saddle_tanks: "Zbiorniki siodłowe"
+ GER_mio_trait_excellent_diving_performance: "Doskonałe osiągi zanurzeniowe"
+ GER_mio_trait_atlantic_raiders: "Okręty uderzeniowe na Atlantyku"
+ GER_mio_trait_krupp_contacts: "Kontakty Kruppa"
+ GER_mio_trait_armored_design: "Opancerzona konstrukcja"
+ GER_mio_trait_shipyard_conglomerate: "Konglomerat stoczniowy"
+ GER_mio_trait_auxilliary_shipyard: "Stocznia pomocnicza"
+ GER_mio_trait_foreign_influences: "Wpływy zagraniczne"
+ GER_mio_trait_raider_doctrine: "Doktryna rajdów"
+ GER_mio_trait_fast_raiders: "Szybkie jednostki uderzeniowe"
+ GER_mio_trait_carrier_raiders: "Pokładowe jednostki uderzeniowe"
+ GER_mio_trait_historical_shipyard: "Historyczna stocznia"
+ GER_mio_trait_upgrade_panzerschiffs: "Ulepszenie jednostek Panzerschiff"
+ GER_mio_trait_innovative_battleship_designs: "Innowacyjne konstrukcje pancerników"
+ GER_mio_trait_high_velocity_armament: "Uzbrojenie o wysokiej prędkości"
+ GER_mio_trait_schachtellaufwerk: "Schachtellaufwerk"
+ GER_mio_trait_mobility_design_philosophy: "Filozofia projektowania mobilności"
+ GER_mio_trait_panzerjager: "Panzerjäger"
+ GER_mio_trait_armored_superstructure_specialist: "Specjalista ds. konstrukcji wież pancernych"
+ GER_mio_trait_sturmhaubitze: "Sturmhaubitze"
+ GER_mio_trait_90_degree_dives: "Nurkowanie pod kątem 90 stopni"
+ GER_mio_trait_long_nose_design: "Konstrukcja z długim nosem"
+ GER_mio_trait_work_horse_design_philosophy: "Filozofia projektowania mocy"
+ GER_mio_trait_bomber_destroyer: "Niszczyciel bombowców"
+ GER_mio_trait_radial_engine: "Silniki gwiazdowe"
+ GER_mio_trait_doppel_blitz: "Doppel Blitz"
+ GER_mio_trait_advanced_night_equipment: "Zaawansowany sprzęt nocny"
+ GER_mio_trait_stepless_cockpit: "Jednolita kabina"
+ GER_mio_trait_flying_boat_specialist: "Specjalista ds. łodzi latających"
+ GER_mio_trait_schnellbomber_doctrine: "Doktryna Schnellbomber"
+ GER_mio_trait_jet_bomber_innovator: "Innowator bombowców odrzutowych"
+ GER_mio_trait_dual_recoil_mechanism: "Mechanizm podwójnego odrzutu"
+ GER_mio_trait_versatile_carriage: "Uniwersalna laweta"
+ GER_mio_trait_experienced_manufacturer: "Doświadczony producent"
+ GER_mio_trait_export_models: "Modele eksportowe"
+ GER_mio_trait_karabiner: "Karabiner"
+ GER_mio_trait_sturmgewehr: "Sturmgewehr"
+ GER_mio_trait_innovative_safety_features: "Innowacyjne zabezpieczenia"
+ GER_mio_trait_policiary_equipment: "Sprzęt policyjny"
+ GER_mio_trait_improved_engines: "Ulepszone silniki"
+ GER_mio_trait_racing_pedigree: "Rodowód wyścigowy"
+ GER_mio_trait_military_exclusivity: "Wyłączność dla wojska"
+ GER_mio_trait_schwerer_panzerspahwagen: "Schwerer Panzerspähwagen"
+ GER_mio_trait_placeholder_helicopter: "WKRÓTCE POJAWI SIĘ DRZEWKO WOP ŚMIGŁOWCA"
+ generic_mio_initial_trait_helicopter_designer: "Projektant pierwszych śmigłowców"
+ GER_mio_trait_aerodynamic_research_insitute: "Zintegrowany wydział Instytutu Badań Aerodynamicznych"
+ GER_mio_trait_aerodynamic_research_insitute_taken_flag: "$generic_has_already_completed_this_trait$"
  ###################
  ###### ITALY ######
  ###################
@@ -592,8 +695,29 @@
  HUN_ganz_danubius_organization: "$HUN_ganz_danubius$"
  HUN_femaru_fegyver_es_gepgyar_organization: "$HUN_femaru_fegyver_es_gepgyar$"
  HUN_mw_aircraft_organization: "$mw_aircraft$"
+ HUN_obudai_hajogyar_organization: "$HUN_obudai_hajogyar$"
+ HUN_mavag_aircraft_organization: "$mavag_aircraft$"
+ HUN_mrt_aircraft_organization: "$HUN_mrt_aircraft$"
+ HUN_danuvia_inf_organization: "$HUN_danuvia_inf$"
+ HUN_mwg_raba_organization: "$HUN_mwg_raba$"
+ HUN_hti_turan_organization: "$HUN_hti_turan$"
+ HUN_mavag_assault_guns_organization: "$HUN_mavag_assault_guns$"
+ HUN_mio_trait_army_ammunition_and_wepaons_works: "Zakłady produkcji broni i amunicji"
+ HUN_digep_artillery: "Diósgyöri Tüzérgyár"
+ ## FOREIGN ###
+ ENG_crossley_motors_organization: "$HUN_crossley_motors$"
+ HUN_fiat_tankettes_organization: "$ITA_fiat_organization$"
+ HUN_henschel_organization: "$GER_henschel_organization$"
+ HUN_mio_trait_aircraft_production_plant: "$aircraft_production_plant$"
  ### HUNGARIAN TRAITS ###
  HUN_mio_trait_naval_warfare: "$HUN_naval_warfare$"
+ HUN_mio_trait_danuvia_two_part_lever_delayed_blowback_bolt: "Dwutaktowy zamek swobodny"
+ HUN_mio_trait_danuvia_motorcycles: "Motocykle"
+ HUN_mio_trait_danuvia_improved_stock: "Składane metalowe kolby"
+ HUN_mio_trait_heavy_mauser_rounds: "Naboje 9×25 mm Mauser"
+ ### FOREIGN TRAITS ###
+ GER_mio_trait_3_7_cm_pak: "3,7cm Panzerabwehrkanone"
+ GER_mio_trait_7_5_cm_pak: "7,5cm Panzerabwehrkanone"
  #################
  #### ROMANIA ####
  #################
@@ -940,6 +1064,9 @@
  NOR_mio_initial_trait_mechanical_workshop: "Zakład maszyn ciężkich"
  NOR_mio_initial_trait_convoy_and_escort_fleet: "Budowniczy eskortowców i statków handlowych"
  mio_policy_NOR_general_permanent_industrial_revolution: "Nieustająca rewolucja przemysłowa"
+ NOR_mio_trait_forsvarets_forskningsinstitutt: "Departament Forsvarets Forskningsinstitutt"
+ NOR_mio_trait_trondhjems_mekaniske_vaerksted: "Trondhjems Mekaniske Værksted"
+ NOR_mio_trait_cruiser_specialization: "Specjalizacja: krążowniki"
  ################
  #### NORDIC ####
  ################
@@ -989,6 +1116,79 @@
  ARG_hispano_argentina_organization: "Hispano - Argentina"
  ARG_mio_trait_dreams_of_a_domestic_tank_trait: "Marzenia o krajowym czołgu"
  ########################################################################
+ ##      ## ##     ## ##    ## ########  ######## ########  ##      ##    ###    ######## ######## ########
+ ##  ##  ## ##     ## ###   ## ##     ## ##       ##     ## ##  ##  ##   ## ##   ##       ##       ##
+ ##  ##  ## ##     ## ####  ## ##     ## ##       ##     ## ##  ##  ##  ##   ##  ##       ##       ##
+ ##  ##  ## ##     ## ## ## ## ##     ## ######   ########  ##  ##  ## ##     ## ######   ######   ######
+ ##  ##  ## ##     ## ##  #### ##     ## ##       ##   ##   ##  ##  ## ######### ##       ##       ##
+ ##  ##  ## ##     ## ##   ### ##     ## ##       ##    ##  ##  ##  ## ##     ## ##       ##       ##
+ ###  ###   #######  ##    ## ########  ######## ##     ##  ###  ###  ##     ## ##       ##       ########
+ ##########################
+ ######## AUSTRIA #########
+ ##########################
+ AUS_ansaldo_organization: "Ansaldo"
+ AUS_stabilimento_tecnico_triestino_organization: "Stabilimento Tecnico Triestino"
+ AUS_ELIN_organization: "ELIN"
+ AUS_phonix_fleugzeugwerke_organization: "Phönix Fleugzeugwerke"
+ AUS_hirtenberger_organization: "Hirtenberger Defence Systems"
+ AUS_steyr_organization: "Steyr Arms"
+ AUS_graf_and_stift_organization: "Gräf und Stift"
+ AUS_osterreichische_saurerwerke_organization: "Österreichische Sauerwerke"
+ AUS_mio_robust_light_aircraft: "Projektant wytrzymałych lekkich samolotów"
+ AUS_mio_trait_static_wings: "Ulepszenia lotek"
+ AUS_mio_trait_weight_optimization: "Optymalizacja masy"
+ AUS_mio_trait_structural_integrity: "Ulepszona integralność strukturalna"
+ AUS_mio_trait_range_speed: "Optymalizacja silnika"
+ AUS_mio_trait_production_speed: "Uproszczenie produkcji"
+ AUS_mio_trait_radar_improvements: "Integracja radaru i sonaru"
+ AUS_mio_initial_trait_technologically_advanced_submarines: "Projektant nowoczesnych okrętów podwodnych"
+ AUS_mio_standardize_piercing_ammunition: "Amunicja przebijająca"
+ AUS_mio_standardize_cheaper_ammunition: "Tańsza amunicja"
+ AUS_graf_und_stift_initial_mio_trait_speed_focused_organization: "Producent szybkich samochodów"
+ AUS_mio_trait_improved_suspensions: "Ulepszone zawieszenia"
+ AUS_mio_trait_fuel_effeicient_engines: "Oszczędne silniki"
+ AUS_mio_trait_thorough_construction: "Skrupulatna budowa"
+ AUS_mio_trait_modular_construction: "Budowa modułowa"
+ AUS_saurerwerke_initial_mio_trait_attack_focused_organization: "Producent samochodów uderzeniowych"
+ AUS_mio_trait_improved_armaments: "Ulepszone uzbrojenie"
+ AUS_mio_trait_high_quality_mass_production: "Produkcja masowa wysokiej jakości"
+ AUS_mio_trait_innovative_riflemaking: "Innowacyjny projekt"
+ AUS_mio_trait_cutting_corners: "Na skróty"
+ AUS_osterreichische_fleugzeugfabrik_organization: "Österreichische Fleugzeugfabrig AG"
+ #BELGIUM - Organizations
+ BEL_vickers_armstrong_bel_organization: "Vickers-Armstrong Belgia"
+ BEL_fonderie_royale_canons: "Działa Fonderie Royale"
+ BEL_renault_organization: "Renault Belgia"
+ BEL_stampe_et_renard: "Stampe et Renard"
+ BEL_fonderie_royale_de_canons_liege_organization: "Fonderie Royale de Canons Liege"
+ BEL_fn_herstal_organization: "FN Herstal"
+ BEL_minerva_imperia_armored_car_organization: "Samochody pancerne Minerva-Imperia"
+ BEL_minerva_imperia_motorized_organization: "Minerva-Imperia Automobiles"
+ BEL_laboratoire_aerotechnique_de_belgique_organization: "Laboratoire Aérotechnique de Belgique"
+ #BELGIUM - MIO Traits
+ BEL_mio_initial_trait_fn_herstal: "Producent broni małokalibrowej"
+ BEL_mio_trait_belgium_congo_link: "Połączenie Belgia - Kongo"
+ BEL_mio_trait_high_speed_transport: "Szybki transport"
+ BEL_mio_trait_anti_submarine_expertise: "Doświadczenie w zwalczaniu okrętów podwodnych"
+ BEL_mio_trait_all_metal_expertise: "Znajomość metali"
+ BEL_mio_trait_browning_collaboration: "Współpraca z Browningiem"
+ BEL_mio_trait_outsourced_production: "Produkcja ze źródeł zewnętrznych"
+ BEL_mio_trait_browning_automatic_rifles: "Karabiny maszynowe Browning"
+ BEL_mio_trait_assault_rifles: "Karabiny szturmowe"
+ BEL_mio_trait_47mm_at_guns: "Działa przeciwpancerne 47 mm"
+ BEL_mio_trait_excellent_machining_tools: "Doskonałe narzędzia do obróbki"
+ BEL_mio_trait_knight_engines: "Silniki Knight"
+ BEL_mio_trait_heavy_machine_guns: "Ciężkie karabiny maszynowe"
+ BEL_mio_trait_high_grade_armor: "Pancerz wysokiej klasy"
+ BEL_mio_trait_flourishing_automobile_industry: "Kwitnąca branża samochodowa"
+ BEL_mio_trait_fonderie_royale_canons: "Działa Fonderie Royale"
+ BEL_mio_trait_stampe_et_vertrongen: "Stampe et Vertrongen"
+ BEL_mio_trait_stampe_et_renard: "Stampe et Renard"
+ #CONGO - Organizations
+ COG_fonderie_royale_de_canons_leopoldville_organization: "Fonderie Royale de Canons Léopoldville"
+ COG_fn_hershal_organization: "FN Hershal"
+ COG_explosifs_congo_organization: "Société Africaine d'Explosifs Congo"
+ ########################################################################
  ######   ######## ##    ## ######## ########  ####  ######   ######
  ##    ##  ##       ###   ## ##       ##     ##  ##  ##    ## ##    ##
  ##        ##       ####  ## ##       ##     ##  ##  ##       ##
@@ -996,6 +1196,9 @@
  ##    ##  ##       ##  #### ##       ##   ##    ##  ##             ##
  ##    ##  ##       ##   ### ##       ##    ##   ##  ##    ## ##    ##
  ######   ######## ##    ## ######## ##     ## ####  ######   ######
+ ### GENERIC TOOLTIPS FOR SPECIAL TRAITS ##
+ generic_has_already_completed_this_trait: "Posiada już tę specjalizację dzięki innej organizacji."
+ generic_trait_will_not_be_available_in_other_organizations: "§RTa specjalizacja nie będzie już dostępna w innych organizacjach§!."
  ###  ##  #  # # #     #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
  ##  # ## # # #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
  ##### # ## ##      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #
@@ -1106,6 +1309,24 @@
  generic_mio_trait_24h_rotation_shifts: "24-godzinne zmiany rotacyjne"
  generic_mio_trait_long_distance_escort: "Eskorta pociągów długodystansowych"
  generic_mio_trait_barrels_of_hell: "Piekielne lufy"
+ #####################################
+ ##### ASSAULT GUNS MANUFACTURER #####
+ #####################################
+ generic_assault_guns_organization: "Producent dział samobieżnych"
+ generic_mio_initial_trait_assault_guns_organization: "Producent dział samobieżnych"
+ generic_mio_trait_light_assault_gun_improvements: "Artyleria mobilna"
+ generic_mio_trait_light_assault_gun_anti_tank_combo: "Amunicja przeciwpancerno-burząca"
+ generic_mio_trait_light_assault_gun_improved_cannon_stabilization: "Ulepszona stabilizacja armaty"
+ generic_mio_trait_light_assault_gun_10_5_iefh_ammunition: "Amunicja 10,5 cm Leichte Feldhaubitze"
+ generic_mio_trait_medium_assault_gun_improvements: "Artyleria pancerna"
+ generic_mio_lighter_materials_assault_guns: "Lżejsze materiały"
+ generic_mio_armor_hardening_process_assault_guns: "Zaawansowane procesy utwardzania pancerza"
+ generic_mio_medium_assault_gun_rocket_tubes: "Montowane prowadnice rakietowe"
+ generic_mio_medium_assault_gun_75_mm_43M_tank_gun: "Działo czołgowe 75 mm 43M"
+ generic_mio_medium_assault_gun_low_slung_superstructure_and_fighting_compartment: "Nisko zawieszona konstrukcja i przedział bojowy"
+ generic_mio_trait_heavy_assault_gun_improvements: "Mobilne bazy ogniowe"
+ generic_mio_trait_fully_cast_turret_assault_gun: "Jednolicie odlana wieżyczka"
+ generic_mio_trait_assault_gun_improved_tracks: "Wzmocnione gąsienice"
  ## #  # ### ###      #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
  ##  #  #  #  #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
  #####  #  ###      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #
@@ -1282,7 +1503,7 @@
  #### MEDIUM AIRCRAFT MANUFACTURER ####
  ######################################
  generic_medium_aircraft_organization: "Producent średnich samolotów"
- generic_mio_initial_trait_multi_role_tactical_aircraft: "Wielozadaniowe samoloty taktyczne"
+ generic_mio_initial_trait_multi_role_tactical_aircraft: "Projektant średnich samolotów"
  generic_mio_trait_narrow_build: "Wąska konstrukcja"
  generic_mio_trait_mixed_material_construction: "Budowa z materiałów mieszanych"
  generic_mio_trait_multi_role_transport: "Transport wielozadaniowy"
@@ -1509,6 +1730,18 @@
  generic_mio_trait_officer_support_car: "Oficerski wóz wsparcia"
  generic_mio_trait_heavy_anti_tank_gun: "Ciężkie działo przeciwczołgowe"
  generic_mio_trait_reinforced_wheels: "Wzmocnione koła"
+ #################################
+ #### HELICOPTER MANUFACTURER ####
+ #################################
+ generic_helicopter_organization: "Producent śmigłowców"
+ generic_mio_initial_trait_helicopter_manufacturer: "Rozwój śmigłowców"
+ generic_mio_trait_tandem_rotor_innovations: "Unowocześnienia podwójnych wirników"
+ generic_mio_trait_single_rotor_innovations: "Unowocześnienia pojedynczego wirnika"
+ generic_mio_trait_side_venting_exhaust: "Boczny wydech"
+ generic_mio_trait_improved_engine: "Ulepszony silnik"
+ generic_mio_trait_extra_seating: "Dodatkowe miejsce"
+ generic_mio_trait_co_axial_rotors: "Wirniki współosiowe"
+ generic_mio_trait_mass_production_certification: "Certyfikacja do masowej produkcji"
  ########### DEBUG #############
  DEBUG_generic_tank_organization: "$generic_tank_organization$"
  DEBUG_generic_infantry_tank_organization: "$generic_infantry_tank_organization$"

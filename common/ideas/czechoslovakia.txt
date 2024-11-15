@@ -38,7 +38,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = 0.05
+				fascism_drift = 0.06
 
 			}
 		}
@@ -143,6 +143,7 @@ ideas = {
 			modifier = {
 				land_doctrine_cost_factor = -0.05
 				air_doctrine_cost_factor = -0.05
+				research_speed_factor = 0.05
 			}
 
 		}
@@ -316,6 +317,8 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.3
 				conscription = 0.003
+				bunker_max_level_terrain_limit = 1
+				coastal_bunker_max_level_terrain_limit = 1
 			}
 		}
 
@@ -337,6 +340,8 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.3
 				conscription = 0.006
+				bunker_max_level_terrain_limit = 2
+				coastal_bunker_max_level_terrain_limit = 1
 			}
 		}
 
@@ -358,6 +363,8 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.3
 				conscription = 0.009
+				bunker_max_level_terrain_limit = 2
+				coastal_bunker_max_level_terrain_limit = 1
 			}
 		}
 
@@ -379,6 +386,8 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.3
 				conscription = 0.012
+				bunker_max_level_terrain_limit = 3
+				coastal_bunker_max_level_terrain_limit = 1
 			}
 		}
 
@@ -397,6 +406,7 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_factory = 0.1
+				production_speed_facility_factor = 0.05
 			}
 		}
 
@@ -785,6 +795,33 @@ ideas = {
 			}
 
 			traits = { industrial_concern }
+		}
+
+		CZE_csd = { 
+
+			picture = CZE_csd
+
+			allowed = {
+				OR = {
+					original_tag = CZE
+					original_tag = SLO
+				}
+			}
+
+			available = {
+				has_completed_focus = CZE_industrial_legacy
+			}
+
+			visible = {
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { railway_company } 
+
+			modifier = {
+			}
 		}
 	}
 }

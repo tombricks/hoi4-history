@@ -317,7 +317,7 @@
  african_union_category: "Organizacja Afrykańskiej Jedności"
  african_union_category_desc: "Stworzymy instytucje gromadzące talenty i zasoby z całego kontynentu. Dzięki temu wykonamy kolejny krok do politycznego zjednoczenia. Tylko współpraca i jedność mogą sprawić, że ludy Afryki już nigdy nie staną się czyimiś poddanymi."
  promote_org_of_african_unity: "Promuj organizację w: [FROM.GetName]"
- invite_to_org: "[FROM.OWNER.GetName]: zaproszenie do organizacji"
+ invite_to_org: "[FROM.OWNER.GetNameDef]: zaproszenie do organizacji"
  invite_to_org_tt: "Państwa o innej ideologii niż twoja będą mniej skłonne do przyjęcia oferty członkostwa."
  invite_to_ACB: "Zaproś do Afrykańskiego Banku Centralnego: [FROM.GetName]"
  invite_to_ACB_tt: "Państwa o innej ideologii niż twoja będą mniej skłonne zgodzić się na integrację gospodarczą."

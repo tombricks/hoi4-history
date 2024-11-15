@@ -1228,3 +1228,7 @@
  south_american_events.62.t: "Bitwa u ujścia La Platy"
  south_american_events.62.desc: "O godz. 6:18 okręty Kriegsmarine i Royal Navy starły się tuż obok Montevideo. Według doniesień niemiecki okręt jest poważnie uszkodzony i schronił się w porcie stolicy Urugwaju. Brytyjscy dyplomaci naciskają na rząd Urugwaju, aby zgodnie z konwencją haską zmusił okręt do opuszczenia portu, gdzie z pewnością zostanie zniszczony przez czekające siły Royal Navy."
  south_american_events.62.a: "Interesujące"
+ south_american_news.20.t: "Zjednoczone Antyle"
+ south_american_news.20.d: "Konfederacja Antyli była gorącym marzeniem Ramóna Emeterio Betancesa o potrzebie zjednoczenia rdzennych mieszkańców Karaibów w regionalny podmiot, który dążyłby do zachowania suwerenności i dobrobytu narodów Antyli. Poparcie było najsilniejsze od lat 50. XIX wieku aż do wojny hiszpańsko-amerykańskiej i od tego czasu w większości zanikło. Jednak po zjednoczeniu regionu, którego autorem jest [FROM.GetLeader], idea ta ponownie ożyła, a teraz, po ogłoszeniu utworzenia Konfederacji Antyli, jest bardziej niż kiedykolwiek jasne, że Antyle są rzeczywiście dla Antylczyków!"
+ south_american_news.20.a: "To pomysł skazany na porażkę"
+ south_american_news.20.b: "Antyle dla Antylczyków!"

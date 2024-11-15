@@ -18,7 +18,7 @@ spriteTypes = {
 		name = "GFX_career_profile_medal_fg1"
 		texturefile = "gfx/interface/career_profile/medal_fg1.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-		noOfFrames = 4
+		noOfFrames = 5
 	}
 
 	spriteType = {
@@ -55,7 +55,7 @@ spriteTypes = {
 		name = "GFX_career_profile_medal_fg1_shiny"
 		texturefile = "gfx/interface/career_profile/medal_fg1.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-		noOfFrames = 4
+		noOfFrames = 5
 
 		animation = {
 			animationmaskfile = "gfx/interface/career_profile/medal_fg1.dds"

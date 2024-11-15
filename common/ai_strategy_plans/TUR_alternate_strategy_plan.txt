@@ -14,7 +14,12 @@ TUR_ottoman_plan = {
 				rule = TUR_ai_behavior 
 				option = OTTOMAN
 			}
-			GER = { has_completed_focus = GER_oppose_hitler }
+			GER = { 
+				OR = {
+					has_completed_focus = GER_oppose_hitler
+					has_completed_focus = GER_oppose_hitler_ww
+				}
+			}
 		}
 	}
 	abort = {

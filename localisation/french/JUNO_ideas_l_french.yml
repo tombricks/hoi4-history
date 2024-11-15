@@ -413,7 +413,7 @@
  ARG_political_corruption_modifier_desc: "Depuis de nombreuses années, le gouvernement [ARG.GetAdjMS] est en proie à une corruption féroce. Tout le monde pensait que la formation de la Concordancia aurait pu aider à combattre ce fléau, mais la fraude et l'intimidation n'ont pas diminué pour autant."
  ARG_modify_corruption_ns_intro: "Modifie §Y$ARG_political_corruption_modifier$§! ainsi :"
  ARG_international_loan_modifier: "Emprunt international"
- ARG_international_loan_modifier_desc: "Il n'est pas rare qu'en temps de crise, des pays fassent appel à d'autres nations pour trouver une aide financière. Étant donné l'état actuel de l'économie [ARG.GetAdjFS], il est tout à fait logique d'accepter l'aide des grandes puissances actrices de ce conflit."
+ ARG_international_loan_modifier_desc: "Il n'est pas rare qu'en temps de crise, des pays fassent appel à d'autres nations pour trouver une aide financière. Étant donné l'état actuel de l'économie [ROOT.GetAdjFS], il est tout à fait logique d'accepter l'aide des grandes puissances actrices de ce conflit."
  ARG_modify_international_loan_intro: "Modifie §Y$ARG_international_loan_modifier$§! ainsi :"
  ARG_corruption_crackdown_modifier: "$ARG_crack_down_on_corruption$"
  ARG_corruption_crackdown_modifier_desc: "La corruption qui gangrenait notre gouvernement était tout à fait inacceptable. Grâce aux politiques de Roberto María Ortiz, nous avons enfin pu mettre un terme aux fraudes flagrantes que commettaient nos acteurs politiques."

@@ -66,6 +66,7 @@
  colonial_police: "Policja kolonialna"
  colonial_police_improved: "$colonial_police$"
  colonial_police_final: "$colonial_police$"
+ secretaries_general: "Sekretarze generalni"
  COMPLIANCE_ADDITIONAL_DAILY_GAIN: "Dodatkowy dzienny przyrost posłuszeństwa: $GAIN$"
  COMPLIANCE_GAIN_IS_DISABLED: "§RWyłączono, ponieważ garnizon jest zbyt mały.§!"
  COMPLIANCE_GAIN_IS_SCALED: "Dostosowano o $RATIO|R.0%$, ponieważ garnizon jest zbyt mały!"

@@ -132,6 +132,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
 			custom_effect_tooltip = CHI_cooperation_with_the_nationalists_effect_tooltip
 			CHI = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_nationalists_positive target = ROOT } }
 			PRC = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_nationalists_negative target = ROOT } }
@@ -384,7 +385,7 @@
 
 	focus = {
 		id = CHI_reform_the_administration
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_focus_generic_improve_the_administration
 		prerequisite = { focus = CHI_root_out_corruption focus = CHI_embrace_the_opium_trade }
 		x = 0
 		y = 2
@@ -506,6 +507,8 @@
 				}
 				add_core_of = ROOT
 			}
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			CHI_no_longer_a_warlord_idea_removal = yes
 		}
 	}	
 
@@ -553,6 +556,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
 			custom_effect_tooltip = CHI_cooperation_with_the_communists_effect_tooltip
 			SOV = {
 				add_opinion_modifier = {
@@ -632,10 +636,12 @@
 		}
 
 		available = {
-			is_subject = no
-			if = {
-				limit = { is_subject = yes }
-				OVERLORD = { has_government = communism }
+			OR = {
+				is_subject = no
+				if = {
+					limit = { is_subject = yes }
+					OVERLORD = { has_government = communism }
+				}
 			}
 		}
 
@@ -858,6 +864,8 @@
 			save_event_target_as = warlord
 			add_ideas = PRC_soviet_tribute_1
 			SOU = { country_event = { id = wtt_warlord_vs_prc.1 } }
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			CHI_no_longer_a_warlord_idea_removal = yes
 		}
 	}
 
@@ -893,6 +901,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_war_support = 0.05
 			CHI = { add_opinion_modifier = { modifier = CHI_opposition target = ROOT } }
 			if = {
 				limit = {
@@ -966,7 +975,7 @@
 
 	focus = {
 		id = CHI_public_works
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_public_works
 		prerequisite = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = -1
 		y = 2
@@ -1132,7 +1141,7 @@
 		y = 1
 		relative_position_id = CHI_war_taxes
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1151,6 +1160,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_command_power = 30
 			if = {
 				limit = { ROOT = { tag = GXC } }
 				add_field_marshal_role = {
@@ -1244,6 +1254,7 @@
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			add_stability = 0.1
+			add_war_support = 0.05
 		}
 	}
 
@@ -1394,6 +1405,8 @@
 			else = {
 				load_focus_tree = china_nationalist_focus
 			}
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			CHI_no_longer_a_warlord_idea_removal = yes
 		}
 	}
 
@@ -1431,10 +1444,10 @@
 				limit = {
 					has_state_flag = CHI_industrial_investment_IC
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1451,10 +1464,10 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = CHI_industrial_investment_IC
@@ -1525,10 +1538,10 @@
 				limit = {
 					has_state_flag = CHI_local_arms_production_AF
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1545,10 +1558,10 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = CHI_local_arms_production_AF
@@ -1560,7 +1573,7 @@
 		id = CHI_long_term_economic_planning
 		icon = GFX_goal_generic_production2
 		prerequisite = { focus = CHI_local_arms_production }
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = CHI_industrial_investment
 
@@ -1592,7 +1605,7 @@
 		id = CHI_local_arms_development
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = CHI_local_arms_production }
-		x = 2
+		x = 1
 		y = 2
 		relative_position_id = CHI_industrial_investment
 
@@ -1628,7 +1641,7 @@
 		id = CHI_heavy_weapons_development
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = CHI_local_arms_development }
-		x = 2
+		x = 1
 		y = 3
 		relative_position_id = CHI_industrial_investment
 
@@ -1651,12 +1664,150 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.5
+			}
+
 			add_tech_bonus = {
 				name = CHI_heavy_weapons_development
 				bonus = 1.0
 				uses = 1
 				category = artillery
 			}
+		}
+	}
+
+	### WARLORD NATIONAL SPIRIT-RELATED FOCUSES ###
+
+	focus = {
+		id = CHI_strenghten_warlord_authority
+		icon = GFX_focus_generic_military_dictatorship
+		x = 16
+		y = 0
+
+		cost = 10
+
+		relative_position_id = CHI_secure_internal_politics
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = CHI_warlord_state_idea
+				}
+				swap_ideas = {
+					remove_idea = CHI_warlord_state_idea
+					add_idea = CHI_warlord_state_idea_2
+				}	
+			}
+		}
+	}
+
+	focus = {
+		id = CHI_uplift_the_cavalry_regiments
+		icon = GFX_goal_generic_cavalry
+		x = -1
+		y = 1
+
+		cost = 10
+
+		prerequisite = { focus = CHI_strenghten_warlord_authority }
+
+		relative_position_id = CHI_strenghten_warlord_authority
+
+		mutually_exclusive = {
+			focus = CHI_uplift_the_mountain_brigades
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {  }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_warlord_state_idea_2
+				add_idea = CHI_warlord_state_idea_cav
+			}	
+		}
+	}
+
+	focus = {
+		id = CHI_uplift_the_mountain_brigades
+		icon = GFX_focus_secret_rearmament
+		x = 1
+		y = 1
+
+		cost = 10
+
+		prerequisite = { focus = CHI_strenghten_warlord_authority }
+
+		relative_position_id = CHI_strenghten_warlord_authority
+
+		mutually_exclusive = {
+			focus = CHI_uplift_the_cavalry_regiments
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {  }
+		completion_reward = {
+
+			swap_ideas = {
+				remove_idea = CHI_warlord_state_idea_2
+				add_idea = CHI_warlord_state_idea_mnt
+			}
+
+			add_tech_bonus = {
+				name = CHI_uplift_the_mountain_brigades
+				bonus = 0.75
+				uses = 1
+				category = mountaineers_tech
+			}	
 		}
 	}
 

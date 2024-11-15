@@ -362,16 +362,17 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "CZE"
+			creator = CZE
 		}
 		requested_factories = 2
 		progress = 0.18
 		efficiency = 100
+		industrial_manufacturer = mio:CZE_zbrojovka_brno_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "CZE"
+			creator = CZE
 		}
 		requested_factories = 1
 		progress = 0.48
@@ -380,10 +381,11 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_2
-			creator = "CZE"
+			creator = CZE
 		}
 		requested_factories = 2
 		progress = 0.48
 		efficiency = 100
+		industrial_manufacturer = mio:CZE_ckd_organization
 	}
 }

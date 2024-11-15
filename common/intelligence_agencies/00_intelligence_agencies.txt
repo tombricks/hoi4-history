@@ -43,8 +43,29 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_ger
 	names = { "Abwehr" }
 	
-	default = { tag = GER }
-	available = { original_tag = GER }
+	default = { 
+		tag = GER 
+		NOT = { has_government = communism }
+	}
+	available = { 
+		original_tag = GER 
+		NOT = { has_government = communism }
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_GER_stasi
+	names = { "Stasi" }
+	
+	default = { 
+		tag = GER 
+		has_government = communism 
+	}
+	available = { 
+		original_tag = GER 
+		has_government = communism 
+	}
 }
 
 intelligence_agency = {
@@ -88,8 +109,45 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_bel
 	names = { "ADIV" "SGRS" }
 	
-	default = { tag = BEL }
-	available = { original_tag = BEL }
+	default = { 
+		tag = BEL 
+		NOT = { has_dlc = "Gotterdammerung" }
+	}
+	available = { 
+		original_tag = BEL 
+		NOT = { has_dlc = "Gotterdammerung" } 
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_BEL_vsse
+	names = { "VSSE" }
+	
+	default = { 
+		tag = BEL 
+		always = no
+	}
+	available = { 
+		original_tag = BEL 
+		has_dlc = "Gotterdammerung"
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_BEL_giss
+	names = { "Veiligheid van de Staat" }
+	
+	default = {
+		tag = BEL 
+		has_dlc = "Gotterdammerung"
+	}
+	available = { 
+		original_tag = BEL 
+		has_dlc = "Gotterdammerung"
+	}
+		
 }
 
 intelligence_agency = {
@@ -365,6 +423,149 @@ intelligence_agency = {
 	available = { original_tag = CHL }
 }
 
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_HUN_IH
+	names = { "VKF 2" } # Információs Hivatal
+	
+	default = { 
+		tag = HUN 
+		NOT = { has_government = communism }
+		NOT = { has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen }
+	} 
+	available = { 
+		original_tag = HUN 
+		NOT = { has_government = communism }
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_HUN_AVH
+	names = { "Államvédelmi Hatóság" }
+	
+	default = { 
+		tag = HUN 
+		has_government = communism
+	} 
+	available = { 
+		original_tag = HUN 
+		has_government = communism
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_AUS_evidenzbureau
+	names = { "Evidenzbureau" }
+	
+	default = { 
+		tag = HUN
+		has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen
+	} 
+	available = { 
+		original_tag = HUN
+		has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_BRA_communist
+	names = { "EICI" }
+	
+	available = { 
+		tag = BRA
+		has_government = communism
+	}
+	
+	default = { 		
+		tag = BRA
+		has_government = communism
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_AUS_evidenzbureau
+	names = { "Evidenzbureau" }
+	
+	default = { 
+		tag = AUS
+	} 
+	available = { 
+		original_tag = AUS
+	}
+}
+
+intelligence_agency = { 
+	
+	picture = GFX_intelligence_agency_logo_AUS_dsn
+	names = { "Direktion Staatsschutz und Nachrichtendienst" }
+
+	default = { 
+		tag = AUS
+		has_completed_focus = AUS_the_right_to_rearm
+	}
+
+	available = {
+		tag = AUS
+		has_completed_focus = AUS_the_right_to_rearm
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_BRA_neutrality
+	names = { "Departamento de Ordem" }
+	
+	available = { 
+		tag = BRA
+		NOT = { has_government = communism }
+	}
+	
+	default = { 		
+		tag = BRA
+		NOT = { has_government = communism }
+	} 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ARG_intelligence
+	names = { "S.I." }
+	
+	default = { tag = ARG }
+	available = { original_tag = ARG }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_COG_snip
+	names = { "Service National d'Identification et de Protection" }
+	
+	default = { 
+		tag = COG 
+		is_subject = yes
+	} 
+	available = { 
+		original_tag = COG 
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_COG_anr
+	names = { "Service National d'Intelligence et de Protection" }
+	
+	default = { 
+		tag = COG 
+		is_subject = no
+	} 
+	available = { 
+		original_tag = COG 
+	}
+}
 
 intelligence_agency = {
 	

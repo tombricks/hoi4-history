@@ -11,6 +11,7 @@ PRU_pastaza_conflict = {
 		NOT = {
 			owns_state = 490
 		}
+		is_subject = no
 	}
 }
 

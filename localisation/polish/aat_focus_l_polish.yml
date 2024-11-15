@@ -969,7 +969,7 @@
  NOR_invite_soviet_designers_desc: "Wiedza techniczna naszych komunistycznych sojuszników wyprzedza naszą o całe dekady. Gdyby podzielili się z nami swoim doświadczeniem, moglibyśmy przeskoczyć naszych wrogów i dzięki nowoczesnej broni oraz pojazdom uniknąć niepotrzebnego rozlewu krwi."
  #Allied
  NOR_vote_of_no_confidence: "Wotum nieufności"
- NOR_vote_of_no_confidence_desc: "Czy możemy wierzyć, że Nygaardsvold i jego partia pracy odeprze bolszewików i nazistów? Postawą bardziej przypomina Greków otwierających bramy Troi niż premiera gotowego bronić swojej ojczyzny przed komunizmem. Nie możemy pozwolić, by oddali nasze raczkujące państwo w [SOU.GetAdjective] ręce."
+ NOR_vote_of_no_confidence_desc: "Czy możemy wierzyć, że Nygaardsvold i jego partia pracy odeprze bolszewików i nazistów? To rozbrojenie bardziej przypomina Greków otwierających bramy Troi niż premiera gotowego bronić swojej ojczyzny przed komunizmem. Nie możemy pozwolić, by oddali nasze raczkujące państwo w [SOU.GetAdjective] ręce."
  NOR_liberal_conservative_alliance: "Sojusz liberalno-konserwatywny"
  NOR_liberal_conservative_alliance_desc: "Choć Høyre i Venstre oznaczają odpowiednio prawicę i lewicę, nasze dwie partie mają tyle wspólnych interesów, że możemy utworzyć koalicję rządową, która odeprze wszelkie ataki żałosnej Partii Pracy. Dzięki naszej wspólnej pracy [ROOT.GetName] stanie się krajem przyjaznym dla kapitału i gotowym toczyć wojny tutaj, a także za granicą."
  NOR_sabotage_unions: "Sabotaż związków zawodowych"
@@ -1075,6 +1075,7 @@
  NOR_empower_hirden_desc: "Nasza własna organizacja paramilitarna, Hird, stanowi fundament planów Nasjonal Samling na przyszłość państwa [NOR.GetAdjective]. Skupienie się na niej będzie kluczowe dla procesu przejęcia rządu i walki, jeśli zajdzie taka konieczność."
  NOR_quislings_coup: "Przewrót Quislinga"
  NOR_quislings_coup_desc: "Wszystko jest gotowe do nieuchronnego objęcia władzy przez Nasjonal Samling. Pod przywództwem Førera Vidkuna Quislinga wykonamy pierwszy krok do ustanowienia całkowitej kontroli nad [NOR.GetAdjective] terytorium i ekspansji na całą Skandynawię."
+ NOR_required_prep_fascist_TT: "§YŁączny poziom poparcia dla faszystowskiego przewrotu§! jest większy niż $RIGHT|0Y$ (aktualne poparcie: $LEFT|0Y$)"
  NOR_quislings_regime: "Reżim Quislinga"
  NOR_quislings_regime_desc: "To jasne, że Fører Nasjonal Samling jest osobą zrównoważoną i łagodną. I choć wielu nie akceptuje go na płaszczyźnie politycznej i osobistej - nawet wśród jego rządu - nie można zaprzeczyć temu, iż jego upór i pewność siebie pomogły nam wiele osiągnąć. Z pewnością potrafi utrzymać funkcjonujący reżim, lecz na jak długo? To się dopiero okaże."
  NOR_get_rid_of_quisling: "Pozbyć się Quislinga"

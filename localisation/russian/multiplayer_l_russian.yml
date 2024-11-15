@@ -155,6 +155,7 @@
  OOS_87: "Статистика прохождения"
  OOS_88: "Военно-промышленные организации"
  OOS_89: "Международный рынок"
+ OOS_90: "Специальный проект"
  MULTIPLAYER_PLAYERS: "$NUM$"
  MULTIPLAYER_MESSAGES: "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS: "§GУже играет§!"

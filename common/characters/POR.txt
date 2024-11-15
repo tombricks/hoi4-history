@@ -756,6 +756,7 @@ characters = {
 		}
 	}
 
+	#MM: Surnames are the other way around
 	POR_jose_adriano_rebelo_pequito = {
 		advisor = {
 			slot = high_command

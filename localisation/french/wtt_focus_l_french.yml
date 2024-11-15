@@ -1,6 +1,12 @@
 ﻿l_french:
  CHI_secure_internal_politics: "Apaiser la scène politique intérieure"
  CHI_secure_internal_politics_desc: "Si nous voulons que le gouvernement survive à la scène politique chinoise si agitée, nous ne devons pas nous laisser distraire par les querelles intérieures. Il faut mettre un terme à toute opposition interne."
+ CHI_strenghten_warlord_authority: "Renforcer l'autorité du seigneur de guerre"
+ CHI_strenghten_warlord_authority_desc: "Afin de garantir notre zone de contrôle et de nous assurer que le Kuomintang, les communistes et les Japonais ne nous fragilisent pas, nous devons renforcer l'autorité de [ROOT.GetLeader]."
+ CHI_uplift_the_cavalry_regiments: "Encourager les régiments de cavalerie"
+ CHI_uplift_the_cavalry_regiments_desc: "L'équitation est depuis longtemps ancrée dans l'histoire de notre région. Nous devons l'honorer et veiller à ce que notre cavalerie soit tenue en haute estime et mise au premier plan de nos forces armées."
+ CHI_uplift_the_mountain_brigades: "Encourager les brigades de montagne"
+ CHI_uplift_the_mountain_brigades_desc: "Les terres de l'intérieur de la Chine sont accidentées et difficilement praticables. Nous devons former des brigades spéciales capables de combattre en région vallonnée et montagneuse afin de protéger nos territoires au mieux."
  CHI_cooperation_with_the_nationalists: "Coopération avec les nationalistes"
  CHI_cooperation_with_the_nationalists_desc: "Les nationalistes sont les plus à même d'unir le pays et de vaincre les Japonais. Mieux vaut s'assurer qu'ils ne nous considèrent pas comme une menace."
  CHI_cooperation_with_the_nationalists_effect_tooltip: "[WTT_communist_china.GetLeLaLNPCap] [WTT_communist_china.GetName] et les seigneurs de la guerre qui se sont rangés dans le camp des communistes pourront déclencher en réaction des §Hconflits frontaliers§! contre nous.\n"

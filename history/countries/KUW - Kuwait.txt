@@ -8,6 +8,13 @@ set_technology = {
 	tech_trucks = 1
 }
 
+IF = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
 set_convoys = 5
 
 recruit_character = KUW_pot
@@ -52,7 +59,6 @@ recruit_character = KUW_acr
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 
 		#industry
@@ -63,6 +69,9 @@ recruit_character = KUW_acr
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 set_politics = {

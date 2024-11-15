@@ -1,4 +1,41 @@
-characters={
+characters = {
+	
+
+	GHA_kwame_nkrumah = {
+
+		name = GHA_kwame_nkrumah
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GHA_kwame_nkrumah
+				small = GFX_portrait_GHA_kwame_nkrumah_small
+			}
+		}
+
+		country_leader = {
+			ideology = socialism
+			traits = { pan_africanist_socialist }
+			expire = "1972.1.1.1"
+			id = -1
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	GHA_acd2={
 		advisor={
 			slot = army_chief

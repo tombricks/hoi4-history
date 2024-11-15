@@ -141,7 +141,6 @@ set_convoys = 20
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -159,6 +158,9 @@ set_convoys = 20
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {
@@ -194,12 +196,14 @@ set_convoys = 20
 		}
 	}
 }
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 50
 	fascism = 5
@@ -207,13 +211,5 @@ set_popularities = {
 	neutrality = 10
 }
 
-create_country_leader = {
-	name = "Józef Biniszkiewicz"
-	desc = ""
-	picture = "GFX_portrait_SIL_Jozef_iniszkiewicz"
-	expire = "1953.3.1"
-	ideology = socialism
-	traits = {
-		
-	}
-}
+recruit_character = SIL_jozsef_kozdon
+recruit_character = SIL_alexander_hochberg

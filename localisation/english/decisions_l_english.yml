@@ -126,6 +126,14 @@
  decision_cost_MP_300_PP_15_blocked: "£manpower_texticon  §R300§! £pol_power §R15§!"
  decision_cost_MP_300_PP_15_tooltip: "It costs £manpower_texticon  §Y300§! and £pol_power §Y15§! to take this decision"
 
+ decision_cost_CP_50_ArmXP_15: "£command_power  §Y50§! £army_experience  §Y15§!"
+ decision_cost_CP_50_ArmXP_15_blocked: "£command_power  §R50§! £army_experience  §R15§!"
+ decision_cost_CP_50_ArmXP_15_tooltip: "It costs £command_power  §Y50§! £army_experience  §Y15§! to take the decision"
+
+ decision_cost_CP_25_ArmXP_15: "£command_power  §Y25§! £army_experience  §Y15§!"
+ decision_cost_CP_25_ArmXP_15_blocked: "£command_power  §R25§! £army_experience  §R15§!"
+ decision_cost_CP_25_ArmXP_15_tooltip: "It costs £command_power  §Y25§! £army_experience  §Y15§! to take the decision"
+
  decision_cost_ie_500_MP_500_CP_25:0 "£infantry_equipment_text_icon  §Y500§! £manpower_texticon  §Y500§! £command_power  §Y25§!"
  decision_cost_ie_500_MP_500_CP_25_blocked:0 "£infantry_equipment_text_icon  §R500§! £manpower_texticon  §R500§! £command_power  §R25§!"
  decision_cost_ie_500_MP_500_CP_25_tooltip:1 "It costs £infantry_equipment_text_icon  §Y500§! £manpower_texticon  §Y500§! £command_power  §Y25§! to take the decision"
@@ -255,25 +263,25 @@
 
  ############### Generic Purchase Ship ################
 
-  generic_purchase_old_ships_category:0 "Naval Procurement"
-  generic_purchase_old_ships_category_desc:0 "With the world becoming increasingly unstable, we need to expand our naval power projection capabilities. Luckily for us, some of the major navies may be willing to part with their older vessels."
-  purchase_ships_eng:0 "[ENG.GetFlag] Purchase old [ENG.GetAdjective] Destroyers"
-  purchase_ships_sov:0 "[SOV.GetFlag] Purchase old [SOV.GetAdjective] Battleships"
-  purchase_ships_ger:0 "[GER.GetFlag] Purchase old [GER.GetAdjective] U-Boats"
-  purchase_ships_usa:0 "[USA.GetFlag] Purchase old [USA.GetAdjective] Destroyers"
+ generic_purchase_old_ships_category:0 "Naval Procurement"
+ generic_purchase_old_ships_category_desc:0 "With the world becoming increasingly unstable, we need to expand our naval power projection capabilities. Luckily for us, some of the major navies may be willing to part with their older vessels."
+ purchase_ships_eng:0 "[ENG.GetFlag] Purchase old [ENG.GetAdjective] Destroyers"
+ purchase_ships_sov:0 "[SOV.GetFlag] Purchase old [SOV.GetAdjective] Battleships"
+ purchase_ships_ger:0 "[GER.GetFlag] Purchase old [GER.GetAdjective] U-Boats"
+ purchase_ships_usa:0 "[USA.GetFlag] Purchase old [USA.GetAdjective] Destroyers"
 
-  #### Generic Refit Civilian Ships ####
-  generic_refit_civilian_ships_category: "Military Refit for Civilian Ships"
-  generic_refit_civilian_ships_category_desc: "Our fleet can not realistically hope to compete with the much larger naval forces that threaten us. We must hastily procure a bigger fleet by refitting civilian vessels for military purposes."
-  refit_to_destroyer: "Refit ships to Destroyers"
-  refit_to_cruiser: "Refit ships to Cruisers"
-  
-  #### Special Forces
-  diversify_special_forces: "Diversify Elite Forces"
-  diversify_special_forces_desc: "Our conventional forces simply aren't enough to combat the oncoming storm. We must innovate."
-  add_potential_special_forces_tree_tt: "Adds §H1§! free Special Forces §HBranch Specialism§!"
+ #### Generic Refit Civilian Ships ####
+ generic_refit_civilian_ships_category: "Military Refit for Civilian Ships"
+ generic_refit_civilian_ships_category_desc: "Our fleet can not realistically hope to compete with the much larger naval forces that threaten us. We must hastily procure a bigger fleet by refitting civilian vessels for military purposes."
+ refit_to_destroyer: "Refit ships to Destroyers"
+ refit_to_cruiser: "Refit ships to Cruisers"
+ 
+ #### Special Forces
+ diversify_special_forces: "Diversify Elite Forces"
+ diversify_special_forces_desc: "Our conventional forces simply aren't enough to combat the oncoming storm. We must innovate."
+ add_potential_special_forces_tree_tt: "Adds §H1§! free Special Forces §HBranch Specialism§!"
 
-  #### Norway Refit Civilian Ships ####
-  refit_to_destroyer_nor: "Refit Convoys to Destroyers"
-  refit_to_destroyer_mass_nor: "Refit Convoys to Destroyers En-mass"
-  nor_building_ship: "Currently Converting Ships"
+ #### Norway Refit Civilian Ships ####
+ refit_to_destroyer_nor: "Refit Convoys to Destroyers"
+ refit_to_destroyer_mass_nor: "Refit Convoys to Destroyers En-mass"
+ nor_building_ship: "Currently Converting Ships"

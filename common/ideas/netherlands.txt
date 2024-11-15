@@ -1563,7 +1563,7 @@ ideas = {
 
 		HOL_staff_plan_eng = {
 
-			picture = fra_fortification_focus
+			picture = FRA_fortification_focus
 			
 			allowed = {
 				always = no
@@ -1583,7 +1583,7 @@ ideas = {
 
 		HOL_staff_plan_fra = {
 
-			picture = fra_fortification_focus
+			picture = FRA_fortification_focus
 			
 			allowed = {
 				always = no
@@ -1603,7 +1603,7 @@ ideas = {
 
 		HOL_staff_plan_ger = {
 
-			picture = fra_fortification_focus
+			picture = FRA_fortification_focus
 			
 			allowed = {
 				always = no

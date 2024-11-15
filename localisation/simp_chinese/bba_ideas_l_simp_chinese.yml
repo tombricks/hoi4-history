@@ -409,6 +409,7 @@
  SWI_frozen_assets: "资产被瑞士冻结"
  SWI_frozen_assets_desc: "在依赖瑞士银行数年之后，他们终于露出了真实面目并且通过冻结资产背刺了我们！我们将通过金融手段逐渐恢复元气，但是这一过程需要时间。"
  SWI_intel_support_idea: "情报支持"
+ SWI_humanitarian_effort: "人道主义行动"
  SWI_communist_party_banned_idea: "禁止共产主义"
  SWI_alpine_redoubt_dynamic_modifier: "$SWI_alpine_redoubt$"
  SWI_democratic_unrest: "民主派动乱"

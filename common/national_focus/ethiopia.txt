@@ -1147,7 +1147,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ETH_new_weapons_and_tactics_bonus
 				bonus = 0.5
-				uses = 4
+				uses = 3
 				category = infantry_weapons
 				category = armor
 				category = artillery
@@ -1209,8 +1209,10 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = ETH_available_as_air_chief_tt
+			#custom_effect_tooltip = ETH_available_as_air_chief_tt
+			custom_effect_tooltip = available_chief_of_airforce
 			show_ideas_tooltip = ETH_carl_gustav_von_rosen
+			custom_effect_tooltip = generic_skip_one_line_tt
 			custom_effect_tooltip = ETH_bring_in_foreign_advisors_tt
 			add_to_variable = {	ETH_airforce_enemy_army_bonus_air_superiority_factor = -0.05 }
 			add_to_variable = {	ETH_airforce_air_doctrine_cost_factor = -0.05}
@@ -1636,6 +1638,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = ETH_expanding_the_railway_network
 		icon = GFX_focus_POL_warsaw_main_station
@@ -1687,10 +1690,12 @@ focus_tree = {
 					}
 				}
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 			custom_effect_tooltip = available_industrial_concern
 			show_ideas_tooltip = ETH_cie
 		}
 	}
+
 	focus = {
 		id = ETH_taxing_the_nobility
 		icon = GFX_focus_mex_privatisation
@@ -1889,7 +1894,7 @@ focus_tree = {
 			navy_experience = 35
 			add_tech_bonus = {
 				name = ETH_shipbuilding_bonus
-				bonus = 0.25
+				bonus = 0.5
 				uses = 1
 				category = dd_tech
 			}
@@ -2426,7 +2431,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_ideas = ETH_national_studs_idea
-			set_technology = { camelry = 1 }
+			set_technology = {
+				camelry = 1
+				popup = no
+			}	
 		}
 	}
 	focus = {
@@ -2452,6 +2460,7 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
+
 	focus = {
 		id = ETH_invite_foreign_prospectors
 		icon = GFX_goal_generic_intelligence_exchange
@@ -2495,7 +2504,6 @@ focus_tree = {
 			custom_effect_tooltip = ETH_invite_foreign_prospectors_tt
 			custom_effect_tooltip = available_industrial_concern
 			show_ideas_tooltip = ETH_tenneco
-			custom_effect_tooltip = available_industrial_concern
 			show_ideas_tooltip = ETH_standard_oil_california
 		}
 	}
@@ -4725,8 +4733,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = ETH_a_federal_empire
 		cost = 10
+
 		available = {
+			is_subject = no
 		}
+
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -4766,6 +4777,7 @@ focus_tree = {
 		relative_position_id = ETH_restore_the_empire_of_axum
 		cost = 10
 		available = {
+			is_subject = no
 		}
 		ai_will_do = {
 			base = 1
@@ -5475,7 +5487,7 @@ focus_tree = {
 			IF = {
 				limit = { NOT = { has_dlc = "La Resistance"} }
 				add_tech_bonus = {
-					bonus = 0.75
+					bonus = 0.5
 					uses = 2
 					category = electronics
 				}
@@ -5577,7 +5589,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = TODO
 			ITA = {
 				every_owned_state = {
 					limit = {
@@ -6681,7 +6692,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ETH_mass_transit
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = train_tech
 			}
 			ETH_BOP_decentralization_large_effect = yes
@@ -7107,11 +7118,19 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 
 		completion_reward = {
-				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = SAU
-					expire = 0
+
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SAU
+				expire = 0
 			} 
+
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = YEM
+				expire = 0
+			} 
+
 		}
 	}
 
@@ -7131,7 +7150,7 @@ focus_tree = {
 		completion_reward = {	
 			navy_experience = 35
 					add_tech_bonus = {
-						bonus = 0.25
+						bonus = 0.5
 						uses = 1
 						category = bb_tech
 					}		
@@ -7174,7 +7193,17 @@ focus_tree = {
 		
 		cost = 10
 		available = {
-			is_puppet = no 
+			is_subject = no 
+			IF = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+				COG = {
+					NOT = {
+						has_completed_focus = COG_organization_of_african_unity
+					}
+				}
+			}
 		}
 		
 		search_filters = {}
@@ -7203,7 +7232,7 @@ focus_tree = {
 		relative_position_id = ETH_organization_of_african_unity
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		available = {}
 		search_filters = {}
 		completion_reward = {
@@ -7232,7 +7261,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 10
+		cost = 5
 		available = {}
 		
 		search_filters = {}
@@ -7298,7 +7327,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		available = {}
+		available = {
+			is_subject = no
+		}
 		
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 

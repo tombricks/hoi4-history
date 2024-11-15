@@ -1249,6 +1249,7 @@
  bftb_bulgarian_claims.6.t: "[GER.GetLeLaLNPCap] [GER.GetName] cèd[GER.GetEEntNP]\ndes territoires aux [BUL.GetHabitants]"
  bftb_bulgarian_claims.6.desc: "\nSelon les termes de l'accord conclu avec [BUL.GetLeLaLNP] [BUL.GetName], [GER.GetLeLaLNP] [GER.GetName] [GER.GetAOntNP] ordonné que le contrôle administratif sur les territoires occupés par les forces [Root.GetAdjFP] et revendiqués par [BUL.GetLeLaLNP] [BUL.GetName] lui soit remis. À compter de ce jour, ils sont donc placés sous l'autorité du gouvernement [BUL.GetAdjMS]."
  bftb_bulgarian_claims.6.a: "Et qui a fait tout le travail ?"
+ bftb_bulgarian_claims.6.b: "Ils n'en ont aucunement le droit !"
  bftb_bulgarian_claims.7.t: "[From.GetLeLaLNPCap] [From.GetName] demand[From.GetEEntNP]\nà contrôler l'État de [From.From.GetName]"
  bftb_bulgarian_claims.7.desc: "\nAfin d'assumer [From.GetSonLeurNP] rôle de maintien de l'ordre dans les territoires occupés des Balkans, [From.GetLeLaLNPCap] [From.GetName] [From.GetAOntNP] proposé de prendre le contrôle administratif de l'État de [From.From.GetName] afin d'y préserver la stabilité au nom des puissances de la faction [Root.GetFactionName] de libérer les garnisons [Root.GetAdjFP] afin qu'elles puissent renforcer d'autres fronts."
  bftb_bulgarian_claims.7.a: "Accepté, nous avons\ngrand besoin de nos troupes"

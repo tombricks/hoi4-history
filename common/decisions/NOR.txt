@@ -885,7 +885,7 @@ NOR_democratic_preparation_decisions_category = {
 			}
 		}
 
-		cost = 60
+		cost = 30
 		
 		days_remove = NOR_prep_his_remove_days
 	 
@@ -1444,14 +1444,25 @@ NOR_historical_deploy_prep_decisions_category = {
 		}
 		custom_cost_trigger = {
 			has_equipment = {
-				convoy_1 > 49
+				convoy_1 > 50
 			}
-			has_army_experience > 79
+			has_army_experience > 80
 		}
 
 		custom_cost_text = decision_cost_convy_army_xp
 
 		days_remove = 30
+
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = { 
+					type = convoy_1
+					amount = -50
+					producer = NOR
+				}
+				army_experience = -80 
+			}
+		}
 
 		remove_effect = {
 			NOR_make_militias_into_regulars = yes 
@@ -2036,14 +2047,25 @@ NOR_allied_democratic_deploy_prep_decisions_category = {
 		}
 		custom_cost_trigger = {
 			has_equipment = {
-				convoy_1 > 49
+				convoy_1 > 50
 			}
-			has_army_experience > 79
+			has_army_experience > 80
 		}
 
 		custom_cost_text = decision_cost_convy_army_xp
 
 		days_remove = 3
+
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = { 
+					type = convoy_1
+					amount = -50
+					producer = NOR
+				}
+				army_experience = -80 
+			}
+		}
 
 		remove_effect = {
 			NOR_make_militias_into_regulars = yes 
@@ -2196,27 +2218,36 @@ NOR_fascist_preparation_decisions_category = {
 	NOR_invite_fascist_to_invade = {
 		
 		visible = {
-			if = {
-				limit = {
-					var:GLOBAL.platonic_fascist_bully = {
-						capital_scope = {
-							is_on_continent = europe 
-						}
-					}		
-				}
-				var:GLOBAL.platonic_fascist_bully = {
+			#if = {
+			#	limit = {
+			#		var:GLOBAL.platonic_fascist_bully = {
+			#			capital_scope = {
+			#				is_on_continent = europe 
+			#			}
+			#		}		
+			#	}
+			#	var:GLOBAL.platonic_fascist_bully = {
+			#		ROOT = {
+			#			NOT = { has_country_flag = NOR_already_asked_a_fascist@PREV } 
+			#		}
+			#	}
+			#}
+			#else = {
+			#	var:platonic_local_dangerous_fascist = {
+			#		ROOT = {
+			#			NOT = { has_country_flag = NOR_already_asked_a_fascist@PREV } 
+			#		}
+			#	}
+			#}
+		
+				any_country = {
+					original_tag = GER
+					has_government = fascism
 					ROOT = {
 						NOT = { has_country_flag = NOR_already_asked_a_fascist@PREV } 
 					}
 				}
-			}
-			else = {
-				var:platonic_local_dangerous_fascist = {
-					ROOT = {
-						NOT = { has_country_flag = NOR_already_asked_a_fascist@PREV } 
-					}
-				}
-			}
+			
 			has_country_flag = NOR_going_fascist
 			has_completed_focus = NOR_nasjonal_samling
 			has_war = no
@@ -2228,17 +2259,14 @@ NOR_fascist_preparation_decisions_category = {
 		}
 
 		complete_effect = {
-			find_global_platonic_countries = yes
+			#find_global_platonic_countries = yes
 			if = {
 				limit = {
-					has_variable = GLOBAL.platonic_fascist_bully
-					var:GLOBAL.platonic_fascist_bully = {
-						capital_scope = {
-							is_on_continent = europe 
-						}
+					GER = {
+						has_government = fascism	
 					}
 				}
-				var:GLOBAL.platonic_fascist_bully = {
+				GER = {
 					country_event = {
 						id = AAT_norway_fascist.1
 						hours = 3 
@@ -2274,36 +2302,7 @@ NOR_fascist_preparation_decisions_category = {
 					}				
 				}
 			}
-			else_if = {
-				limit = {
-					has_variable = platonic_local_dangerous_fascist
-				}
-				var:platonic_local_dangerous_fascist = {
-					country_event = {
-						id = AAT_norway_fascist.1
-						hours = 3 
-					}
-					hidden_effect = {
-						ROOT = {
-							set_country_flag = NOR_already_asked_a_fascist@PREV
-						}
-					}				
-				}
-			}
-			else = {
-				var:GLOBAL.platonic_fascist_bully = {
-					country_event = {
-						id = AAT_norway_fascist.1
-						hours = 3 
-					}
-					hidden_effect = {
-						ROOT = {
-							set_country_flag = NOR_already_asked_a_fascist@PREV
-
-						}
-					}					
-				}	
-			}
+			
 		}
 	}
 }
@@ -2510,7 +2509,7 @@ NOR_communist_preparation_decisions_category = {
 		}
 
 		visible = {  
-			has_war = no 
+			has_civil_war = no 
 			has_completed_focus = NOR_the_seeds_of_the_revolution
 		}
 
@@ -2521,7 +2520,7 @@ NOR_communist_preparation_decisions_category = {
 			}
 			FROM = {
 				OR = {
-					infrastructure > 2
+					infrastructure > 1
 					non_damaged_building_level = {
 						building = arms_factory
 						level > 1
@@ -2588,9 +2587,9 @@ NOR_communist_preparation_decisions_category = {
 			}
 		}
 
-		cost = 50   
+		cost = 25  
 		
-		days_remove = 30 
+		days_remove = 28 
 	 
 		complete_effect = {
 			FROM = { 
@@ -2610,7 +2609,22 @@ NOR_communist_preparation_decisions_category = {
 			has_completed_focus = NOR_the_voice_of_the_people
 		}
 
-		cost = 60 
+		cost = 50 
+		ai_will_do = {
+			base = 50
+			modifier = {
+				factor = 50
+	 			communism < 0.4
+			}	
+			modifier = {
+				factor = 0
+	 			communism > 0.5
+			}
+			modifier = {
+				factor = 0
+	 			has_completed_focus = NOR_workers_and_farmers_rise
+			}
+		}
 
 		days_remove = 45
 
@@ -2864,27 +2878,25 @@ economy_decisions = {
 			NOT = { 
 				has_country_flag = nor_building_ship 
 			}
-			has_dlc = "Man the Guns"
-			has_tech = early_ship_hull_light
-	  		if = {
+			if = {
 	  			limit = {
+					has_dlc = "Man the Guns"
 	  			}
+	  			has_tech = early_ship_hull_light
 	  		}
 	  		if = {
 	  			limit = {
 					NOT = { has_dlc = "Man the Guns" }
-					has_tech = early_destroyer
 	  			}
+	  			has_tech = early_destroyer
 	  		}
 		}
 		days_remove = 14
 
 		complete_effect = {
-			hidden_effect = {
-				add_equipment_to_stockpile = { 
-					type = convoy_1
-					amount = -4
-				}
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = -4
 			}
 			set_country_flag = {
 				flag = nor_building_ship
@@ -2918,7 +2930,7 @@ economy_decisions = {
 							mid_1_custom_slot = empty
 							rear_1_custom_slot = empty
 						}
-					obsolete = yes
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -2963,7 +2975,7 @@ economy_decisions = {
 		}
 	}
 
-		refit_to_destroyer_mass_nor = {
+	refit_to_destroyer_mass_nor = {
 		icon = GFX_decision_generic_merge_plant_ship
 		fire_only_once = no
 
@@ -2984,14 +2996,14 @@ economy_decisions = {
 	  		if = {
 	  			limit = {
 					has_dlc = "Man the Guns"
-					has_tech = early_ship_hull_light
 	  			}
+	  			has_tech = early_ship_hull_light
 	  		}
 	  		if = {
 	  			limit = {
 					NOT = { has_dlc = "Man the Guns" }
-					has_tech = early_destroyer
 	  			}
+	  			has_tech = early_destroyer
 	  		}
 		}
 		days_remove = 105 #Less than the single conversions to encourage players to use it, and not have to min/max

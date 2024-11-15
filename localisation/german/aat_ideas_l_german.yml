@@ -166,6 +166,12 @@
  #Monarchist Path
  NOR_king_haakon_vii_ns: "König Haakon VII."
  NOR_king_haakon_vii_ns_desc: "Als erster [NOR.GetAdjective]er Monarch seit dem 13. Jahrhundert ist König Haakon VII. ein Paradebeispiel der Demokratie. Er hat erst nach einem Volksreferendum die Krone angenommen und überlässt die Herrschaft über [NOR.GetName] weiterhin seinen Beratern und anderen hochrangigen Adligen."
+ NOR_new_high_king: "Ein neuer Hochkönig"
+ NOR_new_high_king_desc: "Regent Peder Anker Wedel-Jarlsberg hat sich selbst zum neuen Hochkönig von Norwegen erklärt und damit die Herrschaft übernommen, ohne direkt den Titel von König Haakon anzunehmen. Dieser Schritt ist bei den Nachbarn Norwegens jedoch äußerst unpopulär."
+ NOR_norwegian_regency: "Die norwegische Regentschaft"
+ NOR_norwegian_regency_desc: "Regent Peder Anker Wedel-Jarlsberg hat in einer öffentliche Rede erklärt, er werde dem Willen und den Befehlen seines Königs Haakon VII. folgen. Infolgedessen sucht er die Annäherung an die benachbarten skandinavischen Monarchien."
+ NOR_second_north_sea_empire: "Das zweite Nordseereich"
+ NOR_second_north_sea_empire_desc: "Regent Peder Anker Wedel-Jarlsberg hat in einer öffentliche Rede erklärt, er werde Norwegen zu seinem altem Glanz zurückführen und dass es nur eine Frage der Zeit sei, bis Norwegen erneut zu einem Nordseereich werden wird."
  #Dynamic Modifiers
  NOR_independent_norway_dmod: "Unabhängiges Norwegen"
  NOR_independent_norway_dmod_desc: "Wir sind seit 1905 unabhängig von Schweden und haben seitdem einen langen Weg zurückgelegt. Jetzt liegt es an uns, das [NOR.GetNonIdeologyName] zu schaffen, von dem unsere Vorväter geträumt haben."

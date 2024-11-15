@@ -424,16 +424,17 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "ROM"
+			creator = ROM
 		}
 		requested_factories = 2
 		progress = 0.44
 		efficiency = 100
+		industrial_manufacturer = mio:ROM_cugir_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "ROM"
+			creator = ROM
 		}
 		requested_factories = 1
 		progress = 0.47
@@ -442,28 +443,31 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "ROM"
+			creator = ROM
 		}
 		requested_factories = 1
 		progress = 0.47
 		efficiency = 100
+		industrial_manufacturer = mio:ROM_resita_works_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_1
-			creator = "ROM" 
+			creator = ROM
 		}
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 100
+		industrial_manufacturer = mio:POL_pzinz_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "ROM" 
+			creator = ROM 
 		}
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 100
+		industrial_manufacturer = mio:ROM_malaxa_organization
 	}
 }

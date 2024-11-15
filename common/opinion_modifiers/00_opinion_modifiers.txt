@@ -284,6 +284,10 @@ opinion_modifiers = {
 		value = 25
 	}
 
+	ger_por_alliance_focus = {
+		value = 25
+	}
+
 	ger_pol_diplomacy_focus = {
 		value = 25
 	}
@@ -806,7 +810,10 @@ opinion_modifiers = {
 	AST_commitment_to_the_cause = { value = 25 }
 
 	CAN_permanent_joint_defense_board = { value = 25 }
-	CAN_patriation_mod = { value = -40 }
+	CAN_patriation_mod = { 
+		value = -40 
+		months = 36
+	}
 
 	CAN_supply_the_red_army = { value = 25 }
 	CAN_supply_the_red_army_trade = { trade = yes value = -50 }
@@ -867,9 +874,9 @@ opinion_modifiers = {
 	}
 
 	#German focus
-	GER_align_hungary = { value = 15 }
+	GER_align_hungary = { value = 15 } #MM: UNUSED AFTER WW
 
-	GER_align_romania = { value = 15 }
+	GER_align_romania = { value = 15 } #MM: UNUSED AFTER WW
 
 	GER_accept_british_naval_dominance_opinion = { value = 25 }
 

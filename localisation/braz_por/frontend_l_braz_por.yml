@@ -213,7 +213,7 @@
  PICK_RANDOM_COUNTRY_TITLE: "Selecionar país aleatório"
  RANDOMIZE_COUNTRY_BACK: "Fechar"
  RANDOMIZE_COUNTRY_PICK: "Selecionar aleatório"
- FE_INTERESTING_MAJORS: "Grandes países interessantes"
+ FE_INTERESTING_MAJORS: "Países principais interessantes"
  FE_INTERESTING_MINORS: "Pequenos países interessantes"
  FE_OTHER_COUNTRIES: "Outros países"
  FE_RANDOM_COUNTRY_ERROR_NO_COUNTRIES: "Sem países válidos"

@@ -60,15 +60,42 @@ autonomy_state = {
 			limit = {
 				has_dlc = "Waking the Tiger"
 			}
-			OVERLORD = { not = { tag = JAP } }
+
+			NOT = {
+				AND = {
+					OVERLORD = { has_government = fascism } 
+					OVERLORD = { tag = JAP } 
+				}
+				AND = {
+					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { tag = JAP } 
+				}
+			}
 		}
 	}
 	
 	can_take_level = {
 		#trigger here
+		IF = {
+			limit = {
+				original_tag = COG
+				has_dlc = "Gotterdammerung"			
+			}
+			NOT = {
+				has_completed_focus = CONGO_overseas_department_of_belgium
+			}
+		}
 	}
 
 	can_lose_level = {
 		#trigger here
+		IF = {
+			limit = {
+				OVERLORD = { original_tag = BEL } 
+				original_tag = COG
+				has_dlc = "Gotterdammerung"			
+			}
+			has_completed_focus = CONGO_congo_free_state
+		}
 	}
 }

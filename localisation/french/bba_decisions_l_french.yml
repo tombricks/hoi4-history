@@ -317,7 +317,7 @@
  african_union_category: "Organisation de l'unité africaine"
  african_union_category_desc: "Nous devons mettre en place des institutions qui permettront de mutualiser les talents et les ressources de tout le continent et de lancer un processus d'unification politique. Ce n'est que s'ils peuvent s'accorder entre eux et coopérer étroitement que les peuples africains pourront résister à l'oppression étrangère."
  promote_org_of_african_unity: "Promouvoir l'OUA [From.GetAuEnANP] [From.GetName]"
- invite_to_org: "Inviter [From.Owner.GetLeLaLNP] [From.Owner.GetName] dans l'Organisation"
+ invite_to_org: "Inviter [FROM.OWNER.GetLeLaLNP] [FROM.OWNER.GetName] à intégrer l'Organisation"
  invite_to_org_tt: "Les pays ayant une idéologie différente de la nôtre seront moins susceptibles d'accepter d'entrer dans l'Organisation."
  invite_to_ACB: "Inviter [From.GetLeLaLNP] [From.GetName] à participer à la Banque centrale africaine"
  invite_to_ACB_tt: "Les pays ayant une idéologie différente de la nôtre seront moins susceptibles d'accepter une intégration économique."

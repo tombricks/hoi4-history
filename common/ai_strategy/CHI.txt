@@ -1,15 +1,3 @@
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-
 CHI_unit_production = {
 	allowed = { original_tag = CHI }
 	enable = {
@@ -322,4 +310,64 @@ CHI_hunker_down_now  = {
 		execution_type = careful
 	}
 
+}
+
+CHI_dont_join_ENG_if_not_democratic = {
+	allowed = {
+		WTT_is_chinese_country = yes 
+	}
+
+	enable = {
+		WTT_is_chinese_country = yes 
+		NOT = { has_government = democratic }
+		ENG = { has_government = democratic }
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type =  alliance
+		id = ENG
+		value = -200
+	}
+
+
+}
+
+CHI_dont_join_USA_if_not_democratic = {
+	allowed = {
+		WTT_is_chinese_country = yes 
+	}
+
+	enable = {
+		WTT_is_chinese_country = yes 
+		NOT = { has_government = democratic }
+		USA = { has_government = democratic }
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type =  alliance
+		id = USA
+		value = -200
+	}
+
+}
+
+#### FORCE CONCENTRATION
+
+# We defend all our country, right
+CHI_aifc_incompetent_officers = {
+	allowed = { original_tag = CHI }
+	enable = {
+		has_idea = CHI_incompetent_officers
+	}
+	
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type = force_concentration_factor
+		value = -30  # if we have enough doctrines, we can do a little.... 
+	}
 }

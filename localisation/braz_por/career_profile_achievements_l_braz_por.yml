@@ -81,9 +81,12 @@
  CAREER_PROFILE_FIELD_OFFICERS_PROMOTED_LABEL: "Oficiais de Campo promovidos a Generais"
  CAREER_PROFILE_SHIPS_SUNK_BY_MARITIME_LABEL: "Navios afundados por Aeronaves de Patrulha Marítima"
  CAREER_PROFILE_MUSSOLINI_MISSIONS_LABEL: "Missões de Mussolini Concluídas"
- CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Avaliações da organização industrial militar"
+ CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Aumento de organização industrial militar"
  CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL: "Forças especiais mobilizadas"
  CAREER_PROFILE_EQUIPMENT_SOLD_LABEL: "Unidades de equipamento vendidas no mercado"
+ CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL: "Projetos especiais concluídos"
+ CAREER_PROFILE_LAUNCHED_RAIDS_LABEL: "Incursões lançadas"
+ CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL: "Aumento de níveis de cientista"
  #Medals
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL: "Medalha de Defesa Ferrenha"
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL_DESCRIPTION: "Defenda-se com sucesso contra uma certa quantidade de ataques inimigos."
@@ -226,12 +229,10 @@
  #Playthrough overview
  CAREER_PROFILE_END_GAME_TAB_LABEL: "Ranking"
  CAREER_PROFILE_AWARDS_NOT_AVAILABLE_IN_MULTIPLAYER: "As condecorações não estão disponíveis para jogos multijogador"
- #DLC promotion
- BY_BLOOD_ALONE: "By Blood Alone"
- DLC_DESCRIPTION_dlc036: "Crie um novo império, resista às agressões externas ou explore os limites da neutralidade. O DLC By Blood Alone adiciona novas opções de história alternativa e variedade de jogo para Itália, Etiópia e Suíça, além de outras mudanças significativas."
- ARMS_AGAINST_TYRANNY: "Armas contra a tirania"
- DLC_DESCRIPTION_dlc038: "Escreva novas histórias emocionantes para os países nórdicos conforme as maiores potências da Europa lutam pelo futuro do mundo. Novas árvores de foco nacional para Finlândia, Suécia, Dinamarca e Noruega assumirem posições de protagonismo. Especialize sua indústria bélica para enfatizar a eficiência e depois venda essas armas no novo mercado internacional."
  #Profile Picture Tab
  CAREER_PROFILE_TOOLTIP_BRONZE: "Desbloqueado por $NAME|H$ de bronze"
  CAREER_PROFILE_TOOLTIP_SILVER: "Desbloqueado por $NAME|H$ de prata"
  CAREER_PROFILE_TOOLTIP_GOLD: "Desbloqueado por $NAME|H$ de ouro"
+ REQUIRES_DLC_TEXT: "Requer o DLC $DLC|Y$"
+ DLC_OWNED_TEXT: "§GVocê já possui esse conteúdo!§!"
+ DLC_NOT_OWNED_TEXT: "§HClique para visitar a página da loja desse conteúdo.§!"

@@ -413,7 +413,7 @@
  ARG_political_corruption_modifier_desc: "多年来，[ARG.GetNameDef]一直被政府内部猖獗的腐败所困扰。虽然人们认为，如果允许建立协和同盟，这种情况可能会减少，但欺诈性投票和选民恐吓仍然存在。"
  ARG_modify_corruption_ns_intro: "§Y$ARG_political_corruption_modifier$§!追加效果："
  ARG_international_loan_modifier: "国际贷款"
- ARG_international_loan_modifier_desc: "在危机时期，一个国家向世界其他国家寻求财政援助并不罕见。鉴于[ARG.GetNameDef]目前的经济状况，接受在这场冲突中发挥作用的主要大国的援助是完全合理的。"
+ ARG_international_loan_modifier_desc: "在危机时期，一个国家向世界其他国家寻求财政援助并不罕见。鉴于[ROOT.GetNameDef]目前的经济状况，接受在这场冲突中发挥作用的主要大国的援助是完全合理的。"
  ARG_modify_international_loan_intro: "§Y$ARG_international_loan_modifier$§!追加效果："
  ARG_corruption_crackdown_modifier: "$ARG_crack_down_on_corruption$"
  ARG_corruption_crackdown_modifier_desc: "困扰我国政府的腐败是完全不能接受的。多亏了罗伯托·玛丽亚·奥尔蒂斯的政策，我们终于能够开始终结政客们参与的明目张胆的欺诈活动。"

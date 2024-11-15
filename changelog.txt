@@ -1,4 +1,858 @@
 ﻿################################################################
+########             Update 1.15.0 "Kaiser"            #########
+################################################################
+
+##################################
+# Expansion
+##################################
+
+- Added new German ahistorical focus tree paths
+- Added full Austrian focus tree
+- Added full Belgian focus tree
+- Added full Congo focus tree
+- Added new Hungarian focus tree
+- Added over 180 new 3D models, including cool experimental equipment, unit models, cool experimental equipment and landmarks.
+- Added 11 new music tracks
+- Added 28 new Special Projects
+- Added Air, Paratrooper Raids, and targeted missile raids
+- Added VO for Austria and Belgium
+- Added Helicopter Brigade
+- Added Helicopter Logistics
+- Added Helicopter Medevac
+- Added Armoured Maintenance Company
+- Added Armoured Engineer Company
+- Added Assault Engineer Company
+- Added Super-Heavy Artillery Companies
+- Added Land Cruiser Support Company
+- Added Super-Heavy railway gun
+
+
+##################################
+# Feature
+##################################
+
+- Research Tab was enriched with Scientists, Experimental Facilities and Special Projects.
+- Added 15 new Special Projects
+- Added 2 Special Projects to the No Step Back expansion
+- Added new historical German focus tree paths
+- Reworked Land and Coastal Forts - their maximum buildable level is now capped by the province terrain type. Those caps can be increased primarily by researching new Fortification Technologies
+- Added numerous new technologies associated with or unlocked by Special Projects
+- Added a variety of horse colours for cavalry units
+- Added focus shortcut system showcased in the German national focus tree
+- added raids system for launching nuclear bombs
+
+##################################
+# Balance
+##################################
+
+- Rebalanced Norwegian advisor traits
+- Added Rolf Jørgen Fuglesang, Eivind Blehr, Eivind Heiberg, Christopher Hornsrud and Kirsten Hansteen as new advisors for Norway.
+- Updated a few Czechoslovak focuses to be a bit better or faster. Also added more flavour to many of the names of the Czechoslovak focuses.
+- A few faction-joining focuses in the Spanish and Portuguese trees have now been made into 35 days focuses.
+- Updated the French focus and national spirit "Fortification Focus" to additionally grant +1 max level for land and coastal forts.
+- Updated the Czech "Fortification Studies" and "Sudetenland Fortifications" focuses to grant additional max fort levels, to accommodate for the new fort system.
+- The Turkish AI shouldn't start WW3 with historical focuses on
+- Fixed an issue with the French decisions to reorganize the various Air Force MIOs so that they no longer get the same name duplicated. Also rebalanced the decisions to be more worth taking.
+- Added the Société Française Radio-Électrique asa new electronics concern for France.
+- The French focuses “Latin Entente” and “Towards a New Europe” now don’t only change the country leader, but also change the name of the leading political party to match the leader you gain.
+- The French Focus “Bring Home Quebec” now also gives claims on all Quebec cores.
+- Fixed an issue where the French focus “Grow the Empire” didn’t account for the new Congolese states added in BBA.
+- The French focuses “Reach Out To Spain” and “Invite Portugal” have been made into 35 day focuses.
+- The French focus “The Natural Borders of France” now also gives claims on the target states.
+- The French focuses “Celebrate the Commune” and “Legal Equality” have been made into 35 day focuses.
+- The French National Spirit “Agricultural Collectivization” now additionally grants -10% consumer goods factories factor.
+- The French focus “Proclaim the Third Empire” now creates a faction called “The Continental System”, that is renamed to Confédération du Rhin when taking the focus “Disunite Germany”.
+- The French national spirit “Le Déluge” now additionally grants 10% war support.
+- The French focus “Utilize the Leagues” now grants an additional 75 political power and -3% stability.
+- Adjusted a few consumer goods factories values in the Soviet industrial Branch that still held values and tooltips from before the factories to factories factor change.
+- The British focus "Home Defense" now unlocks a decision category that can use to aid in the defense of the British Isles.
+- The American focuses "Tank Destroyer Doctrine" and "Main Battle Tanks" are now 35 day focuses.
+- Croatia is now more likely to be created when yugoslavia ends up at war with germany
+- South Africa now has access to a few of the British MIOs, and the focus "South African Railways" now can unlock the basic train tech for free, as well as adds 15 British trains to the stockpile.
+- Added a new focus for the United Kingdom with La Resistance to expand the MI6, and gain an intel agency, operative slot and some other intel bonuses.
+- Updated the Polish air-focuses to work better with the BBA techs. Also made the focuses "Expand Air Bases" into a 35 day focus.
+- Added the ability for Ethiopia to prospect for a small amount of extra resources within it's core territory.
+- The Estonian focus "Join the Axis" now takes 35 days instead of 70.
+- Italy can now gain an Air Facility north of Rome in the focus "Città dell'Aria".
+- The Soviet focuses "Modernize Aircraft Facilities" and "Soviet Atomic Bomb Project" can now give them a facility of the corresponding type.
+- Sonar Modules Submarine Detection increased from 6/10 to 8/12
+- Depth Charges Modules Anti-Submarine Attack Values increased from 8/12/16/20 to 8/13/17/22
+- Submarine Torpedo Modules Attack Values reduced from 14/18/22/28 to 13/17/20/25
+- Submarine Engine Modules Visibility Reductions changed from 0%/-5%/-10%/-15% to 0%/0%/-5%/-10%
+- Some Chilean democratic focuses are no longer blocked from each other. Some effects in the branch have been adjusted to accommodate for this.
+- Players can now reject handing pre-planned expansion states over to Bulgaria.
+- Cavalry now gets +5% Breakthrough in Infantry Offensive Doctrine (Grand Battleplan Infilitration Path) and Cavalry Recon bonus from Infiltration Assault (Grand Battleplan Infilitration Path) now also extends to mounted infantry
+- Prioritize Naval Aircraft Construction Decision for Japan now provides -10% cost reduction to Carrier Naval Bombers and Carrier Air Support, to reduce their double-dipping effect from -40% to -30%
+- Admiral Trait Concealment Expert Visibility Reduction was reduced from -20% to -15%
+- Giving Refuge to Italian and German Scientists now also provides +2% Special Project Research Speed
+- Fuel Silos cost is now cheaper based on the amount of already existing Fuel Silo in the state.
+
+##################################
+# Gameplay
+##################################
+
+- Added names for Polish Cavalry Brigade Commanders
+- Added the Czechoslovak State Railways as a new industrial concern (railway company) for Czechoslovakia.
+- Added admiral roles to Dimitrios Oikonomou and Epameinondas Kavvadias
+- Added Stylianos Gonatas as a military high command and general for the Greek republicans
+- The Greek industrial focus Fiscal Responsibility now hires Emmanouil Tsouderos for free if possible
+- The targeting for construction in the Greek focus Making Use of our Islands has been switched from owned to controlled states, and can also target Cyprus if they are a puppet of Greece. It can also integrate Cyprus if that is the case.
+- The MIOs gained from the Greek focuses Rapprochement with the Italians and Appeal to the Soviet Union now gain 2 sizes immediately
+- The Hellenic Air Force Academy national spirit now grants an additional 5% air exp gain factor
+- The Greek focus A Legacy of War also grants 3% organization
+- The Greek focus The Backbone of the Army now grants half a percent of recruitable population, from the previous a fifth of a percent
+- Added a new focus to the Greek industrial branch to utilize the Macedonian Farmlands in order to gain supply bonuses and a tiny reduction to consumer goods factor
+- Many Greek focuses regarding switching ideologies, factions or wars, are no longer available to them if they are a subject of another nation
+- Added a new focus to the Greek monarchist branch, allowing for the Reorganization of the Royal Guard, leading to some manpower and two free divisions
+- Modified the event The Monarchists in Greece Request our aid so that the British are much more likely to say yes and send equipment
+- Added a new focus in the Greek monarchist branch allowing for the further utilization of British capital, allowing for more infrastructure and building slots in Greece
+- Added the Antillean Confederation as a new formable for nations in the Caribbean. Also fixed an issue where Belize couldn't access the decision to Form Central America.
+- Added New South Wales Railway Company as an industrial concern for Australia.
+- Added New Zealand Railways as an industrial concern for New Zealand.
+- Various old focuses connected to the Soviet Union, Finland, Sweden and Portugal now grant dams as buildings that give states additional positive state modifiers.
+- Added Fanny Schoonheyt as a General for the communist Netherlands.
+- The French advisor Charles Maurras can now also be unlocked by the focus "Orleanist Restoration".
+- Added Vasily Flug and Boris Shtefion of the Russian Protection Corps as characters that can become available through various means for Germany, Yugoslavia and the Soviet Union.
+- Added a focus for Fascist/Tsarist Russia to gain a wargoal to reclaim Uryankhay Krai. Also changed the focus "Vengeance for the Yoke" to a 35 day focus.
+- Tsarist/Fascist Russia can now release nations after taking the focus "Reconvene the Zemsky Sobor".
+- Updated and improved the Post-Yalta events between Poland and the Soviet Union.
+- Added a focus for the United Kingdom to expand Vickers Experimental Facilities in Foxwarren.
+- The British national spirits "Wartime Industry" and "Prepare for the Inevitable" can combine, thus enabling less clutter in the UKs country screen.
+- Luxembourg now starts with ARBED as an available Industrial Concern.
+- Ethiopian High Command Feodor Konovalov can now join the Russian White Forces when the Second Russian Civil War starts.
+- Added a crossing in the Philippines between Mindanao and Sulu.
+- The British AI will now protect their main island better
+- Mutapa can now be formed when a subject of another nation, and has seen its borders expanded slightly.
+- Added Georges Valois as an advisor for France.
+- If the conditions are right, Georgia may find an unexpected visitor on their doorsteps.
+- Added Marcel Déat as an advisor for France.
+- Degaussing Effects are now standardized. For MTG players, Degaussing Technology now gives +10% Submarine Detection to the Destroyers and Cruisers - and the unique spirits that awarded them are no longer granted. For non-MTG players those national spirits still provide the effect for those select countries
+- Added new unit categories in order to clean up some of the less 'readable' technologies and doctrines (Hello, Mobile Infantry!).
+- Cavalry now benefits from Anti-Tank Weapon Technology with the same ratio as Support Weapons. (2/5 - so +10% Hard Attack and +40% Piercing)
+- Supremacy of the Battlefleet Japanese National Focus now awards a National Spirit granting +10% Capital Ship Armor and +100% Super Heavy Battleship Special Project Completion Speed
+- Area defense orders now start with no pre-selected parameters, reducing overall interaction required in most circumstances
+
+##################################
+# UI
+##################################
+
+- Fix of bug where factory conversion button had no glow when selected. From now all building construction buttons will glow at once only if player not uses all of the available factories.
+- Country-specific train icons are now shown properly in the production menu
+
+##################################
+# AI
+##################################
+
+- Fascist countries now also respect negative declare_war AI strategy values
+- implemented a new system for AI political-power spending
+- Invasion importance score is affected by 'invade' strategy, and tweaks to the US Operation Torch strategies
+
+##################################
+# Modding
+##################################
+
+- Fix trigger all_enemy_country trigger to evaluate all countries and not just any
+- Added variable divisional_commander_xp to set divisional officer experience on unit creation
+- Allow using MIO category equipment group as equipment bonus type
+- Add state_resources_<resource>_factor state modifier
+- Add a equipment_production_min_factories_archetype AI strategy which only affects equipment of a specific archetype
+- Fixed bugs and revamped how the AI designs division templates. Removed a bunch of properties from division templates that either didn't make sense or were simply not useful.
+- AI division templates now get their AI role assigned on creation based on their target template, rather than being dynamically matched to a role based on match_to_count.
+- Add MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY define which can be used to make penalties from having a higher ship ratio not apply to small fleets
+- Added support for specifying division name list for AI templates
+- Implement a trigger parameter to get all the states in a given continent
+- A new trigger for naval invasion: has_naval_invasion_against_state
+- Implemented a console command to show/hide all hidden techs
+- Implement a new console command sp_prototype_reward
+- Add AI strategy force_concentration_target_weight to affect which targets are being used by AI Force Concentration
+- Add AI strategy force_concentration_factor to control to what extent the AI uses AI Force Concentration
+- Add force_concentration_front_factor AI strategy
+- Added support for disabling grow animations on buildings
+
+##################################
+# Graphics
+##################################
+
+- 3D buildings on map will now have fire/smoke pillars if they are damaged enough
+- 3D cities on map will now have fire/smoke pillars if corresponding civilian structures are damaged enough
+- Fixed DX11 trying to switch modes when Alt+Enter is pressed
+- Selecting display monitor now works in DX11
+- Selecting display monitor now works in both windowed and borderless mode
+- It is now possible to override display settings from command line
+- Free France flag should now use the proper historical blue/red hues rather than the post 1976 ones
+- Updated the Czechoslovak focuses to improve the variation and spread of their focus icons.
+
+##################################
+# Bugfix
+##################################
+
+- Fixed a rare CTD for ai garrison order
+- Now correctly display battalion modifiers when the factor is additive
+- Spirits are now shown in the Modify Officer Corps alert
+- Checkboxes in the strategic air view details graph and the fuel stockpile graph are now clickable
+- Fixed an issue where previously-capitulated Lithuania would be released controlling Wilno state due to the Molotov-Ribbentrop Pact.
+- No longer possible to justify war goal on impassable states
+- Fixed an issue where the incorrect modifiers were applied to the Crusade Against Democracy ideas, leading to the effect not applying correctly.
+- Fixed an issue where the the democratic party of Norway wasn't Høyre after taking the focus to get their leader as the new country leader.
+- Fixed a bug that caused incorrect unit distribution when frontline is split
+- Fixed an oversight where a few Turkish admirals were using the army versions of the traits "Career Officer" and "Media Personality".
+- No longer possible to delete division templates used by divisions escaping into exile (which could cause crashes)
+- Fixed broken texts in French news event for Claiming the French Throne.
+- The Mexican decision Support the Spanish Right now also works with Non-Aligned Francoist Spain.
+- Replaced Terrain Penalty Reduction modifier which was not working in National Spirits by the modifier Terrain Traits XP Gain.
+- Fix the bug with the UI where daily power is clamped to 0 despite it being negative
+- Soviet Union: Purge-Related National Spirits will now be transferred to the Stalinist side in the Soviet Civil War, and the relevant decisions to remove them will be available for the Stalinist side during the civil war.
+- Soviet Union: Dissolve Aircraft Design Bureau purges will now properly work with MIOs when Arms Against Tyranny DLC is active. These purges will no longer trigger twice for an already dissolved bureau.
+- Soviet Union: The decision tooltip to Reinstate Aircraft Design Bureau will now display the days that have passed since the Bureau was dissolved (as the decision is unavailable until a year has passed since the dissolution).
+- Changed the post war names for Italy and Romania to better match the historical names
+- num_battle_plans now also counts the field marshal's own battle plan
+- Fixed an issue where Japan couldn't have integrated puppets despite no longer being fascist or non-aligned.
+- Fixed an issue where Argentina could core states that it had already cored.
+- Fixed an issue where the warlord focus Ideological Education required you to be and not be a subject at the same time.
+- Fixed an issue where the Dutch focus "Expand the Artillerieinrichtningen" said it unlocked and gave bonuses to the MIO Siderius when it was meant to give it to A.I. Hembrug.
+- adds conditions to effects that construct forts and coastal forts, as well as availables and improved bypasses in the British focus tree
+- Fixed various instances of unlocalized strings throughout content.
+- Fixed issues in the Italian events and decisions to invite Turkey or Greece to your faction in exchange for the Dodecanese, where they would previously target the wrong countries.
+- Building slots are no longer reduced by 50% due to non_core_controller. This should be purely handled by resistance & collaboration
+- Fixed an issue where the Blackshirt March on the Isle of Man would count as one having been done in the Highlands due to an incorrect flag being set.
+- Fixed an issue where the Lithuanian general Kazys Skučas used his large portrait where he should have used his small icon.
+- Fixed a small LOC issue in the Polish decision "Sideline the Right".
+- Fixed an issue where Romanian puppets wouldn't be peaced out with their enemies when Romania switched sides using their decisions.
+- Fixed and updated the requirements to take and bypass some of the Turkish faction joining focuses.
+- Fixed a minor typo in the description of the Argentinian national spirit "The Roca-Runciman Treaty".
+- Fixed an issue where Swedish advisor Frans Severin was hidden prior to being unlocked.
+- Fixed ?s showing up instead of unknown characters in the Vietnamese namelist
+- minor fix to Swiss focus Preempt Anschluss to bypass if Austria doesn't exist, or is a subject of someone else
+
+
+
+################################################################
+########             Hotfix 1.14.10 "Bolivar"          #########
+################################################################
+
+##################################
+# Bugfix
+##################################
+
+- It is no longer possible to select wrong type of models for equipment (for example, transport planes as model for infantry equipment)
+
+
+
+################################################################
+########             Update 1.14.9 "Bolivar"           #########
+################################################################
+
+- Added expansion pass bonus: Music "Ride of the Valkyries"
+- Added expansion pass bonus: German 3d tank models
+- Add 3d model selector to airplane equipment upgrade for non-BBA owners
+- Add 3d model selector to ship equipment upgrade for non-MTG owners
+- Add 3d model selector to tank equipment upgrade non-NSB owners
+
+
+
+################################################################
+########             Hotfix 1.14.8 "Bolivar"           #########
+################################################################
+
+##################################
+# Balance
+##################################
+
+- Brazil: focus "Potenji River Conference" changed so that instead of having Brazil declare war on American major enemies, they now instead join the American war, thus not applying the Defensive War bonus on the Axis and Greater East Asian Co-Prosperity Sphere in the late-game.
+- Brazil: now even more extra hyper-unlikely to reject unification with Portugal if their ideologies match
+- Czechoslovakia: focus "United Population" now grants 10% stability and war support as well as 150 political power if the "Divided Nation" national spirit has already been removed by the focus "Czech Socialism".
+- France: Fixed an issue where SOMUA S35 was previously called SOUMUA S35.
+- France: focus ""Begin Rearmament"" will no longer be cancelled if you drop below the required war support.
+- France: wargoals for the French focus ""Secure the Crown"" target all Spains.
+- France: the Orleanist focuses Slum Clearing and Counter-Action are both now 35 days focuses, and added an extra building slot to the Slum Clearing focus.
+- France: focus ""Diplomatic Freedom"" now takes 35 days and give 50 political power.
+- France: fixed an issue with offsets in the tree when taking the focus ""Revive the National Bloc"".
+- France: focus ""Defensive Focus"" now gives 30 command power.
+- France: focuses ""Invite Yugoslavia"" and ""Invite Romania"" now are 35 day focuses.
+- France: Trimmed down the decision tooltips in the focus "Reorganize Aviation Industry" and added 2 Military factories as an instant completion reward in the focus.
+- United Kingdom: Fixed an issue with a duplicated available trigger in the British focus “Commonwealth Ties”. Also changed the focus to include British Malaya in its targets, as well as give the targeted nations 50 political power each. Also made it into a 35 day focus.
+- Warlords: focus Industrial Investments now gives 2 civilian factories instead of one.
+- Warlords: now start with the national spirit “Warlord State” which can be upgraded through 3 different new focuses, and which is removed upon becoming any other type of state.
+- Warlords: national spirit “Long Term Economic Planning” now also gives a 10% construction bonus to Supply Hubs.
+- China: national spirit “Public Works” now also gives a 5% construction bonus to Railways.
+- Warlords: focus “Personal Leadership” now takes 35 days and additionally grants 30 command power.
+- China: national spirit “Rapid Mobilization” now also gives a 10% bonus to mobilization speed.
+- Warlords: focus “Opposition” now also grants 5% war support.
+- Warlords: focus “Cooperation with the Nationalists” now also grants 5% stability.
+- Warlords: focus “Cooperation with the Communists” now also grants 50 political power.
+- Warlords: focus “Cult of Personality” now also grants 5% war support.
+- Warlords: focus Local Arms Production now gives 2 military factories instead of one.
+- Spirits: Professional Officer Corps now grants 15% division experience gain and 30 max command power in place of 5% land XP, -5% doctrine cost and 0.20 daily command power
+- Spirits: Elevated Engineering Corps no longer grants a 25% engineer trait xp gain factor. Railway gun bombardment bonus is now 25%, from 20%
+- Spirits: Proper Heritage no longer grants 5% cavalry attack, and instead grants 10% Leader Experience Gain
+- Spirits: State Serves the Military now grants 10% offensive war stability, from 10% political power gain
+- Spirits: Logistical Focus spirit now grants -10% fuel consumption instead of -5%
+- Cavalry Recon now gains a 15% speed bonus from the Mass Assault doctrine "Pocket Defence".
+- Horseback Infantry now have several early benefits in military doctrines. We would still like to see them phased out in favor of motorized infantry, but for countries with no real options in the early game they should lose their shine a little later then currently.
+- The Dutch MIOs Fokker and DAF are now both available from game start, and instead of being unlocked, are granted 2 extra levels when taking each MIOs respective focus.
+- Increased the spirit of the naval acadamy spirits chance to gain +skills on level up from 40% to 50% to be in line with the army spirits
+- the AI will be significantly less likely to leave countries alive on tiny islands during peace conferences
+
+
+##################################
+# Gameplay
+##################################
+
+- Added decisions for Wales and Y Wladfa to core each-others states if they control them.
+- The Free French focus “Refus Absurde” can now also be completed if at peace to remove the Defeatism spirit, and the focus “Form the Provisional Government” now also removes the spirit in case it hasn’t been removed earlier.
+- Finland no longer cedes Petsamo to the Soviets when losing the Winter War.
+
+##################################
+# UI
+##################################
+
+- Added simple allow_branch and offset effects to the Estonian, Latvian and Lithuanian focus trees.
+
+##################################
+# Modding
+##################################
+
+- Can no longer unlock a severely broken form of intelligence agency without LaR; this will error appropriately to help you track down the issue.
+
+##################################
+# Bugfix
+##################################
+
+- Bulgaria: Players with BftB should no longer encounter Fatherland Front when going to war with the Soviet Union while wrong ideology
+- The Request Expeditionaries feature works with size 0 armies once again
+- corrected railways around lille and dunkirk
+- All single category MIOs (naval, air, land) should now use the correct XP type
+- Fixed a bug when if you had a spirit of the army (leftmost army spirits) would cause any spirit from spirit of the naval academy (leftmost navy spirit) to not work properly
+- Fixed a wrong tooltip where the % chance to gain +attack/defense/manouver+coordination in the spirit of the naval academy would say you a way lower % chance to get the benefit that what it really was (it said 20% but it was in fact 40%)
+- Fixed a number of Soviet CCP icons that were not appearing correctly when the pack is enabled.
+- Fixed an issue where Argentina could core only Guatemala and no other central-american nations using their South-American unity decisions, as well as making them able to core Easter Island.
+- Fixed an issue where the 30 day cooldown for the damage dealt by Paratroopers after taking the "Combat Insertion"doctrine wasn't working and could be done an infinite number of times in the same state.
+- Fixed an issue where a Warlord state that had inherited Nationalist China's focus tree couldn't remove their version of the Ineffective Bureaucracy spirit through the Examination Yuan focus. 
+- Fixed an error where the British Plan R-4 couldn't be successfully completed.
+- Land Doctrine: People's Army now correctly applies cavalry suppression buff to Military Police; buff reduced to 0.35 Suppression Per Honse from 0.5
+- Unit supply consumption now correctly uses 2 decimal places in tooltips and UI (functionality remains unchanged)
+- Fixed an issue where the "Blockade Venezuela" decision would still be visible when Venezuela didn't exist.
+- Fixed an issue where the leader trait “Unbreakable” wasn’t properly granting attack and defense modifiers.
+- Fixed an issue where the Spanish national spirit “The Anti-Fascist Crusade” wasn’t properly granting the attack it said it was.
+- Fixed an issue where the Nordic national spirit “The Nordic March” wasn’t properly granting the attack it said it was.
+- Fixed an issue where the Nordic national spirit “To Arms Against Tyranny” wasn’t properly granting the defense it said it was.
+- Fixed an issue where the Latvian national spirit “Dievturība” wasn’t properly granting attack and defense modifiers.
+- Fixed an issue where the various Italian Papal national spirits weren't properly granting attack and defense modifiers.
+- Fixed an issue where the Spanish national spirit “Embrace the Spanish Destiny” wasn’t properly granting the attack it said it was.
+- Fixed an issue where the Spanish “Crusade Against Democracy” national spirits weren’t properly granting the attack and they said they were.
+- Gdynia is now also included among the states that Poland can return to a democratic Germany if they are close to capitulation.
+- Fixed various issues with the requirements and effects of the Norwegian decisions to convert convoys into destroyers.
+- Fixed an issue where Chile couldn't bypass the focus "Demand the Guyanas" when already controlling all three target states.
+- Fixed an issue where the Portuguese focus "Portuguese Artillery" didn't grant funds to the correct MIO.
+- Fixed an issue where the Brazilian focus "Bribe the Military" wouldn't grant a dockyard due to incorrect checks in the focus.
+- Fixed various issues where the Japanese Zaibatsu national spirits could join the wrong side of a civil war.
+- Fixed an issue where the Latvian focus "Renew the Constitution of Latvia" wouldn't correctly swap the trait of the political advisor Alberts Kvesis as it said it did.
+- Fixed an issue where the French focus and decisions for "Arms Purchases in the US" could be completed despite the requirements not being properly fulfilled.
+- Entrenchment Chief no longer refuses to follow naming consistency rules (Thanks Reddit, we hated it too)
+
+
+
+################################################################
+########             Hotfix 1.14.7 "Bolivar"           #########
+################################################################
+
+##################################
+# Bugfix
+##################################
+
+- Fixed ship creation script from autoincluding version numbering inconsistently, leading to a few instances of invalid script
+- Non-Designer equipment will no longer show version naming by default
+- A few CCP icons were being shown in unintended locations, this is no longer the case
+
+
+
+################################################################
+########             Hotfix 1.14.6 "Bolivar"           #########
+################################################################
+
+##################################
+# Balance
+##################################
+
+- Updated the French focus "Avenge Waterloo" to include Luxembourg in it's targets.
+- Increased warscore from sinking ships by 4-5x (this will continue to be iterated upon). Increased warscore from sinking convoys, and decreased convoy build decay rate to warscore.
+- Canada: Changed around the starting navy to be more historically accurate. Also fixed various issues regarding Quebec and their victory points, as well as a typo in their fascist party name.
+- Canada: Updated Canadian Air Chiefs
+- Norway: focuses “Invite Cadillac to Norway” and “Invite Soviet Designers” now grant extra levels to the MIOs unlocked, and the Cadillac focus now only takes 35 days to complete.
+- Norway: focus "Approach the Fatherland League" now gives -5% democratic support instead of -10% fascist support.
+- Norway: Now only Germany can trigger civil war by attacking
+- Norway: focus "Approach the Fatherland League" now gives -5% democratic support instead of -10% fascist support.
+- Iceland: mineral prospecting focus no longer runs a random list to decide which resource you get. You will always get 10 iron and 6 aluminium. Fishing industry spirit now grants -10% convoy cost at both levels.
+- Chile: Reduced research speed bonus from French Academia to 3% from 10% (this is not a subtle comment against French academics)
+- Chile: Reduced the amount of political power and war support available across several branches.
+- Chile: Rayen Quitral now grants 10% stability from 20%
+- Chile: Manuel Manquilef now grants 5% factory output, from 8, and no longer grants ideology drift defense
+- Chile: Antonio Neculman now grants 6% research speed, from 15%
+- Chile: Manuel Panguilef no longer reduces research speed, however provides 5% war support and stability, from 10%
+- Chile: Reduced most sources of attack & core division attack to be in line with similar nations
+- Chile: Adjusted most sources of national manpower factor to be more consistent with other nations
+- Chile: Reduced bonuses substantially
+- Chile: Grand Armada focus no longer grants dockyard output, but has increased dockyard construction speed; rewarding future plans rather than flat improvements. Positioning bonus removed.
+- Chile: Patagonian Giants focus no longer grants division attack and defense, but increases breakthrough by 10% from 8%
+- Chile: Development Inwards focus no longer reduces military factory construction speed by 25%
+- Chile: via trans radio chilena bonuses halved
+- South America Shared: hot and cold acclimitization factor reduced to 15% per focus, from 25%
+- South America Shared: Reduced potential for most direct combat stats from decisions and focuses (attack, defense & org)
+- Brazil: Reduced speed for research bonuses granted by Promote Resource Extraction focus to 50%x2 from 75%x2
+- Brazil: Increases research speed from bonuses granted by Stimulate Civilian Economy to 50%x2 from 40%x2
+- Brazil: Reduced research speed from bonuses granted by Italian Car Industry to 50%x2 from 75%x2
+- Brazil: Increased research speed granted by bonuses in Desenvolituddimeot.... that one; to 50%x2 from 40%x2
+- Argentina: Increase research speed bonus for synth rubber granted by Reinforce the Education System to 100%x1 from 50%x1
+- Australia: Australian Army Catering Corps now grants 3x100% research speed bonuses to logistics company, from 1x300%
+- Australia: Airborne defence focus now grants 1x100% research speed bonus for paratroopers, from 1x300%. It also now grants 2x50% cost reductions for special forces doctrine
+- Australia: CAC Woomera focus now grants 3x100% research bonuses for specific hulls, from 1x300%
+- Australia: Uranium Mining now grants 2x50% research bonuses from whatever it was before, and now grants 2x100% research bonuses for excavation tech
+- Australia: Dominate the Skies now grants 4 air bases from 2, and 2 doctrine cost bonuses from 1
+- Australia: Rebalanced several focuses in the australian military branch letting them unlock an additional special forces branch specialism (AAT) quite early and without being a major, and granting a significant number of doctrine cost reductions for the above.
+- Baltic Shared: Original designs focus now grants 50% speed bonuses, from 75%
+- Bulgaria: Uranium Prospecting focus now grants 2x 100% bonuses, from 2x200%
+- Bulgaria: Normalized several tech bonuses, overall slightly reducing the efficacy of research benefits
+- Canada: Normalized several tech bonuses. Canadian Parachute Battalion now grants 2x50% special forces doctrine cost reduction, but reduces paratroopers research bonus to 100% from 300%
+- Finland: Normalized research speed bonuses
+- France: France can now unlock a special forces branch specialism from their military branch. Military branch has been slightly rearranged.
+- Special Forces Doctrine: special forces cap factor bonuses significantly reduced
+- Ethiopia: Normalized -some- of the research bonuses
+- Generic Focus Tree: increased army experience gains and normalized army research bonuses
+- Generic Focus Tree: Add Truck
+- Generic Focus Tree: Fascist branch now provides a total of 3% recruitable population, from 7%, but now also provides 25% mobilization speed and 15% reduced supply penalties on core territory
+- Generic Focus Tree: Communist branch now grants 400 weekly manpower (yes this will stack with the military spirit)
+- Greece: Normalized research bonuses
+- Italy: Normalized research bonuses (while a few went up or had charges added, these mostly came down)
+- Japan: Tweaked some research bonuses (no big changes)
+- Reduced Nuclear research bonuses across all focus trees
+- Norway: Normalized research bonuses
+- Poland: Normalized research bonuses
+- Portugal: Normalized research bonuses. Focus 'POR_tropas_paraquedistas' now grants 2 50% special forces doctrine cost reductions
+- Romania: Focus 'ROM_expand_the_marine_regiment' now grants 2 50% doctrine cost reductions for special forces doctrine
+- South Africa: Focus 'SAF_south_african_special_forces' now grants 2x50% cost reductions for special forces doctrine
+- Sweden: Normalized research bonuses
+- Soviet Union: Normalized Research bonuses (mostly unchanged, Jet research won't be as fast)
+
+##################################
+# Gameplay
+##################################
+
+- Mini-Feature: Variant version is now separated from name, resulting in an improved dynamic equipment versioning system. (Modding: unique version strings can be provided for ship, armor, and plane equipment on a per-country level.)
+- Mini-Feature: Civilian Factories can now be assigned to prioritize repairing damaged constructions
+- Mini-Feature: Captured ships can now be refit through the individual ship design screen. Once redesigned, you will gain a regular design variant to be used as normal. Redesigning this way will no longer cost the original creator the experience price.
+- Added Rio de Oro (The Sahrawi Arab Democratic Republic) and Khuzestan as new cores gained when taking the Unite Arabia decision.
+- Updated the British Blackshirt March decisions to include Cumbria and the Isle of Man.
+- Norway: no longer starts a civil war with historical focuses enabled
+- Norway: Added unique leader traits to the Norwegian country leaders who did not yet have traits, and added Edvard Christian Danielsen as a new Admiral for the country.
+- Changed the mutual exclusivity of the Nordic formable nations so that the "Kalmar Union" focus can be taken alongside one of the others, and only the "North Sea Empire" and "Nordic Union" are now mutually exclusive.
+- Norway: Added an event for the Kingdom of Norway to choose their Stance regarding foreign policy, allowing for different playstyles.
+- Norwegian fascist civil war can be started when either Germany has declared war, or when support for the fascist coup is big enough. Other fascist powers can no longer be invited to invade.
+- Made the first news event regarding the Italian annexation of Aussa only fire for Ethiopia.
+- Equipment Variants are a lot more 'sticky' with their names when you refit them, leading to much fewer instances of '1936 Destroyer Hull Class'. 
+
+##################################
+# UI
+##################################
+
+- Many info popups now appear at the bottom-right of the screen, and do not require manual interaction to clear. This should drastically decrease the effects of 'popup spam'
+
+##################################
+# Modding
+##################################
+
+- Equipment property is_frame should now auto-obsolete
+
+##################################
+# Bugfix
+##################################
+
+- Fixed an issue where the Chilean decision to Demand a Snap Election to become Communist was unavailable if playing with localization using a non-latin alphabet.
+- Fixed an issue where the Icelandic Admiral from the event "A Danish King once More" and a Swiss Admiral from the focus "Train Navy Staff" would have General skills instead of Admiral ones.
+- Fixed a minor typo in the event "War in South America".
+- Fixed an issue where AI Turkey would not always select Adnan Menderes as president when made to go the Ottoman path, thus locking themselves out of the branch.
+- Fixed an issue where in some fringe cases, completing the Spanish focus "Caudillo of Spain" would accidentally kill Francisco Franco.
+- Fixed various issues with the American event "A New General for China" triggered by a Chinese focus, where Joseph Stillwell would always become unavailable to the US no matter who they chose to send, as well as the advisor position of the character sent not being available to China.
+- Fixed an issue where the full names for the Chilean political parties chosen in the 1938 election event wouldn't properly appear.
+- Fixed an issue where the non-MTG tree for the UK could start overlapping when going down the Home Defense path.
+- Fix OS inconsistency in how scripted bool values (yes/no) are parsed, leading to fixing a few script parsing errors on Linux/Mac
+- Fixed an exploit that allowed you to bypass the Mapuche civil war as Chile by using war support to instigate a small-scale communist uprising, and also added is_subject = no triggers to various Chilean focuses regarding ideology, factions and wars.
+- It is no longer possible to avoid air accidents by stacking air wings in bases. Air accident calculation has been adjusted as well, and the tooltip improved a little.
+- State mapmode stops trying to display modifiers without icon
+- Fixed two typos in the Soviet focus "Return Democracy to the Party".
+- Fixed various issues and inconsistencies with the name of the Arabian formable nation.
+- Moved provinces 13234 and 13235 in the state Northern Epirus from being erroneously counted as North America to being in Europe.
+- Changed the name Attu from being applied to a province in Shanxi to actually being applied to Attu Island.
+- Fix focus 'Scramble for the Baltic' for Sweden where after one war the other war goals would disappear
+- Fixed an issue where Greenland would not start with control of their capital state when released in the Nordics Fragmented game rule.
+- Fixed an issue where you would be unable to construct Super-Heavy Battleships when running the game without MTG.
+- Fixed a few instances where MIOs did not provide the reliability they claimed to be.
+- NOR: Changed Extensive Recruitment and Expanded Conscription Drive to give a timed weekly manpower modifier rather than conscription factor.
+- NOR: Changed Build Supplies Network to provide construction boost to Naval Base as well as Supply Hub.
+- NOR: Notraskip and other focuses that used to require in exile government, now require capitulation instead for Man the Guns compatibility.
+- Fixed an issue where the name from the research bonus received when doing the Norwegian focus "Military Police" had the wrong name.
+- Fixed an issue where Chile could demand control of Guyanese territory from themselves if controlling any of the territory when taking their focus to do so.
+- Fixed an issue where the Norwegian focus "Forsvarets Intelligence Service" would show up when not having La Resistance active.
+- Fixed an issue where Genoa and Hinterpommern had incorrect names when playing with Russian localization.
+- Fixed two issues where the small portraits for King Haakon and Prince Olav of Norway weren't showing up as intended.
+- Fixed an issue where the Russian focus "Intervention in the Americas" was bugged and didn't have an effect.
+- Fixed an issue where South Sakhalin and the Kuril Islands wouldn't get cored when handed over to them by Japan as part of their scripted peace deal decisions/events.
+- NOR: re-balanced preparation system.
+- Fixed an issue where the North Sea Empire formable nation wouldn't get a core of Finnmark.
+- Do not trigger the event creating Free France and Vichy France if Paris is not owned by France (Avoids possible crash in Peace Conference)
+- Made the Brazilian focuses Join the Comintern, The Latin American Socialist, Reach Out to Our Neighbors, Establish Berlin Accords, Establish Rome Accords and Form Mercosul, the Uruguayan focuses Join the Allies and The Fuhrmann Plan, the Argentinian focuses Forge Our Own Future, Bastion of Peace, Argentina First and Join the Axis, the Paraguayan focuses Join the Axis, Join the Allies and Join the Comintern, and the Ethiopian focus Towards African Unity require independence to do. Also fixed some minor loc and graphical issues with Paraguay and Uruguay.
+- Super heavy armor now works for both Man the Guns and non Man the Guns superheavy battleships
+- Fixed an issue where Germany wouldn't get a core on Danzig when gaining it through the focus "Danzig for Slovakia".
+- Fixed an issue where Brazil would be locked out of taking their "propose integration" decisions from the "United States of South America" focus if a member of their faction left it when the decision was still ongoing.
+- Fix a bug where focuses (with modded icons) could get wrong icon in popups in MP
+- Spain: Fixed an issue where the POUM couldn’t release nations, an effect which was only intended for the Anarchists.
+- Spain: Fixed a minor issue in the Carlist Ai-strategy plan for Spain.
+- Spain: Fixed an issue where the state modifier Autonomous State wasn’t removed from the relevant states if Galicia, the Basque Country or Catalonia owned them.
+- Spain: Fixed a multitude of issues with Manuel Anazña not being an actual “character”, thus not being able to take certain focuses that required him as country leader if using non-Latin localization and more.
+- Spain: The Spanish Republican AI should no longer be blocked from taking the focus Enlist the Carabineros.
+- Spain: Made the falangist focus “Primo de Rivera Prisoner Exchange” take 35 days and also grant 5% war support.
+- Spain: Added a new late-game focus for Falangist Spain to core all Hispanic lands, provided they control them all first.
+- Spain: The Spanish focus in the Falangist path, “Unite Iberia” now also gives claims on Portugal.
+- Spain: The Spanish focus in the Falangist path, “Absorb the Portuguese Empire” now has a different description, and alongside the previous wargoals on their former colonies, also grants cores on any Portuguese core states controlled by Spain at the time of Completion.
+- Norway: Made the communist militias gained during the civil war disband at the end of it, returning any equipment and manpower they possessed to the player.
+- Norway: Rebalanced the Norwegian Communist Preparations system.
+- Norway: Fixed various issues with the Norwegian focus "Join the Comintern".
+- Norway: Added is_subject = no triggers to various Norwegian focuses.
+- Norway: Fixed an issue where the claims from the "Norwegian Royal Family Arrives" event weren't working.
+
+
+
+
+################################################################
+########             Hotfix 1.14.5 "Bolivar"           #########
+################################################################
+
+##################################
+# Balance
+##################################
+
+- USA MIO: Changed description of North American Aviation and Lockheed to better describe their roles.
+- USA MIO: Added new variants to Douglas, Detroit Arsenal, Brooklyn Naval Yard and Norfolk Naval Yard
+- USA MIO: Switched Norfolk Naval Yard to Escort and Brooklyn Naval Yard to Taskforce
+- USA MIO: Changed Electric Boat Company from Raiding Fleet to Submarine Designer
+- Updated Paraguay and Uruguay with more accurate victory points
+- The Chilean decision to release the Inuit now grants them cores on Attu Island and the Chuckchi Peninsula, as well as ownership of them if they are controlled by Chile or one of their subjects.
+- Fixed multiple issues with the Canadian focus "The Newfoundland Act". The focus now has a clearer available tooltip. It should also be able to be taken in the patriation path, as the "demanded patriation" opinion modifier is now set to last for three years, instead of indefinitely.
+- Fixed various issues with the final focuses in the shared Chinese focus tree, adding is_subject = no as well as a check for Japan not being a subject in the "Dominate Japan" focus.
+- Fixed and updated targeting and bypasses for the Estonian focuses "Unite Karelia" and "Unite the Sami".
+- Fixed an issue in the Romanian focus tree where the focus "Appoint Pro-Axis Government" would say it unlocked a decision to join the allies, despite instead unlocking one for the Axis, and made the effects of the three focuses "Appoint Pro-Axis Government", "Appoint Pro-Allied Government" and "Appoint Pro-Soviet Government" more readable.
+- The "Caliphate of Cordoba" formable nations decisions no longer require you to control impassable desert states, as their controller can be more than finicky at times.
+- Fixed incorrect grammar in the Norwegian Infanteridivisjon and Binærdivisjon unit templates.
+- Mengkukuo no longer has MIOs only accessible through the shared Chinese focus tree, and has also received a generic plane MIO.
+- Fixed a long-standing issue where the weekly negative change in the Italian Balance of Power wasn't removed upon them regaining control of their core states.
+- Fixed an issue where the focus "British Guns" would only show two out of the three unlocked decisions, and added subsidies to the artillery decision to make it match the anti-air and anti-tank decisions.
+- Added Luxembourg to the list of targets in the French focus "Natural Borders of France", as it is west of the Rhine.
+- Poland now gets a puppet wargoal against Czechoslovakia if they are a puppet of another nation in their focus "King of Bohemia", instead of simply stealing said puppet.
+- Added the option for a non-aligned Lithuania to adopt Mstislav Dobuzhinsky's flag design through a decision.
+
+##################################
+# UI
+##################################
+
+- Fix the speed of some scrollbar when using mouse wheel
+- State mapmode now shows modifiers at state level
+
+##################################
+# Graphics
+##################################
+
+- Fixed Sinkiangs flag to use Cheng-Chi-Tsai's second flag, as the old one was their pre-1934 version.
+
+##################################
+# Bugfix
+##################################
+
+- ICE: King Knud now gains proper skills when made an admiral.
+- Fixed issue with Soviet Union not being able to generate a wargoal after a country rejected an ultimatum.
+- Added decisions and events for Denmark's overlord to request the Faroes and Greenland back after these have been occupied by the UK and USA respectively.
+- Denmark will now automatically declare war on one or several nations when completing the conquest focuses in the Occupation Branch.
+- Enabled Danish Medals
+- Added the is_subject = no available clause to multiple Turkish focuses regarding factions, wars and changing ideology. Also added a clause to the Turkish focus "Renew the non-agression pact with the Soviets", to disallow taking it when at war with them.
+- Chile: Fixed an inverted tooltip for Encourage Bond purchases
+- URG: Fixed an issue where Tour to italy wouldn't give you the tanks that you were supposed to get
+- The Ottoman Empires decision to core the Khedivate of Egypt now includes the state of Cairo.
+- China and Communist China now have the shared focus "Incite Foreign Investors" already completed in the 1939 start date, so that they no longer have completed focuses beneath them without having done their prerequisite focus.
+- Prince Paul should now get the Collaborator King trait as intended when going down the fascist branch.
+- Fixed the Romanian focus "Invite German Advisors" granting them access to Germany, and not the other way around as intended.
+- Fixed an issue with the claims gained from the French "Congress of Paris" event chain which would not grant claims on the new African states added in BBA.
+- Prevent exploit where already produced equipment could be modified by hiding it in the market stockpile
+- Fix the Alaska Chromium prospecting bug
+- Fixed an error where the names of one Argentinian and two Bolivian generals weren't showing up correctly.
+- Fixed the illegal unit templates in the Romanian focuses "The Armored Division" and "Royal Guards Divison", the Spanish focus "The Army of Africa", the Lithuanian focus "Establish Royal Guards", and the Polish focus "The King's Guard".
+- Fixed an issue where the "country is not Argentina" would show up on the Hold a national referendum decision no matter which country you were playing.
+- Fixed an issue where the image wouldn't show for the Ethiopian event "Communist guerrillas in southern Ethiopia".
+- The Soviet focus "Claim Bessarabia" now requires the owner of Bessarabia to also control the state, preventing some previous strange behaviours.
+- Removed a TODO tooltip from the Ethiopian focus "A Libyan Revolt".
+- Fixed the focus for Manchukuo "Claim the Mandate of Heaven", which was still using the old system for changing the name and portrait of a "character", so that it now actually interacts with the character of Puyi, thus letting him keep any traits he has gained.
+- Fixed an issue where Iceland could still create communist uprisings in the UK against them even if they were communist themselves.
+- Fixed an issue where choosing to go against the Soviet breakaway states in the Russian civil war would only put them at war with you, and not with Stalin as well.
+- Paraguay: Fixed an instance where a general would get manouver bonus instead of planning
+- Fixed invisible spirit for Legacy of the arms race if MtG was disabled
+- Fixed various issues surrounding autonomy status and Indonesian civil war on_actions etc for Australia.
+- Fixed a grammar mistake and a misspelling in Finnish "White Death" events.
+- Fixed an issue where the Swedish focus "Reclaiming the Rus" would exclude giving a claim on Sao Tome instead of Crimea.
+- Swapped out the train reliability effect in Soviet advisor Lazar Kaganovich's trait, as it is not applicable to trains.
+- Fixed an issue where the British focus "Global Defense" would check if Malaya owned the state Malta, instead of checking for said aforementioned nation.
+- Fixed an issue where the Chilean fascist advisors gained from the focus "Utilize National-Populism" would get transferred to the opposing side in the civil war when going down the Araucanian branch of the focus tree.
+- Fixed two typos regarding the Treaty of Brussels decision and event.
+- Fixed multiple occasions where Australia could build radar and air bases in the Central Australian impassable area.
+- Fixed an issue where the lend_lease_tension_with_overlord modifier in the autonomy "Satellite" was broken and had no effect.
+- added text to an event option that was missing
+- Adds a requirement for Germany to control at least one coastal state for the focus "Expand Dockyard Facilities" to be available, adds loc to describe effects if the focus is not avail to avoid the standard "has no effect" string
+- Fixes typo "Mathilda" -> "Matilda" for starting production of tanks in UK start in 1939
+- Adds requirement for Spain to be fully independent before taking the focus "Support French Communists" to prevent strange behavior with French Communist Civil War
+- Localizes the operative names Robert Ivanov, Nadiya Morozova and Julieta Soria from the focuses "Form the EICI" and "Sway the Neighbors"
+- The Polish Międzymorze branch now requires the recipient country to be fully independent. Switches from is_puppet = no to is_subject = no to avoid edge cases
+- Fixed various issues with cores and requirements for formable nations, notably Turan, Macedonia, Turkestan, Majapahit and Persia.
+- Fixed unlocalized plane module category (Defense Turrets x2)
+- Fixed an issue where the Italian focus "Corpo di truppe Voluntaire" would be bypassed automatically if reached before the Spanish Civil War had begun.
+- The Anarchist economy law "Collectivized Society" now has its base expectation of 15% consumer goods back, having been accidental made into a 30% factories factor modifier.
+- Fixed an error that caused you to be able to invite your faction members and puppets into MERCOSUL as Brazil.
+- Fixed issue with German focus "Puppet Turkey" being unavailable when Greece was a German ally or fully occupied by Germany or German allies.
+- Fixed the Free French focus "Intervention in Madagascar" to have the "is not in faction with Free France" available trigger, to match the other intervention focuses.
+- When completing German focus Puppet Turkey, Soviets will now receive Turkish states as long as Turkey previously controlled them, and the state Van is now also transferred to Soviets.
+- Fixed issues with some of the Communist Chinese focuses when having gotten the focus tree as a Communist Warlord through the focus "Proclaim Rival Government".
+- Fixed issue for the music players' weighted shuffle where half the songs were not eligible
+- Fixed an issue where Yugoslav military high command Borivoje Mirkovic's Portrait was replaced by a generic one.
+- Fixed various unit and vp/building locations in the northern Amazon where they would previously show up outside of the specified province.
+- Fix hotjoin ctd when division designer was opened
+- Fixed additional incorrect and missing cores and requirements for the formable nations Al Andalus, Arabia and the Empire of Zion, as well as made Regnum Bospori become a Roman puppet upon their release.
+- Fix to !11630 (  Fixed an issue with the British focus "Global Defense"), making the Malta stuff target Malta and Malaysia stuff target Malaysia.
+- Soviet National Spirits Curtailment of the Collective Farms and The People's Revolution should now have the intended Recruitable Population modifier, with proper impact on the available manpower.
+- Fixed issue in which the Synthetic Refineries granted by the focus Tire Factory at Nokia were not appearing if the DLC Arms Against Tyranny was not active.
+- Fixes to make sure events only sends to overlord and not puppet, only allows for the compromise option of the target joining the faction if ITA is the faction leader
+- Clean-up of some duplicated and messed GFX, aiming to fix some issues with a few DLC portraits and tech icons.
+- Fixed a typo in Italian communist leader Antonio Gramsci's trait Cultural Hegemony Theorist.
+- Fixed an issue where Brazil could take the focus Potenj River Conference despite being a puppet. Also changed the focus filter for the focus "Establish Royal College of Rio de Janeiro" from political to research.
+- Soviet Union: Fixed an issue with decisions to remove Junior Army/Navy Officers Purged national spirits not showing up after assassinating Stalin. These decisions should now show up after swapping country leader in either of the opposition branches or after assassinating Stalin in the Right Opposition branch.
+- Soviet Union: The Right Opposition focus "Coup d'etat" will properly remove any Anti-Soviet Military Thinking national spirit (previously it would remove only the Army one, now it will check for and remove the Navy and Airforce ones too).
+- Improved triggers in all the national spirits related to the purges to ensure they will be transferred to the Stalinist side in case of a civil war, even when Stalin is dead.
+- Fixed a rare CTD in peace conferences
+
+
+
+
+################################################################
+########             Hotfix 1.14.3 "Bolivar"           #########
+################################################################
+
+
+##################################
+# Balance
+##################################
+
+- South America Shared: Reduced Maximum Command Power Increase from Joint Operations Command (from 30% to 15%)
+- South America Shared: Reduced the org and core defense gain of strength of the common solider to 4% (from 5%). Also reduced the infantry bonus gained
+- South America Shared: Reduced attack modifier for Spearhead tanks specialization from 10% to 3.5%
+- South America Shared: Reduced specializing in heavy guns attack for artillery from 10% to 3.5%
+- South America Shared: Reduced specializing in heavy guns AA production reduction cost from 20% to 6%
+- South America Shared: Reduced specializing in heavy guns AT production reduction cost from 25% to 15%
+- South America Shared: Removed Recruitable pop factor from Increase Conscription focus
+- Reduced division defense from increased army professionalism from 10% to 5%. attack and org from 5% to 4%. Reduced traning time from +25% penalty to +15% penalty
+- Argentina: Reduced Women in the industry and state unions max efficiency factor bonus from 15% and 10% (25% total) to 7.5% (15% max)
+- Argentina: Reduced regulated salaries efficiency cap from 15% to 7.5%
+- Argentina: Reduced daily xp gain from US army training to 0.1xp/d (from 0.2xp/d)
+- Argentina: Reduced maintain neutrality spirit stability (from 10% to 5%) and efficiency cap (from 10% to 5%)
+- Argentina: Reduced our own path spirit recruitable pop factor from 30% to 15%
+- Argentina: Reduced spirit of the conquistadors attack (from 20% to 6%)
+- Argentina: Reduced Argentine Nationalism conscription factor (from 15% to 7%) and Civilian construction speed (from 10% to 6%)
+- Argentina: increased war division temp manpower gain from 50 weekly to 250 weekly
+- Chile: Replaced mapuche social classes weekly stability with a flat stability factor
+- Chile: Elena Caffarena gives a flat stability factor instead of a weekly stability
+- Chile: Reduced Embrace Indigenous Corporatism Factory output (from 10% to 5%)
+- Chile: Expand the agricultural field gives 1 additional build slot (from 3 to 4)
+- Old Guard for Army now gives 0.2 army XP daily (from 0.3) due to costing only 50pp
+- Chile: Gabriela Mistral - Reduced PP gain (from 20% to 15%)
+- Chile: Transport Minister no longer gives civ construction speed. Increase railway and hub construction speed (from 10% to 15%)
+- Chile: Minister of Trade development - Reduced Trade law cost factor (from -30% to -15%) and consumer goods factor (from -10% to -5%)
+- Chile: Father of Industrialization - Reduced Construction bonus (From 15% to 7%)
+- Chile: Minister of Defense - Reduced MIL construction speed (from 15% to 10%). Reduced Defense on core territory (from 10% to 6%)
+- TOA Shared Minister of Defense - Reduced mil construction speed (from 10% to 7.5%)
+- Chile: Reduced merchant marine manufacturer discount on convoy production (from -50% to -20%) and reduced their reliability gained (from +30% to +10%)
+- Chile: Unified in spirit - Reduced Org gain (from 10% to 5%)
+- Chile: Reduced Army attack of Patagonian Giants to 5% (from 10%), defense to 8% (from 10%) and breakthrough to 8% (from 10%)
+- Chile: Reduced the miners representative building speed (from 10% to 6%) and its max efficiency factor (from 10% to 5%)
+- Chile: Reduced conservative businessman civilian speed (from 15% to 10%) and its max efficiency factor (from 10% to 5%)
+- TOA Shared: Reduced the minister of lands and colonizaition non-core-manpower to 4% (from 10%) and 6% (from 15%) from version 2. Increased global building slots gained (from 5% to 15%, and 25% for version 2)
+- Chile: Reduced Minister of Economy and commerce trade laws cost (from -50% to -25%)
+- Chile: Reduced defender of araucanian soverighnty factory output (8% from 15%)
+- Chile: Reduced president of the central bank consumer goods reduction (to -5% from -10%)
+- TOA: Reduced social economist consumer goods factor reduction (from -15% to -7%)
+- Chile: Apostlic prefect of Araucania reduced factory output bonus (from 10% to 6%)
+- Chile: Reduced Emperor Of France and the Americas attack core factor (from 15% to 5%) and core defense (from 20% to 10%), war support (from 15% to 10%), and stability (from 15% to 10%)
+- Chile: Reduced Carabineros de Chile army core attack (from 10% to 5%) and core defense (from 15% to 7%)
+- Chile: Reduced Christian Democrat pp gain (from 15% to 10%)
+- Chile: Reduced Laizzes faire civ construction speed (from 20% to 10%). Reduces law cost reduction (from -50% to -25%)
+- Chile: Reduced High Quality Nitrate bonus (from 10% attack to 5% attack)
+- Chile: Utilize Famae Mil reduced by 1
+- Chile: Reduced Carabineros de Chile Core attack (from 10% to 5%) and core defense (from 15% to 10%)
+- Chile: Reduced factory output from opressed working class (from 20% to 10%) and consumer goods (from -15% to -10%).
+- Chile: Reduced Francoist Model Defense (from 10% to 5%) and factory output (from 10% to 5%)
+- Chile: Reduced Max attack bonus gain from Pan historic rhetoric (from 10% to 6%) and defense (from 10% to 6%)
+- Chile: Reduced Max attack bonus gain from Pan historic rhetoric (from 10% to 6%) and defense (from 10% to 6%)
+- Reduced max attack bonus gain from the francoist model (from max 10% attack to max 5% attack) and defense (from max 10% to max 5%)
+- Shared focus tree: Reduced arty attack gained from heavy Guns industries (from 10% to 5%) and defense (from 15% to 10%). Gives 1 research boost instead of 2
+- Chile: Spirit of the conquistadors now gives 6% breakthrough instead of 10% attack
+- Chile: Fascist Theologian gives 8% pp instead of 15%. Other stats unchanged
+- Chile: Reduced the true enemy factory output gain (from 10% to 5%)
+- Paraguay: Reduced Flourishing Economy (from 20% output to 15%)
+
+
+##################################
+# Gameplay
+##################################
+
+- Brazil now has updated infantry equipment names and icons
+- Added an extra flag for US of Brazil
+- Added some extra flags for forming the United Kingdom/Empires of Brazil/Portugal and altered an event so that Brazil can now annex Portugal rather than puppet them to form the United Kingdoms
+- Changed some icons for Uruguay & Paraguay
+
+
+##################################
+# AI
+##################################
+
+- AI no longer overwrites other countries' supply node motorization settings
+
+
+##################################
+# Modding
+##################################
+
+- Fix bug where on_ruling_party_changed sometimes didn't get the correct old_ideology_token
+- Adding on_ruling_party_change_immediate on-action as a deprecated and unsafe backwards-compatibility for mods that rely on that behavior
+
+
+##################################
+# Bugfix
+##################################
+
+- Added missing text for America Decolonized achivement
+- Fixed a typo for the DEF name for Nordic Defence council
+- Fixed a rare crash caused by government in exile eating resources without freeing them
+- Fixed an issue where the Chilean communist focus "Propose Closer Cooperation" wouldn't properly be able to target your subjects, thus preventing you from annexing the way you were meant to be able to.
+- Fixed an issue causing the Swedish AI to enable all strategy plans
+- "Brazil/Argentina makes aggressive moves on Uruguay" event no longer triggers when TOA is disabled
+- Fixed bugs where research agreements would kick out members for both Argentina and the Soviets
+- Fixed a bug for the fascist demagogue causing "Fascism on the rise" decisions to appear
+- Fixed a bug where Argentina would retain wargoal on UK after taking the Falkland and South Georgia islands
+- Fixed a bunch of local_resources modifiers in state scope that should have been state_resources
+- An attempt to maintain our neutrality bypasses if you are communist
+- Added missing flags for America do Sul formable (Brazil focus tree)
+- Brazil - 'Anuae!' national focus now gives a locked template to prevent an exploit.
+- Brazil - 'The International Crisis' national focus now sets the game rule 'can send volunteers' for Brazil.
+- Uruguay: Removed ghost focus in Uruguay
+- Paraguay: Fixed being able to take Mass Drafts before adopt minority languages
+- Fixed an issue where Paraguay could join cominterm despite not being allowed to
+- Generic "join" faction events can no longer be used to bypass "can_join_faction = no" rules
+- Brazil - AI Brazil will join Allies on historical instead of sometimes ending up in the Comintern.
+- Removed a character for Argentina which was causing problems with the fascist path.
+- Removed slot in Nigers impassable terrain. Niger proper now is rural state
+
+
+
+
+################################################################
+########             Hotfix 1.14.2 "Bolivar"           #########
+################################################################
+
+
+##################################
+# Bugfix & Gameplay Additions
+##################################
+
+- Presets in the equipment designer should not be blocked because of so-called negative stats
+- Blockade runner now requires fighting with at least one >37 knot ship
+- Added a decision for fascist Chile after completing the focus "Forge a New Chilean Identity" to change the national flag to the Patria Vieja based one, due to popular demand.
+- Added Felipe Molas López as advisor for Paraguay
+- Valentino Riroko Tuki's trait has been buffed, and RAP now gains slightly more things when released and chosen to be played as a part of the Araucanian-Chilean civil war.
+- Blockade runner is now actually obtainable
+- Flourishing economy for Paraguay no longer expires
+- Revenge for the Triple Alliance and Rekindle old gripes now gives wargoals against both actors in a civil war if BRA or ARG is in a civil war
+- Fixed an issue where two designer companies for Chile wouldn't have icons with AAT disabled.
+- Fixed a bug where Bartolome Blanche would go to the revolting side in the Araucanian civil war despite the non-aligned side still meeting all the requirements to keep him.
+- Fixed an issue where taking any of the Promote Spanish Immigration decisions as Chile would permanently block the player from taking any further immigration decisions.
+- Support the Spanish republicans no longer spams the error folder
+- Historical AI behavior setting for Uruguay no longer disallows achievements
+- Fixed an issue where Paraguay could take a focus before taking the prerequisite focus
+- You no longer require French Somaliland for the Chilean empire achivement
+- USA should no longer guarantee Monroe countries in addition to having the Monroe spirit if Trial of Allegiance is on, unless Tension is > 90%
+- Replaced some Uruguayan spirit icons with nicer ones
+- Italy now joins the war when France proper is being invaded by Axis troops, or on the historical date
+- Reshuffled priorities for building slots for URG/PAR to make it less likely that the capital hits the 25 slot limit
+- Paraguay river navy gets properly removed upon capitulation
+- Fixed Oscar Escudero Otárola having his name backwards
+- 'Reach out to Soviets' in the Argentina tree now checks if the Soviet Union is communist.
+- Election event will now only fire if Brazil has completed 'Repeal the National Security Laws'
+- Made the requirements to get Senor Hilter slightly easier.
+- Added the correct Mechanized tech icons for Brazil
+- Fixed an issue where Argentina and Chile could not use their modern small aircraft icon for carrier aircraft.
+- Added a fix so you can now see that Prestes will become country leader with the 'Align with Moscow' trait.
+- Added a check to Argentina's 'Support the Spanish Republicans' focus so it can only be taken if the Spanish Republic exists.
+- some more portrait tweaks for minvervino, valentino and dartnell
+- Added a check to the Juan Peron focus to make sure he is still recruited. Also added tooltip to event to make it more apparent he will not be available.
+- Argentina can now peace out all UK allies when taking the Falklands
+- Modified requirements for 'Revise Treaty of Roca-Runciman' in Argentina focus tree. Now accessible to communists after civil war.
+- New Edelman portrait added and minor tweaks to previously existing portraits
+- Fix for the Cisplatine war achievement not working.
+- Fixed snake smoked achievement file names.
+- Nerfed some of the recruitable population and supply in Communist Argentina
+- Merged two instances of a duplicated Brazilian admiral/advisor
+- Added fix to prevent elections from firing if Vargas is still country leader
+- Eugenio Gomez portrait updated to show the right person
+- Neglected state and Cangaco state modifiers will now be removed when another country owns the state.
+- Fixed an issue that was preventing players from inviting countries to the Org of American states faction and made it easier to see how to integrate countries into US of South America.
+- Updated some focuses that were not adding cores to new states.
+- Added a fix to make sure that Support the Spanish Nationalists isn't available if they win the civil war
+- Added chief of army for those without ToA for Argentina
+- Removed "Fascism on the rise" decisions for Argentina
+- Made Fascist demagogue advisors available from game start in Argentina
+- Brazil and Argentina now have full access to their respective intel agency icons
+- Improved tooltip for Align with Moscow focus
+- Beneath the shadow of the Triple Alliance and Rekindle old gripes no longer instantly white peace PAR/URG, giving them the option of continuing the war without being teleported back
+- Fixed confusing Tooltip for blockade runner
+- Peru can no longer go to war with Ecuador if subject
+- Chile can no longer create their own faction is subject
+- Mexico can no longer invite Peru to their faction if they are at war with Ecuador
+- Normandy is now part of Chile's decisions to core France
+- Manuel A. Rodriguez no longer has a duplicated localization key and is recruited when ToA is disabled.
+- Added fix that prevents players from taking "Demand Compensation From Spain" if Spain does not own Equatorial Guinea
+- Fixed an issue with Argentina's starting plane having the wrong icon.
+- Fixed a bug where "TAG makes aggressive moves on Uruguay" event fires twice
+- URSAL focus now grants cores to Brazil
+- Fixed a bug which required reloading the game to show hidden Senor Hilter focuses
+
+
+##################################
+# AI
+##################################
+
+- AI now motorizes supply hubs if needed, even if they are controlled by allies or puppets
+- The ai should no longer be as willing to send volunteers to the Kingdom of Araucania and Patagonia for all of eternity.
+- Limiting some italy ai strategies for only when in faction with germany
+
+
+##################################
+# Modding
+##################################
+
+- Removed the check on negative stats that disabled create_equipment_variant and AI equipment creation
+
+
+##################################
+# Stability & Performance
+##################################
+
+- Improve performance in resource computation
+- Various minor optimisations across the game (infrastructure etc)
+
+
+
+################################################################
 ########             Update 1.14.1 "Bolivar"           #########
 ################################################################
 
@@ -255,7 +1109,6 @@
 - Achievements:Fixed Brexit achievement tooltip missing "Northern Ireland" as a required target in which to start an uprising in order to get the achievement.
 - Mexico: Fixed issue with focus One World Government being available when Soviet Union was led by Stalin.
 - MIO: Fixed typo in trait name Low Drag Wings
-- Can't create designed equipment variants with negative stats.
 - Fixed a divide by zero in AI market equipment evaluation
 - Fixed scrollbar for navy loss view
 - Medium bomb bay now gives bonus to naval attack, rather than ground attack
@@ -324,7 +1177,6 @@
 - Fixed typo in the Italian spelling of Repubblica Sociale Italiana.
 - If co-op is disabled, random country will not select a country already selected by another player
 - Fixed issue with adding more convoys to a sell contract
-- Removed negative stat as a positive from design check
 
 
 ################################################################

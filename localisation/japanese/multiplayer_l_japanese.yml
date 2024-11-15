@@ -155,6 +155,7 @@
  OOS_87: "プレイスルー統計"
  OOS_88: "軍需産業組織"
  OOS_89: "国際市場"
+ OOS_90: "特別計画"
  MULTIPLAYER_PLAYERS: "$NUM$"
  MULTIPLAYER_MESSAGES: "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS: "§G既にプレイしています§!"

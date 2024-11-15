@@ -35,7 +35,8 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.15
 
 	available = {
-		original_tag = ITA
+		#original_tag = ITA
+		#
 		NOT = { has_war_with = ARG }
 	}
 }

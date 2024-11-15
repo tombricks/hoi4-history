@@ -1,6 +1,12 @@
 ﻿l_japanese:
  CHI_secure_internal_politics: "内政の安定化"
  CHI_secure_internal_politics_desc: "混沌とした中国を生き残ろうとするなら、国内のふざけた問題に気を取られている暇はない。全ての国内問題を根絶すべきだ。"
+ CHI_strenghten_warlord_authority: "軍閥の権威の強化"
+ CHI_strenghten_warlord_authority_desc: "我々の支配地域を確保し、中国国民党、共産主義者、そして日本軍によって弱体化させられないようにするためには、[ROOT.GetLeader]の権威を強化しなければならない。"
+ CHI_uplift_the_cavalry_regiments: "騎兵連隊の盛り上げ"
+ CHI_uplift_the_cavalry_regiments_desc: "我が地域には、馬術と乗馬の長く誇り高い伝統がある。我々はこれらの伝統を尊重し、騎兵隊が最高の評価を受け、軍隊の最前線に立つようにしなければならない。"
+ CHI_uplift_the_mountain_brigades: "山岳旅団の盛り上げ"
+ CHI_uplift_the_mountain_brigades_desc: "中国内陸部の土地は過酷で、移動が難しい。そのため、丘陵地や山岳地帯での戦闘を目的とした特別な旅団を訓練し、国土を適切に守れるようにしなければならない。"
  CHI_cooperation_with_the_nationalists: "国民党との協力"
  CHI_cooperation_with_the_nationalists_desc: "国民党は国を統一し、日本を打倒するのに非常に役立つことだろう。彼らには我々が脅威でないということを証明する必要がある。"
  CHI_cooperation_with_the_nationalists_effect_tooltip: "[WTT_communist_china.GetNameDefCap]や共産主義陣営に加担する軍閥指導者との§H国境紛争§!に発展するかもしれない。"

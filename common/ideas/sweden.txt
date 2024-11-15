@@ -390,6 +390,7 @@ ideas = {
 			}
 		}
 
+		#MM: Never used. Unlocalized
 		SWE_small_scale_strikes = {
 			picture = generic_production_bonus
 
@@ -1676,6 +1677,7 @@ ideas = {
 			}
 		}
 
+		#MM: Never used. Unlocalized
 		SWE_political_commisars = {
 			picture = generic_fascism_drift_bonus
 			cancel = {

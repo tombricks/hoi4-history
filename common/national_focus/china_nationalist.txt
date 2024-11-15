@@ -590,7 +590,19 @@
 
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			remove_ideas = CHI_ineffective_bureaucracy
+			IF = {
+				limit = {
+					has_idea = CHI_ineffective_bureaucracy
+				}
+				remove_ideas = CHI_ineffective_bureaucracy
+			} 
+			IF = {
+				limit = {
+					has_idea = CHI_ineffective_bureaucracy_warlord
+				}
+				remove_ideas = CHI_ineffective_bureaucracy_warlord
+			}
+			
 		}
 	}
 
@@ -837,6 +849,7 @@
 
 		available = {
 			NOT = { is_in_faction_with = JAP }
+			is_subject = no
 		}
 
 		bypass = {
@@ -898,6 +911,7 @@
 		}
 
 		available = {
+			is_subject = no
 			NOT = { has_government = communism }
 			any_country = {
 				OR = {
@@ -1054,7 +1068,7 @@
 		}
 
 		available = {
-
+			is_subject = no
 		}
 
 		bypass = {

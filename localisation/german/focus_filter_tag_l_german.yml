@@ -1,4 +1,5 @@
 ﻿l_german:
+ FOCUS_ALTERNATE_ICONS: "§0Alternative Symbole§!"
  FOCUS_FILTER_POLITICAL: "£pol_power£Politik"
  FOCUS_FILTER_RESEARCH: "£research_icon£Forschung"
  FOCUS_FILTER_INDUSTRY: "£industry_texticon£Industrie"
@@ -33,3 +34,4 @@
  FOCUS_FILTER_INTERNATIONAL_TRADE: "Internationaler Handel"
  FOCUS_FILTER_FOLKHEMMET: "Folkhemmet"
  FOCUS_FILTER_HISTORICAL: "Historisch"
+ FOCUS_FILTER_INNER_CIRCLE: "Innerer Kreis"

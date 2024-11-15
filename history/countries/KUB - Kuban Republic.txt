@@ -81,4 +81,4 @@ set_popularities = {
 	fascism = 20
 }
 
-#TODO, James make Ivan Kononov country leader for the fascists
+recruit_character = KUB_ivanis_vasily_nikolaevich

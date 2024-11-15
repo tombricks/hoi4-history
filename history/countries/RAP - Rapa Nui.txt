@@ -133,7 +133,6 @@ set_popularities = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -150,9 +149,10 @@ set_popularities = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+	complete_special_project = {
+		project = sp:sp_air_radar
+	}
 }
-
-# TODO JA, make sure that all variants are correct for the 36 and 39 scenarios, both ships and planes
 
 ### VARIANTS ###
 # 1936 Start #

@@ -84,6 +84,9 @@
  CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "Aumentos de tamaño de organización industrial militar"
  CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL: "Fuerzas especiales desplegadas"
  CAREER_PROFILE_EQUIPMENT_SOLD_LABEL: "Unidades de equipo vendidas en el mercado"
+ CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL: "Proyectos especiales completados"
+ CAREER_PROFILE_LAUNCHED_RAIDS_LABEL: "Asaltos iniciados"
+ CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL: "Mejoras científicas"
  #Medals
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL: "Defensa firme"
  CAREER_PROFILE_STALWART_DEFENDER_MEDAL_DESCRIPTION: "Defiéndete con éxito de cierto número de ataques enemigos."
@@ -226,12 +229,10 @@
  #Playthrough overview
  CAREER_PROFILE_END_GAME_TAB_LABEL: "Estadísticas"
  CAREER_PROFILE_AWARDS_NOT_AVAILABLE_IN_MULTIPLAYER: "Los premios no están disponibles en multijugador."
- #DLC promotion
- BY_BLOOD_ALONE: "Solo por sangre"
- DLC_DESCRIPTION_dlc036: "Erige un nuevo imperio, resiste a las agresiones de otras naciones o explora los límites de la neutralidad. Solo por sangre implementa nuevas alternativas históricas y nuevos cauces jugables para Italia, Etiopía y Suiza, así como otros cambios relevantes."
- ARMS_AGAINST_TYRANNY: "Armas contra la tiranía"
- DLC_DESCRIPTION_dlc038: "Escribe emocionantes historias nuevas para los países nórdicos mientras las grandes potencias de Europa se disputan el futuro del mundo. Nuevos árboles de enfoques nacionales para Finlandia, Suecia, Dinamarca y Noruega cobran gran importancia. Especializa tu industria armamentística para aumentar su eficiencia y vender su armamento en el nuevo mercado internacional."
  #Profile Picture Tab
  CAREER_PROFILE_TOOLTIP_BRONZE: "Se desbloquea por $NAME|H$ de bronce"
  CAREER_PROFILE_TOOLTIP_SILVER: "Se desbloquea por $NAME|H$ de plata"
  CAREER_PROFILE_TOOLTIP_GOLD: "Se desbloquea por $NAME|H$ de oro"
+ REQUIRES_DLC_TEXT: "Requiere el contenido descargable $DLC|Y$"
+ DLC_OWNED_TEXT: "§G¡Ya tienes este contenido!§!"
+ DLC_NOT_OWNED_TEXT: "§HHaz clic para visitar la página de la tienda de este contenido.§!"

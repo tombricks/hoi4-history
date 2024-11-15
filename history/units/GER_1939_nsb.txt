@@ -18,6 +18,7 @@
 		artillery = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Gebirgs-Division"						# Gebirgs-Divisions
 	division_names_group = GER_Mnt_01
@@ -37,6 +38,7 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 	}
 }
+
 division_template = { 						
 	name = "Fallschirmjäger-Division"				# Represents Fallschirm-jaeger Rgts 1 and 2
 	division_names_group = GER_PAR_01
@@ -49,6 +51,7 @@ division_template = {
 		paratrooper = { x = 1 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Infanterie-Division (mot.)" 			# Infanterie-Divisionen (mot)
 	division_names_group = GER_MOT_02
@@ -70,6 +73,7 @@ division_template = {
         artillery = { x = 0 y = 2 }			
 	}
 }
+
 division_template = {
 	name = "Leichte Division"				# Represents Leichte Divisions (10. Div, PzG Kempf)
 	division_names_group = GER_LTARM_01
@@ -86,6 +90,7 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Panzer-Division"				# Represents Panzer Divisions 1-5
 	division_names_group = GER_Arm_01
@@ -104,8 +109,9 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
-	name = "SS-Regiment"					# SS regiments (elite equipment & training)
+	name = "SS-Regiment"					# Motorized Panzergrenadier SS regiments (elite equipment & training)
 	division_names_group = GER_SS_01
 
 	regiments = {
@@ -118,6 +124,7 @@ division_template = {
 	}
 	priority = 2
 }
+
 division_template = {
 	name = "Kavallerie-Brigade"				# 1. Kavalerrie Brigaden
 	division_names_group = GER_Cav_01
@@ -131,6 +138,7 @@ division_template = {
 	    recon = { x = 0 y = 0 }
 	}
 }
+
 division_template = {
 	name = "Sicherungs-Division"				# Represents Border Guard Commands, Fortress Groups, etc.
 	division_names_group = GER_GAR_01
@@ -1367,7 +1375,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_2
-			creator = "GER"
+			creator = GER
 		}
 		requested_factories = 15
 		progress = 0.1
@@ -1378,17 +1386,18 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 3
 		progress = 0.3
 		efficiency = 100
+		industrial_manufacturer = mio:GER_carl_walther_organization
 	}
 
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -1399,7 +1408,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_chassis_2
-			creator = "GER" 
+			creator = GER 
 			version_name = "Panzer 38(t)"
 		}
 		requested_factories = 5
@@ -1410,7 +1419,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "GER" 
+			creator = GER 
 		}
 		requested_factories = 5
 		progress = 0.4

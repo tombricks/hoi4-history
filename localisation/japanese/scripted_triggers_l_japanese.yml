@@ -5,3 +5,4 @@
  state_is_fully_controlled_by_ROOT_or_subject_tt: "は§Y[ROOT.GetFlag][ROOT.GetNameDef]§!に完全に支配されているか、§Y[ROOT.GetAdjective]の従属国である§!"
  is_at_peace_exiled_countries_excluded_tt: "は平時である（亡命政府との交戦状態は除く）"
  is_alpine_TT: "はアルプスの国である"
+ state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt: "§Y[ROOT.GetFlag][ROOT.GetNameDef]§!、§Y[ROOT.GetAdjective]の従属国§!または§Y勢力の加盟国§!に完全に支配されている"

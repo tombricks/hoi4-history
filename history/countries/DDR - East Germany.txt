@@ -144,8 +144,7 @@ set_stability = 0.75
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
+		cavity_magnatron = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -164,6 +163,9 @@ set_stability = 0.75
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

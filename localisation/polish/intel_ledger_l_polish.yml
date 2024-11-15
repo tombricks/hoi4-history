@@ -253,3 +253,6 @@
  LEDGER_CIV_GRAPH_SHOW_BOMBERS: "§HPokaż wykres dla wyprodukowanych i straconych bombowców§!"
  LEDGER_CIV_GRAPH_SHOW_TRUCKS: "§HPokaż wykres zgromadzonych ciężarówek§!"
  LEDGER_CIV_GRAPH_SHOW_TRAINS: "§HPokaż wykres zgromadzonych pociągów§!"
+ INTEL_LEDGER_RAIDS_DETECT_ON_LAUNCH: "Nadchodzące uderzenia są wykrywane w momencie rozpoczęcia ($CATEGORIES|H$)."
+ INTEL_LEDGER_RAIDS_DETECT_HALFWAY_PREPARATION: "Nadchodzące uderzenia są wykrywane w połowie gotowości do rozpoczęcia ($CATEGORIES|H$)."
+ INTEL_LEDGER_RAIDS_DETECT_EARLY_PREPARATION: "Nadchodzące uderzenia są wykrywane na wczesnych etapach przygotowań ($CATEGORIES|H$)."

@@ -135,6 +135,16 @@ characters={
 		}
 	}
 
+	UBD_sophie_buxhoeveden = {
+		name = UBD_sophie_buxhoeveden
+		portraits = {
+			civilian = {
+				large = GFX_portrait_UBD_sophie_buxhoeveden
+				small = GFX_portrait_UBD_sophie_buxhoeveden_small
+			}
+		}
+	}
+
 	EST_andres_larka={
 		name=EST_andres_larka
 		portraits={

@@ -97,10 +97,10 @@ country_event = {
 		}
 		ROM = { country_event = DOD_romania.11 }
 		add_ai_strategy = {
-					type = alliance
-					id = "ROM"
-					value = 200
-				}
+			type = alliance
+			id = ROM
+			value = 200
+		}
 	}
 
 	option = { #no
@@ -1121,6 +1121,12 @@ country_event = {
 			}
 			SER = { transfer_state = 106 }
 		}
+		if = {
+			limit = {
+				970 = { is_owned_by = YUG }
+			}
+			SER = { transfer_state = 970 }
+		}
 		puppet = SER
 
 		if = {
@@ -1955,6 +1961,7 @@ country_event = {
 		GER = {
 			transfer_state = 9
 			transfer_state = 69
+			transfer_state = 972
 			transfer_state = 75
 			transfer_state = 74
 		}
@@ -1991,6 +1998,7 @@ country_event = {
 			factor = 20
 			modifier = {
 				owns_state = 69
+				owns_state = 972
 				factor = 2
 			}
 			modifier = {
@@ -3945,6 +3953,13 @@ country_event = {
 			}
 		}
 		white_peace = FROM
+		every_country = {
+			limit = {
+				is_subject_of = FROM
+				has_war_with = ROOT
+			}
+			white_peace = ROOT
+		}
 		FROM = {
 			leave_faction = yes
 		}
@@ -4034,6 +4049,13 @@ country_event = {
 						}
 					}
 					white_peace = FROM
+					every_country = {
+						limit = {
+							is_subject_of = FROM
+							has_war_with = ROOT
+						}
+						white_peace = ROOT
+					}
 				}
 			}
 		}

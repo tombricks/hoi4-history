@@ -67,4 +67,7 @@
  CONSTRUCTION_INFO_SUBJECT: "Esta construção é feita para nós por $WHO|H$. Se eles não usarem todas as fábricas, podemos contribuir usando as nossas."
  autonomy_communist_satellite: "Satélite"
  autonomy_occupation_zone: "Zona de Ocupação"
- autonomy_aat_defense_council_member: "Integrante do Conselho de Defesa Nórdico"
+ autonomy_aat_defense_council_member: "Membro do Conselho de Defesa Nórdico"
+ autonomy_austro_hungarian_subject: "Vassalo austro-húngaro"
+ autonomy_volkskommissariat: "Volkskommissariat"
+ autonomy_eu_member: "Estado-membro da UE"

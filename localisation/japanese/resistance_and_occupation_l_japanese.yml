@@ -66,6 +66,7 @@
  colonial_police: "植民地警察"
  colonial_police_improved: "$colonial_police$"
  colonial_police_final: "$colonial_police$"
+ secretaries_general: "事務総長"
  COMPLIANCE_ADDITIONAL_DAILY_GAIN: "追加の日毎の迎合度増加: $GAIN$"
  COMPLIANCE_GAIN_IS_DISABLED: "§R駐屯部隊が不足しているため無効§!"
  COMPLIANCE_GAIN_IS_SCALED: "駐屯部隊が不足しているため、$RATIO|R.0%$の調整を受けている！"

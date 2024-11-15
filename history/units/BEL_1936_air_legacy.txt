@@ -7,7 +7,7 @@ air_wings = {
 		# Only had Fairey Fox recon/l bombers that were also used as fighters in 1936, along with trainers
 		fighter_equipment_0 =  {
 			owner = "BEL" 
-			amount = 20
+			amount = 43
 		}
 	}
 }

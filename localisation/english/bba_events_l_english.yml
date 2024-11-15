@@ -1577,7 +1577,7 @@
 
  BBA_italy_interaction_events.26.t:1 "[ITA.GetNameDef] Backs Down"
  BBA_italy_interaction_events.26.desc:0 "Italy has announced that they will not stand against us, now that it has been proven to them that push will come to shove, should they not back down. Today is a glorious day for the fatherland!"
- BBA_italy_interaction_events.26.a:0 "They realize that they cannot match us!"
+ BBA_italy_interaction_events.26.a:0 "This should urge the [AUS.GetAdjective]s to reconsider"
 
  BBA_italy_interaction_events.27.t:1 "Italy Asks us to Help them Contain Germany"
  BBA_italy_interaction_events.27.desc:1 "[GetItalyAsksEngland]"
@@ -2363,7 +2363,7 @@
  BBA_swiss_expansion.6.t:0 "[FROM.GetNameDefCap] Wants [848.GetName] as a Canton"
  BBA_swiss_expansion.6.desc:0 "It seems that [FROM.GetName] is demanding that the state of [848.GetName] join their confederation. They cite a referendum in 1919 where the state overwhelmingly voted to join as a canton of [FROM.GetNameDef], but were rejected by the [FROM.GetAdjective] themselves. It appears they've now changed their minds.\n\nWhether we accept or not, it is obvious they have their sights set on expansion, so we should thread carefully, and be ready to defend our territory even if we accept their demands."
  BBA_swiss_expansion.6.a:0 "The risk is not worth such a small state"
- BBA_swiss_expansion.6.b:0 "[ROOT.GetName] will never cede any territory!"
+ BBA_swiss_expansion.6.b: "[ROOT.GetNameDefCap] will never cede any territory!"
  BBA_swiss_expansion.6.c:0 "We will not be bullied by the pimple on the face of Europe"
  BBA_swiss_expansion.6.d:0 "Good riddance"
 

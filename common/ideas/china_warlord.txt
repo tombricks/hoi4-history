@@ -16,9 +16,6 @@ ideas = {
 		CHI_ineffective_bureaucracy_warlord = {
 			allowed = { always = no }
 
-			name = CHI_ineffective_bureaucracy
-			
-
 			picture = generic_disjointed_gov
 
 			allowed = {  }
@@ -27,6 +24,93 @@ ideas = {
 
 			modifier = {
 				political_power_gain = -0.25
+			}
+		}
+
+		CHI_warlord_state_idea = {
+			allowed = { always = no }
+
+			picture = chi_warlord_integration
+
+			allowed = {  }
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				research_speed_factor = -0.03
+				command_power_gain_mult = -0.15
+				conscription_factor = 0.05
+				attrition = -0.05
+				supply_consumption_factor = -0.03
+				custom_modifier_tooltip = CHI_warlord_state_idea_tt
+			}
+		}
+
+		CHI_warlord_state_idea_2 = {
+			allowed = { always = no }
+
+			name = CHI_warlord_state_idea
+
+			picture = chi_warlord_integration
+
+			allowed = {  }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.03
+				conscription_factor = 0.05
+				attrition = -0.05
+				supply_consumption_factor = -0.05
+				custom_modifier_tooltip = CHI_warlord_state_idea_tt
+			}
+		}
+
+		CHI_warlord_state_idea_cav = {
+			allowed = { always = no }
+
+			name = CHI_warlord_state_idea
+
+			picture = chi_warlord_integration
+
+			allowed = {  }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.03
+				conscription_factor = 0.06
+				attrition = -0.07
+				supply_consumption_factor = -0.05
+				modifier_army_sub_unit_cavalry_defence_factor = 0.05
+				modifier_army_sub_unit_cavalry_attack_factor = 0.1
+				custom_modifier_tooltip = CHI_warlord_state_idea_tt
+			}
+		}
+
+		CHI_warlord_state_idea_mnt = {
+			allowed = { always = no }
+
+			name = CHI_warlord_state_idea
+
+			picture = chi_warlord_integration
+
+			allowed = {  }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.03
+				army_core_attack_factor = 0.05
+				conscription_factor = 0.06
+				attrition = -0.05
+				supply_consumption_factor = -0.07
+				custom_modifier_tooltip = CHI_warlord_state_idea_tt
 			}
 		}
 
@@ -63,6 +147,7 @@ ideas = {
 
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.05
 			}
 		}
 
@@ -124,6 +209,7 @@ ideas = {
 
 			modifier = {
 				training_time_factor = -0.1
+				mobilization_speed = 0.1
 			}
 		}
 
@@ -137,6 +223,7 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
+				production_speed_supply_node_factor = 0.1
 			}
 		}
 

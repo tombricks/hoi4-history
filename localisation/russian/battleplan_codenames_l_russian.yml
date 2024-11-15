@@ -100,6 +100,15 @@
  o_birke: "Операция «Береза»"
  o_tanne_ost: "Операция «Восточная ель»"
  o_tanne_west: "Операция «Западная ель»"
+ o_fruhlingserwachen: "Операция «Весеннее пробуждение»" #hungary
+ o_konrad: "Операция «Конрад»" #hungary
+ o_margarethe: "Операция «Маргарете»" #hungary
+ o_sudwind: "Операция «Южный ветер»" #hungary
+ o_eiche: "Операция «Дуб»" #italy
+ o_achse: "План «Ось»" #italy
+ o_alarich: "Операция «Аларих»" #italy
+ o_scwartz: "Операция «Шварц»" #italy
+ o_konstantin: "Операция «Константин»" #italy
  o_wildente: "Дикая утка"
  o_biene: "Пчела"
  o_gneisenau: "Гнайзенау"
@@ -152,6 +161,8 @@
  o_gisella: "Операция «Гизелла»" #Iberia
  o_ilona: "Операция «Илона»" #Iberia
  o_isabella: "Операция «Изабелла»" #Iberia
+ o_felix: "Операция «Феликс»" #Iberia
+ o_munchen: "Операция «Мюнхен»" #Bessarabia
  o_maus: "Мышь"
  o_derfflinger: "Дерффлингер"
  o_moorbrand: "Пожар на болоте"
@@ -190,8 +201,6 @@
  o_martin: "Мартин"
  o_morgenwind: "Утренний ветер"
  o_sonnenaufgang: "Рассвет"
- o_konrad: "Конрад"
- o_fruhlingserwachen: "Операция «Весеннее пробуждение»" #hungary
  o_wacht_am_rhein: "Операция «Стража на Рейне»"
  o_schneeman: "Снеговик"
  o_sonnenwende: "Солнцестояние"

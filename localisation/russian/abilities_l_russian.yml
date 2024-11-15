@@ -17,7 +17,7 @@
  ABILITY_TOOLTIP_ALREADY_ACTIVE_SOME_CHILD_GROUPS: "§RЭта способность уже действует:\n$LEADERS$§!"
  ALLOCATED_CP_ENTRY: "$NAME$ ($DURATION$)"
  ABILITY_DUR_HOURS: "$num|H$ ч."
- ABILITY_DUR_DAYS: "$num|H$ дн."
+ ABILITY_DUR_DAYS: "$num|H$ д."
  ABILITY_LAST_STAND: "Последний рубеж"
  ABILITY_LAST_STAND_TOOLTIP: "Последний рубеж ($LEADER$)"
  ABILITY_LAST_STAND_DESC: "Ваши армии получают бонус к защите за счет некоторых уязвимостей."

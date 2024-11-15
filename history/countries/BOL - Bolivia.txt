@@ -59,8 +59,8 @@ IF = {
 		fascism = 2
 	}
 
-	recruit_character = BOL_josé_luis_tejada_sorzano
-	recruit_character = BOL_Óscar_Únzaga_de_la_vega
+	recruit_character = BOL_jose_luis_tejada_sorzano
+	recruit_character = BOL_oscar_unzaga_de_la_vega
 	recruit_character = BOL_tomas_monje_gutierrez
 	recruit_character = BOL_gil_ibarra_juarez
 	recruit_character = BOL_gualberto_villarroel_lopez
@@ -91,10 +91,10 @@ IF = {
 			neutrality = 100
 		}
 
-		recruit_character = BOL_josé_luis_tejada_sorzano
-		recruit_character = BOL_Óscar_Únzaga_de_la_vega
+		recruit_character = BOL_jose_luis_tejada_sorzano
+		recruit_character = BOL_oscar_unzaga_de_la_vega
 		recruit_character = BOL_jorge_blanco
-		recruit_character = BOL_severino_ruíztagle
+		recruit_character = BOL_severino_ruiztagle
 		recruit_character = BOL_eusebio_ayala
 		recruit_character = BOL_tomas_monje_gutierrez
 		recruit_character = BOL_gil_ibarra_juarez
@@ -164,7 +164,6 @@ set_country_flag = monroe_doctrine
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -178,6 +177,10 @@ set_country_flag = monroe_doctrine
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 
+	}
+
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 
 	set_politics = {

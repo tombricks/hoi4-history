@@ -64,6 +64,7 @@ save_global_event_target_as = WTT_communist_china
 		complete_national_focus = PRC_infiltration
 		complete_national_focus = PRC_revolutionary_military_commission
 		complete_national_focus = PRC_literacy_programs
+		complete_national_focus = CHI_invite_foreign_investors
 		complete_national_focus = CHI_mission_to_the_soviet_union
 		complete_national_focus = PRC_ban_the_opium_trade
 		complete_national_focus = PRC_military_intelligence_department
@@ -140,7 +141,6 @@ save_global_event_target_as = WTT_communist_china
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -158,6 +158,9 @@ save_global_event_target_as = WTT_communist_china
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 		concentrated_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

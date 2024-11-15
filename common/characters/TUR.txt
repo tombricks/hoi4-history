@@ -584,7 +584,7 @@ characters={
 			}
 
 			navy_leader={
-				traits={ career_officer gunnery_expert }
+				traits={ navy_career_officer gunnery_expert }
 				skill=3
 				attack_skill=3
 				defense_skill=2
@@ -657,7 +657,7 @@ characters={
 		}
 
 		navy_leader={
-			traits={ media_personality gentlemanly trait_TUR_kemalist_champion }
+			traits={ navy_media_personality gentlemanly trait_TUR_kemalist_champion }
 			skill=2
 			attack_skill=2
 			defense_skill=1
@@ -861,29 +861,6 @@ characters={
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
-			}
-		}
-	}
-	
-	TUR_vecihi_hurkus={
-		name=TUR_vecihi_hurkus
-		portraits={
-			army={
-				small="GFX_idea_tur_vecihi_hurkus"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = TUR_vecihi_hurkus
-			ledger = air
-			allowed = {
-				original_tag = TUR
-				has_dlc = "Battle for the Bosporus"
-			}
-			
-			traits = {
-				air_warfare_theorist
 			}
 		}
 	}
@@ -1636,7 +1613,7 @@ characters={
 		}
 
 		navy_leader={
-			traits={ media_personality bold }
+			traits={ navy_media_personality bold }
 			skill=2
 			attack_skill=3
 			defense_skill=1
@@ -2655,7 +2632,7 @@ characters={
 			}
 		}
 		navy_leader = {
-			traits = { gentlemanly media_personality career_officer superior_tactician }
+			traits = { gentlemanly navy_media_personality navy_career_officer superior_tactician }
 			skill = 4 #13
 			legacy_id = 77
 			attack_skill = 3
@@ -2665,4 +2642,48 @@ characters={
 			visible = { has_completed_focus = TUR_the_italo_turkish_naval_academy }
 		}
 	}
+
+
+  #####                                                              
+ #     #   ####   #  ######  #    #  #####  #   ####   #####   ####  
+ #        #    #  #  #       ##   #    #    #  #         #    #      
+  #####   #       #  #####   # #  #    #    #   ####     #     ####  
+       #  #       #  #       #  # #    #    #       #    #         # 
+ #     #  #    #  #  #       #   ##    #    #  #    #    #    #    # 
+  #####    ####   #  ######  #    #    #    #   ####     #     ####  
+
+
+
+	TUR_vecihi_hurkus = {
+		name = TUR_vecihi_hurkus
+		portraits = {
+			army = {
+				large = GFX_portrait_TUR_vecihi_hurkus
+				small = GFX_idea_tur_vecihi_hurkus
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_air = 2
+			}
+		}
+
+		#advisor={
+		#	cost = 100
+		#	slot = theorist
+		#	idea_token = TUR_vecihi_hurkus
+		#	ledger = air
+		#	allowed = {
+		#		original_tag = TUR
+		#		has_dlc = "Battle for the Bosporus"
+		#	}
+		#	
+		#	traits = {
+		#		air_warfare_theorist
+		#	}
+		#}
+	}
+
 }

@@ -68,13 +68,13 @@ air_wings = {
 		### Luftwaffenkommando VI (CO: Schmidt) ###
 		fighter_equipment_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 76 }					# Jagdgeschwader 26 -- Bf 109E (REVISIT -- VARIANT)
 		fighter_equipment_1 = { owner = "GER"  amount = 76 }# I./Jagdgeschwader 52 -- Bf 109D (REVISIT -- VARIANT)
-		ace={ 	# Order is important. Ace will be assigned to the wing above (JG 52).
-			modifier="fighter_genius"
-			name="Erich"
-			surname="Hartmann"
-			callsign="Bubi"
-			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
-		}
+		#ace={ 	# Order is important. Ace will be assigned to the wing above (JG 52).
+		#	modifier="fighter_genius"
+		#	name="Erich"
+		#	surname="Hartmann"
+		#	callsign="Bubi"
+		#	portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+		#}
 	}
 	59 = { 
 		### 4. Flieger-Division (CO: Keller) ###
@@ -167,7 +167,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.1
 		efficiency = 100
-		industrial_manufacturer = mio:GER_heinkel_organization
+		#industrial_manufacturer = mio:GER_heinkel_organization #Dornier now
 	}
 
 	

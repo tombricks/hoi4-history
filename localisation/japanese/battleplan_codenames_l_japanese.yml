@@ -100,6 +100,15 @@
  o_birke: "ビルケ作戦"
  o_tanne_ost: "タンネ・オスト作戦"
  o_tanne_west: "タンネ・ヴェスト作戦"
+ o_fruhlingserwachen: "フルーリングスエアヴァッヘン作戦" #hungary
+ o_konrad: "コンラッド作戦" #hungary
+ o_margarethe: "マルガレーテ作戦" #hungary
+ o_sudwind: "南風作戦" #hungary
+ o_eiche: "エイヒェ作戦" #italy
+ o_achse: "軸作戦" #italy
+ o_alarich: "アラリック作戦" #italy
+ o_scwartz: "シュワルツ作戦" #italy
+ o_konstantin: "コンスタンチン作戦" #italy
  o_wildente: "ヴィルデンテ"
  o_biene: "ビーネ"
  o_gneisenau: "グナイゼナウ"
@@ -152,6 +161,8 @@
  o_gisella: "ギーゼラ作戦" #Iberia
  o_ilona: "イローナ作戦" #Iberia
  o_isabella: "イザベラ作戦" #Iberia
+ o_felix: "フェリックス作戦" #Iberia
+ o_munchen: "ミュンヘン作戦" #Bessarabia
  o_maus: "マウス"
  o_derfflinger: "デルフリンガー"
  o_moorbrand: "モーアブランド"
@@ -190,8 +201,6 @@
  o_martin: "マルティン"
  o_morgenwind: "モーゲンヴィント"
  o_sonnenaufgang: "ゾネンアウフガング"
- o_konrad: "コンラッド"
- o_fruhlingserwachen: "フルーリングスエアヴァッヘン作戦" #hungary
  o_wacht_am_rhein: "ヴァフト・アム・ライン作戦"
  o_schneeman: "シュニーマン"
  o_sonnenwende: "ゾネンヴェンデ"

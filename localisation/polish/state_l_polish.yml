@@ -1,6 +1,7 @@
 ﻿l_polish:
  STATE_UPGRADE_BUILDING: "Zmodernizuj: $BUILDING|H$."
  STATE_UPGRADE_BUILDING_DESC: "Dni do ukończenia budowy: $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (poziom: $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$ (Maksimum na państwo: $LEVEL|H$)"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$LEVEL|H$ $BUILDING|H$"
  STATE_BUILDING_INCONSTRUCTION: "Trwa budowa: $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$STATE|H$ to region narodowy ($COUNTRY|H$).§!"
  STATE_CORE_DESC: "Region narodowy jest integralną częścią twojego kraju. Jeżeli znajdzie się on w rękach innego państwa, możesz wypowiedzieć wojnę, by odzyskać swoje ziemie. Zwycięstwo oznaczać będzie inkorporację spornego terenu bez konieczności ustanawiania polityki okupacyjnej."
  STATE_CLAIM: "§T$COUNTRY|H$ ma roszczenia, których celem jest $STATE|H$.§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$ to sporny właściciel regionu $STATE|H$.§!"
  STATE_POPULATION: "§HLudność zdolna do służby§!: $AVAIL|*Y$/$MAXAVAIL|*Y$\n§HLudność cywilna§!: $LOCKED|*Y$/$MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "Podst. wartość: $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§HPrzyrost miesięczny§!: $VALUE|%2$ ($AVAIL|*+$ zdolnych do służby, $LOCKED|*+$ cywili)"

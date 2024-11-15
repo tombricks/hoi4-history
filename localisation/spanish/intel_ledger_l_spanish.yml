@@ -253,3 +253,6 @@
  LEDGER_CIV_GRAPH_SHOW_BOMBERS: "§HMostrar gráfico de bombarderos producidos y perdidos§!"
  LEDGER_CIV_GRAPH_SHOW_TRUCKS: "§HMostrar gráfico de camiones en reserva§!"
  LEDGER_CIV_GRAPH_SHOW_TRAINS: "§HMostrar gráfico de trenes en reserva§!"
+ INTEL_LEDGER_RAIDS_DETECT_ON_LAUNCH: "Los asaltos inminentes se detectan tras el lanzamiento ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_HALFWAY_PREPARATION: "Los asaltos inminentes se detectan al prepararse para el lanzamiento ($CATEGORIES|H$)"
+ INTEL_LEDGER_RAIDS_DETECT_EARLY_PREPARATION: "Los asaltos inminentes se detectan antes de empezar a preparar el lanzamiento ($CATEGORIES|H$)"

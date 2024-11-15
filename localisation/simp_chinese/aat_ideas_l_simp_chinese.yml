@@ -166,6 +166,12 @@
  #Monarchist Path
  NOR_king_haakon_vii_ns: "哈康七世国王"
  NOR_king_haakon_vii_ns_desc: "作为13世纪以来第一位[NOR.GetAdjective]君主，哈康七世国王是民主的典范。在全民公决之后，他才接受了王位，然后将[NOR.GetName]的统治权交给了顾问和其他高阶贵族。"
+ NOR_new_high_king: "新的至高王"
+ NOR_new_high_king_desc: "摄政王佩德·安克尔·韦德尔-亚尔斯贝格宣布自己为挪威新的至高王，确立了自己的统治者地位，但并未直接夺取哈康国王的头衔。然而，这一举动在邻国中普遍不受欢迎。"
+ NOR_norwegian_regency: "挪威摄政"
+ NOR_norwegian_regency_desc: "摄政王佩德·安克尔·韦德尔-亚尔斯贝格宣布，他仅打算执行他的国王哈康七世的意愿和命令。因此，他寻求与邻近的斯堪的纳维亚君主国和解。"
+ NOR_second_north_sea_empire: "北海第二帝国"
+ NOR_second_north_sea_empire_desc: "摄政王佩德·安克尔·韦德尔-亚尔斯贝格宣布，他打算恢复挪威的昔日荣光，并表示一个新的挪威帝国崛起只是时间问题。"
  #Dynamic Modifiers
  NOR_independent_norway_dmod: "独立的挪威"
  NOR_independent_norway_dmod_desc: "自1905年以来从瑞典手中独立以来，我国并取得了长足的进步。现在，我们有责任实现先辈的[NOR.GetNonIdeologyName]之梦。"

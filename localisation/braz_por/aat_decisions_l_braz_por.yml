@@ -103,7 +103,7 @@
  NOR_naval_expanion_desc: "Se quisermos sobreviver, precisaremos defender nossos litorais, e para isso precisamos de navios. Vamos transformar cada fiorde em um estaleiro."
  NOR_prepare_state_fascist: "Construir apoio em [FROM.GetName]"
  NOR_deploy_state_preparation_fascist: "[get_deploy_prep_decision_name_fascist]"
- NOR_invite_fascist_to_invade: "Convidar [?platonic_local_dangerous_fascist.GetNameDef] para invadir a [NOR.GetNonIdeologyName]"
+ NOR_invite_fascist_to_invade: "Convidar [GER.GetNameDef] para invadir [NOR.GetNonIdeologyNameDef]"
  NOR_decision_take_over_state_title: "Tomar o controle em [FROM.GetName]"
  NOR_decision_industrial_takeover_title: "Tomar o controle da indústria em [FROM.GetName]"
  NOR_decision_military_takeover_title: "Intervenção militar em [FROM.GetName]"
@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "Exigir o banimento do fascismo"
  DEN_demand_weapon_deliveries: "Solicitar entrega de armamentos"
  DEN_demand_troops: "Solicitar tropas dinamarquesas"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "Acordos de comércio dinamarqueses"
  DEN_increase_trade_with_denmark: "Expandir comércio com [DEN.GetNameDef]"

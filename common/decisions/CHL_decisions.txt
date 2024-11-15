@@ -1803,7 +1803,7 @@ CHL_nacista_insurgency_decisions = {
 			democratic < 0.5
 			#has_stability < 0.2
 			has_country_leader = { 
-			    name =  "Arturo Alessandri"
+			    character = CHL_arturo_alessandri
 			    ruling_only = yes
 			}
 		}
@@ -2985,6 +2985,58 @@ CHL_nacista_decisions = {
 			hidden_effect = {
 				set_country_flag = CHL_introduced_authotitarianism_flag 
 			}
+		}
+
+	}
+
+	# Adopt the Patria Vieja Flag
+	CHL_adopt_the_patria_vieja_flag_decision  = {
+
+		priority = 25
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 0
+		}
+
+		allowed = {  
+			original_tag = CHL
+		}
+
+		available = {
+			has_government = fascism
+		}
+
+		visible = { 
+			original_tag = CHL
+			has_completed_focus = CHL_enforce_the_chilean_identity
+			NOT = { has_country_flag = CHL_adopted_patria_vieja_flag }
+			NOT = {
+				OR = {
+					has_completed_focus = CHL_restore_the_old_kingdom
+					has_completed_focus = CHL_unite_hispanic_america
+				}
+			}
+		} 
+
+		#days_remove = 140 
+
+		cost = 25
+
+		complete_effect = {
+
+			set_cosmetic_tag = CHL_patria_vieja_fasc_flag
+
+			hidden_effect = {
+				set_country_flag = CHL_adopted_patria_vieja_flag 
+			}
+		}
+
+		modifier = {
+		}
+
+		remove_effect = {	
 		}
 
 	}
@@ -5839,6 +5891,48 @@ CHL_mapuche_nationalism_decisions = {
 				add_core_of = INU
 				transfer_state_to = INU
 			} 
+
+			IF = {
+				limit = {
+					875 = {
+						OR = {
+							is_controlled_by = ROOT
+							any_country = {
+								is_subject_of = ROOT
+								controls_state = PREV
+							}
+						}
+					}
+				}
+				875 = {
+					transfer_state_to = INU
+				}
+			}
+
+			875 = {
+				add_core_of = INU
+			}
+
+			IF = {
+				limit = {
+					650 = {
+						OR = {
+							is_controlled_by = ROOT
+							any_country = {
+								is_subject_of = ROOT
+								controls_state = PREV
+							}
+						}
+					}
+				}
+				650 = {
+					transfer_state_to = INU
+				}
+			}
+
+			650 = {
+				add_core_of = INU
+			}
 
 			IF = {
 				limit = {
@@ -9497,6 +9591,7 @@ CHL_monarchist_decisions = {
 			controls_state = 30
 			controls_state = 14
 			controls_state = 23
+			controls_state = 15
 		}
 
 		visible = { 
@@ -9540,6 +9635,7 @@ CHL_monarchist_decisions = {
 						state = 30
 						state = 14
 						state = 23
+						state = 15
 					}
 				}
 				remove_claim_by = ROOT
@@ -10087,7 +10183,6 @@ CHL_monarchist_decisions = {
 				add_manpower = 25000
 
 				hidden_effect = {
-					# TODO JA, These should have some kind of new unit icon and 3d models, different from the previous ones
 					division_template = {
 					    name = "New Incan Warriors"
 					    is_locked = no
@@ -10451,7 +10546,6 @@ CHL_monarchist_decisions = {
 				add_manpower = 15000
 
 				hidden_effect = {
-					# TODO JA, These should have some kind of new unit icon and 3d models, different from the previous ones
 					division_template = {
 					    name = "Guianan Warriors"
 					    is_locked = no

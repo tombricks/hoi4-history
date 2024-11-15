@@ -1,6 +1,7 @@
 ﻿l_japanese:
  STATE_UPGRADE_BUILDING: "$BUILDING|H$をアップグレードする。"
  STATE_UPGRADE_BUILDING_DESC: "建築日数: $COST|H$"
+ PROVINCE_BUILDING_LEVEL: "$BUILDING|H$ (レベル: $LEVEL|H$/$MAX_LEVEL|H$)"
  STATE_BUILDING_LEVEL: "$BUILDING|H$（州レベル: $LEVEL|H$）"
  STATE_BUILDING_LEVEL_SHARED_SLOTS: "$LEVEL|H$ $BUILDING|H$"
  STATE_BUILDING_INCONSTRUCTION: "建設中: $LEVEL|H$"
@@ -21,6 +22,7 @@
  STATE_CORE: "§T$STATE|H$は$COUNTRY|H$の中核州である。§!"
  STATE_CORE_DESC: "中核州は国家にとって不可欠な部分と見なされている。それがもし他の国家によって領有されていれば、それを奪還する目的で戦争を正当化が可能で、もし奪還に成功すれば占領政策は必要無い。ただ単に貴国の母国の一部へと戻るだけである。"
  STATE_CLAIM: "§T$COUNTRY|H$が$STATE|H$の請求権を持っている。§!"
+ STATE_CONTESTED_OWNER: "§T$COUNTRY|H$は$STATE|H$の係争中の所有者である。§!"
  STATE_POPULATION: "§H徴兵可能人口§!: $AVAIL|*Y$/$MAXAVAIL|*Y$\n§H民間人人口§!: $LOCKED|*Y$/$MAXLOCKED|*Y$\n"
  MONTHLY_BASE_GROWTH: "基本: $VALUE|H%2$"
  STATE_POPULATION_GROWTH: "§H月間人口増加§!: $VALUE|%2$（ 徴兵可能者 $AVAIL|*+$、民間人 $LOCKED|*+$ ）"

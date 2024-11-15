@@ -115,6 +115,16 @@ TUR_historical_plan = {
 		TUR_fevzi_cakmak = 5
 	}
 
+	# Focuses never to take
+	focus_factors = {
+		# If you plan to stay NEUTRAL, DON'T JOIN OR CREATE ANY FACTIONS!!! (they abort this plan if they find themselves at war so in that case it won't matter, and thus be fine) 
+		TUR_the_mediterranean_entente = 0
+		TUR_join_the_axis = 0
+		TUR_anti_bolshevik_mediterranean_bloc = 0
+		TUR_readdress_the_montreux_convention = 0
+		TUR_continue_to_prioritise_balkan_integrity = 0
+	}
+
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
 	weight = {

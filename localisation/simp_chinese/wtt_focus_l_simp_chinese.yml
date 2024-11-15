@@ -1,6 +1,12 @@
 ﻿l_simp_chinese:
  CHI_secure_internal_politics: "整肃内政"
  CHI_secure_internal_politics_desc: "如果我们想要在犬牙交错的中国政局当中生存下来，就绝不能被内部的纷乱所干扰。任何内部反对派都比须加以整肃清理。"
+ CHI_strenghten_warlord_authority: "加强军阀权威"
+ CHI_strenghten_warlord_authority_desc: "为了巩固我们的控制区，确保我们不受国民党、共产党和日本人的破坏，我们必须加强[ROOT.GetLeader]的权威。"
+ CHI_uplift_the_cavalry_regiments: "提高骑兵团地位"
+ CHI_uplift_the_cavalry_regiments_desc: "我们地区有着悠久而自豪的马术传统。我们应该尊重这些传统，并确保我们的骑兵部队受到最高的尊重，然后将他们部署到我们武装部队的最前沿。"
+ CHI_uplift_the_mountain_brigades: "提高山地旅地位"
+ CHI_uplift_the_mountain_brigades_desc: "中国内地的土地崎岖不平，难以穿越。因此，我们必须训练能够在丘陵和山区作战的特种旅，以便我们的土地得到合适的保护。"
  CHI_cooperation_with_the_nationalists: "与国民党合作"
  CHI_cooperation_with_the_nationalists_desc: "国民党为联合全国各势力以击败日本人提供了最好的机会，应该确保中央政府其不视我等为威胁。"
  CHI_cooperation_with_the_nationalists_effect_tooltip: "[WTT_communist_china.GetNameDefCap]和支持共产党的军阀势力或将通过向我方发起§H边境冲突§!以作为回应。"

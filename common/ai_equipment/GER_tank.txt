@@ -136,7 +136,7 @@ GER_light_tanks = {
 				}
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
-				special_type_slot_2 = empty
+				special_type_slot_2 = additional_machine_guns
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 			}
@@ -145,7 +145,7 @@ GER_light_tanks = {
 				tank_nsb_armor_upgrade = {
 					base = 4
 					modifier = {
-						add = 2
+						add = 5
 						has_war = yes
 					}
 				}
@@ -156,18 +156,19 @@ GER_light_tanks = {
 			tank_radio_3
 			tank_radio_2
 			tank_radio_1
-			tank_auto_cannon 
+			additional_machine_guns
 			tank_auto_cannon_2 
-			tank_small_cannon 
+			tank_auto_cannon 
 			tank_small_cannon_2 
+			tank_small_cannon 
 			tank_close_support_gun 
 			tank_heavy_machine_gun 
 			tank_high_velocity_cannon
 			tank_light_two_man_tank_turret
 			tank_light_three_man_tank_turret
 			tank_welded_armor
-			tank_bogie_suspension
 			tank_riveted_armor
+			tank_bogie_suspension
 			tank_gasoline_engine
 		}
 	}
@@ -196,21 +197,21 @@ GER_light_tanks = {
 			type = light_tank_chassis_2
 			modules = {
 				main_armament_slot = tank_auto_cannon_2
-				turret_type_slot = tank_light_three_man_tank_turret 
+				turret_type_slot = tank_light_two_man_tank_turret 
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor 
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = empty
+				special_type_slot_3 = additional_machine_guns
 				special_type_slot_4 = empty
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 5
+				tank_nsb_engine_upgrade = 9
 				tank_nsb_armor_upgrade = {
 					base = 4
 					modifier = {
-						add = 2
+						add = 5
 						has_war = yes
 					}
 				}
@@ -222,11 +223,16 @@ GER_light_tanks = {
 			tank_radio_2
 			tank_radio_1
 			tank_auto_cannon_2 
+			tank_auto_cannon 
+			tank_small_cannon_2 
+			tank_small_cannon 
 			tank_light_three_man_tank_turret
+			tank_light_two_man_tank_turret
 			tank_welded_armor
 			tank_bogie_suspension
 			tank_gasoline_engine
 			smoke_launchers
+			additional_machine_guns
 		}
 	}
 
@@ -567,13 +573,12 @@ GER_light_tank_anti_air = {
 			any_enemy_country = {
 				has_tech = fighter2
 			}
-			factor = 3
+			factor = 5
 		}
 	}
 	light_tank_anti_air_1 = { #Flakpanzer I
 		priority = {
-			factor = 10
-			
+			factor = 5
 		}
 		enable = {
 			has_tech = interwar_antiair
@@ -738,9 +743,9 @@ GER_medium_tanks = {
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
-				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = empty
-				special_type_slot_4 = empty
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = additional_machine_guns
+				special_type_slot_4 = smoke_launchers
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = 5
@@ -766,6 +771,7 @@ GER_medium_tanks = {
 			tank_bogie_suspension
 			tank_riveted_armor
 			tank_gasoline_engine
+			additional_machine_guns
 			tank_radio_3
 			tank_radio_2
 			tank_radio_1
@@ -797,9 +803,9 @@ GER_medium_tanks = {
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
-				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = empty
-				special_type_slot_4 = empty
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = additional_machine_guns
+				special_type_slot_4 = smoke_launchers
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = 5
@@ -822,6 +828,8 @@ GER_medium_tanks = {
 		allowed_modules = {
 			tank_close_support_gun 
 			tank_medium_three_man_tank_turret
+			additional_machine_guns
+			additional_machine_guns
 			smoke_launchers
 			tank_bogie_suspension
 			tank_welded_armor
@@ -857,17 +865,17 @@ GER_medium_tanks = {
 						tank_medium_cannon 
 					}
 				}
-				turret_type_slot = tank_medium_three_man_tank_turret 
+				turret_type_slot = tank_medium_three_man_tank_turret  
 				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = empty
-				special_type_slot_4 = empty
+				special_type_slot_3 = additional_machine_guns
+				special_type_slot_4 = armor_skirts
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 5
+				tank_nsb_engine_upgrade = 9
 				tank_nsb_armor_upgrade = {
 					base = 4
 					modifier = {
@@ -878,7 +886,7 @@ GER_medium_tanks = {
 						any_enemy_country = {
 							is_major = yes
 						}
-						add = 2
+						add = 3
 					}
 				}
 			}
@@ -887,7 +895,11 @@ GER_medium_tanks = {
 		allowed_modules = {
 			tank_medium_cannon_2
 			tank_medium_cannon 
+			tank_medium_two_man_tank_turret 
 			tank_medium_three_man_tank_turret
+			smoke_launchers
+			additional_machine_guns 
+			armor_skirts
 			smoke_launchers
 			tank_bogie_suspension
 			tank_welded_armor
@@ -1502,7 +1514,7 @@ GER_heavy_tanks = {
 
 	basic_heavy_tank_default = {
 		priority = {
-			factor = 10
+			factor = 5
 			modifier = { 
 				has_tech = improved_heavy_tank_chassis 
 				factor = 0 #let's not waste XP here
@@ -1580,7 +1592,7 @@ GER_heavy_tanks = {
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = empty
+				special_type_slot_3 = additional_machine_guns
 				special_type_slot_4 = empty
 			}
 			upgrades = {
@@ -2037,13 +2049,13 @@ GER_heavy_tank_anti_air = {
 	}
 
 	priority = {
-		factor = 5
+		factor = 1
 		modifier = {
 			NOT = { has_tech = fighter2 } #we should probably do something about that air superiority...
 			any_enemy_country = {
 				has_tech = fighter2
 			}
-			factor = 3
+			factor = 5
 		}
 	}
 	heavy_tank_anti_air_1 = {

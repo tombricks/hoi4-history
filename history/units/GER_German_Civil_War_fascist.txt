@@ -132,4 +132,9 @@ units = {
 		location = 11305  # Lubeck
 		division_template = "SS-Sturmbrigade"
 	}
+	division = {
+		name = "25. SS-Sturmbrigade 'Leibstandarte Adolf Hitler'"
+		location = 9471  # Chemnitz
+		division_template = "SS-Sturmbrigade"
+	}
 }

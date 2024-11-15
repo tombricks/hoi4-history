@@ -446,3 +446,42 @@ CHI_negative_spirit_transfer = {
 		add_ideas = CHI_hyper_inflation_5
 	}
 }
+
+CHI_no_longer_a_warlord_idea_removal = {
+	if = {
+		limit = {
+			has_idea = CHI_warlord_state_idea
+		}
+		remove_ideas = {
+			CHI_warlord_state_idea
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = CHI_warlord_state_idea_2
+		}
+		remove_ideas = {
+			CHI_warlord_state_idea_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = CHI_warlord_state_idea_cav
+		}
+		remove_ideas = {
+			CHI_warlord_state_idea_cav
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = CHI_warlord_state_idea_mnt
+		}
+		remove_ideas = {
+			CHI_warlord_state_idea_mnt
+		}
+	}
+
+}
+
+
+

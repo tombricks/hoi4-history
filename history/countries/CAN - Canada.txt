@@ -64,7 +64,7 @@ recruit_character = CAN_andrew_mcnaughton
 recruit_character = CAN_george_jones
 recruit_character = CAN_raymond_collishaw
 recruit_character = CAN_guy_simonds
-recruit_character = CAN_gino_verchiella
+recruit_character = CAN_james_stanley_scott
 recruit_character = CAN_alasdair_murray
 recruit_character = CAN_george_volkoff
 recruit_character = CAN_george_croil
@@ -79,10 +79,11 @@ recruit_character = CAN_william_kashtan
 recruit_character = CAN_leo_richer_lafleche
 recruit_character = CAN_r_b_bennett
 recruit_character = CAN_louis_st_laurent
+recruit_character = CAN_lindsay_gordon
 
 IF = {
 	limit = {
-		has_dlc = "Arms Against Tyranny"
+		has_dlc = "Trial of Allegiance"
 	}
 	recruit_character = CAN_first_nations_council
 }
@@ -221,6 +222,7 @@ if = {
 				aa_lmg = 1
 				early_bombs = 1
 				engines_1 = 1
+				bba_early_transport_plane = 1
 			}
 		else = {
 			set_air_oob = "CAN_1939_air_legacy"
@@ -251,7 +253,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -269,6 +270,9 @@ if = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
@@ -308,7 +312,7 @@ if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
 	create_equipment_variant = {
-		name = "Sanguenay Class"
+		name = "River Class"
 		type = destroyer_1
 		upgrades = {
 			ship_torpedo_upgrade = 1
@@ -341,7 +345,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Sanguenay Class"
+		name = "River Class"
 		type = ship_hull_light_1
 		name_group = CAN_DD_HISTORICAL
 		parent_version = 0

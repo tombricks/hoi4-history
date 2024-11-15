@@ -75,6 +75,7 @@ ideas = {
 				send_volunteer_size = 4
 			}
 		}
+
 		ICE_dissent_in_the_working_class = {
 			allowed = {
 				always = no
@@ -96,6 +97,7 @@ ideas = {
 				stability_weekly = -0.01
 			}
 		}
+
 		ICE_christian_x = {
 			allowed = {
 				always = no
@@ -117,6 +119,32 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+
+		ICE_the_icelandic_economy_modifier_fake_idea = {
+			name = ICE_the_icelandic_economy_modifier
+			allowed = {
+				always = no
+			}
+
+			picture = tur_balkan_central_bank_wealthy_greece
+
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				research_speed_factor = -0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+
 		ICE_christian_x_worse = {
 			name = ICE_christian_x
 			picture = ICE_christian_x
@@ -139,6 +167,7 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+
 		ICE_knud_i = {
 			allowed = {
 				always = no
@@ -159,6 +188,7 @@ ideas = {
 				drift_defence_factor = 0.2
 			}
 		}
+
 		ICE_marine_corps = {
 			picture = generic_reserve_divisions
 			allowed = {
@@ -397,6 +427,12 @@ ideas = {
 				consumer_goods_factor = -0.10
 				supply_factor = 0.05
 			}
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
 		}
 		ICE_fishing_industry_2 = {
 			picture = eng_steady_as_she_goes
@@ -420,7 +456,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				convoy = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.10
 					instant = yes
 				}
 			}
